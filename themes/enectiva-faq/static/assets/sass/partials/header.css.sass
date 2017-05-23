@@ -1,0 +1,27 @@
+/* This file define the block that contains header and logo image. */
+.header
+    position: relative
+    float: left
+    padding: 1.15em
+    border-right:
+        color: $color-grey
+        style: solid
+        width: 1px
+    margin: 0 auto
+    background-color: $color-white
+    &-logo
+        max:
+            height: 3.05rem
+            width: 100%
+
+/* For mobiles devices */
+@media only screen and (max-width: 1024px)
+    .header
+        float: none
+        padding:
+            top: 1rem
+            bottom: 1rem
+        width: 100%
+        &-logo
+            display: block
+            margin: 0 auto

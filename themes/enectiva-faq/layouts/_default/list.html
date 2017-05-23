@@ -1,0 +1,21 @@
+{{ partial "base/metas.html" . }}
+{{ partial "base/header.html" . }}
+{{ partial "menu.html" . }}
+{{ partial "internal/breadcumbs.html" . }}
+
+<div class="section-menu">
+        <ul class="section-list">
+            {{ partial "sections.html" . }}
+        </ul>
+</div>
+
+<div class="articles">
+    <!--<h2 class="section-title">
+        {{ .Title | humanize }}
+    </h2>-->
+        {{ range .Data.Pages }}
+            {{ .Render "li" }}
+        {{ end }}
+</div>
+
+{{ partial "base/footer.html" . }}

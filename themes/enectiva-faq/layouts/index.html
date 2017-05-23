@@ -1,0 +1,17 @@
+{{ partial "base/metas.html" . }}
+{{ partial "base/header.html" . }}
+{{ partial "menu.html" . }}
+
+<div class="articles">
+    {{ range .Paginator.Pages.ByDate.Reverse }}
+    <div class="post">
+        {{ partial "summary.html" . }}
+    </div>
+    {{ end }}
+</div>
+
+<div class="navigation">
+    {{ partial "internal/pagination.html" . }}
+</div>
+
+{{ partial "base/footer.html" . }}

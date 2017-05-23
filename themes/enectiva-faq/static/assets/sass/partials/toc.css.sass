@@ -1,0 +1,26 @@
+/* This file contains the elements of a table of contents */
+
+.toc
+    display: inline-block
+    float: right
+    border:
+        radius: 4px
+    box:
+        shadow: 0 0 0 1px $color-blue-light
+    padding:
+        top: .250rem
+        right: .50rem
+        bottom: .250rem
+        left: .50rem
+    background:
+        color: $color-blue-lighter
+    li
+        color: $color-blue
+        a
+            color: $color-blue
+            &:active,
+            &:focus,
+            &:hover
+                text:
+                    decoration: underline
+                color: $color-orange

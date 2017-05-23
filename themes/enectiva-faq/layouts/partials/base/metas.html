@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ .Site.Language.Lang }}" xml:lang="{{ .Site.Language.Lang }}" />
+
+    <head>
+        <title>{{ .Title }} {{ if ( and ( ne .Params.force_title true ) ( ne .Title .Site.Title ) ) }} - {{ .Site.Title }} {{ end }}</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {{ if ( and ( i18n "meta_description" ) ( i18n "meta_keywords" )) }}
+            <meta name="description" content="{{ i18n "meta_description" . }}" />
+            <meta name="keywords" content="{{ i18n "meta_keywords" . }}" />
+        {{ end }}
+        {{ .Hugo.Generator }}
+
+        <!-- CSS -->
+        {{ range .Site.Params.stylesheets }}
+            <link rel="stylesheet" href="/assets/css/{{ . }}" />
+        {{ end }}
+        <!-- Javascript -->
+        {{ range .Site.Params.javascript }}
+            <script type="text/javascript" src="/assets/js/{{ . }}"></script>
+        {{ end }}
+        <!-- search by languages -->
+        <script type="text/javascript">
+        var lunrIndex, pagesIndex;
+
+        // Initialize lunrjs using our generated index file
+        function initLunr() {
+            // First retrieve the index file
+            $.getJSON("/json/search.{{ .Site.Language.Lang }}.json")
+                .done(function(index) {
+                    pagesIndex = index;
+                    // Set up lunrjs by declaring the fields we use
+                    // Also provide their boost level for the ranking
+                    lunrIndex = new lunr.Index
+                    lunrIndex.ref("url");
+                    lunrIndex.field('title', {boost: 15});
+                    lunrIndex.field('tags', {boost: 10});
+                    lunrIndex.field("content", {boost: 5});
+
+                    // Feed lunr with each file and let lunr actually index them
+                    pagesIndex.forEach(function(page) {
+                        lunrIndex.add(page);
+                    });
+                    lunrIndex.pipeline.remove(lunrIndex.stemmer)
+                })
+                .fail(function(jqxhr, textStatus, error) {
+                    var err = textStatus + ", " + error;
+                    console.error("Error getting Hugo index file:", err);
+                });
+        }
+
+        /**
+         * Trigger a search in lunr and transform the result
+         *
+         * @param  {String} query
+         * @return {Array}  results
+         */
+        function search(query) {
+            // Find the item in our index corresponding to the lunr one to have more info
+            return lunrIndex.search(query).map(function(result) {
+                    return pagesIndex.filter(function(page) {
+                        return page.url === result.ref;
+                    })[0];
+                });
+        }
+
+        // Let's get started
+        initLunr();
+        $( document ).ready(function() {
+            var horseyList = horsey($("#search-by").get(0), {
+                suggestions: function (value, done) {
+                    var query = $("#search-by").val();
+                    var results = search(query);
+                    done(results);
+                },
+                filter: function (q, suggestion) {
+                    return true;
+                },
+                set: function (value) {
+                    location.href=value.href;
+                },
+                render: function (li, suggestion) {
+                    var url = suggestion.url.substring(1,suggestion.url.length);
+                    var indexOfIndex = url.lastIndexOf("/index");
+                    if (indexOfIndex == -1) {
+                        indexOfIndex = url.length;
+                    }
+                    var href = url.substring(url.indexOf("/"), indexOfIndex);
+                    suggestion.href = baseurl + url;
+
+
+                    var query = $("#search-by").val();
+                    var numWords = 2;
+                    var text = suggestion.content.match("(?:\\s?(?:[\\w]+)\\s?){0,"+numWords+"}"+query+"(?:\\s?(?:[\\w]+)\\s?){0,"+numWords+"}");
+                    suggestion.context = text;
+                    var image = '<div>' + '» ' + suggestion.title + '</div><div style="font-size:12px">' + (suggestion.context || '') +'</div>';
+                    li.innerHTML = image;
+                },
+                limit: 10
+            });
+            horseyList.refreshPosition();
+        });
+        </script>
+    </head>

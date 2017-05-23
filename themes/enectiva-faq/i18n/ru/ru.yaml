@@ -1,0 +1,56 @@
+meta_description:
+    other: 'Enectiva представляет собой веб-информационную систему, предназначенную для управления энергопотреблением офисных зданий, торговых центров и других коммерческих недвижимостей.'
+meta_keywords:
+    other: 'Enectiva, управление энергией, мониторинг энергии, энергосберегающие проекты, энергосбережение, мониторинг энергии, смарт измерения, дистанционное считывание показаний счетчиков'
+menu_toggle_cs:
+    other: CS
+menu_title_cs:
+    other: Чешский
+menu_toggle_de:
+    other: DE
+menu_title_de:
+    other: Немецкий
+menu_toggle_en:
+    other: EN
+menu_title_en:
+    other: Aнглийский
+menu_toggle_es:
+    other: ES
+menu_title_es:
+    other: испанский
+menu_toggle_fr:
+    other: FR
+menu_title_fr:
+    other: Французский
+menu_toggle_it:
+    other: IT
+menu_title_it:
+    other: итальянский
+menu_toggle_ru:
+    other: RU
+menu_title_ru:
+    other: русский
+read_more:
+    other: 'Подробнее '
+tags:
+    other: 'Теги:'
+pagination_next:
+    other: 'Cледующий '
+pagination_prev:
+    other: ' Предыдущая'
+rel_title:
+    other: 'Cтатьи по теме'
+search_placeholder:
+    other: 'Поиск...'
+error_404:
+    other: '404 Не Найдено'
+404_message:
+    other: "Что вы ищете не здесь, извините!"
+404_back_home:
+    other: 'Нажмите здесь, чтобы вернуться домой'
+footer_author_message:
+    other: 'Решение по управлению энергией Enectiva было разработано компанией'
+street_address:
+    other: 'Drtinova 557/10'
+address_locality:
+    other: 'Прага 5'

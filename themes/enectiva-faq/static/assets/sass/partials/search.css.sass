@@ -1,0 +1,139 @@
+.search
+    &box
+        display: inline-block
+        position: absolute
+        padding:
+            top: 0
+            right: 2rem
+            bottom: 0
+            left: 2rem
+        text-align: center
+        width: 100%
+
+input[type="search"]
+    display: block
+    width: 100%
+    padding:
+        top: 1.825rem
+        right: 0
+        bottom: 1.825rem
+        left: 0
+    color: #B1B1B1
+    border:
+        color: transparent
+        radius: 0
+        style: none
+        width: 0
+    font:
+        size: 1.75rem
+        style: italic
+        weight: 100
+    &:focus
+        color: #555
+        font:
+            style: normal
+    &::before
+        position: relative
+        font-family: 'FontAwesome'
+        content: "\f007"
+
+.sey
+    &-list
+        display: none
+        position: absolute
+        padding: 0
+        margin: 0
+        list-style-type: none
+        box:
+            shadow: 1px 2px 6px
+        border:
+            left:
+                color: $color-blue
+                style: solid
+                width: 1px
+            right:
+                color: $color-blue
+                style: solid
+                width: 1px
+        background-color: $color-white
+        color: $color-blue
+        transition: left 0.1s ease-in-out
+        max-height: 70vh
+        overflow: auto
+        width: 27%
+    &-show
+        display: block
+    &-hide
+        display: none
+    &-item
+        cursor: pointer
+        overflow: hidden
+        white-space: nowrap
+        text:
+            overflow: ellipsis
+        padding:
+            top: 7px
+            right: 7px
+            bottom: 7px
+            left: 7px
+        border:
+            color: transparent
+            style: solid
+            top:
+                width: 1px
+            right:
+                width: 0
+            bottom:
+                width: 1px
+            left:
+                width: 0
+        &:active,
+        &:focus,
+        &:hover
+            border:
+                color: transparent
+                style: solid
+                top:
+                    color: $color-blue
+                bottom:
+                    color: $color-blue
+            background-color: $color-blue-lighter
+            color: $color-blue
+    &-selected
+        background-color: $color-blue-lighter
+        color: $color-blue
+
+/* For mobiles devices */
+@media only screen and (max-width: 1024px)
+    .search
+        &box
+            display: inline-block
+            position: relative
+            border-top:
+                color: $color-grey
+                style: solid
+                width: 1px
+            padding:
+                top: 0
+                right: 2rem
+                bottom: 0
+                left: 2rem
+            text:
+                align: center
+                width: 100%
+            box-shadow: 0px 2px 2px $color-grey
+
+    input[type="search"]
+        display: block
+        width: 100%
+        padding:
+            top: 1.275rem
+            right: 0
+            bottom: 1.275rem
+            left: 0
+        font:
+            size: 1.2rem
+
+    .sey
+        &-list
+            width: 93%

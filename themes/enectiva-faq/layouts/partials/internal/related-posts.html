@@ -1,0 +1,17 @@
+<div class="rel-posts">
+    {{ $tags := .Params.tags }}
+    {{ $page_link := .Permalink }}
+    {{ if $tags}}
+
+    <h2 class="rel-title">{{ i18n "rel_title" . }}</h2>
+    <ul class="rel-list">
+        {{ range $page := .Site.Pages }}
+        {{ $common_tags := intersect $tags .Params.tags | len | lt 0 }}
+        {{ if and $common_tags (ne $page_link $page.Permalink) (lt ($.Scratch.Get "$c") 5)}}
+        {{ $.Scratch.Add "$c" 1 }}
+        <li><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></li>
+        {{ end }}
+        {{ end }}
+    </ul>
+    {{ end }}
+</div>

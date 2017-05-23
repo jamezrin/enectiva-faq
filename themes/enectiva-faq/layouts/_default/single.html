@@ -1,0 +1,21 @@
+{{ partial "base/metas.html" . }}
+{{ partial "base/header.html" . }}
+{{ partial "menu.html" . }}
+{{ partial "internal/breadcumbs.html" . }}
+    <div class="post-single">
+        <h2 class="post-title">
+            {{ .Title }}
+        </h2>{{ partial "internal/date.html" . }}
+        <div class="post-byline">
+            {{ partial "internal/tags.html" . }}
+        </div>
+        <div class="post-content">
+            <div class="toc">
+                {{ .TableOfContents }}
+            </div>
+            {{ .Content }}
+        </div>
+    </div>
+
+{{ partial "internal/related-posts.html" . }}
+{{ partial "base/footer.html" . }}

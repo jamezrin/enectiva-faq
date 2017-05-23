@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-open": "^0.2.3",
+    "grunt-shell": "^2.1.0",
+    "string": "^3.3.3",
+    "toml": "^2.3.2"
+  }
+}

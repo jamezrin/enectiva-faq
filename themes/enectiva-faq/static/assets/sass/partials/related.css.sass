@@ -1,0 +1,73 @@
+/* This file contains the related articles block in the sidebar right of the post single */
+
+.rel
+    &-posts
+        position: sticky
+        top: 8rem
+        display: inline-block
+        border-left:
+            color: $color-grey
+            style: solid
+            width: 1px
+        padding:
+            top: 0
+            right: 2rem
+            bottom: 2rem
+            left: 5rem
+    &-title
+        font:
+            weight: 100
+        color: $color-grey-dark
+    &-list
+        padding:
+            top: .25rem
+            bottom: .25rem
+            left: 1rem
+        list-style:
+            type: none
+        text:
+            align: left
+        a
+            border:
+                radius: 4px
+            padding:
+                top: .125rem
+                right: .125rem
+                bottom: .125rem
+                left: .125rem
+            font:
+                size: 1em
+            color: $color-orange-dark
+            &:active,
+            &:focus,
+            &:hover
+                background:
+                    color: $color-orange-light
+                box:
+                    shadow: 0 0 1px 1px $color-orange-dark
+
+/* For mobiles devices */
+@media only screen and (max-width: 1024px)
+    .rel
+        &-posts
+            position:static !important
+            display: block
+            margin: auto
+            border:
+                left:
+                    color: transparent
+                    style: none
+                    width: 0
+                top:
+                    color: $color-grey
+                    style: solid
+                    width: 1px
+            padding:
+                top: 0
+                right: 0
+                bottom: 0
+                left: 0
+            width: 86.66%
+        &-title
+            margin:
+                bottom: 0

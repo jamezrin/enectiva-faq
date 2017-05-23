@@ -1,0 +1,74 @@
+/* This file contains the style of articles block and post summary */
+
+.articles
+    display: inline-block
+    padding:
+        bottom: 3rem
+    margin:
+        left: 3rem
+        right: 3rem
+
+.post
+    float: left
+    margin:
+        left: 1rem
+        right: 1rem
+        top: 1rem
+        bottom: 1rem
+    width: 47%
+    &-title
+        display: inline-block
+        margin:
+            bottom: 1rem
+        color: $color-orange-dark
+        a
+            color: $color-orange-dark
+            &:active,
+            &:focus,
+            &:hover
+                text-decoration: underline
+                color: $color-orange
+    &-published
+        float: right
+        display: inline-block
+        margin:
+            bottom: 0
+        font:
+            weight: 100
+        color: $color-grey-dark
+    &-summary
+        text:
+            align: justify
+    .read-more
+        margin:
+            top: .5rem
+        text:
+            align: right
+        a
+            border:
+                color: transparent
+                style: solid
+                width: 1px
+            padding: .35rem
+            text:
+                decoration: underline
+            color: $color-orange-dark
+            &:active,
+            &:focus,
+            &:hover
+                border:
+                    color: $color-orange-dark
+                    radius: 3px
+                style: solid
+                width: 1px
+                background:
+                    color: $color-orange
+                text:
+                    decoration: none
+                color: $color-white
+
+/* For mobiles devices */
+@media only screen and (max-width: 1024px)
+    .post
+        float: left
+        width: 95%

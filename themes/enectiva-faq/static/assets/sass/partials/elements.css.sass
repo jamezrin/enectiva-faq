@@ -1,0 +1,171 @@
+/* This file contains the basic elements present in HTML5 */
+
+*
+    box-sizing: border-box
+html
+    font:
+        family: "Open Sans", Verdana, sans-serif
+        size: 1.25em
+body
+    margin: 0
+    overflow-x: hidden
+
+a
+    text:
+        decoration: none
+    outline: none
+    outline: 0
+    color: $color-blue
+    &:active,
+    &:focus,
+    &:hover
+        text:
+            decoration: underline
+        color: $color-orange
+
+blockquote
+    display: block
+    border-left:
+        color: $color-grey-light
+        style: solid
+        width: .25rem
+    margin:
+        right: 2.5rem
+        bottom: 1rem
+    padding:
+        top: .5rem
+        right: 1rem
+        bottom: .5rem
+        left: 1rem
+    font:
+        size: 1.25rem
+        style: italic
+
+code,
+kbd,
+pre
+    border:
+        radius: 4px
+    padding:
+        top: .125rem
+        right: .25rem
+        bottom: .125rem
+        left: .25rem
+    background:
+        color: $color-blue-lighter
+    font:
+        size: 1em
+        family: Menlo, Consolas, 'DejaVu Sans Mono', 'Lucida Console', Monaco, 'Droid Sans Mono', monospace
+    color: $color-blue
+
+dt
+    text:
+        decoration: underline
+    &::after
+        content: ":"
+
+dd
+    color: $color-grey-dark
+
+em,
+i
+    font:
+        style: italic
+
+.footnotes
+    border:
+        top:
+            color: $color-blue
+            style: solid
+            width: 1px
+    background:
+        color: $color-blue-lighter
+    hr
+        display: none
+
+h
+    display: block
+    font:
+        weight: bold
+    &1
+        margin:
+            top: 2em
+            bottom: 2em
+        font:
+            size: 2em
+    &2
+        margin:
+            top: 1.5em
+            bottom: 1.5em
+        font:
+            size: 1.5em
+    &3
+        margin:
+            top: 1.17em
+            bottom: 1.17em
+        font:
+            size: 1.17em
+    &4
+        margin:
+            top: 1em
+            bottom: 1em
+        font:
+            size: 1em
+    &5
+        margin:
+            top: .83em
+            bottom: .83em
+        font:
+            size: .83em
+    &6
+        margin:
+            top: .67em
+            bottom: .67em
+        font:
+            size: .67em
+
+label
+    cursor: pointer
+
+sup
+    border:
+        radius: 4px
+        color: $color-blue
+        style: solid
+        width: 1px
+    padding:
+        right: .1rem
+        left: .1rem
+    background:
+        color: $color-blue-lighter
+
+table
+    border:
+        collapse: collapse
+
+thead
+    background:
+        color: $color-blue-lighter
+    color: $color-blue
+
+td,
+th
+    border:
+        color: #88ABD4
+        style: solid
+        width: 1px
+    padding:
+        top: .250rem
+        right: .50rem
+        bottom: .250rem
+        left: .50rem
+tr
+    &:nth-child(even)
+        background:
+            color: $color-grey-lighter
+
+/* For mobiles devices */
+@media only screen and (max-width: 1024px)
+    html
+        font:
+            size: 1rem

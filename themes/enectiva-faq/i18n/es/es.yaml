@@ -1,0 +1,56 @@
+meta_description:
+    other: 'Enectiva es un servicio web para la gestión energética de la administración de edificios,centros comerciales y otras propiedades con propósitos comerciales.'
+meta_keywords:
+    other: 'Enectiva, monitoreo energético, ahorro energético, gestión de la energía, medición, contadores inteligentes, consumo de energìa, tecnologìa del ahorro'
+menu_toggle_cs:
+    other: CS
+menu_title_cs:
+    other: Checo
+menu_toggle_de:
+    other: DE
+menu_title_de:
+    other: Alemán
+menu_toggle_en:
+    other: EN
+menu_title_en:
+    other: Inglés
+menu_toggle_es:
+    other: ES
+menu_title_es:
+    other: Español
+menu_toggle_fr:
+    other: FR
+menu_title_fr:
+    other: Francés
+menu_toggle_it:
+    other: IT
+menu_title_it:
+    other: Italiano
+menu_toggle_ru:
+    other: RU
+menu_title_ru:
+    other: Ruso
+read_more:
+    other: 'Leer más '
+tags:
+    other: 'Etiquetas:'
+pagination_next:
+    other: 'Siguientes '
+pagination_prev:
+    other: ' Anteriores'
+rel_title:
+    other: 'Artículos relacionados'
+search_placeholder:
+    other: 'Buscar...'
+error_404:
+    other: '404 Página no encontrada'
+404_message:
+    other: "Lo que buscas no está aquí, lo siento!"
+404_back_home:
+    other: 'Clic aquí para volver a la página principal'
+footer_author_message:
+    other: 'Enectiva servicio de gestión energética fue desarrollado por la compañía'
+street_address:
+    other: 'Drtinova 557/10'
+address_locality:
+    other: 'Praga 5'

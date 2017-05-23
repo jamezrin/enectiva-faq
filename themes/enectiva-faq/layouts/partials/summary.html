@@ -1,0 +1,14 @@
+<div class="summary">
+    <div class="post-header">
+        {{ partial "title-home.html" . }}
+        {{ partial "internal/date.html" . }}
+        <div class="post-summary">
+            {{ .Summary }}
+        </div>
+    </div>
+</div>
+{{ if .Truncated }}
+<div class="read-more">
+    <a href="{{ .RelPermalink }}">{{ i18n "read_more" . }}<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+</div>
+{{ end }}
