@@ -76,3 +76,13 @@ You need know something before of continue. You must create a index file that yo
 [sudo] cp static/json/ themes/enectiva-faq/static/json/
 ```
 The gruntfile will get the files into the **content/** folder and will create index file with the URL field. Start the server to see the changes in the search results.
+
+### How to work the searching implementation
+In this case, the searching implementation needs of the followings files:
+- Partial into layouts/partials/search.html that contents the searchbox and variable that indicates to the javascript, "ey, listen, this is the URL of the page".
+- The partial is called if within the configuration the parameter search set true. Looks the file layouts/partials/menu.html
+- The javascript is within layouts/base/metas.html.
+```
+$.getJSON("/json/search.{{ .Site.Language.Lang }}.json")
+```
+This part calls to the index file by each language. Hugo detects that language is what are you using and, put
