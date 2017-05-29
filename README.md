@@ -95,6 +95,7 @@ fr = French
 it = Italian
 ru = Russian
 ```
+All the code included within of the file metas.html has been extracted of this [gist](https://gist.github.com/sebz/efddfc8fdcb6b480f567) and include, the official code and useful tools.
 If you want change something of the code, you must open the grunt task.
 
 ### How to work the grunt tasks
