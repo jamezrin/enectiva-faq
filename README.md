@@ -51,7 +51,7 @@ When you have your empty file, you must go into the folder where you created the
 
 ### How to use the header of file (archetype)
 When you create a new post, automatically is created a file with a header. This header has the following labels by default, defined in your archetype:
-```
+```md
 +++
 author = "Enectiva"
 date = "2017-04-25T13:22:46+02:00"
@@ -96,7 +96,7 @@ it = Italian
 ru = Russian
 ```
 All the original code included within of the file metas.html has been extracted of this [gist](https://gist.github.com/sebz/efddfc8fdcb6b480f567) and include, the official code and useful tools.
-```
+```javascript
 var lunrIndex,
     $results,
     pagesIndex;
@@ -206,7 +206,7 @@ In the next link will find examples and the source code of project: [https://bev
 If you want change something of the code, you must open the grunt task.
 
 The structure of search index:
-```
+```json
 [
     {
         "title": "title1",
@@ -230,7 +230,7 @@ Therefore, you needs define them into of the frontmatter of your content.
 
 ### How to work the grunt tasks
 The gruntfile has several tasks inside. How each tasks something I must explain them, feel you free of modify them:
-```
+```sh
 [sudo] test -> build index and open dev server.
 [sudo] build -> build index and build hugo site.
 [sudo] all-indexes -> build all indexes.
@@ -249,7 +249,7 @@ The website is built with multilingual mode. Provide to a site the ability to be
 {{ $l.<string1>.<string2>.<string3... }}
 ```
 Example of a data file:
-```
+```yaml
 meta_description: 'Enectiva представляет собой веб-информационную систему, предназначенную для управления энергопотреблением офисных зданий, торговых центров и других коммерческих недвижимостей.'
 meta_keywords: 'Enectiva, управление энергией, мониторинг энергии, энергосберегающие проекты, энергосбережение, мониторинг энергии, смарт измерения, дистанционное считывание показаний счетчиков'
 menu:
