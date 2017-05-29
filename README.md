@@ -96,7 +96,7 @@ it = Italian
 ru = Russian
 ```
 All the original code included within of the file metas.html has been extracted of this [gist](https://gist.github.com/sebz/efddfc8fdcb6b480f567) and include, the official code and useful tools.
-```javascript
+```js
 var lunrIndex,
     $results,
     pagesIndex;
@@ -230,10 +230,14 @@ Therefore, you needs define them into of the frontmatter of your content.
 
 ### How to work the grunt tasks
 The gruntfile has several tasks inside. How each tasks something I must explain them, feel you free of modify them:
-```
-[sudo] test -> build index and open dev server.
-[sudo] build -> build index and build hugo site.
-[sudo] all-indexes -> build all indexes.
+1. Build index and open dev server.
+2. Build index and build hugo site production.
+3. Build all indexes.
+
+```shell
+[sudo] test
+[sudo] build
+[sudo] all-indexes
 ```
 
 ### How to work the multilingual mode into site.
