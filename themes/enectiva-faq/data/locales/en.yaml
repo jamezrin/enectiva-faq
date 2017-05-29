@@ -1,0 +1,34 @@
+en:
+    meta_description:
+    meta_keywords:
+    menu_toggle:
+        cs: CS
+        de: DE
+        en: EN
+        es: ES
+        fr: FR
+        it: IT
+        ru: RU
+    menu_title:
+        cs: Czech
+        de: German
+        en: English
+        es: Spanish
+        fr: French
+        it: Italian
+        ru: Russian
+    read_more: 'Read more '
+    tags: 'Tags:'
+    pagination:
+        next: 'Next '
+        prev: ' Previous'
+    rel_title: 'Related articles'
+    search_placeholder: 'Search...'
+    404:
+        error: '404 Not Found'
+        message: "What you're looking for isn't here, sorry!"
+        back_home: 'Click here to go back home'
+    footer:
+        author_message: 'Energy management solution Enectiva was developed by the company'
+    street_address: 'Drtinova 557/10'
+    address_locality: 'Prague 5'

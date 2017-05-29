@@ -1,0 +1,34 @@
+de:
+    meta_description: 'Enectiva ist ein WEB-Informationssystem, das für Energiemanagement der Bürogebäude, Einkaufszentren und andere kommerziellen Immobilien bestimmt ist.'
+    meta_keywords: 'Enectiva, Energiemanagement, Energieüberwachungssystem, kostensparende Projekte, Energieersparnisse, Überwachung von Energien, smart metering, Fernablesungen'
+    menu_toggle:
+        cs: CS
+        de: DE
+        en: EN
+        es: ES
+        fr: FR
+        it: IT
+        ru: RU
+    menu_title:
+        cs: Tschechisch
+        de: Deutsche
+        en: Englisch
+        es: Spanisch
+        fr: Französisch
+        it: Italienisch
+        ru: Russisch
+    read_more: 'Mehr lesen '
+    tags: 'Stichworte:'
+    pagination:
+        next: 'Folgende '
+        prev: ' Früher'
+    rel_title: 'Verwandte artikel'
+    search_placeholder: 'Suche...'
+    404:
+        error: '404 Nicht gefunden'
+        message: 'Was du suchst, ist nicht hier, sorry!'
+        back_home:  'Klicken Sie hier, um nach Hause zurückzukehren'
+    footer:
+        author_message: 'Energiemanagementlösung Enectiva wurde von der Firma entwickelt'
+    street_address: 'Drtinova 557/10'
+    address_locality: 'Prag 5'
