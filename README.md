@@ -200,7 +200,8 @@ $(document).ready(function() {
     initUI();
 });
 ```
-But, the modified code include horsey.js. Horsey is a library that provide a tool of autocompleted to the search. The file sizes in the normal version **<200Kb** and in the minified version about **>=20Kb!!**
+But, the modified code include horsey.js. **Horsey** is a library that provide a tool of autocompleted to the search. The file sizes in the normal version **<200Kb** and in the minified version about **>=20Kb!!**
+In the next link will find examples and the source code of project: [https://bevacqua.github.io/horsey/](https://bevacqua.github.io/horsey/)
 If you want change something of the code, you must open the grunt task.
 
 The structure of search index:
