@@ -2,15 +2,7 @@ var grunt = require('grunt'),
     toml = require("toml"),
     S = require("string");
 
-grunt.loadNpmTasks('grunt-contrib-concat');
-grunt.loadNpmTasks('grunt-contrib-connect');
-grunt.loadNpmTasks('grunt-contrib-copy');
-grunt.loadNpmTasks('grunt-contrib-jshint');
-grunt.loadNpmTasks('grunt-contrib-sass');
-grunt.loadNpmTasks('grunt-contrib-uglify');
-grunt.loadNpmTasks('grunt-contrib-watch');
 grunt.loadNpmTasks('grunt-open');
-grunt.loadNpmTasks('grunt-responsive-images');
 grunt.loadNpmTasks('grunt-shell');
 
 module.exports = function(grunt) {

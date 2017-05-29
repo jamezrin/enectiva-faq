@@ -85,4 +85,22 @@ In this case, the searching implementation needs of the followings files:
 ```
 $.getJSON("/json/search.{{ .Site.Language.Lang }}.json")
 ```
-This part calls to the index file by each language. Hugo detects that language is what are you using and, put
+This part calls to the index file by each language. Hugo detects that language is what are you using and, put the .Site.Language.Lang in the line above. The followings are the language codes:
+```
+cs = Czech
+de = German
+en = English
+es = Spanish
+fr = French
+it = Italian
+ru = Russian
+```
+If you want change something of the code, you must open the grunt task.
+
+### How to work the grunt tasks
+The gruntfile has several tasks inside. How each tasks something I must explain them, feel you free of modify them:
+```
+[sudo] test -> build index and open dev server.
+[sudo] build -> build index and build hugo site.
+[sudo] all-indexes -> build all indexes.
+```
