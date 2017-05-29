@@ -79,10 +79,10 @@ The gruntfile will get the files into the **content/** folder and will create in
 
 ### How to work the searching implementation
 In this case, the searching implementation needs of the followings files:
-- Partial into layouts/partials/search.html that contents the searchbox and variable that indicates to the javascript, "ey, listen, this is the URL of the page".
-- The partial is called if within the configuration the parameter search set true. Looks the file layouts/partials/menu.html
-- The javascript is within layouts/base/metas.html.
-```
+- Partial into **layouts/partials/search.html** that contents the searchbox and variable that indicates to the javascript, "*ey, listen, this is the URL of the page*".
+- The partial is called if within the configuration the parameter search set true. Looks the file **layouts/partials/menu.html**
+- The javascript is within **layouts/base/metas.html**
+```js
 $.getJSON("/json/search.{{ .Site.Language.Lang }}.json")
 ```
 This part calls to the index file by each language. Hugo detects that language is what are you using and, put the .Site.Language.Lang in the line above. The followings are the language codes:
@@ -230,7 +230,7 @@ Therefore, you needs define them into of the frontmatter of your content.
 
 ### How to work the grunt tasks
 The gruntfile has several tasks inside. How each tasks something I must explain them, feel you free of modify them:
-```sh
+```
 [sudo] test -> build index and open dev server.
 [sudo] build -> build index and build hugo site.
 [sudo] all-indexes -> build all indexes.
@@ -240,12 +240,12 @@ The gruntfile has several tasks inside. How each tasks something I must explain 
 The website is built with multilingual mode. Provide to a site the ability to be multilingual is awesome but this same can be a problem for the development. Before, I must explain you some things:
 - I have used data files for word translations. Into themes/enectiva-faq/data/locales/
 - All partials includes the followings variables, with which will map the datas. Then, only you will needs to use $l.<string>, very useful:
-```
+```html
 {{ $lang := .Site.Language.Lang }}
 {{ $l := index .Site.Data.locales $lang }}
 ```
 - You can add all levels of map-strings that you needs. Only, you adds as many points as needed after of each word, i.e.:
-```
+```html
 {{ $l.<string1>.<string2>.<string3... }}
 ```
 Example of a data file:

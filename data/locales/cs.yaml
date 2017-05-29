@@ -1,8 +1,53 @@
-cs:
-    meta_description: 'Enectiva je webový informační systém určený pro energetický management administrativních budov, obchodních center a ostatních nemovitostí komerčního zaměření.'
-    meta_keywords: 'Enectiva, energetický management, energetický monitoring, úsporné projekty, úspory energií, monitoring energií, smart metering, dálkové odečty'
-    read_more: 'Čtěte více '
-    menu_toggle:
+date:
+    abbr_day_names:
+        Sun: Ne
+        Mon: Po
+        Tue: Út
+        Wed: St
+        Thu: Čt
+        Fri: Pá
+        Sat: So
+    abbr_month_name:
+        Jan: Led
+        Feb: Úno
+        Mar: Bře
+        Apr: Dub
+        May: Kvě
+        Jun: Čvn
+        Jul: Čvc
+        Aug: Srp
+        Sep: Zář
+        Oct: Říj
+        Nov: Lis
+        Dec: Pro
+    day_names:
+        Sunday: pondělí
+        Monday: úterý
+        Tuesday: středa
+        Wednesday: čtvrtek
+        Thursday: pátek
+        Friday: sobota
+        Satuday: neděle
+    formats:
+        default: "2. January, 2006, Monday"
+    month_names:
+        January: leden
+        February: únor
+        March: březen
+        April: duben
+        May: květen
+        June: červen
+        July: červenec
+        August: srpen
+        September: září
+        October: říjen
+        November: listopad
+        December: prosinec
+meta_description: 'Enectiva je webový informační systém určený pro energetický management administrativních budov, obchodních center a ostatních nemovitostí komerčního zaměření.'
+meta_keywords: 'Enectiva, energetický management, energetický monitoring, úsporné projekty, úspory energií, monitoring energií, smart metering, dálkové odečty'
+read_more: 'Čtěte více '
+menu:
+    toggle:
         cs: CS
         de: DE
         en: EN
@@ -10,7 +55,7 @@ cs:
         fr: FR
         it: IT
         ru: RU
-    menu_title:
+    title:
         cs: Čeština
         de: Němec
         en: Angličtina
@@ -18,18 +63,18 @@ cs:
         fr: Francouzština
         it: Italština
         ru: Ruština
-    read_more: 'Čtěte více '
-    tags: 'Tagy:'
-    pagination:
-        next: 'Následující '
-        prev: ' Předchozí'
-    rel_title: 'Související články'
-    search_placeholder: 'Vyhledávání...'
-    404:
-        error: '404 Nenalezeno'
-        message: 'To, co hledáte, není tady, omlouvám se!'
-        back_home: 'Klikněte sem pro návrat domů'
-    footer:
-        author_message: 'Řešení energetické správy společnosti Enectiva bylo vyvinuto společností'
-    street_address: 'Drtinova 557/10'
-    address_locality: 'Praha 5'
+read_more: 'Čtěte více '
+tags: 'Tagy:'
+pagination:
+    next: 'Následující '
+    prev: ' Předchozí'
+rel_title: 'Související články'
+search_placeholder: 'Vyhledávání...'
+errors:
+    not_found_title: '404 Nenalezeno'
+    not_found_message: 'To, co hledáte, není tady, omlouvám se!'
+    back_home: 'Klikněte sem pro návrat domů'
+footer:
+    author_message: 'Řešení energetické správy společnosti Enectiva bylo vyvinuto společností'
+street_address: 'Drtinova 557/10'
+address_locality: 'Praha 5'

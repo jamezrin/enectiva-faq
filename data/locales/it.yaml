@@ -1,7 +1,52 @@
-it:
-    meta_description: 'Enectiva è un servizio web per la gestione energetica degli edifici amministrativi, centri commerciali ed altre proprietà con scopi commerciali.'
-    meta_keywords: "Enectiva, monitoraggio energetico, risparmio energetico, gestione dell'energia, misurazione, contatori intelligenti, consumo di energia, tecnologia di risparmio"
-    menu_toggle:
+date:
+    abbr_day_names:
+        Sun: Dom
+        Mon: Lun
+        Tue: Mar
+        Wed: Mer
+        Thu: Gio
+        Fri: Ven
+        Sat: Sab
+    abbr_month_name:
+        Jan: Gen
+        Feb: Feb
+        Mar: Mar
+        Apr: Apr
+        May: Mag
+        Jun: Giu
+        Jul: Lug
+        Aug: Ago
+        Sep: Set
+        Oct: Ott
+        Nov: Nov
+        Dec: Dic
+    day_names:
+        Sunday: Domenica
+        Monday: Lunedì
+        Tuesday: Martedì
+        Wednesday: Mercoledì
+        Thursday: Giovedì
+        Friday: Venerdì
+        Satuday: Sabato
+    formats:
+        default: "January 2, 2006, Monday"
+    month_names:
+        January: Gennaio
+        February: Febbraio
+        March: Marzo
+        April: Aprile
+        May: Maggio
+        June: Giugno
+        July: Luglio
+        August: Agosto
+        September: Settembre
+        October: Ottobre
+        November: Novembre
+        December: Dicembre
+meta_description: 'Enectiva è un servizio web per la gestione energetica degli edifici amministrativi, centri commerciali ed altre proprietà con scopi commerciali.'
+meta_keywords: "Enectiva, monitoraggio energetico, risparmio energetico, gestione dell'energia, misurazione, contatori intelligenti, consumo di energia, tecnologia di risparmio"
+menu:
+    toggle:
         cs: CS
         de: DE
         en: EN
@@ -9,7 +54,7 @@ it:
         fr: FR
         it: IT
         ru: RU
-    menu_title:
+    title:
         cs: Ceco
         de: Tedesco
         en: Inglese
@@ -17,18 +62,18 @@ it:
         fr: Francese
         it: Italiano
         ru: Russo
-    read_more: 'Leggi tutto '
-    tags: 'Tags:'
-    pagination:
-        next: 'Seguente '
-        prev: ' Precedente'
-    rel_title: 'Articoli correlati'
-    search_placeholder: 'Ricerca...'
-    404:
-        error: '404 Non trovato'
-        message: "Quello che stai cercando non è qui, mi dispiace!"
-        back_home: 'Clicca qui per tornare a casa'
-    footer:
-        author_message: "La soluzione di gestione dell'energia Enectiva è stata sviluppata dalla società"
-    street_address: 'Drtinova 557/10'
-    address_locality: 'Praga 5'
+read_more: 'Leggi tutto '
+tags: 'Tags:'
+pagination:
+    next: 'Seguente '
+    prev: ' Precedente'
+rel_title: 'Articoli correlati'
+search_placeholder: 'Ricerca...'
+errors:
+    not_found_title: '404 Non trovato'
+    not_found_message: "Quello che stai cercando non è qui, mi dispiace!"
+    back_home: 'Clicca qui per tornare a casa'
+footer:
+    author_message: "La soluzione di gestione dell'energia Enectiva è stata sviluppata dalla società"
+street_address: 'Drtinova 557/10'
+address_locality: 'Praga 5'
