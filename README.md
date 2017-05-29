@@ -10,37 +10,37 @@ Actually, we are using Hugo v.0.20.6, [lunrjs v2.0.3](https://github.com/olivern
 - or optional [yamljs v0.2.10](https://www.npmjs.com/package/yamljs)
 
 For to install all dependencies, you must type in command line:
-```
+```shell
 cd <folder-project>
 [sudo] npm install --save-dev grunt toml string nodejs
 ```
 
 ## How to start the server
 We must open command line in your Linux distribution. If we have our web in the personal folder of hard disk, we must write into the black window
-```
+```shell
 cd ~
 ```
 After, if our folder named enectiva-faq
-```
+```shell
 cd enectiva-faq
 ```
 To start the server, we must type...
-```
+```shell
 [sudo] hugo server
 ```
 To create a new post (we explain it below). If you can create a new post, please, close hugo server first.
-```
+```shell
 [sudo] hugo new <directory>/filename.md
 ```
 
 ## Creating new blog post
 The command to do this is the next:
-```
+```shell
 [sudo] hugo new XX/1st-section/[2nd-section]/name-to-do.XX.md
 ```
 You must to change the **XX** to the language what you can write the post (**es**: Spanish, **cs**: Czech, **en**: English, **it**: Italian, **fr**: French, **de**: German)
 So if you want to create a new english post, you need to write:
-```
+```shell
 [sudo] hugo new XX/1st-section/[2nd-section]/filename.XX.md
 ```
 When you have your empty file, you must go into the folder where you created the file.
@@ -71,7 +71,7 @@ Something to say:
 You need know something before of continue. You must create a index file that you will put into static/json/ folder. For that, type in your command line into hugo folder:
 
 **WARNING:** Don't to generate the index file with images into content folder or the grunt task will crash.
-```
+```shell
 [sudo] grunt lunr-index
 [sudo] cp static/json/ themes/enectiva-faq/static/json/
 ```
