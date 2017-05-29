@@ -1,5 +1,50 @@
-meta_description:
-meta_keywords:
+date:
+    abbr_day_names:
+        Sun: Sun
+        Mon: Mon
+        Tue: Tue
+        Wed: Wed
+        Thu: Thu
+        Fri: Fri
+        Sat: Sat
+    abbr_month_name:
+        Jan: Jan
+        Feb: Feb
+        Mar: Mar
+        Apr: Apr
+        May: May
+        Jun: Jun
+        Jul: Jul
+        Aug: Aug
+        Sep: Sep
+        Oct: Oct
+        Nov: Nov
+        Dec: Dec
+    day_names:
+        Sunday: Sunday
+        Monday: Monday
+        Tuesday: Tuesday
+        Wednesday: Wednesday
+        Thursday: Thursday
+        Friday: Friday
+        Satuday: Saturday
+    formats:
+        default: 'January 2, 2006, Monday'
+    month_names:
+        January: January
+        February: February
+        March: March
+        April: April
+        May: May
+        June: June
+        July: July
+        August: August
+        September: September
+        October: October
+        November: November
+        December: December
+meta_description: 'Enectiva is web info system, for energetic managment of administrative buildings, business centers and other property of commercial'
+meta_keywords: 'Enectiva, energy monitoring, energy savings, energy management, metering, smart metering, energy consumption, saving technology'
 menu:
     toggle:
         cs: CS

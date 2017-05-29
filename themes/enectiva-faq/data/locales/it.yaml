@@ -1,3 +1,48 @@
+date:
+    abbr_day_names:
+        Sun: Dom
+        Mon: Lun
+        Tue: Mar
+        Wed: Mer
+        Thu: Gio
+        Fri: Ven
+        Sat: Sab
+    abbr_month_name:
+        Jan: Gen
+        Feb: Feb
+        Mar: Mar
+        Apr: Apr
+        May: Mag
+        Jun: Giu
+        Jul: Lug
+        Aug: Ago
+        Sep: Set
+        Oct: Ott
+        Nov: Nov
+        Dec: Dic
+    day_names:
+        Sunday: Domenica
+        Monday: Lunedì
+        Tuesday: Martedì
+        Wednesday: Mercoledì
+        Thursday: Giovedì
+        Friday: Venerdì
+        Satuday: Sabato
+    formats:
+        default: "January 2, 2006, Monday"
+    month_names:
+        January: Gennaio
+        February: Febbraio
+        March: Marzo
+        April: Aprile
+        May: Maggio
+        June: Giugno
+        July: Luglio
+        August: Agosto
+        September: Settembre
+        October: Ottobre
+        November: Novembre
+        December: Dicembre
 meta_description: 'Enectiva è un servizio web per la gestione energetica degli edifici amministrativi, centri commerciali ed altre proprietà con scopi commerciali.'
 meta_keywords: "Enectiva, monitoraggio energetico, risparmio energetico, gestione dell'energia, misurazione, contatori intelligenti, consumo di energia, tecnologia di risparmio"
 menu:

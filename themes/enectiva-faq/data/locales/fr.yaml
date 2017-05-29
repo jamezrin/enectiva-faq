@@ -1,3 +1,48 @@
+date:
+    abbr_day_names:
+        Sun: Dim
+        Mon: Lun
+        Tue: Mar
+        Wed: Mer
+        Thu: Jeu
+        Fri: Ven
+        Sat: Sam
+    abbr_month_name:
+        Jan: Janv
+        Feb: Févr
+        Mar: Mars
+        Apr: Avr
+        May: Mai
+        Jun: Juin
+        Jul: Juill
+        Aug: Aug
+        Sep: Sept
+        Oct: Oct
+        Nov: Nov
+        Dec: Déc
+    day_names:
+        Sunday: Dimanche
+        Monday: Lundi
+        Tuesday: Mardi
+        Wednesday: Mercredi
+        Thursday: Jeudi
+        Friday: Vendredi
+        Satuday: Samedie
+    formats:
+        default: "02/January/2006"
+    month_names:
+        January: Janvier
+        February: Février
+        March: Mars
+        April: Avril
+        May: Mai
+        June: Juin
+        July: Juillet
+        August: Auguste
+        September: Septembre
+        October: Octobre
+        November: Novembre
+        December: Décembre
 meta_description: "Enectiva est un système de site informatif designé pour le managemet énergétique des bâtiments d'administration, des centres commerciaux et d'autres biens immobiliers de caractère commercial."
 meta_keywords: "Enectiva, management énergétique, monitoring énergétique, projets d'économie, économies des énergies, smart metering, relevé à distence"
 menu:
