@@ -1,15 +1,18 @@
+{{ $lang := .Site.Language.Lang }}
+{{ $l := index .Site.Data.locales $lang }}
+
     <div class="footer">
         <div class="footer-box">
             <div class="footer-newsletter">
             </div>
             <div class="footer-author">
                 <img src="{{ .Site.Params.footerlogo | absURL }}" class="footer-logo"></img>
-                <p>{{ i18n "footer_author_message" . }} <a href="http://enerfis.cz" >Enerfis s.r.o.</a>
+                <p>{{ $l.footer.author_message }} <a href="http://enerfis.cz" >Enerfis s.r.o.</a>
                 </p>
                 <div itemprop="address" itemscope
                      itemtype="http://schema.org/PostalAddress">
-                    <span itemprop="streetAddress">{{ i18n "street_address" . }}</span>
-                    <span itemprop="addressLocality">{{ i18n "address_locality" . }}</span>
+                    <span itemprop="streetAddress">{{ $l.street_address }}</span>
+                    <span itemprop="addressLocality">{{ $l.address_locality }}</span>
                 </div>
                 <a href="http://enerfis.cz">www.enerfis.cz</a>
             </div>

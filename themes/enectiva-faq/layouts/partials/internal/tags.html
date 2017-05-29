@@ -1,4 +1,7 @@
+{{ $lang := .Site.Language.Lang }}
+{{ $l := index .Site.Data.locales $lang }}
+
 {{ if .Params.tags }}
-<span class="post-tags"><i class="fa fa-tags" aria-hidden="true"></i>{{ i18n "tags" . }} {{ if gt (len .Params.tags) 1 }}{{ end }}
+<span class="post-tags"><i class="fa fa-tags" aria-hidden="true"></i>{{ $l.tags }} {{ if gt (len .Params.tags) 1 }}{{ end }}
   {{ range $index, $tags := .Params.tags }}{{ if gt $tags 0 }}, {{ end }}<a class="tag" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}</span>
 {{ end }}

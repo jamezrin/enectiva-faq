@@ -1,5 +1,8 @@
+{{ $lang := .Site.Language.Lang }}
+{{ $l := index .Site.Data.locales $lang }}
+
 <div class="searchbox">
-    <input data-search-input id="search-by" type="search" placeholder="{{ i18n "search_placeholder" . }}">
+    <input data-search-input id="search-by" type="search" placeholder="{{ $l.search_placeholder }}">
 </div>
     <script type="text/javascript">
         var baseurl = {{ .Site.BaseURL }};

@@ -1,3 +1,6 @@
+{{ $lang := .Site.Language.Lang }}
+{{ $l := index .Site.Data.locales $lang }}
+
 <!-- sidebar menu start -->
     <ul class="sidebar-menu">
         {{ $currentNode := . }}
@@ -29,13 +32,13 @@
         <label for="menu-toggle">Lang <i class="fa fa-angle-down" aria-hidden="true"></i></label>
         <input type="checkbox" id="menu-toggle"/>
         <ul id="menu-toggle-list">
-            <li><a href="{{ "cs/" | absURL }}" title="{{ i18n "menu_title_cs" . }}"><span class="flag-icon flag-icon-cz"></span>{{ i18n "menu_toggle_cs" }}</a></li>
-            <li><a href="{{ "de/" | absURL }}" title="{{ i18n "menu_title_de" . }}"><span class="flag-icon flag-icon-de"></span>{{ i18n "menu_toggle_de" }}</a></li>
-            <li><a href="{{ "en/" | absURL }}" title="{{ i18n "menu_title_en" . }}"><span class="flag-icon flag-icon-gb"></span>{{ i18n "menu_toggle_en" }}</a></li>
-            <li><a href="{{ "es/" | absURL }}" title="{{ i18n "menu_title_es" . }}"><span class="flag-icon flag-icon-es"></span>{{ i18n "menu_toggle_es" }}</a></li>
-            <li><a href="{{ "fr/" | absURL }}" title="{{ i18n "menu_title_fr" . }}"><span class="flag-icon flag-icon-fr"></span>{{ i18n "menu_toggle_fr" }}</a></li>
-            <li><a href="{{ "it/" | absURL }}" title="{{ i18n "menu_title_it" . }}"><span class="flag-icon flag-icon-it"></span>{{ i18n "menu_toggle_it" }}</a></li>
-            <li><a href="{{ "ru/" | absURL }}" title="{{ i18n "menu_title_ru" . }}"><span class="flag-icon flag-icon-ru"></span>{{ i18n "menu_toggle_ru" }}</a></li>
+            <li><a href="{{ "cs/" | absURL }}" title="{{ $l.menu.title.cs }}"><span class="flag-icon flag-icon-cz"></span>{{ $l.menu.toggle.cs }}</a></li>
+            <li><a href="{{ "de/" | absURL }}" title="{{ $l.menu.title.de }}"><span class="flag-icon flag-icon-de"></span>{{ $l.menu.toggle.de }}</a></li>
+            <li><a href="{{ "en/" | absURL }}" title="{{ $l.menu.title.en }}"><span class="flag-icon flag-icon-gb"></span>{{ $l.menu.toggle.en }}</a></li>
+            <li><a href="{{ "es/" | absURL }}" title="{{ $l.menu.title.es }}"><span class="flag-icon flag-icon-es"></span>{{ $l.menu.toggle.es }}</a></li>
+            <li><a href="{{ "fr/" | absURL }}" title="{{ $l.menu.title.fr }}"><span class="flag-icon flag-icon-fr"></span>{{ $l.menu.toggle.fr }}</a></li>
+            <li><a href="{{ "it/" | absURL }}" title="{{ $l.menu.title.it }}"><span class="flag-icon flag-icon-it"></span>{{ $l.menu.toggle.it }}</a></li>
+            <li><a href="{{ "ru/" | absURL }}" title="{{ $l.menu.title.ru }}"><span class="flag-icon flag-icon-ru"></span>{{ $l.menu.toggle.ru }}</a></li>
         </ul>
     </div>
 </div>

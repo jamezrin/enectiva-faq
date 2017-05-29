@@ -1,7 +1,7 @@
-it:
-    meta_description: 'Enectiva è un servizio web per la gestione energetica degli edifici amministrativi, centri commerciali ed altre proprietà con scopi commerciali.'
-    meta_keywords: "Enectiva, monitoraggio energetico, risparmio energetico, gestione dell'energia, misurazione, contatori intelligenti, consumo di energia, tecnologia di risparmio"
-    menu_toggle:
+meta_description: 'Enectiva è un servizio web per la gestione energetica degli edifici amministrativi, centri commerciali ed altre proprietà con scopi commerciali.'
+meta_keywords: "Enectiva, monitoraggio energetico, risparmio energetico, gestione dell'energia, misurazione, contatori intelligenti, consumo di energia, tecnologia di risparmio"
+menu:
+    toggle:
         cs: CS
         de: DE
         en: EN
@@ -9,7 +9,7 @@ it:
         fr: FR
         it: IT
         ru: RU
-    menu_title:
+    title:
         cs: Ceco
         de: Tedesco
         en: Inglese
@@ -17,18 +17,18 @@ it:
         fr: Francese
         it: Italiano
         ru: Russo
-    read_more: 'Leggi tutto '
-    tags: 'Tags:'
-    pagination:
-        next: 'Seguente '
-        prev: ' Precedente'
-    rel_title: 'Articoli correlati'
-    search_placeholder: 'Ricerca...'
-    404:
-        error: '404 Non trovato'
-        message: "Quello che stai cercando non è qui, mi dispiace!"
-        back_home: 'Clicca qui per tornare a casa'
-    footer:
-        author_message: "La soluzione di gestione dell'energia Enectiva è stata sviluppata dalla società"
-    street_address: 'Drtinova 557/10'
-    address_locality: 'Praga 5'
+read_more: 'Leggi tutto '
+tags: 'Tags:'
+pagination:
+    next: 'Seguente '
+    prev: ' Precedente'
+rel_title: 'Articoli correlati'
+search_placeholder: 'Ricerca...'
+404:
+    error: '404 Non trovato'
+    message: "Quello che stai cercando non è qui, mi dispiace!"
+    back_home: 'Clicca qui per tornare a casa'
+footer:
+    author_message: "La soluzione di gestione dell'energia Enectiva è stata sviluppata dalla società"
+street_address: 'Drtinova 557/10'
+address_locality: 'Praga 5'
