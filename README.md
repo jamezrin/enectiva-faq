@@ -235,3 +235,53 @@ The gruntfile has several tasks inside. How each tasks something I must explain 
 [sudo] build -> build index and build hugo site.
 [sudo] all-indexes -> build all indexes.
 ```
+
+### How to work the multilingual mode into site.
+The website is built with multilingual mode. Provide to a site the ability to be multilingual is awesome but this same can be a problem for the development. Before, I must explain you some things:
+- I have used data files for word translations. Into themes/enectiva-faq/data/locales/
+- All partials includes the followings variables, with which will map the datas. Then, only you will needs to use $l.<string>, very useful:
+```
+{{ $lang := .Site.Language.Lang }}
+{{ $l := index .Site.Data.locales $lang }}
+```
+- You can add all levels of map-strings that you needs. Only, you adds as many points as needed after of each word, i.e.:
+```
+{{ $l.<string1>.<string2>.<string3... }}
+```
+Example of a data file:
+```
+meta_description: 'Enectiva представляет собой веб-информационную систему, предназначенную для управления энергопотреблением офисных зданий, торговых центров и других коммерческих недвижимостей.'
+meta_keywords: 'Enectiva, управление энергией, мониторинг энергии, энергосберегающие проекты, энергосбережение, мониторинг энергии, смарт измерения, дистанционное считывание показаний счетчиков'
+menu:
+    toggle:
+        cs: CS
+        de: DE
+        en: EN
+        es: ES
+        fr: FR
+        it: IT
+        ru: RU
+    title:
+        cs: Чешский
+        de: Немецкий
+        en: Aнглийский
+        es: испанский
+        fr: Французский
+        it: итальянский
+        ru: русский
+read_more: 'Подробнее '
+tags: 'Теги:'
+pagination:
+    next: 'Cледующий '
+    prev: ' Предыдущая'
+rel_title: 'Cтатьи по теме'
+search_placeholder: 'Поиск...'
+404:
+    error: '404 Не Найдено'
+    message: "Что вы ищете не здесь, извините!"
+    back_home: 'Нажмите здесь, чтобы вернуться домой'
+footer:
+    author_message: 'Решение по управлению энергией Enectiva было разработано компанией'
+street_address: 'Drtinova 557/10'
+address_locality: 'Прага 5'
+```
