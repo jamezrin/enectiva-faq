@@ -24,9 +24,9 @@ pagination:
     prev: ' Früher'
 rel_title: 'Verwandte artikel'
 search_placeholder: 'Suche...'
-404:
-    error: '404 Nicht gefunden'
-    message: 'Was du suchst, ist nicht hier, sorry!'
+errors:
+    not_found: '404 Nicht gefunden'
+        message: 'Was du suchst, ist nicht hier, sorry!'
     back_home:  'Klicken Sie hier, um nach Hause zurückzukehren'
 footer:
     author_message: 'Energiemanagementlösung Enectiva wurde von der Firma entwickelt'

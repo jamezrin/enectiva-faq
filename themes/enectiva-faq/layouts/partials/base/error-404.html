@@ -2,7 +2,7 @@
 {{ $l := index .Site.Data.locales $lang }}
 
 <div class="error-404">
-    <h1 class="404-title">{{ $l.404.error }}</h1>
-    <p>{{ $l.404.message }}</p>
-    <p><a href="{{ .Site.BaseURL }}">{{ $l.404.back_home }}</a></p>
+    <h1 class="404-title">{{ $l.errors.not_found }}</h1>
+    <p>{{ $l.errors.not_found.message }}</p>
+    <p><a href="{{ .Site.BaseURL }}">{{ $l.errors.back_home }}</a></p>
 </div>

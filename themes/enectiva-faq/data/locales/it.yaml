@@ -24,9 +24,9 @@ pagination:
     prev: ' Precedente'
 rel_title: 'Articoli correlati'
 search_placeholder: 'Ricerca...'
-404:
-    error: '404 Non trovato'
-    message: "Quello che stai cercando non è qui, mi dispiace!"
+errors:
+    not_found: '404 Non trovato'
+        message: "Quello che stai cercando non è qui, mi dispiace!"
     back_home: 'Clicca qui per tornare a casa'
 footer:
     author_message: "La soluzione di gestione dell'energia Enectiva è stata sviluppata dalla società"
