@@ -71,8 +71,8 @@ pagination:
 rel_title: 'Související články'
 search_placeholder: 'Vyhledávání...'
 errors:
-    not_found: '404 Nenalezeno'
-        message: 'To, co hledáte, není tady, omlouvám se!'
+    not_found_title: '404 Nenalezeno'
+    not_found_message: 'To, co hledáte, není tady, omlouvám se!'
     back_home: 'Klikněte sem pro návrat domů'
 footer:
     author_message: 'Řešení energetické správy společnosti Enectiva bylo vyvinuto společností'

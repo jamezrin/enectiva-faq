@@ -1,48 +1,3 @@
-date:
-    abbr_day_names:
-        Sun: Ne
-        Mon: Po
-        Tue: Út
-        Wed: St
-        Thu: Čt
-        Fri: Pá
-        Sat: So
-    abbr_month_name:
-        Jan: Led
-        Feb: Úno
-        Mar: Bře
-        Apr: Dub
-        May: Kvě
-        Jun: Čvn
-        Jul: Čvc
-        Aug: Srp
-        Sep: Zář
-        Oct: Říj
-        Nov: Lis
-        Dec: Pro
-    day_names:
-        Sunday: pondělí
-        Monday: úterý
-        Tuesday: středa
-        Wednesday: čtvrtek
-        Thursday: pátek
-        Friday: sobota
-        Satuday: neděle
-    formats:
-        default: "2. January, 2006, Monday"
-    month_names:
-        January: leden
-        February: únor
-        March: březen
-        April: duben
-        May: květen
-        June: červen
-        July: červenec
-        August: srpen
-        September: září
-        October: říjen
-        November: listopad
-        December: prosinec
 meta_description: 'Enectiva представляет собой веб-информационную систему, предназначенную для управления энергопотреблением офисных зданий, торговых центров и других коммерческих недвижимостей.'
 meta_keywords: 'Enectiva, управление энергией, мониторинг энергии, энергосберегающие проекты, энергосбережение, мониторинг энергии, смарт измерения, дистанционное считывание показаний счетчиков'
 menu:
@@ -69,9 +24,10 @@ pagination:
     prev: ' Предыдущая'
 rel_title: 'Cтатьи по теме'
 search_placeholder: 'Поиск...'
-404_error: '404 Не Найдено'
-404_message: "Что вы ищете не здесь, извините!"
-404_back_home: 'Нажмите здесь, чтобы вернуться домой'
+errors:
+    not_found_title: '404 Не Найдено'
+    not_found_message: "Что вы ищете не здесь, извините!"
+    back_home: 'Нажмите здесь, чтобы вернуться домой'
 footer:
     author_message: 'Решение по управлению энергией Enectiva было разработано компанией'
 street_address: 'Drtinova 557/10'

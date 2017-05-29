@@ -70,8 +70,8 @@ pagination:
 rel_title: 'Related articles'
 search_placeholder: 'Search...'
 errors:
-    not_found: '404 Not Found'
-        message: "What you're looking for isn't here, sorry!"
+    not_found_title: '404 Not Found'
+    not_found_message: "What you're looking for isn't here, sorry!"
     back_home: 'Click here to go back home'
 footer:
     author_message: 'Energy management solution Enectiva was developed by the company'

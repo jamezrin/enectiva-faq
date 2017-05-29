@@ -70,8 +70,8 @@ pagination:
 rel_title: 'Artículos relacionados'
 search_placeholder: 'Buscar...'
 errors:
-    not_found: '404 Página no encontrada'
-        message: 'Lo que buscas no está aquí, lo siento!'
+    not_found_title: '404 Página no encontrada'
+    not_found_message: 'Lo que buscas no está aquí, lo siento!'
     back_home: 'Clic aquí para volver a la página principal'
 footer:
     author_message: 'Enectiva servicio de gestión energética fue desarrollado por la compañía'
