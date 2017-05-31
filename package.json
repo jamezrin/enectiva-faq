@@ -16,13 +16,22 @@
     "lunr-hugo": "^0.1.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "sudo grunt test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/josecobo1/enectiva-faq.git"
   },
-  "author": "",
+  "keywords": [
+    "website",
+    "hugo",
+    "framework",
+    "sass",
+    "js",
+    "json",
+    "lunr"
+  ],
+  "author": "josecobo1",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/josecobo1/enectiva-faq/issues"
