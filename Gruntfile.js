@@ -4,6 +4,7 @@ var grunt = require('grunt'),
 
 grunt.loadNpmTasks('grunt-open');
 grunt.loadNpmTasks('grunt-shell');
+grunt.loadNpmTasks('grunt-contrib-imagemin');
 
 module.exports = function(grunt) {
 

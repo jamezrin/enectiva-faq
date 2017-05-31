@@ -1,9 +1,31 @@
 {
   "devDependencies": {
     "grunt": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.1",
     "grunt-open": "^0.2.3",
     "grunt-shell": "^2.1.0",
     "string": "^3.3.3",
     "toml": "^2.3.2"
-  }
+  },
+  "name": "faq.enectiva.cz",
+  "description": "Enectiva FAQ is using [Hugo](https://gohugo.io/). In this site, we can view how to use Hugo: [https://gohugo.io/overview/usage/](https://gohugo.io/overview/usage/) Actually, we are using Hugo v.0.20.6, [lunrjs v2.0.3](https://github.com/olivernn/lunr.js), [horsey v4.2.2](https://bevacqua.github.io/horsey/) and [jQuery v3.2.1](https://bevacqua.github.io/horsey/)",
+  "version": "1.0.0",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "load-grunt-tasks": "^3.5.2",
+    "lunr-hugo": "^0.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josecobo1/enectiva-faq.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josecobo1/enectiva-faq/issues"
+  },
+  "homepage": "https://github.com/josecobo1/enectiva-faq#readme"
 }

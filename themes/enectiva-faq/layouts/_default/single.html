@@ -10,9 +10,11 @@
             {{ partial "internal/tags.html" . }}
         </div>
         <div class="post-content">
+            {{if ne .Params.toc false}}
             <div class="toc">
                 {{ .TableOfContents }}
             </div>
+            {{end}}
             {{ .Content }}
         </div>
     </div>
