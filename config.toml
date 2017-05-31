@@ -14,7 +14,7 @@ theme = "enectiva-faq"
 
 # Metadata format
 # "yaml", "toml", "json"
-metaDataFormat = "yaml"
+metaDataFormat = "toml"
 
 # Pagination
 paginate = 6

@@ -1,6 +1,4 @@
 {{ $lang := .Site.Language.Lang }}
 {{ $date := (index .Site.Data.locales $lang).date.formats.default }}
 
-<h2 class="post-published">{{ .Date.Format (printf $date) }}</h2>
-
-<time class="post-published" datetime="{{ .Date.Format (printf $date) }}"></time>
+<h2 class="post-published">{{ .Date.Format "January 2, 2006, Monday" }}</h2>
