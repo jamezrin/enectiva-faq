@@ -235,9 +235,9 @@ The gruntfile has several tasks inside. How each tasks something I must explain 
 3. Build all indexes.
 
 ```shell
-[sudo] test
-[sudo] build
-[sudo] all-indexes
+[sudo] grunt test
+[sudo] grunt build
+[sudo] grunt all-indexes
 ```
 
 ### How to work the multilingual mode into site.
