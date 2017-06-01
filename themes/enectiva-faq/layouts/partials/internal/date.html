@@ -1,4 +1,4 @@
 {{ $lang := .Site.Language.Lang }}
 {{ $date := (index .Site.Data.locales $lang).date.formats.default }}
 
-<h2 class="post-published">{{ .Date.Format "January 2, 2006, Monday" }}</h2>
+<h2 class="post-published"><i class="fa fa-calendar" aria-hidden="true"></i>{{ .Date.Format "January 2, 2006, Monday" }}</h2>

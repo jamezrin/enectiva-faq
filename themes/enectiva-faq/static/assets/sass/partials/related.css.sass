@@ -27,6 +27,9 @@
         text-align: left
         a
             border:
+                color: transparent
+                style: solid
+                width: 1px
                 radius: 4px
             padding:
                 top: .125rem
@@ -38,8 +41,10 @@
             &:active,
             &:focus,
             &:hover
+                border:
+                    color: $color-orange-dark
                 background-color: $color-orange-light
-                box-shadow: 0 0 1px 1px $color-orange-dark
+                box-shadow: 0 1px 1px -1px $color-orange-dark
 
 /* For mobiles devices */
 @media only screen and (max-width: 1024px)
