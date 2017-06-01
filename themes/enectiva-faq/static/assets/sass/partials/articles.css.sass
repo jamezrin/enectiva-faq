@@ -2,8 +2,7 @@
 
 .articles
     display: inline-block
-    padding:
-        bottom: 3rem
+    padding-bottom: 3rem
     margin:
         left: 3rem
         right: 3rem
@@ -30,30 +29,40 @@
                 text-decoration: underline
                 color: $color-orange
     &-published
-        float: right
         display: inline-block
         margin:
             bottom: 0
-            left: 0
+            left: 0.75rem
+        padding:
+            top: .25rem
+            right: .75rem
+            bottom: .25rem
+            left: .75rem
+        border:
+            color: $color-grey
+            style: solid
+            width: 1px
+            radius: 4px
         font:
+            size: 1rem
             weight: 100
         color: $color-grey-dark
+        &:active,
+        &:focus,
+        &:hover
+            border-color: $color-grey-dark
     &-summary
-        text:
-            align: justify
+        text-align: justify
     .read-more
-        margin:
-            top: .5rem
-        text:
-            align: right
+        margin-top: .5rem
+        text-align: right
         a
             border:
                 color: transparent
                 style: solid
                 width: 1px
             padding: .35rem
-            text:
-                decoration: underline
+            text-decoration: underline
             color: $color-orange-dark
             &:active,
             &:focus,
@@ -63,10 +72,8 @@
                     radius: 3px
                 style: solid
                 width: 1px
-                background:
-                    color: $color-orange
-                text:
-                    decoration: none
+                background-color: $color-orange
+                text-decoration: none
                 color: $color-white
 
 /* For mobiles devices */
