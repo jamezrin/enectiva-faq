@@ -38,7 +38,7 @@ blockquote
         bottom: .5rem
         left: 1rem
     font:
-        size: 1.25rem
+        size: 1rem
         style: italic
 
 code,
@@ -57,6 +57,7 @@ pre
         size: 1em
         family: Menlo, Consolas, 'DejaVu Sans Mono', 'Lucida Console', Monaco, 'Droid Sans Mono', monospace
     color: $color-blue
+    white-space: nowrap
 
 dt
     text:
@@ -91,44 +92,152 @@ h
             bottom: 2em
         font:
             size: 2em
+            weight: 600
+        color: #111
+        & + ol,
+        & + ul,
+        & + ol + p + ul + p + ol,
+        & + ul + p + ol + p + ul,
+        & + p,
+        & + p + ol,
+        & + p + ul,
+        & + p + p + ol,
+        & + p + p + ul
+            margin:
+                left: 2em
     &2
         clear: both
         margin:
             top: 1.5em
             bottom: 1.5em
+            left: .67em
         font:
             size: 1.5em
+            weight: 500
+        color: #222
+        & + ol,
+        & + ul,
+        & + ol + p + ul + p + ol,
+        & + ul + p + ol + p + ul,
+        & + p,
+        & + p + ol,
+        & + p + ul,
+        & + p + p + ol,
+        & + p + p + ul
+            margin:
+                left: .67em + 1em
     &3
         clear: both
         margin:
             top: 1.17em
             bottom: 1.17em
+            left: .83em + .67em
         font:
             size: 1.17em
+            weight: 400
+        color: #333
+        & + ol,
+        & + ul,
+        & + ol + p + ul + p + ol,
+        & + ul + p + ol + p + ul,
+        & + p,
+        & + p + ol,
+        & + p + ul,
+        & + p + p + ol,
+        & + p + p + ul
+            margin:
+                left: .83em + .67em + 1.25em
     &4
         clear: both
         margin:
             top: 1em
             bottom: 1em
+            left: 1em + .83em + .67em
         font:
             size: 1em
+            weight: 300
+        color: #444
+        & + ol,
+        & + ul,
+        & + ol + p + ul + p + ol,
+        & + ul + p + ol + p + ul,
+        & + p,
+        & + p + ol,
+        & + p + ul,
+        & + p + p + ol,
+        & + p + p + ul
+            margin:
+                left: 1em + .83em + .67em + 1.5em
     &5
         clear: both
         margin:
             top: .83em
             bottom: .83em
+            left: 1.17em + 1em + .83em + .67em
         font:
             size: .83em
+            weight: 200
+        color: #555
+        & + ol,
+        & + ul,
+        & + ol + p + ul + p + ol,
+        & + ul + p + ol + p + ul,
+        & + p,
+        & + p + ol,
+        & + p + ul,
+        & + p + p + ol,
+        & + p + p + ul
+            margin:
+                left: 1.17em + 1em + .83em + .67em + 2em
     &6
         clear: both
         margin:
             top: .67em
             bottom: .67em
+            left: 1.5em + 1.17em + 1em + .83em + 2.25em
         font:
             size: .67em
+            weight: 100
+        color: #666
+        & + ol,
+        & + ul,
+        & + ol + p + ul + p + ol,
+        & + ul + p + ol + p + ul,
+        & + p,
+        & + p + ol,
+        & + p + ul,
+        & + p + p + ol,
+        & + p + p + ul
+            margin:
+                left: 1.5em + 1.17em + 1em + .83em + .67em + 2.5em
     display: block
-    font:
-        weight: bold
+    font-weight: bold
+
+hr
+    border: 0
+    height: 0
+    border-top:
+        color: rgba(0, 0, 0, 0.1)
+        style: solid
+        width: 1px
+    border-bottom:
+        color: rgba(255, 255, 255, 0.3)
+        style: solid
+        width: 1px
+    & + p
+        margin:
+            right: 1.5em
+            left: 1.5em
+
+img
+    &.right,
+    &.left,
+    &.center
+        border:
+            color: $color-grey
+            style: solid
+            width: 1px
+        box-shadow: 0 0 3px 0 $color-grey
 
 label
     cursor: pointer
@@ -148,11 +257,13 @@ sup
 table
     border:
         collapse: collapse
+    box-shadow: 0px 2px 2px -1px $color-blue-light
 
 thead
     background:
         color: $color-blue-lighter
     color: $color-blue
+    box-shadow: 0px 1px 1px -1px
 
 td,
 th
@@ -165,10 +276,35 @@ th
         right: .50rem
         bottom: .250rem
         left: .50rem
-tr
-    &:nth-child(even)
-        background:
-            color: $color-grey-lighter
+
+ol,
+ul
+    display: inline-block
+    margin-top: 0
+
+p
+    hyphens: auto
+
+.right
+    float: right
+    margin:
+        top: 0
+        right: .25rem
+        bottom: 1rem
+        left: .25rem
+.left
+    float: left
+    margin:
+        top: 0
+        right: 1rem
+        bottom: 1rem
+        left: .25rem
+.center
+    display: block
+    margin: 0 auto
+    margin:
+        top: 1rem
+        bottom: 1rem
 
 /* For mobiles devices */
 @media only screen and (max-width: 1024px)

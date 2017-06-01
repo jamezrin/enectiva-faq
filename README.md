@@ -56,7 +56,7 @@ When you create a new post, automatically is created a file with a header. This 
 author = "Enectiva"
 date = "2017-04-25T13:22:46+02:00"
 sections = "third-party-manuals/sensors"
-url = "/en/third-party-manuals/sensors/example-1"
+url = "/en/sections/third-party-manuals/sensors/example-1"
 tags = ["word1","word2"]
 title = "title of file"
 
