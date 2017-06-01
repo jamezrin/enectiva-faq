@@ -51,17 +51,119 @@ When you have your empty file, you must go into the folder where you created the
 
 ### How to use the header of file (archetype)
 When you create a new post, automatically is created a file with a header. This header has the following labels by default, defined in your archetype:
-```md
+##### Version [CS]
+```toml
++++
+author = "Enectiva"
+date = "2017-04-19T13:34:25+02:00"
+oddily = "instrukce-k-instalaci"
+url = "/cs/oddily/instrukce-k-instalaci/example-1"
+tags = [
+    "slovo1",
+    "slovo2"
+]
+title = "Instrukce k instalaci #1"
+
++++
+```
+
+##### Version [DE]
+```toml
++++
+author = "Enectiva"
+date = "2017-04-19T12:48:07+02:00"
+abschnitte = "Handbucher"
+tags = [
+    "Wort1",
+    "Wort2"
+]
+title = "Handbücher #1"
+url = "/de/abschnitte/handbucher/example-1"
+
++++
+```
+
+##### Version [EN]
+```toml
 +++
 author = "Enectiva"
 date = "2017-04-25T13:22:46+02:00"
 sections = "third-party-manuals/sensors"
 url = "/en/sections/third-party-manuals/sensors/example-1"
-tags = ["word1","word2"]
+tags = [
+    "word1",
+    "word2"
+]
 title = "title of file"
 
 +++
 ```
+
+##### Version [ES]
+```toml
++++
+author = "Enectiva"
+date = "2017-05-31T12:32:37+02:00"
+secciones = "manuales/medidores"
+url = "/es/secciones/manuales/medidores/como-conectar-smartcoms-al-servidor"
+tags = [
+    "manuales",
+    "smartcoms"
+]
+title = "Cómo conectar SmartComs al servidor"
+toc = false
+
++++
+```
+
+##### Version [FR]
+```toml
++++
+author = "Enectiva"
+date = "2017-04-19T14:58:49+02:00"
+sections = "instructions-d-installation"
+url = "/fr/sections/instructions-d-installation/example-1"
+tags = [
+    "mot1",
+    "mot2"
+]
+title = "Instructions d'installation #1"
+
++++
+```
+
+##### Version [IT]
+```toml
++++
+author = "Enectiva"
+date = "2017-04-25T13:47:04+02:00"
+sezioni = "istruzioni-di-installazione/calibri"
+url = "/it/sezioni/istruzioni-di-installazione/calibri/example-1"
+tags = [
+    "parola1",
+    "parola2"
+]
+title = "Calibri #1"
+
++++
+```
+
+##### Version [RU]
+```toml
++++
+author = "Enectiva"
+date = "2017-04-19T13:13:16+02:00"
+razdely = "Instruktsiya po ustanovke"
+url = "/ru/razdely/instruktsiya-po-ustanovke/example-1"
+tags = [
+    "слово1",
+    "слово2"
+]
+title = "Инструкция по установке #1"
+
++++
+```
+
 Something to say:
 - In **sections** we must enter the section of file.
 - You must modify URL file, is important that redirect to file. If you don't enter the URL correctly, the search couldn't work.
