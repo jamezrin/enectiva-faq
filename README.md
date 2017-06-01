@@ -63,6 +63,7 @@ tags = [
     "slovo2"
 ]
 title = "Instrukce k instalaci #1"
+toc = false
 
 +++
 ```
@@ -79,6 +80,7 @@ tags = [
 ]
 title = "Handbücher #1"
 url = "/de/abschnitte/handbucher/example-1"
+toc = false
 
 +++
 ```
@@ -95,6 +97,7 @@ tags = [
     "word2"
 ]
 title = "title of file"
+toc = false
 
 +++
 ```
@@ -128,6 +131,7 @@ tags = [
     "mot2"
 ]
 title = "Instructions d'installation #1"
+toc = false
 
 +++
 ```
@@ -144,6 +148,7 @@ tags = [
     "parola2"
 ]
 title = "Calibri #1"
+toc = false
 
 +++
 ```
@@ -160,6 +165,7 @@ tags = [
     "слово2"
 ]
 title = "Инструкция по установке #1"
+toc = false
 
 +++
 ```
