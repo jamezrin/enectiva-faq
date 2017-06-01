@@ -26,12 +26,25 @@
         margin-right: .25rem
 .tag
     margin-right: .25rem
+    padding:
+        right: .25rem
+        left: .25rem
+    border:
+        color: $color-grey-dark
+        style: solid
+        width: 1px
+        radius: 2px
+    box-shadow: 0 1px 1px -1px
+    background-color: $color-grey-light
     color: $color-grey-dark
     &:active,
     &:focus,
     &:hover
+        border:
+            color: $color-blue
+        background-color: $color-blue-lighter
         text-decoration: underline
-        color: $color-orange
+        color: $color-blue
 
 /* For mobiles devices */
 @media only screen and (max-width: 1024px)

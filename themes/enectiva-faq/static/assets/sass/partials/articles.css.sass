@@ -16,7 +16,7 @@
         bottom: 1rem
     width: 47%
     &-title
-        display: inline-block
+        display: inline-flex
         margin:
             bottom: 1rem
             left: 0 !important
@@ -51,6 +51,8 @@
         &:focus,
         &:hover
             border-color: $color-grey-dark
+            background-color: $color-grey-light
+            color: #666
     &-summary
         text-align: justify
     .read-more
@@ -69,12 +71,12 @@
             &:hover
                 border:
                     color: $color-orange-dark
-                    radius: 3px
+                    radius: 4px
                 style: solid
                 width: 1px
-                background-color: $color-orange
+                background-color: $color-orange-light
                 text-decoration: none
-                color: $color-white
+                color: $color-orange-dark
 
 .fa
     &-calendar
