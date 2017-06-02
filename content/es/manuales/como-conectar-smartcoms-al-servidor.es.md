@@ -5,6 +5,7 @@ secciones = "manuales/medidores"
 url = "/es/secciones/manuales/medidores/como-conectar-smartcoms-al-servidor"
 tags = [
     "manuales",
+    "medidores",
     "smartcoms"
 ]
 title = "Cómo conectar SmartComs al servidor"
@@ -112,3 +113,5 @@ Es un terminal donde podemos insertar parámetros concretos que no se pueden con
 | `at^scping = "srestart"` |
 
 </center>
+
+Despué de introducir los parámetros anteriores, tienes que presionar el botoón `Start` para que descargue los datos al SmartCom. Una vez terminado el proceso conecta la antena, la tarjeta SIM o ethernet, dependiendo del método de conexión y comprueba que la luz deja de parpadear.
