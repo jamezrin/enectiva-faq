@@ -2,7 +2,7 @@
 author = "Enectiva"
 date = "2017-05-31T11:02:40+02:00"
 sections = "manuals/meters"
-url = "/en/manuals/how-to-connect-smartcoms-to-server"
+url = "/en/sections/manuals/how-to-connect-smartcoms-to-server"
 tags = [
     "manuals",
     "meters",
