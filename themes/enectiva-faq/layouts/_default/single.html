@@ -1,12 +1,16 @@
 {{ partial "base/metas.html" . }}
 {{ partial "base/header.html" . }}
 {{ partial "menu.html" . }}
+
     <div class="post-single">
         <h2 class="post-title">
             {{ .Title }}
-        </h2>{{ partial "internal/date.html" . }}
+        </h2>
         <div class="post-byline">
             {{ partial "internal/tags.html" . }}
+            <div class="post-date-time">
+                {{ partial "internal/date.html" . }}
+            </div>
         </div>
         <div class="post-content">
             {{if ne .Params.toc false}}
@@ -17,6 +21,5 @@
             {{ .Content }}
         </div>
     </div>
-
 {{ partial "internal/related-posts.html" . }}
 {{ partial "base/footer.html" . }}

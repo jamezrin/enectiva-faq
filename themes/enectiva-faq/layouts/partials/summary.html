@@ -4,7 +4,9 @@
 <div class="summary">
     <div class="post-header">
         {{ partial "title-home.html" . }}
-        {{ partial "internal/date.html" . }}
+        <div class="summary-date-time">
+            {{ partial "internal/date.html" . }}
+        </div>
         <div class="post-summary">
             {{ .Summary }}
         </div>
