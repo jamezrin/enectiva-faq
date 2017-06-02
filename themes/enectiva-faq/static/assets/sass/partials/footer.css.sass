@@ -2,6 +2,10 @@
     clear: both
     background-color: $color-grey
     margin: 0 auto
+    border-top:
+        color: $color-grey-darkest
+        style: solid
+        width: 1px
     padding:
         top: .875rem
         bottom: 2.625em
@@ -24,11 +28,18 @@
         width: 298px
 
     &-author
-        padding:
-            top: 1.75rem
-            right: 0
-            bottom: 1.75rem
-            left: 0
+        border:
+            color: $color-grey-darkest
+            style: solid
+            width: 1px
+            radius: 2px
+        padding: 1.5rem
+        color: $color-grey-darker
+        &:active,
+        &:focus,
+        &:hover
+            border-color: $color-grey-darker
+            background-color: $color-grey-lighter
     &-logo
         max:
             height: 3.05rem
