@@ -19,7 +19,6 @@ Te voy a acompañar en este viaje para que aprendas a conectar tu primer SmartCo
 
 
 ## Descargar recursos
----
 Antes de empezar, necesitas cumplir una serie de requisitos:
 
 - Tú ordenador debe tener al menos **Windows 7 / 8** o **10** para poder ejecutar el programa.
@@ -29,7 +28,6 @@ Antes de empezar, necesitas cumplir una serie de requisitos:
 
 
 ## Conectar el SmartCom al PC e instalar los drivers necesarios
----
 1. **El sistema no ha detectado el dispositivo y no ha instalado los drivers:**
 
 <img class="left" src="/images/not-installed-device.png" style="width:25%"></img>
@@ -47,7 +45,6 @@ Sí este es tu caso, estas de suerte, no tendrás que hacer absolutamente, únic
 
 
 ## Configuración del SmartCom y SmartCom PRO con Enectiva server
----
 Para poder configurar nuestro SmartCom, sea del tipo que sea, necesitamos el programa que te he mencionado anteriormente, sí aún no lo tienes puedes bajartelo desde [aquí](https://www.2n.cz/download/3/3/9/5/2n-smartcom-terminal-config-1.0.2.7.zip). Una vez que lo tengas lo ejecutas donde te aparecerá la foto que pudistes ver en el paso anterior. Ahora necesitas saber dos cosas:
 
 1. Qué puerto se ha instalado en tu sistema. Recuerdas el **Administrador de dispositivos** del que hemos hablado antes, pues ahí se encuentra el nombre de dicho puerto. Normalmente suele ser el puerto COM3, pero puede variar dependiendo de sí has instalado más puertos ya que te puede interesar configurar dos SmartComs simultáneamente.

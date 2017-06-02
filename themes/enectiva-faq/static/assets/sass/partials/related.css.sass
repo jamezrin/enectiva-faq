@@ -16,8 +16,24 @@
             left: 5rem
     &-title
         margin-left: 0
+        border:
+            color: $color-grey
+            style: solid
+            width: 1px
+            radius: 2px
+        padding:
+            top: .25rem
+            right: .75rem
+            bottom: .25rem
+            left: .75rem
         font-weight: 100
         color: $color-grey-dark
+        &:active,
+        &:focus,
+        &:hover
+            border-color: $color-grey-dark
+            background-color: $color-grey-light
+            color: $color-grey-darker
     &-list
         padding:
             top: .25rem

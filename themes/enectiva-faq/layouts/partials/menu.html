@@ -41,4 +41,7 @@
             <li><a href="{{ "ru/" | absURL }}" title="{{ $l.menu.title.ru }}"><span class="flag-icon flag-icon-ru"></span>{{ $l.menu.toggle.ru }}</a></li>
         </ul>
     </div>
+    {{ if ne .IsHome true}}
+        {{ partial "internal/breadcumbs.html" . }}
+    {{ end }}
 </div>
