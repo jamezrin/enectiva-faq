@@ -94,7 +94,7 @@ Here, the only we will have that consider is we needs the official firmware of E
 
 <img class="center" src="/images/fw-upload-terminal-configuration.png"></img>
 
-1. Push it to button `Browser` and find firmware `SC_1-12-0-12-24_Mbus_store_posledbin.bin`.
+1. Push it to button `Browser` and find firmware `SC_1-12-0-12-24_Mbus_store_posledni.bin`.
 2. Push it to `Accept`, it will close the file explorer and we will can start to update our SmartCom pushing `Start`.
 3. We waits a few minutes until to finish.
 

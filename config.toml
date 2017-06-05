@@ -84,6 +84,8 @@ paginatePath = "page"
                     sensor = "sensors"
                     gateway = "gateways"
                     converter = "converters"
+                    splitter = "splitters"
+                    concentrator = "concentrators"
         tag = "tags"
 
 [languages.it.taxonomies]
@@ -96,6 +98,8 @@ paginatePath = "page"
                     sensor = "sensori"
                     gateway = "gateways"
                     convertitore = "convertitori"
+                    splitter = "splitters"
+                    concentrator = "concentrators"
         tag = "tags"
 
 [languages.de.taxonomies]
@@ -108,6 +112,8 @@ paginatePath = "page"
                     sensor = "sensoren"
                     gateway = "gateways"
                     konverter = "wandler"
+                    splitter = "splitters"
+                    concentrator = "concentrators"
         tag = "tags"
 
 [languages.ru.taxonomies]
@@ -120,6 +126,8 @@ paginatePath = "page"
                     metr = "manometry"
                     datchik = "datchikov"
                     konverter = "preobrazovateli"
+                    splitter = "splitters"
+                    concentrator = "concentrators"
         tag = "tags"
 [languages.cs.taxonomies]
     czech = "cs"
@@ -131,6 +139,8 @@ paginatePath = "page"
                 brana = "brany"
                 senzor = "senzory"
                 konvertor = "prevodniky"
+                splitter = "splitters"
+                concentrator = "concentrators"
     tag = "tags"
 
 
@@ -144,6 +154,8 @@ paginatePath = "page"
                 capteur = "capteurs"
                 passerelle = "passerelles"
                 convertisseur = "convertisseurs"
+                splitter = "splitters"
+                concentrator = "concentrators"
     tag = "tags"
 
 [languages.es.taxonomies]
@@ -156,6 +168,8 @@ paginatePath = "page"
                 medidor = "medidores"
                 convertidor = "convertidores"
                 puerta-de-enlace = "puertas-de-enlace"
+                splitter = "splitters"
+                concentrator = "concentrators"
     tag = "tags"
 ## Taxonomies for language -- Finish ##
 
@@ -200,39 +214,53 @@ paginatePath = "page"
         parent = "installation-instructions"
         url = "/en/sections/installation-instructions/convertors"
 
+    [[languages.en.menu.main]]
+        name = "Splitters"
+        weight = 07
+        identifier = "ii-splitters"
+        parent = "installation-instructions"
+        url = "/en/sections/installation-instructions/splitters"
+
 [[languages.en.menu.main]]
     name = "Manuals"
-    weight = 07
+    weight = 08
     identifier = "manuals"
     url = "/en/sections/manuals/"
 
     [[languages.en.menu.main]]
         name = "Meters"
-        weight = 08
+        weight = 09
         identifier = "m-meters"
         parent = "manuals"
         url = "/en/sections/manuals/meters/"
 
     [[languages.en.menu.main]]
         name = "Sensors"
-        weight = 09
+        weight = 010
         identifier = "m-sensors"
         parent = "manuals"
         url = "/en/sections/manuals/sensors/"
 
     [[languages.en.menu.main]]
         name = "Gateways"
-        weight = 010
+        weight = 011
         identifier = "m-gateways"
         parent = "manuals"
         url = "/en/sections/manuals/gateways/"
 
     [[languages.en.menu.main]]
         name = "Convertors"
-        weight = 011
+        weight = 012
         identifier = "m-convertors"
         parent = "manuals"
         url = "/en/sections/manuals/convertors"
+
+    [[languages.en.menu.main]]
+        name = "Splitters"
+        weight = 013
+        identifier = "m-splitters"
+        parent = "manuals"
+        url = "/en/sections/manuals/splitters"
 
 [[languages.en.menu.main]]
     name = "Third-party manuals"
@@ -267,6 +295,13 @@ paginatePath = "page"
         identifier = "tpm-convertors"
         parent = "third-party-manuals"
         url = "/en/sections/third-party-manuals/convertors"
+
+    [[languages.en.menu.main]]
+        name = "Splitters"
+        weight = 017
+        identifier = "tpm-splitters"
+        parent = "third-party-manuals"
+        url = "/en/sections/third-party-manuals/splitters"
 
 [[languages.it.menu.main]]
     name = "Home"
@@ -308,73 +343,94 @@ paginatePath = "page"
         parent = "istruzioni-di-installazione"
         url = "/it/sezioni/istruzioni-di-installazione/convertitori"
 
+    [[languages.it.menu.main]]
+        name = "Splitters"
+        weight = 07
+        identifier = "ii-splitters"
+        parent = "istruzioni-di-installazione"
+        url = "/it/sezioni/istruzioni-di-installazione/splitters"
+
 [[languages.it.menu.main]]
     name = "Manuali"
-    weight = 07
+    weight = 08
     identifier = "manuali"
     url = "/it/sezioni/manuali/"
 
     [[languages.it.menu.main]]
         name = "Calibri"
-        weight = 08
+        weight = 09
         identifier = "m-calibri"
         parent = "manuali"
         url = "/it/sezioni/manuali/calibri/"
 
     [[languages.it.menu.main]]
         name = "Sensori"
-        weight = 09
+        weight = 10
         identifier = "m-sensori"
         parent = "manuali"
         url = "/it/sezioni/manuali/sensori/"
 
     [[languages.it.menu.main]]
         name = "Gateways"
-        weight = 010
+        weight = 011
         identifier = "m-gateways"
         parent = "manuali"
         url = "/it/sezioni/manuali/gateways/"
 
     [[languages.it.menu.main]]
         name = "Convertitori"
-        weight = 011
+        weight = 012
         identifier = "m-convertitori"
         parent = "manuali"
         url = "/it/sezioni/manuali/convertitori"
 
+    [[languages.it.menu.main]]
+        name = "Splitters"
+        weight = 013
+        identifier = "m-splitters"
+        parent = "manuali"
+        url = "/it/sezioni/manuali/splitters"
+
 [[languages.it.menu.main]]
     name = "Manuali Terzo"
-    weight = 012
+    weight = 014
     identifier = "manuali-terzo"
     url = "/it/sezioni/manuali-terzo/"
 
     [[languages.it.menu.main]]
         name = "Calibri"
-        weight = 013
+        weight = 015
         identifier = "mt-calibri"
         parent = "manuali-terzo"
         url = "/it/sezioni/manuali-terzo/calibri/"
 
     [[languages.it.menu.main]]
         name = "Sensori"
-        weight = 014
+        weight = 016
         identifier = "mt-sensori"
         parent = "manuali-terzo"
         url = "/it/sezioni/manuali-terzo/sensori/"
 
     [[languages.it.menu.main]]
         name = "Gateways"
-        weight = 015
+        weight = 017
         identifier = "mt-gateways"
         parent = "manuali-terzo"
         url = "/it/sezioni/manuali-terzo/gateways/"
 
     [[languages.it.menu.main]]
         name = "Convertitori"
-        weight = 016
+        weight = 018
         identifier = "mt-convertitori"
         parent = "manuali-terzo"
         url = "/it/sezioni/manuali-terzo/convertitori"
+
+    [[languages.it.menu.main]]
+        name = "Splitters"
+        weight = 019
+        identifier = "mt-splitters"
+        parent = "manuali-terzo"
+        url = "/it/sezioni/manuali-terzo/splitters"
 
 [[languages.de.menu.main]]
     name = "Home"
@@ -416,73 +472,94 @@ paginatePath = "page"
         parent = "installationsanleitung"
         url = "/de/abschnitte/installationsanleitung/wandler/"
 
+    [[languages.de.menu.main]]
+        name = "Splitters"
+        weight = 07
+        identifier = "i-splitters"
+        parent = "installationsanleitung"
+        url = "/de/abschnitte/installationsanleitung/splitters/"
+
 [[languages.de.menu.main]]
     name = "Handbücher"
-    weight = 07
+    weight = 08
     identifier = "handbucher"
     url = "/de/abschnitte/handbucher/"
 
     [[languages.de.menu.main]]
         name = "Lehren"
-        weight = 08
+        weight = 09
         identifier = "h-lehren"
         parent = "handbucher"
         url = "/de/abschnitte/handbucher/lehren/"
 
     [[languages.de.menu.main]]
         name = "Sensoren"
-        weight = 09
+        weight = 010
         identifier = "h-sensoren"
         parent = "handbucher"
         url = "/de/abschnitte/handbucher/sensoren/"
 
     [[languages.de.menu.main]]
         name = "Gateways"
-        weight = 010
+        weight = 011
         identifier = "h-gateways"
         parent = "handbucher"
         url = "/de/abschnitte/handbucher/gateways/"
 
     [[languages.de.menu.main]]
         name = "Wandler"
-        weight = 011
+        weight = 012
         identifier = "h-wandler"
         parent = "handbucher"
         url = "/de/abschnitte/handbucher/wandler/"
 
+    [[languages.de.menu.main]]
+        name = "Splitters"
+        weight = 013
+        identifier = "h-splitters"
+        parent = "handbucher"
+        url = "/de/abschnitte/handbucher/splitters/"
+
 [[languages.de.menu.main]]
     name = "Handbücher Dritte"
-    weight = 012
+    weight = 014
     identifier = "handbucher-dritte"
     url = "/de/abschnitte/handbucher-dritte/"
 
     [[languages.de.menu.main]]
         name = "Lehren"
-        weight = 013
+        weight = 015
         identifier = "hd-lehren"
         parent = "handbucher-dritte"
         url = "/de/abschnitte/handbucher-dritte/lehren/"
 
     [[languages.de.menu.main]]
         name = "Sensoren"
-        weight = 014
+        weight = 016
         identifier = "hd-sensoren"
         parent = "handbucher-dritte"
         url = "/de/abschnitte/handbucher-dritte/sensoren/"
 
     [[languages.de.menu.main]]
         name = "Gateways"
-        weight = 015
+        weight = 017
         identifier = "hd-gateways"
         parent = "handbucher-dritte"
         url = "/de/abschnitte/handbucher-dritte/gateways/"
 
     [[languages.de.menu.main]]
         name = "Wandler"
-        weight = 016
+        weight = 018
         identifier = "hd-wandler"
         parent = "handbucher-dritte"
         url = "/de/abschnitte/handbucher-dritte/wandler/"
+
+    [[languages.de.menu.main]]
+        name = "Splitters"
+        weight = 019
+        identifier = "hd-splitters"
+        parent = "handbucher-dritte"
+        url = "/de/abschnitte/handbucher-dritte/splitters/"
 
 [[languages.ru.menu.main]]
     name = "Home"
@@ -524,73 +601,94 @@ paginatePath = "page"
         parent = "instruktsiya-po-ustanovke"
         url = "/ru/razdely/instruktsiya-po-ustanovke/preobrazovateli/"
 
+    [[languages.ru.menu.main]]
+        name = "Splitters"
+        weight = 07
+        identifier = "iu-splitters"
+        parent = "instruktsiya-po-ustanovke"
+        url = "/ru/razdely/instruktsiya-po-ustanovke/splitters/"
+
 [[languages.ru.menu.main]]
     name = "Руководства"
-    weight = 07
+    weight = 08
     identifier = "rukovodstva"
     url = "/ru/razdely/rukovodstva/"
 
     [[languages.ru.menu.main]]
         name = "Шлюзы"
-        weight = 08
+        weight = 09
         identifier = "r-shlyuzy"
         parent = "rukovodstva"
         url = "/ru/razdely/rukovodstva/shlyuzy/"
 
     [[languages.ru.menu.main]]
         name = "Mанометры"
-        weight = 09
+        weight = 010
         identifier = "r-manometry"
         parent = "rukovodstva"
         url = "/ru/razdely/rukovodstva/manometry/"
 
     [[languages.ru.menu.main]]
         name = "датчиков"
-        weight = 010
+        weight = 011
         identifier = "r-datchikov"
         parent = "rukovodstva"
         url = "/ru/razdely/rukovodstva/datchikov/"
 
     [[languages.ru.menu.main]]
         name = "Преобразователи"
-        weight = 011
+        weight = 012
         identifier = "r-preobrazovateli"
         parent = "rukovodstva"
         url = "/ru/razdely/rukovodstva/preobrazovateli/"
 
+    [[languages.ru.menu.main]]
+        name = "Splitters"
+        weight = 013
+        identifier = "r-splitters"
+        parent = "rukovodstva"
+        url = "/ru/razdely/rukovodstva/splitters/"
+
 [[languages.ru.menu.main]]
     name = "Pуководства третьего"
-    weight = 012
+    weight = 014
     identifier = "rukovodstva-tret-yego"
     url = "/ru/razdely/rukovodstva-tret-yego/"
 
     [[languages.ru.menu.main]]
         name = "Шлюзы"
-        weight = 013
+        weight = 015
         identifier = "rty-shlyuzy"
         parent = "rukovodstva-tret-yego"
         url = "/ru/razdely/rukovodstva-tret-yego/shlyuzy/"
 
     [[languages.ru.menu.main]]
         name = "Mанометры"
-        weight = 014
+        weight = 016
         identifier = "rty-manometry"
         parent = "rukovodstva-tret-yego"
         url = "/ru/razdely/rukovodstva-tret-yego/manometry/"
 
     [[languages.ru.menu.main]]
         name = "датчиков"
-        weight = 015
+        weight = 017
         identifier = "rty-datchikov"
         parent = "rukovodstva-tret-yego"
         url = "/ru/razdely/rukovodstva-tret-yego/datchikov/"
 
     [[languages.ru.menu.main]]
         name = "Преобразователи"
-        weight = 016
+        weight = 018
         identifier = "rty-preobrazovateli"
         parent = "rukovodstva-tret-yego"
         url = "/ru/razdely/rukovodstva-tret-yego/preobrazovateli/"
+
+    [[languages.ru.menu.main]]
+        name = "Splitters"
+        weight = 018
+        identifier = "rty-splitters"
+        parent = "rukovodstva-tret-yego"
+        url = "/ru/razdely/rukovodstva-tret-yego/splitters/"
 
 [[languages.cs.menu.main]]
     name = "Home"
@@ -632,73 +730,94 @@ paginatePath = "page"
         parent = "instrukce-k-instalaci"
         url = "/cs/oddily/instrukce-k-instalaci/prevodniky/"
 
+    [[languages.cs.menu.main]]
+        name = "Splitters"
+        weight = 07
+        identifier = "ii-splitters"
+        parent = "instrukce-k-instalaci"
+        url = "/cs/oddily/instrukce-k-instalaci/splitters/"
+
 [[languages.cs.menu.main]]
     name = "Manuály"
-    weight = 07
+    weight = 08
     identifier = "manualy"
     url = "/cs/oddily/manualy/"
 
     [[languages.cs.menu.main]]
         name = "Měřidla"
-        weight = 08
+        weight = 09
         identifier = "m-meridla"
         parent = "manualy"
         url = "/cs/oddily/manualy/meridla"
 
     [[languages.cs.menu.main]]
         name = "Senzory"
-        weight = 09
+        weight = 010
         identifier = "m-senzory"
         parent = "manualy"
         url = "/cs/oddily/manualy/senzory/"
 
     [[languages.cs.menu.main]]
         name = "Brány"
-        weight = 010
+        weight = 011
         identifier = "m-brany"
         parent = "manualy"
         url = "/cs/oddily/manualy/brany/"
 
     [[languages.cs.menu.main]]
         name = "Převodníky"
-        weight = 011
+        weight = 012
         identifier = "m-prevodniky"
         parent = "manualy"
         url = "/cs/oddily/manualy/prevodniky/"
 
+    [[languages.cs.menu.main]]
+        name = "Splitters"
+        weight = 013
+        identifier = "m-splitters"
+        parent = "manualy"
+        url = "/cs/oddily/manualy/splitters/"
+
 [[languages.cs.menu.main]]
     name = "Manuály třetí"
-    weight = 06
+    weight = 14
     identifier = "manualy-treti"
     url = "/cs/oddily/manualy-treti/"
 
     [[languages.cs.menu.main]]
         name = "Měřidla"
-        weight = 08
+        weight = 15
         identifier = "mt-meridla"
         parent = "manualy-treti"
         url = "/cs/oddily/manualy-treti/meridla"
 
     [[languages.cs.menu.main]]
         name = "Senzory"
-        weight = 09
+        weight = 16
         identifier = "mt-senzory"
         parent = "manualy-treti"
         url = "/cs/oddily/manualy-treti/senzory/"
 
     [[languages.cs.menu.main]]
         name = "Brány"
-        weight = 010
+        weight = 017
         identifier = "mt-brany"
         parent = "manualy-treti"
         url = "/cs/oddily/manualy-treti/brany/"
 
     [[languages.cs.menu.main]]
         name = "Převodníky"
-        weight = 011
+        weight = 018
         identifier = "mt-prevodniky"
         parent = "manualy-treti"
         url = "/cs/oddily/manualy-treti/prevodniky/"
+
+    [[languages.cs.menu.main]]
+        name = "Splitters"
+        weight = 019
+        identifier = "mt-splitters"
+        parent = "manualy-treti"
+        url = "/cs/oddily/manualy-treti/splitters/"
 
 [[languages.fr.menu.main]]
     name = "Home"
@@ -740,73 +859,94 @@ paginatePath = "page"
         parent = "instructions-d-installation"
         url = "/fr/sections/instructions-d-installation/convertisseurs/"
 
+    [[languages.fr.menu.main]]
+        name = "Splitters"
+        weight = 07
+        identifier = "ii-splitters"
+        parent = "instructions-d-installation"
+        url = "/fr/sections/instructions-d-installation/splitters/"
+
 [[languages.fr.menu.main]]
     name = "Manuels"
-    weight = 07
+    weight = 08
     identifier = "manuels"
     url = "/fr/sections/manuels/"
 
     [[languages.fr.menu.main]]
         name = "Jauges"
-        weight = 08
+        weight = 09
         identifier = "m-jauges"
         parent = "manuels"
         url = "/fr/sections/manuels/jauges/"
 
     [[languages.fr.menu.main]]
         name = "Capteurs"
-        weight = 09
+        weight = 010
         identifier = "m-capteurs"
         parent = "manuels"
         url = "/fr/sections/manuels/capteurs/"
 
     [[languages.fr.menu.main]]
         name = "Passerelles"
-        weight = 010
+        weight = 011
         identifier = "m-passerelles"
         parent = "manuels"
         url = "/fr/sections/manuels/passerelles/"
 
     [[languages.fr.menu.main]]
         name = "Convertisseurs"
-        weight = 011
+        weight = 012
         identifier = "m-convertisseurs"
         parent = "manuels"
         url = "/fr/sections/manuels/convertisseurs/"
 
+    [[languages.fr.menu.main]]
+        name = "Splitters"
+        weight = 013
+        identifier = "m-splitters"
+        parent = "manuels"
+        url = "/fr/sections/manuels/splitters/"
+
 [[languages.fr.menu.main]]
     name = "Manuels Troisième"
-    weight = 012
+    weight = 014
     identifier = "manuels-troisieme"
     url = "/fr/sections/manuels-troisieme/"
 
     [[languages.fr.menu.main]]
         name = "Jauges"
-        weight = 013
+        weight = 015
         identifier = "mt-jauges"
         parent = "manuels-troisieme"
         url = "/fr/sections/manuels-troisieme/jauges/"
 
     [[languages.fr.menu.main]]
         name = "Capteurs"
-        weight = 014
+        weight = 016
         identifier = "mt-capteurs"
         parent = "manuels-troisieme"
         url = "/fr/sections/manuels-troisieme/capteurs/"
 
     [[languages.fr.menu.main]]
         name = "Passerelles"
-        weight = 015
+        weight = 017
         identifier = "mt-passerelles"
         parent = "manuels-troisieme"
         url = "/fr/sections/manuels-troisieme/passerelles/"
 
     [[languages.fr.menu.main]]
         name = "Convertisseurs"
-        weight = 016
+        weight = 018
         identifier = "mt-convertisseurs"
         parent = "manuels-troisieme"
         url = "/fr/sections/manuels-troisieme/convertisseurs/"
+
+    [[languages.fr.menu.main]]
+        name = "Splitters"
+        weight = 019
+        identifier = "mt-splitters"
+        parent = "manuels-troisieme"
+        url = "/fr/sections/manuels-troisieme/splitters/"
 
 [[languages.es.menu.main]]
     name = "Inicio"
@@ -848,72 +988,93 @@ paginatePath = "page"
         parent = "instrucciones-de-instalacion"
         url = "/es/secciones/instrucciones-de-instalacion/convertidores"
 
+    [[languages.es.menu.main]]
+        name = "Splitters"
+        weight = 07
+        identifier = "ii-splitters"
+        parent = "instrucciones-de-instalacion"
+        url = "/es/secciones/instrucciones-de-instalacion/splitters"
+
 [[languages.es.menu.main]]
     name = "Manuales"
-    weight = 07
+    weight = 08
     identifier = "manuales"
     url = "/es/secciones/manuales/"
 
     [[languages.es.menu.main]]
         name = "Medidores"
-        weight = 08
+        weight = 09
         identifier = "m-medidores"
         parent = "manuales"
         url = "/es/secciones/manuales/medidores"
 
     [[languages.es.menu.main]]
         name = "Sensores"
-        weight = 09
+        weight = 010
         identifier = "m-sensores"
         parent = "manuales"
         url = "/es/secciones/manuales/sensores/"
 
     [[languages.es.menu.main]]
         name = "Gateways"
-        weight = 010
+        weight = 011
         identifier = "m-gateways"
         parent = "manuales"
         url = "/es/secciones/manuales/puertas-de-enlace/"
 
     [[languages.es.menu.main]]
         name = "Convertidores"
-        weight = 011
+        weight = 012
         identifier = "m-convertidores"
         parent = "manuales"
         url = "/es/secciones/manuales/convertidores"
 
+    [[languages.es.menu.main]]
+        name = "Splitters"
+        weight = 013
+        identifier = "m-splitters"
+        parent = "manuales"
+        url = "/es/secciones/manuales/splitters"
+
 [[languages.es.menu.main]]
     name = "Manuales de terceros"
-    weight = 012
+    weight = 014
     identifier = "manuales-de-terceros"
     url = "/es/secciones/manuales-de-terceros/"
 
     [[languages.es.menu.main]]
         name = "Medidores"
-        weight = 013
+        weight = 015
         identifier = "mt-medidores"
         parent = "manuales-de-terceros"
         url = "/es/secciones/manuales-de-terceros/medidores"
 
     [[languages.es.menu.main]]
         name = "Sensores"
-        weight = 014
+        weight = 016
         identifier = "mt-sensores"
         parent = "manuales-de-terceros"
         url = "/es/secciones/manuales-de-terceros/sensores/"
 
     [[languages.es.menu.main]]
         name = "Gateways"
-        weight = 015
+        weight = 017
         identifier = "mt-gateways"
         parent = "manuales-de-terceros"
         url = "/es/secciones/manuales-de-terceros/puertas-de-enlace/"
 
     [[languages.es.menu.main]]
         name = "Convertidores"
-        weight = 016
+        weight = 018
         identifier = "mt-convertidores"
         parent = "manuales-de-terceros"
         url = "/es/secciones/manuales-de-terceros/convertidores"
+
+    [[languages.es.menu.main]]
+        name = "Splitters"
+        weight = 019
+        identifier = "mt-splitters"
+        parent = "manuales-de-terceros"
+        url = "/es/secciones/manuales-de-terceros/splitters"
 
 ## Menu for language -- Finish ##

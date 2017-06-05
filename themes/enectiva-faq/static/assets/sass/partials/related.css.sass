@@ -14,6 +14,7 @@
             right: 2rem
             bottom: 2rem
             left: 5rem
+        width: 30%
         margin-top: 5rem
     &-title
         margin-left: 0
@@ -36,25 +37,25 @@
             background-color: $color-grey-light
             color: $color-grey-darker
     &-list
-        padding:
-            top: .25rem
-            bottom: .25rem
-            left: 1rem
+        padding: 0
+        margin: 0
         list-style-type: none
         text-align: left
-        a
+        li
             border:
                 color: transparent
                 style: solid
                 width: 1px
                 radius: 4px
-            padding:
-                top: .125rem
-                right: .125rem
-                bottom: .125rem
-                left: .125rem
-            font-size: 1em
-            color: $color-orange-dark
+            a
+                padding:
+                    top: .125rem
+                    right: .125rem
+                    bottom: .125rem
+                    left: .125rem
+                line-height: 1.5rem
+                font-size: 1em
+                color: $color-orange-dark
             &:active,
             &:focus,
             &:hover

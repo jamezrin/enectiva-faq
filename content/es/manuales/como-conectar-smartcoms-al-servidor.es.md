@@ -95,7 +95,7 @@ Aquí lo único que tendremos que tener en cuenta es que necesitamos el Firmware
 
 <img class="center" src="/images/fw-upload-terminal-configuration.png"></img>
 
-1. Darle al botón `Browser` y encontrar el firmware `SC_1-12-0-12-24_Mbus_store_poslebin.bin`.
+1. Darle al botón `Browser` y encontrar el firmware `SC_1-12-0-12-24_Mbus_store_posledni.bin`.
 2. Darle a `Aceptar`, se cerrará la ventana de explorador de archivos y ya podremos empezar a actualizar nuestro SmartCom pulsando `Start`.
 3. Esperamos unos minutos hasta que finalice.
 
