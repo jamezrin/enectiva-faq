@@ -1,0 +1,67 @@
+main_menu:
+    home:
+        name: Home
+        URL: /cs/
+    installations_instructions:
+        name: Instrukce k Instalaci
+        URL: /cs/oddily/instrukce-k-instalaci/
+        meters:
+            name: Měřidla
+            URL: /cs/oddily/instrukce-k-instalaci/meridla/
+        sensors:
+            name: Senzory
+            URL: /cs/oddily/instrukce-k-instalaci/senzory/
+        gateways:
+            name: Brány
+            URL: /cs/oddily/instrukce-k-instalaci/brany/
+        convertors:
+            name: Převodníky
+            URL: /cs/oddily/instrukce-k-instalaci/prevodniky/
+        splitters:
+            name: Rozdělovače
+            URL: /cs/oddily/instrukce-k-instalaci/rozdelovace/
+        concentrators:
+            name: Koncentrátory
+            URL: /cs/oddily/instrukce-k-instalaci/koncentratory/
+    manuals:
+        name: Manuály
+        URL: /cs/oddily/manualy/
+        meters:
+            name: Měřidla
+            URL: /cs/oddily/manualy/meridla
+        sensors:
+            name: Senzory
+            URL: /cs/oddily/manualy/senzory/
+        gateways:
+            name: Brány
+            URL: /cs/oddily/manualy/brany/
+        convertors:
+            name: Převodníky
+            URL: /cs/oddily/manualy/prevodniky/
+        splitters:
+            name: Rozdělovače
+            URL: /cs/oddily/manualy/rozdelovace/
+        concentrators:
+            name: Koncentrátory
+            URL: /cs/oddily/manualy/koncentratory/
+    third-party-manuals:
+        name: Manuály třetí
+        URL: /cs/oddily/manualy-treti/
+        meters:
+            name: Měřidla
+            URL: /cs/oddily/manualy-treti/meridla
+        sensors:
+            name: Senzory
+            URL: /cs/oddily/manualy-treti/senzory/
+        gateways:
+            name: Brány
+            URL: /cs/oddily/manualy-treti/brany/
+        convertors:
+            name: Převodníky
+            URL: /cs/oddily/manualy-treti/prevodniky/
+        splitters:
+            name: Rozdělovače
+            URL: /cs/oddily/manualy-treti/rozdelovace/
+        concentrators:
+            name: Koncentrátory
+            URL: /cs/oddily/manualy-treti/koncentratory/

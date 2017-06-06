@@ -1,0 +1,67 @@
+main_menu:
+    home:
+        name: Inicio
+        URL: /es/
+    installations_instructions:
+        name: Instrucciones de instalación
+        URL: /es/secciones/instrucciones-de-instalacion/
+        meters:
+            name: Medidores
+            URL: /es/secciones/instrucciones-de-instalacion/medidores
+        sensors:
+            name: Sensores
+            URL: /es/secciones/instrucciones-de-instalacion/sensores/
+        gateways:
+            name: Gateways
+            URL: /es/secciones/instrucciones-de-instalacion/puertas-de-enlace/
+        convertors:
+            name: Convertidores
+            URL: /es/secciones/instrucciones-de-instalacion/convertidores
+        splitters:
+            name: Splitters
+            URL: /es/secciones/instrucciones-de-instalacion/splitters
+        concentrators:
+            name: Concentradores
+            URL: /es/secciones/instrucciones-de-instalacion/concentradores
+    manuals:
+        name: Manuales
+        URL: /es/secciones/manuales/
+        meters:
+            name: Medidores
+            URL: /es/secciones/manuales/medidores
+        sensors:
+            name: Sensores
+            URL: /es/secciones/manuales/sensores/
+        gateways:
+            name: Gateways
+            URL: /es/secciones/manuales/puertas-de-enlace/
+        convertors:
+            name: Convertidores
+            URL: /es/secciones/manuales/convertidores
+        splitters:
+            name: Splitters
+            URL: /es/secciones/manuales/splitters
+        concentrators:
+            name: Concentradores
+            URL: /es/secciones/manuales/concentradores
+    third-party-manuals:
+        name: Manuales de terceros
+        URL: /es/secciones/manuales-de-terceros/
+        meters:
+            name: Medidores
+            URL: /es/secciones/manuales-de-terceros/medidores
+        sensors:
+            name: Sensores
+            URL: /es/secciones/manuales-de-terceros/sensores/
+        gateways:
+            name: Gateways
+            URL: /es/secciones/manuales-de-terceros/puertas-de-enlace/
+        convertors:
+            name: Convertidores
+            URL: /es/secciones/manuales-de-terceros/convertidores
+        splitters:
+            name: Splitters
+            URL: /es/secciones/manuales-de-terceros/splitters
+        concentrators:
+            name: Concentradores
+            URL: /es/secciones/manuales-de-terceros/concentradores

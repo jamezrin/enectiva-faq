@@ -1,0 +1,67 @@
+main_menu:
+    home:
+        name: Home
+        URL: /it/
+    installations_instructions:
+        name: Istruzioni di Installazione
+        URL: /it/sezioni/istruzioni-di-installazione/
+        meters:
+            name: Calibri
+            URL: /it/sezioni/istruzioni-di-installazione/calibri/
+        sensors:
+            name: Sensori
+            URL: /it/sezioni/istruzioni-di-installazione/sensori/
+        gateways:
+            name: Gateways
+            URL: /it/sezioni/istruzioni-di-installazione/gateways/
+        convertors:
+            name: Convertitori
+            URL: /it/sezioni/istruzioni-di-installazione/convertitori
+        splitters:
+            name: Splitters
+            URL: /it/sezioni/istruzioni-di-installazione/splitters
+        concentrators:
+            name: Concentratori
+            URL: /it/sezioni/istruzioni-di-installazione/concentratori
+    manuals:
+        name: Manuali
+        URL: /it/sezioni/manuali/
+        meters:
+            name: Calibri
+            URL: /it/sezioni/manuali/calibri/
+        sensors:
+            name: Sensori
+            URL: /it/sezioni/manuali/sensori/
+        gateways:
+            name: Gateways
+            URL: /it/sezioni/manuali/gateways/
+        convertors:
+            name: Convertitori
+            URL: /it/sezioni/manuali/convertitori
+        splitters:
+            name: Splitters
+            URL: /it/sezioni/manuali/splitters
+        concentrators:
+            name: Concentratori
+            URL: /it/sezioni/manuali/concentratori
+    third-party-manuals:
+        name: Manuali Terzo
+        URL: /it/sezioni/manuali-terzo/
+        meters:
+            name: Calibri
+            URL: /it/sezioni/manuali-terzo/calibri/
+        sensors:
+            name: Sensori
+            URL: /it/sezioni/manuali-terzo/sensori/
+        gateways:
+            name: Gateways
+            URL: /it/sezioni/manuali-terzo/gateways/
+        convertors:
+            name: Convertitori
+            URL: /it/sezioni/manuali-terzo/convertitori
+        splitters:
+            name: Splitters
+            URL: /it/sezioni/manuali-terzo/splitters
+        concentrators:
+            name: Concentratori
+            URL: /it/sezioni/manuali-terzo/concentratori

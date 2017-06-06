@@ -1,0 +1,67 @@
+main_menu:
+    home:
+        name: Home
+        URL: /ru/
+    installations_instructions:
+        name: Инструкция по установке
+        URL: /ru/razdely/instruktsiya-po-ustanovke/
+        meters:
+            name: Шлюзы
+            URL: /ru/razdely/instruktsiya-po-ustanovke/shlyuzy
+        sensors:
+            name: Mанометры
+            URL: /ru/razdely/instruktsiya-po-ustanovke/manometry/
+        gateways:
+            name: датчиков
+            URL: /ru/razdely/instruktsiya-po-ustanovke/datchikov/
+        convertors:
+            name: Преобразователи
+            URL: /ru/razdely/instruktsiya-po-ustanovke/preobrazovateli/
+        splitters:
+            name: Сплиттеры
+            URL: /ru/razdely/instruktsiya-po-ustanovke/razvetviteli/
+        concentrators:
+            name: Концентраторы
+            URL: /ru/razdely/instruktsiya-po-ustanovke/kontsentratory/
+    manuals:
+        name: Руководства
+        URL: /ru/razdely/rukovodstva/
+        meters:
+            name: Шлюзы
+            URL: /ru/razdely/rukovodstva/shlyuzy/
+        sensors:
+            name: Mанометры
+            URL: /ru/razdely/rukovodstva/manometry/
+        gateways:
+            name: датчиков
+            URL: /ru/razdely/rukovodstva/datchikov/
+        convertors:
+            name: Преобразователи
+            URL: /ru/razdely/rukovodstva/preobrazovateli/
+        splitters:
+            name: Сплиттеры
+            URL: /ru/razdely/rukovodstva/razvetviteli/
+        concentrators:
+            name: Концентраторы
+            URL: /ru/razdely/rukovodstva/kontsentratory/
+    third-party-manuals:
+        name: Pуководства третьего
+        URL: /ru/razdely/rukovodstva-tret-yego/
+        meters:
+            name: Шлюзы
+            URL: /ru/razdely/rukovodstva-tret-yego/shlyuzy/
+        sensors:
+            name: Mанометры
+            URL: /ru/razdely/rukovodstva-tret-yego/manometry/
+        gateways:
+            name: датчиков
+            URL: /ru/razdely/rukovodstva-tret-yego/datchikov/
+        convertors:
+            name: Преобразователи
+            URL: /ru/razdely/rukovodstva-tret-yego/preobrazovateli/
+        splitters:
+            name: Сплиттеры
+            URL: /ru/razdely/rukovodstva-tret-yego/razvetviteli/
+        concentrators:
+            name: Концентраторы
+            URL: /ru/razdely/rukovodstva-tret-yego/kontsentratory/

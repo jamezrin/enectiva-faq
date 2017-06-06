@@ -1,0 +1,67 @@
+main_menu:
+    home:
+        name: Home
+        URL: /fr/
+    installations_instructions:
+        name: Instructions d' Installation
+        URL: /fr/sections/instructions-d-installation
+        meters:
+            name: Jauges
+            URL: /fr/sections/instructions-d-installation/jauges/
+        sensors:
+            name: Capteurs
+            URL: /fr/sections/instructions-d-installation/capteurs/
+        gateways:
+            name: Passerelles
+            URL: /fr/sections/instructions-d-installation/passerelles/
+        convertors:
+            name: Convertisseurs
+            URL: /fr/sections/instructions-d-installation/convertisseurs/
+        splitters:
+            name: Diviseurs
+            URL: /fr/sections/instructions-d-installation/diviseurs/
+        concentrators:
+            name: Concentrateurs
+            URL: /fr/sections/instructions-d-installation/concentrateurs/
+    manuals:
+        name: Manuels
+        URL: /fr/sections/manuels/
+        meters:
+            name: Jauges
+            URL: /fr/sections/manuels/jauges/
+        sensors:
+            name: Capteurs
+            URL: /fr/sections/manuels/capteurs/
+        gateways:
+            name: Passerelles
+            URL: /fr/sections/manuels/passerelles/
+        convertors:
+            name: Convertisseurs
+            URL: /fr/sections/manuels/convertisseurs/
+        splitters:
+            name: Diviseurs
+            URL: /fr/sections/manuels/diviseurs/
+        concentrators:
+            name: Concentrateurs
+            URL: /fr/sections/manuels/concentrateurs/
+    third-party-manuals:
+        name: Manuels Troisième
+        URL: /fr/sections/manuels-troisieme/
+        meters:
+            name: Jauges
+            URL: /fr/sections/manuels-troisieme/jauges/
+        sensors:
+            name: Capteurs
+            URL: /fr/sections/manuels-troisieme/capteurs/
+        gateways:
+            name: Passerelles
+            URL: /fr/sections/manuels-troisieme/passerelles/
+        convertors:
+            name: Convertisseurs
+            URL: /fr/sections/manuels-troisieme/convertisseurs/
+        splitters:
+            name: Diviseurs
+            URL: /fr/sections/manuels-troisieme/diviseurs/
+        concentrators:
+            name: Concentrateurs
+            URL: /fr/sections/manuels-troisieme/concentrateurs/
