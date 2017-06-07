@@ -1,0 +1,33 @@
+{{ $lang := .Site.Language.Lang }}
+{{ $l := index .Site.Data.menu $lang }}
+
+<ul class="menu-data">
+    <li><a href="{{ $l.main_menu.home.URL }}" hreflang="{{ $lang }}">{{ $l.main_menu.home.name }}</a></li>
+    <li><a href="{{ $l.main_menu.installations_instructions.URL }}" hreflang="{{ $lang }}">{{ $l.main_menu.installations_instructions.name }}</a></li>
+        <ul class="sub-menu-data">
+            <li><a href="{{ $l.main_menu.installations_instructions.meters.URL }}" hreflang="{{ $lang }}">{{ $l.main_menu.installations_instructions.meters.name }}</a></li>
+            <li><a href="{{ $l.main_menu.installations_instructions.sensors.URL }}" hreflang="{{ $lang }}">{{ $l.main_menu.installations_instructions.sensors.name }}</a></li>
+            <li><a href="{{ $l.main_menu.installations_instructions.gateways.URL }}" hreflang="{{ $lang }}">{{ $l.main_menu.installations_instructions.gateways.name }}</a></li>
+            <li><a href="{{ $l.main_menu.installations_instructions.convertors.URL }}" hreflang="{{ $lang }}">{{ $l.main_menu.installations_instructions.convertors.name }}</a></li>
+            <li><a href="{{ $l.main_menu.installations_instructions.splitters.URL }}" hreflang="{{ $lang }}">{{ $l.main_menu.installations_instructions.splitters.name }}</a></li>
+            <li><a href="{{ $l.main_menu.installations_instructions.concentrators.URL }}" hreflang="{{ $lang }}">{{ $l.main_menu.installations_instructions.concentrators.name }}</a></li>
+        </ul>
+    <li><a href="{{ $l.main_menu.manuals.URL }}" hreflang="{{ $lang }}">{{ $l.main_menu.manuals.name }}</a></li>
+        <ul class="sub-menu-data">
+            <li><a href="{{ $l.main_menu.manuals.meters.URL }}" hreflang="{{ $lang }}">{{ $l.main_menu.manuals.meters.name }}</a></li>
+            <li><a href="{{ $l.main_menu.manuals.sensors.URL }}" hreflang="{{ $lang }}">{{ $l.main_menu.manuals.sensors.name }}</a></li>
+            <li><a href="{{ $l.main_menu.manuals.gateways.URL }}" hreflang="{{ $lang }}">{{ $l.main_menu.manuals.gateways.name }}</a></li>
+            <li><a href="{{ $l.main_menu.manuals.convertors.URL }}" hreflang="{{ $lang }}">{{ $l.main_menu.manuals.convertors.name }}</a></li>
+            <li><a href="{{ $l.main_menu.manuals.splitters.URL }}" hreflang="{{ $lang }}">{{ $l.main_menu.manuals.splitters.name }}</a></li>
+            <li><a href="{{ $l.main_menu.manuals.concentrators.URL }}" hreflang="{{ $lang }}">{{ $l.main_menu.manuals.concentrators.name }}</a></li>
+        </ul>
+    <li><a href="{{ $l.main_menu.tp_manuals.URL }}" hreflang="{{ $lang }}">{{ $l.main_menu.tp_manuals.name }}</a></li>
+        <ul class="sub-menu-data">
+            <li><a href="{{ $l.main_menu.tp_manuals.meters.URL }}" hreflang="{{ $lang }}">{{ $l.main_menu.tp_manuals.meters.name }}</a></li>
+            <li><a href="{{ $l.main_menu.tp_manuals.sensors.URL }}" hreflang="{{ $lang }}">{{ $l.main_menu.tp_manuals.sensors.name }}</a></li>
+            <li><a href="{{ $l.main_menu.tp_manuals.gateways.URL }}" hreflang="{{ $lang }}">{{ $l.main_menu.tp_manuals.gateways.name }}</a></li>
+            <li><a href="{{ $l.main_menu.tp_manuals.convertors.URL }}" hreflang="{{ $lang }}">{{ $l.main_menu.tp_manuals.convertors.name }}</a></li>
+            <li><a href="{{ $l.main_menu.tp_manuals.splitters.URL }}" hreflang="{{ $lang }}">{{ $l.main_menu.tp_manuals.splitters.name }}</a></li>
+            <li><a href="{{ $l.main_menu.tp_manuals.concentrators.URL }}" hreflang="{{ $lang }}">{{ $l.main_menu.tp_manuals.concentrators.name }}</a></li>
+        </ul>
+</ul>

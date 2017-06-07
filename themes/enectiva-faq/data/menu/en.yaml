@@ -1,0 +1,67 @@
+main_menu:
+    home:
+        name: Home
+        URL: /en/
+    installations_instructions:
+        name: "Installation Instructions"
+        URL: /en/sections/installation-instructions/
+        meters:
+            name: Meters
+            URL: /en/sections/installation-instructions/meters
+        sensors:
+            name: Sensors
+            URL: /en/sections/installation-instructions/sensors/
+        gateways:
+            name: Gateways
+            URL: /en/sections/installation-instructions/gateways/
+        convertors:
+            name: Convertors
+            URL: /en/sections/installation-instructions/convertors
+        splitters:
+            name: Splitters
+            URL: /en/sections/installation-instructions/splitters
+        concentrators:
+            name: Concentrators
+            URL: /en/sections/installation-instructions/concentrators
+    manuals:
+        name: Manuals
+        URL: /en/sections/manuals/
+        meters:
+            name: Meters
+            URL: /en/sections/manuals/meters/
+        sensors:
+            name: Sensors
+            URL: /en/sections/manuals/sensors/
+        gateways:
+            name: Gateways
+            URL: /en/sections/manuals/gateways/
+        convertors:
+            name: Convertors
+            URL: /en/sections/manuals/convertors
+        splitters:
+            name: Splitters
+            URL: /en/sections/manuals/splitters
+        concentrators:
+            name: Concentrators
+            URL: /en/sections/manuals/concentrators
+    tp_manuals:
+        name: "Third-party manuals"
+        URL: /en/sections/third-party-manuals/
+        meters:
+            name: Meters
+            URL: /en/sections/third-party-manuals/meters/
+        sensors:
+            name: Sensors
+            URL: /en/sections/third-party-manuals/sensors/
+        gateways:
+            name: Gateways
+            URL: /en/sections/third-party-manuals/gateways/
+        convertors:
+            name: Convertors
+            URL: /en/sections/third-party-manuals/convertors
+        splitters:
+            name: Splitters
+            URL: /en/sections/third-party-manuals/splitters
+        concentrators:
+            name: Concentrators
+            URL: /en/sections/third-party-manuals/concentrators

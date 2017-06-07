@@ -1,0 +1,67 @@
+main_menu:
+    home:
+        name: Home
+        URL: /de/
+    installations_instructions:
+        name: Installationsanleitung
+        URL: /de/abschnitte/installationsanleitung/
+        meters:
+            name: Lehren
+            URL: /de/abschnitte/installationsanleitung/lehren/
+        sensors:
+            name: Sensoren
+            URL: /de/abschnitte/installationsanleitung/sensoren/
+        gateways:
+            name: Gateways
+            URL: /de/abschnitte/installationsanleitung/gateways/
+        convertors:
+            name: Wandler
+            URL: /de/abschnitte/installationsanleitung/wandler
+        splitters:
+            name: Weichen
+            URL: /de/abschnitte/installationsanleitung/weichen/
+        concentrators:
+            name: Konzentratoren
+            URL: /de/abschnitte/installationsanleitung/konzentratoren/
+    manuals:
+        name: Handbücher
+        URL: /de/abschnitte/handbucher/
+        meters:
+            name: Lehren
+            URL: /de/abschnitte/handbucher/lehren/
+        sensors:
+            name: Sensoren
+            URL: /de/abschnitte/handbucher/sensoren/
+        gateways:
+            name: Gateways
+            URL: /de/abschnitte/handbucher/gateways/
+        convertors:
+            name: Wandler
+            URL: /de/abschnitte/handbucher/wandler/
+        splitters:
+            name: Weichen
+            URL: /de/abschnitte/handbucher/weichen/
+        concentrators:
+            name: Konzentratoren
+            URL: /de/abschnitte/handbucher/konzentratoren/
+    tp_manuals:
+        name: "Handbücher Dritte"
+        URL: /de/abschnitte/handbucher-dritte/
+        meters:
+            name: Lehren
+            URL: /de/abschnitte/handbucher-dritte/lehren/
+        sensors:
+            name: Sensoren
+            URL: /de/abschnitte/handbucher-dritte/sensoren/
+        gateways:
+            name: Gateways
+            URL: /de/abschnitte/handbucher-dritte/gateways/
+        convertors:
+            name: Wandler
+            URL: /de/abschnitte/handbucher-dritte/wandler/
+        splitters:
+            name: Weichen
+            URL: /de/abschnitte/handbucher-dritte/weichen/
+        concentrators:
+            name: Konzentratoren
+            URL: /de/abschnitte/handbucher-dritte/konzentratoren/
