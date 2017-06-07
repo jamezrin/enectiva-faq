@@ -8,7 +8,7 @@ tags = [
     "PadPuls"
 ]
 title = "Configurar adaptador de pulsos PadPuls (Relay)"
-url = "/es/secciones/manuales/convertidores/configurar-adaptador-de-pulsos-PadPuls-relay"
+url = "/es/secciones/manuales/convertidores/configurar-adaptador-de-pulsos-padpuls-relay"
 toc = false
 
 +++
