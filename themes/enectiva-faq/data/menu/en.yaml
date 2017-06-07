@@ -1,67 +1,85 @@
 main_menu:
-    home:
-        name: Home
-        URL: /en/
     installations_instructions:
         name: "Installation Instructions"
         URL: /en/sections/installation-instructions/
+        hide: false
         meters:
             name: Meters
-            URL: /en/sections/installation-instructions/meters
+            URL: /en/sections/installation-instructions/meters/
+            hide: false
         sensors:
             name: Sensors
             URL: /en/sections/installation-instructions/sensors/
+            hide: false
         gateways:
             name: Gateways
             URL: /en/sections/installation-instructions/gateways/
+            hide: false
         convertors:
             name: Convertors
-            URL: /en/sections/installation-instructions/convertors
+            URL: /en/sections/installation-instructions/convertors/
+            hide: false
         splitters:
             name: Splitters
-            URL: /en/sections/installation-instructions/splitters
+            URL: /en/sections/installation-instructions/splitters/
+            hide: false
         concentrators:
             name: Concentrators
-            URL: /en/sections/installation-instructions/concentrators
+            URL: /en/sections/installation-instructions/concentrators/
+            hide: false
     manuals:
         name: Manuals
         URL: /en/sections/manuals/
+        hide: false
         meters:
             name: Meters
             URL: /en/sections/manuals/meters/
+            hide: false
         sensors:
             name: Sensors
             URL: /en/sections/manuals/sensors/
+            hide: false
         gateways:
             name: Gateways
             URL: /en/sections/manuals/gateways/
+            hide: false
         convertors:
             name: Convertors
-            URL: /en/sections/manuals/convertors
+            URL: /en/sections/manuals/convertors/
+            hide: false
         splitters:
             name: Splitters
-            URL: /en/sections/manuals/splitters
+            URL: /en/sections/manuals/splitters/
+            hide: false
         concentrators:
             name: Concentrators
-            URL: /en/sections/manuals/concentrators
+            URL: /en/sections/manuals/concentrators/
+            hide: false
     tp_manuals:
         name: "Third-party manuals"
         URL: /en/sections/third-party-manuals/
+        hide: false
         meters:
             name: Meters
             URL: /en/sections/third-party-manuals/meters/
+            hide: false
         sensors:
             name: Sensors
             URL: /en/sections/third-party-manuals/sensors/
+            hide: false
         gateways:
             name: Gateways
             URL: /en/sections/third-party-manuals/gateways/
+            hide: false
         convertors:
             name: Convertors
-            URL: /en/sections/third-party-manuals/convertors
+            URL: /en/sections/third-party-manuals/convertors/
+            hide: false
         splitters:
             name: Splitters
-            URL: /en/sections/third-party-manuals/splitters
+            URL: /en/sections/third-party-manuals/splitters/
+            hide: false
         concentrators:
             name: Concentrators
-            URL: /en/sections/third-party-manuals/concentrators
+            URL: /en/sections/third-party-manuals/concentrators/
+            hide: false

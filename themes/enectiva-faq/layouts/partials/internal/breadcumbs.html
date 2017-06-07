@@ -1,3 +1,4 @@
+{{ if ne .IsHome true}}
 {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
 {{ $.Scratch.Add "path" .Site.BaseURL }}
 <div class="breadcrumbs">
@@ -13,3 +14,4 @@
         {{ end }}
     </ol>
 </div>
+{{ end }}

@@ -1,67 +1,85 @@
 main_menu:
-    home:
-        name: Home
-        URL: /fr/
     installations_instructions:
-        name: Instructions d' Installation
-        URL: /fr/sections/instructions-d-installation
+        name: "Instructions d' Installation"
+        URL: /fr/sections/instructions-d-installation/
+        hide: false
         meters:
             name: Jauges
             URL: /fr/sections/instructions-d-installation/jauges/
+            hide: false
         sensors:
             name: Capteurs
             URL: /fr/sections/instructions-d-installation/capteurs/
+            hide: false
         gateways:
             name: Passerelles
             URL: /fr/sections/instructions-d-installation/passerelles/
+            hide: false
         convertors:
             name: Convertisseurs
             URL: /fr/sections/instructions-d-installation/convertisseurs/
+            hide: false
         splitters:
             name: Diviseurs
             URL: /fr/sections/instructions-d-installation/diviseurs/
+            hide: false
         concentrators:
             name: Concentrateurs
             URL: /fr/sections/instructions-d-installation/concentrateurs/
+            hide: false
     manuals:
         name: Manuels
         URL: /fr/sections/manuels/
+        hide: false
         meters:
             name: Jauges
             URL: /fr/sections/manuels/jauges/
+            hide: false
         sensors:
             name: Capteurs
             URL: /fr/sections/manuels/capteurs/
+            hide: false
         gateways:
             name: Passerelles
             URL: /fr/sections/manuels/passerelles/
+            hide: false
         convertors:
             name: Convertisseurs
             URL: /fr/sections/manuels/convertisseurs/
+            hide: false
         splitters:
             name: Diviseurs
             URL: /fr/sections/manuels/diviseurs/
+            hide: false
         concentrators:
             name: Concentrateurs
             URL: /fr/sections/manuels/concentrateurs/
-    third_party_manuals:
-        name: Manuels Troisième
+            hide: false
+    tp_manuals:
+        name: "Manuels Troisième"
         URL: /fr/sections/manuels-troisieme/
+        hide: false
         meters:
             name: Jauges
             URL: /fr/sections/manuels-troisieme/jauges/
+            hide: false
         sensors:
             name: Capteurs
             URL: /fr/sections/manuels-troisieme/capteurs/
+            hide: false
         gateways:
             name: Passerelles
             URL: /fr/sections/manuels-troisieme/passerelles/
+            hide: false
         convertors:
             name: Convertisseurs
             URL: /fr/sections/manuels-troisieme/convertisseurs/
+            hide: false
         splitters:
             name: Diviseurs
             URL: /fr/sections/manuels-troisieme/diviseurs/
+            hide: false
         concentrators:
             name: Concentrateurs
             URL: /fr/sections/manuels-troisieme/concentrateurs/
+            hide: false

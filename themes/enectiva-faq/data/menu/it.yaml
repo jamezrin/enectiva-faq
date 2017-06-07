@@ -1,67 +1,85 @@
 main_menu:
-    home:
-        name: Home
-        URL: /it/
     installations_instructions:
-        name: Istruzioni di Installazione
+        name: "Istruzioni di Installazione"
         URL: /it/sezioni/istruzioni-di-installazione/
+        hide: false
         meters:
             name: Calibri
             URL: /it/sezioni/istruzioni-di-installazione/calibri/
+            hide: false
         sensors:
             name: Sensori
             URL: /it/sezioni/istruzioni-di-installazione/sensori/
+            hide: false
         gateways:
             name: Gateways
             URL: /it/sezioni/istruzioni-di-installazione/gateways/
+            hide: false
         convertors:
             name: Convertitori
-            URL: /it/sezioni/istruzioni-di-installazione/convertitori
+            URL: /it/sezioni/istruzioni-di-installazione/convertitori/
+            hide: false
         splitters:
             name: Splitters
-            URL: /it/sezioni/istruzioni-di-installazione/splitters
+            URL: /it/sezioni/istruzioni-di-installazione/splitters/
+            hide: false
         concentrators:
             name: Concentratori
-            URL: /it/sezioni/istruzioni-di-installazione/concentratori
+            URL: /it/sezioni/istruzioni-di-installazione/concentratori/
+            hide: false
     manuals:
         name: Manuali
         URL: /it/sezioni/manuali/
+        hide: false
         meters:
             name: Calibri
             URL: /it/sezioni/manuali/calibri/
+            hide: false
         sensors:
             name: Sensori
             URL: /it/sezioni/manuali/sensori/
+            hide: false
         gateways:
             name: Gateways
             URL: /it/sezioni/manuali/gateways/
+            hide: false
         convertors:
             name: Convertitori
-            URL: /it/sezioni/manuali/convertitori
+            URL: /it/sezioni/manuali/convertitori/
+            hide: false
         splitters:
             name: Splitters
-            URL: /it/sezioni/manuali/splitters
+            URL: /it/sezioni/manuali/splitters/
+            hide: false
         concentrators:
             name: Concentratori
-            URL: /it/sezioni/manuali/concentratori
-    third_party_manuals:
-        name: Manuali Terzo
+            URL: /it/sezioni/manuali/concentratori/
+            hide: false
+    tp_manuals:
+        name: "Manuali Terzo"
         URL: /it/sezioni/manuali-terzo/
+        hide: false
         meters:
             name: Calibri
             URL: /it/sezioni/manuali-terzo/calibri/
+            hide: false
         sensors:
             name: Sensori
             URL: /it/sezioni/manuali-terzo/sensori/
+            hide: false
         gateways:
             name: Gateways
             URL: /it/sezioni/manuali-terzo/gateways/
+            hide: false
         convertors:
             name: Convertitori
-            URL: /it/sezioni/manuali-terzo/convertitori
+            URL: /it/sezioni/manuali-terzo/convertitori/
+            hide: false
         splitters:
             name: Splitters
-            URL: /it/sezioni/manuali-terzo/splitters
+            URL: /it/sezioni/manuali-terzo/splitters/
+            hide: false
         concentrators:
             name: Concentratori
-            URL: /it/sezioni/manuali-terzo/concentratori
+            URL: /it/sezioni/manuali-terzo/concentratori/
+            hide: false

@@ -1,0 +1,35 @@
+{{ $lang := .Site.Language.Lang }}
+{{ $l := index .Site.Data.menu $lang }}
+
+<ul class="sidebar-menu">
+    <li class="sub-menu"><a href="{{- $l.main_menu.installations_instructions.URL -}}" hreflang="{{ $lang }}">{{ if eq $l.main_menu.installations_instructions.hide false }}{{- $l.main_menu.installations_instructions.name -}}{{ end }}</a>
+        <ul class="sub">
+            <li><a href="{{- $l.main_menu.installations_instructions.meters.URL -}}" hreflang="{{ $lang }}">{{ if eq $l.main_menu.installations_instructions.hide false }}{{- $l.main_menu.installations_instructions.meters.name -}}{{ end }}</a></li>
+            <li><a href="{{- $l.main_menu.installations_instructions.sensors.URL -}}" hreflang="{{ $lang }}">{{ if eq $l.main_menu.installations_instructions.hide false }}{{- $l.main_menu.installations_instructions.sensors.name -}}{{ end }}</a></li>
+            <li><a href="{{- $l.main_menu.installations_instructions.gateways.URL -}}" hreflang="{{ $lang }}">{{ if eq $l.main_menu.installations_instructions.hide false }}{{- $l.main_menu.installations_instructions.gateways.name -}}{{ end }}</a></li>
+            <li><a href="{{- $l.main_menu.installations_instructions.convertors.URL -}}" hreflang="{{ $lang }}">{{ if eq $l.main_menu.installations_instructions.hide false }}{{- $l.main_menu.installations_instructions.convertors.name -}}{{ end }}</a></li>
+            <li><a href="{{- $l.main_menu.installations_instructions.splitters.URL -}}" hreflang="{{ $lang }}">{{ if eq $l.main_menu.installations_instructions.hide false }}{{- $l.main_menu.installations_instructions.splitters.name -}}{{ end }}</a></li>
+            <li><a href="{{- $l.main_menu.installations_instructions.concentrators.URL -}}" hreflang="{{ $lang }}">{{ if eq $l.main_menu.installations_instructions.hide false }}{{- $l.main_menu.installations_instructions.concentrators.name -}}{{ end }}</a></li>
+        </ul>
+    </li>
+    <li class="sub-menu"><a href="{{- $l.main_menu.manuals.URL -}}" hreflang="{{ $lang }}">{{ if eq $l.main_menu.installations_instructions.hide false }}{{- $l.main_menu.manuals.name -}}{{ end }}</a>
+        <ul class="sub">
+            <li><a href="{{- $l.main_menu.manuals.meters.URL -}}" hreflang="{{ $lang }}">{{ if eq $l.main_menu.installations_instructions.hide false }}{{- $l.main_menu.manuals.meters.name -}}{{ end }}</a></li>
+            <li><a href="{{- $l.main_menu.manuals.sensors.URL -}}" hreflang="{{ $lang }}">{{ if eq $l.main_menu.installations_instructions.hide false }}{{- $l.main_menu.manuals.sensors.name -}}{{ end }}</a></li>
+            <li><a href="{{- $l.main_menu.manuals.gateways.URL -}}" hreflang="{{ $lang }}">{{ if eq $l.main_menu.installations_instructions.hide false }}{{- $l.main_menu.manuals.gateways.name -}}{{ end }}</a></li>
+            <li><a href="{{- $l.main_menu.manuals.convertors.URL -}}" hreflang="{{ $lang }}">{{ if eq $l.main_menu.installations_instructions.hide false }}{{- $l.main_menu.manuals.convertors.name -}}{{ end }}</a></li>
+            <li><a href="{{- $l.main_menu.manuals.splitters.URL -}}" hreflang="{{ $lang }}">{{ if eq $l.main_menu.installations_instructions.hide false }}{{- $l.main_menu.manuals.splitters.name -}}{{ end }}</a></li>
+            <li><a href="{{- $l.main_menu.manuals.concentrators.URL -}}" hreflang="{{ $lang }}">{{ if eq $l.main_menu.installations_instructions.hide false }}{{- $l.main_menu.manuals.concentrators.name -}}{{ end }}</a></li>
+        </ul>
+    </li>
+    <li class="sub-menu"><a href="{{ $l.main_menu.tp_manuals.URL -}}" hreflang="{{ $lang }}">{{ if eq $l.main_menu.installations_instructions.hide false }}{{- $l.main_menu.tp_manuals.name -}}{{ end }}</a>
+        <ul class="sub">
+            <li><a href="{{- $l.main_menu.tp_manuals.meters.URL -}}" hreflang="{{ $lang }}">{{ if eq $l.main_menu.installations_instructions.hide false }}{{- $l.main_menu.tp_manuals.meters.name -}}{{ end }}</a></li>
+            <li><a href="{{- $l.main_menu.tp_manuals.sensors.URL -}}" hreflang="{{ $lang }}">{{ if eq $l.main_menu.installations_instructions.hide false }}{{- $l.main_menu.tp_manuals.sensors.name -}}{{ end }}</a></li>
+            <li><a href="{{- $l.main_menu.tp_manuals.gateways.URL -}}" hreflang="{{ $lang }}">{{ if eq $l.main_menu.installations_instructions.hide false }}{{- $l.main_menu.tp_manuals.gateways.name -}}{{ end }}</a></li>
+            <li><a href="{{- $l.main_menu.tp_manuals.convertors.URL -}}" hreflang="{{ $lang }}">{{ if eq $l.main_menu.installations_instructions.hide false }}{{- $l.main_menu.tp_manuals.convertors.name -}}{{ end }}</a></li>
+            <li><a href="{{- $l.main_menu.tp_manuals.splitters.URL -}}" hreflang="{{ $lang }}">{{ if eq $l.main_menu.installations_instructions.hide false }}{{- $l.main_menu.tp_manuals.splitters.name -}}{{ end }}</a></li>
+            <li><a href="{{- $l.main_menu.tp_manuals.concentrators.URL -}}" hreflang="{{ $lang }}">{{ if eq $l.main_menu.installations_instructions.hide false }}{{- $l.main_menu.tp_manuals.concentrators.name -}}{{ end }}</a></li>
+        </ul>
+    </li>
+</ul>

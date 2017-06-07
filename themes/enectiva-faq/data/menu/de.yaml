@@ -1,67 +1,85 @@
 main_menu:
-    home:
-        name: Home
-        URL: /de/
     installations_instructions:
         name: Installationsanleitung
         URL: /de/abschnitte/installationsanleitung/
+        hide: false
         meters:
             name: Lehren
             URL: /de/abschnitte/installationsanleitung/lehren/
+            hide: false
         sensors:
             name: Sensoren
             URL: /de/abschnitte/installationsanleitung/sensoren/
+            hide: false
         gateways:
             name: Gateways
             URL: /de/abschnitte/installationsanleitung/gateways/
+            hide: false
         convertors:
             name: Wandler
-            URL: /de/abschnitte/installationsanleitung/wandler
+            URL: /de/abschnitte/installationsanleitung/wandler/
+            hide: false
         splitters:
             name: Weichen
             URL: /de/abschnitte/installationsanleitung/weichen/
+            hide: false
         concentrators:
             name: Konzentratoren
             URL: /de/abschnitte/installationsanleitung/konzentratoren/
+            hide: false
     manuals:
         name: Handbücher
         URL: /de/abschnitte/handbucher/
+        hide: false
         meters:
             name: Lehren
             URL: /de/abschnitte/handbucher/lehren/
+            hide: false
         sensors:
             name: Sensoren
             URL: /de/abschnitte/handbucher/sensoren/
+            hide: false
         gateways:
             name: Gateways
             URL: /de/abschnitte/handbucher/gateways/
+            hide: false
         convertors:
             name: Wandler
             URL: /de/abschnitte/handbucher/wandler/
+            hide: false
         splitters:
             name: Weichen
             URL: /de/abschnitte/handbucher/weichen/
+            hide: false
         concentrators:
             name: Konzentratoren
             URL: /de/abschnitte/handbucher/konzentratoren/
+            hide: false
     tp_manuals:
         name: "Handbücher Dritte"
         URL: /de/abschnitte/handbucher-dritte/
+        hide: false
         meters:
             name: Lehren
             URL: /de/abschnitte/handbucher-dritte/lehren/
+            hide: false
         sensors:
             name: Sensoren
             URL: /de/abschnitte/handbucher-dritte/sensoren/
+            hide: false
         gateways:
             name: Gateways
             URL: /de/abschnitte/handbucher-dritte/gateways/
+            hide: false
         convertors:
             name: Wandler
             URL: /de/abschnitte/handbucher-dritte/wandler/
+            hide: false
         splitters:
             name: Weichen
             URL: /de/abschnitte/handbucher-dritte/weichen/
+            hide: false
         concentrators:
             name: Konzentratoren
             URL: /de/abschnitte/handbucher-dritte/konzentratoren/
+            hide: false

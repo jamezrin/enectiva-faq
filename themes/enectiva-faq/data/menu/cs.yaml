@@ -1,67 +1,85 @@
 main_menu:
-    home:
-        name: Home
-        URL: /cs/
     installations_instructions:
         name: "Instrukce k Instalaci"
         URL: /cs/oddily/instrukce-k-instalaci/
+        hide: false
         meters:
             name: Měřidla
             URL: /cs/oddily/instrukce-k-instalaci/meridla/
+            hide: false
         sensors:
             name: Senzory
             URL: /cs/oddily/instrukce-k-instalaci/senzory/
+            hide: false
         gateways:
             name: Brány
             URL: /cs/oddily/instrukce-k-instalaci/brany/
+            hide: false
         convertors:
             name: Převodníky
             URL: /cs/oddily/instrukce-k-instalaci/prevodniky/
+            hide: false
         splitters:
             name: Rozdělovače
             URL: /cs/oddily/instrukce-k-instalaci/rozdelovace/
+            hide: false
         concentrators:
             name: Koncentrátory
             URL: /cs/oddily/instrukce-k-instalaci/koncentratory/
+            hide: false
     manuals:
         name: Manuály
         URL: /cs/oddily/manualy/
+        hide: false
         meters:
             name: Měřidla
-            URL: /cs/oddily/manualy/meridla
+            URL: /cs/oddily/manualy/meridla/
+            hide: false
         sensors:
             name: Senzory
             URL: /cs/oddily/manualy/senzory/
+            hide: false
         gateways:
             name: Brány
             URL: /cs/oddily/manualy/brany/
+            hide: false
         convertors:
             name: Převodníky
             URL: /cs/oddily/manualy/prevodniky/
+            hide: false
         splitters:
             name: Rozdělovače
             URL: /cs/oddily/manualy/rozdelovace/
+            hide: false
         concentrators:
             name: Koncentrátory
             URL: /cs/oddily/manualy/koncentratory/
+            hide: false
     tp_manuals:
         name: "Manuály třetí"
         URL: /cs/oddily/manualy-treti/
+        hide: false
         meters:
             name: Měřidla
-            URL: /cs/oddily/manualy-treti/meridla
+            URL: /cs/oddily/manualy-treti/meridla/
+            hide: false
         sensors:
             name: Senzory
             URL: /cs/oddily/manualy-treti/senzory/
+            hide: false
         gateways:
             name: Brány
             URL: /cs/oddily/manualy-treti/brany/
+            hide: false
         convertors:
             name: Převodníky
             URL: /cs/oddily/manualy-treti/prevodniky/
+            hide: false
         splitters:
             name: Rozdělovače
             URL: /cs/oddily/manualy-treti/rozdelovace/
+            hide: false
         concentrators:
             name: Koncentrátory
             URL: /cs/oddily/manualy-treti/koncentratory/
+            hide: false

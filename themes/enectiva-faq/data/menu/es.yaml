@@ -1,67 +1,85 @@
 main_menu:
-    home:
-        name: Inicio
-        URL: /es/
     installations_instructions:
         name: "Instrucciones de instalación"
         URL: /es/secciones/instrucciones-de-instalacion/
+        hide: false
         meters:
             name: Medidores
-            URL: /es/secciones/instrucciones-de-instalacion/medidores
+            URL: /es/secciones/instrucciones-de-instalacion/medidores/
+            hide: false
         sensors:
             name: Sensores
             URL: /es/secciones/instrucciones-de-instalacion/sensores/
+            hide: false
         gateways:
             name: Gateways
             URL: /es/secciones/instrucciones-de-instalacion/puertas-de-enlace/
+            hide: false
         convertors:
             name: Convertidores
-            URL: /es/secciones/instrucciones-de-instalacion/convertidores
+            URL: /es/secciones/instrucciones-de-instalacion/convertidores/
+            hide: false
         splitters:
             name: Splitters
-            URL: /es/secciones/instrucciones-de-instalacion/splitters
+            URL: /es/secciones/instrucciones-de-instalacion/splitters/
+            hide: false
         concentrators:
             name: Concentradores
-            URL: /es/secciones/instrucciones-de-instalacion/concentradores
+            URL: /es/secciones/instrucciones-de-instalacion/concentradores/
+            hide: false
     manuals:
         name: Manuales
         URL: /es/secciones/manuales/
+        hide: false
         meters:
             name: Medidores
-            URL: /es/secciones/manuales/medidores
+            URL: /es/secciones/manuales/medidores/
+            hide: false
         sensors:
             name: Sensores
             URL: /es/secciones/manuales/sensores/
+            hide: false
         gateways:
             name: Gateways
             URL: /es/secciones/manuales/puertas-de-enlace/
+            hide: false
         convertors:
             name: Convertidores
-            URL: /es/secciones/manuales/convertidores
+            URL: /es/secciones/manuales/convertidores/
+            hide: false
         splitters:
             name: Splitters
-            URL: /es/secciones/manuales/splitters
+            URL: /es/secciones/manuales/splitters/
+            hide: false
         concentrators:
             name: Concentradores
-            URL: /es/secciones/manuales/concentradores
+            URL: /es/secciones/manuales/concentradores/
+            hide: false
     tp_manuals:
         name: "Manuales de terceros"
         URL: /es/secciones/manuales-de-terceros/
+        hide: false
         meters:
             name: Medidores
-            URL: /es/secciones/manuales-de-terceros/medidores
+            URL: /es/secciones/manuales-de-terceros/medidores/
+            hide: false
         sensors:
             name: Sensores
             URL: /es/secciones/manuales-de-terceros/sensores/
+            hide: false
         gateways:
             name: Gateways
             URL: /es/secciones/manuales-de-terceros/puertas-de-enlace/
+            hide: false
         convertors:
             name: Convertidores
-            URL: /es/secciones/manuales-de-terceros/convertidores
+            URL: /es/secciones/manuales-de-terceros/convertidores/
+            hide: false
         splitters:
             name: Splitters
-            URL: /es/secciones/manuales-de-terceros/splitters
+            URL: /es/secciones/manuales-de-terceros/splitters/
+            hide: false
         concentrators:
             name: Concentradores
-            URL: /es/secciones/manuales-de-terceros/concentradores
+            URL: /es/secciones/manuales-de-terceros/concentradores/
+            hide: false
