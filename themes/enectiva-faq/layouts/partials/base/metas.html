@@ -9,6 +9,9 @@
             <meta name="description" content="{{ i18n "meta_description" . }}" />
             <meta name="keywords" content="{{ i18n "meta_keywords" . }}" />
         {{ end }}
+
+        <link rel="icon" type="image/png" href="{{ "/assets/img/favicon.png" | absURL }}" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "/assets/img/favicon.png" | absURL }}" />
         {{ .Hugo.Generator }}
 
         <!-- CSS -->
