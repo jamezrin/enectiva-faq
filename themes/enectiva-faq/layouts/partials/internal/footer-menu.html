@@ -5,13 +5,13 @@
 {{ $d_b := $l.footer_menu.dev_blog }}
 {{ $c_u := $l.footer_menu.contact_us }}
 
-<ul class="footer-menu">
-    <li class="sub-menu-footer"><a href="{{- $p_p.URL -}}" hreflang="{{ $lang }}">{{- $p_p.name -}}</a>
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="footer-menu">
+    <li itemprop="name" class="sub-menu-footer"><a itemprop="url" href="{{- $p_p.URL -}}" hreflang="{{ $lang }}">{{- $p_p.name -}}</a>
     </li>
-    <li class="sub-menu-footer"><a href="{{- $e_r.URL -}}" hreflang="{{ $lang }}">{{- $e_r.name -}}</a>
+    <li itemprop="name" class="sub-menu-footer"><a itemprop="url" href="{{- $e_r.URL -}}" hreflang="{{ $lang }}">{{- $e_r.name -}}</a>
     </li>
-    <li class="sub-menu-footer"><a href="{{ $d_b.URL -}}" hreflang="{{ $lang }}">{{- $d_b.name -}}</a>
+    <li itemprop="name" class="sub-menu-footer"><a itemprop="url" href="{{ $d_b.URL -}}" hreflang="{{ $lang }}">{{- $d_b.name -}}</a>
     </li>
-    <li class="sub-menu-footer"><a href="{{ $c_u.URL -}}" hreflang="{{ $lang }}">{{- $c_u.name -}}</a>
+    <li itemprop="name" class="sub-menu-footer"><a itemprop="url" href="{{ $c_u.URL -}}" hreflang="{{ $lang }}">{{- $c_u.name -}}</a>
     </li>
 </ul>

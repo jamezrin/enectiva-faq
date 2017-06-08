@@ -45,6 +45,7 @@ date:
         December: Décembre
 meta_description: "Enectiva est un système de site informatif designé pour le managemet énergétique des bâtiments d'administration, des centres commerciaux et d'autres biens immobiliers de caractère commercial."
 meta_keywords: "Enectiva, management énergétique, monitoring énergétique, projets d'économie, économies des énergies, smart metering, relevé à distence"
+meta_author: 'Enectiva S.r.o.'
 menu:
     toggle:
         cs: CS

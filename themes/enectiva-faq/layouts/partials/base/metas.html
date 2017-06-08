@@ -1,17 +1,19 @@
+{{ $lang := .Site.Language.Lang }}
+{{ $l := index .Site.Data.locales $lang }}
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="{{ .Site.Language.Lang }}" xml:lang="{{ .Site.Language.Lang }}" />
 
-    <head>
+    <head itemscope itemtype="http://www.schema.org/WebSite">
         <title>{{ .Title }} {{ if ( and ( ne .Params.force_title true ) ( ne .Title .Site.Title ) ) }} - {{ .Site.Title }} {{ end }}</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        {{ if ( and ( i18n "meta_description" ) ( i18n "meta_keywords" )) }}
-            <meta name="description" content="{{ i18n "meta_description" . }}" />
-            <meta name="keywords" content="{{ i18n "meta_keywords" . }}" />
-        {{ end }}
+        <meta itemprop="description" name="description" content="{{ $l.meta_description }}" />
+        <meta itemprop="keywords" name="keywords" content="{{ $l.meta_keywords }}" />
+        <meta itemprop="author" name="author" content="{{ $l.meta_author }}" />
 
-        <link rel="icon" type="image/png" href="{{ "/assets/img/favicon.png" | absURL }}" />
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "/assets/img/favicon.png" | absURL }}" />
+        <link itemprop="image" rel="icon" type="image/png" href="{{ "/assets/img/favicon.png" | absURL }}" />
+        <link itemprop="image" rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "/assets/img/favicon.png" | absURL }}" />
         {{ .Hugo.Generator }}
 
         <!-- CSS -->

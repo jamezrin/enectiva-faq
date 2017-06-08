@@ -1,17 +1,9 @@
 <body>
 <div id="sidebar" class="nav-collapse">
     <div class="header">
-        <div class="header-navbar">
-            <a href="{{ .Site.BaseURL | absURL }}/{{ .Site.Language.Lang }}">
-                <img src="{{ .Site.Params.headerlogo | absURL }}" class="header-logo"></img>
+        <div itemscope itemtype="http://schema.org/LocalBusiness" class="header-navbar">
+            <a itemprop="url" href="{{ .Site.BaseURL | absURL }}/{{ .Site.Language.Lang }}">
+                <img itemprop="logo" src="{{ .Site.Params.headerlogo | absURL }}" class="header-logo"></img>
             </a>
-
-            <!--<label for="menu-toggle" class="menu-toggle-switch">&equiv;</label>
-            <input type="checkbox" id="menu-toggle" />
-            <ul id="menu">
-                <li><a href="#">Example #1</a></li>
-                <li><a href="#">Example #2</a></li>
-                <li><a href="#">Example #3</a></li>
-            </ul>-->
         </div>
     </div>

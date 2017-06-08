@@ -4,35 +4,35 @@
 {{ $m := $l.main_menu.manuals }}
 {{ $tp_m := $l.main_menu.tp_manuals }}
 
-<ul class="sidebar-menu">
-    <li class="sub-menu"><a href="{{- $i_i.URL -}}" hreflang="{{ $lang }}">{{- $i_i.name -}}</a>
-        <ul class="sub">
-            <li class="{{ if eq $i_i.meters.hide true }}hide{{ end }}"><a href="{{- $i_i.meters.URL -}}" hreflang="{{ $lang }}">{{- $i_i.meters.name -}}</a></li>
-            <li class="{{ if eq $i_i.sensors.hide true }}hide{{ end }}"><a href="{{- $i_i.sensors.URL -}}" hreflang="{{ $lang }}">{{- $i_i.sensors.name -}}</a></li>
-            <li class="{{ if eq $i_i.gateways.hide true }}hide{{ end }}"><a href="{{- $i_i.gateways.URL -}}" hreflang="{{ $lang }}">{{- $i_i.gateways.name -}}</a></li>
-            <li class="{{ if eq $i_i.convertors.hide true }}hide{{ end }}"><a href="{{- $i_i.convertors.URL -}}" hreflang="{{ $lang }}">{{- $i_i.convertors.name -}}</a></li>
-            <li class="{{ if eq $i_i.splitters.hide true }}hide{{ end }}"><a href="{{- $i_i.splitters.URL -}}" hreflang="{{ $lang }}">{{- $i_i.splitters.name -}}</a></li>
-            <li class="{{ if eq $i_i.concentrators.hide true }}hide{{ end }}"><a href="{{- $i_i.concentrators.URL -}}" hreflang="{{ $lang }}">{{- $i_i.concentrators.name -}}</a></li>
+<ul class="sidebar-menu" itemscope itemtype="http://www.schema.org/SiteNavigationElement/">
+    <li class="sub-menu" itemprop="name"><a itemprop="url" href="{{- $i_i.URL -}}" hreflang="{{ $lang }}">{{- $i_i.name -}}</a>
+        <ul class="sub"itemscope itemtype="http://www.schema.org/SiteNavigationElement/">
+            <li class="{{ if eq $i_i.meters.hide true }}hide{{ end }}" itemprop="name"><a itemprop="url" href="{{- $i_i.meters.URL -}}" hreflang="{{ $lang }}">{{- $i_i.meters.name -}}</a></li>
+            <li class="{{ if eq $i_i.sensors.hide true }}hide{{ end }}" itemprop="name"><a itemprop="url" href="{{- $i_i.sensors.URL -}}" hreflang="{{ $lang }}">{{- $i_i.sensors.name -}}</a></li>
+            <li class="{{ if eq $i_i.gateways.hide true }}hide{{ end }}" itemprop="name"><a itemprop="url" href="{{- $i_i.gateways.URL -}}" hreflang="{{ $lang }}">{{- $i_i.gateways.name -}}</a></li>
+            <li class="{{ if eq $i_i.convertors.hide true }}hide{{ end }}" itemprop="name"><a itemprop="url" href="{{- $i_i.convertors.URL -}}" hreflang="{{ $lang }}">{{- $i_i.convertors.name -}}</a></li>
+            <li class="{{ if eq $i_i.splitters.hide true }}hide{{ end }}" itemprop="name"><a itemprop="url" href="{{- $i_i.splitters.URL -}}" hreflang="{{ $lang }}">{{- $i_i.splitters.name -}}</a></li>
+            <li class="{{ if eq $i_i.concentrators.hide true }}hide{{ end }}" itemprop="name"><a itemprop="url" href="{{- $i_i.concentrators.URL -}}" hreflang="{{ $lang }}">{{- $i_i.concentrators.name -}}</a></li>
         </ul>
     </li>
-    <li class="sub-menu"><a href="{{- $m.URL -}}" hreflang="{{ $lang }}">{{- $m.name -}}</a>
-        <ul class="sub">
-            <li class="{{ if eq $m.meters.hide true}}hide{{ end }}"><a href="{{- $m.meters.URL -}}" hreflang="{{ $lang }}">{{- $m.meters.name -}}</a></li>
-            <li class="{{ if eq $m.sensors.hide true}}hide{{ end }}"><a href="{{- $m.sensors.URL -}}" hreflang="{{ $lang }}">{{- $m.sensors.name -}}</a></li>
-            <li class="{{ if eq $m.gateways.hide true}}hide{{ end }}"><a href="{{- $m.gateways.URL -}}" hreflang="{{ $lang }}">{{- $m.gateways.name -}}</a></li>
-            <li class="{{ if eq $m.convertors.hide true}}hide{{ end }}"><a href="{{- $m.convertors.URL -}}" hreflang="{{ $lang }}">{{- $m.convertors.name -}}</a></li>
-            <li class="{{ if eq $m.splitters.hide true}}hide{{ end }}"><a href="{{- $m.splitters.URL -}}" hreflang="{{ $lang }}">{{- $m.splitters.name -}}</a></li>
-            <li class="{{ if eq $m.concentrators.hide true}}hide{{ end }}"><a href="{{- $m.concentrators.URL -}}" hreflang="{{ $lang }}">{{- $m.concentrators.name -}}</a></li>
+    <li class="sub-menu" itemprop="name"><a itemprop="url" href="{{- $m.URL -}}" hreflang="{{ $lang }}">{{- $m.name -}}</a>
+        <ul class="sub" itemscope itemtype="http://www.schema.org/SiteNavigationElement/">
+            <li class="{{ if eq $m.meters.hide true}}hide{{ end }}" itemprop="name"><a itemprop="url" href="{{- $m.meters.URL -}}" hreflang="{{ $lang }}">{{- $m.meters.name -}}</a></li>
+            <li class="{{ if eq $m.sensors.hide true}}hide{{ end }}" itemprop="name"><a itemprop="url" href="{{- $m.sensors.URL -}}" hreflang="{{ $lang }}">{{- $m.sensors.name -}}</a></li>
+            <li class="{{ if eq $m.gateways.hide true}}hide{{ end }}" itemprop="name"><a itemprop="url" href="{{- $m.gateways.URL -}}" hreflang="{{ $lang }}">{{- $m.gateways.name -}}</a></li>
+            <li class="{{ if eq $m.convertors.hide true}}hide{{ end }}" itemprop="name"><a itemprop="url" href="{{- $m.convertors.URL -}}" hreflang="{{ $lang }}">{{- $m.convertors.name -}}</a></li>
+            <li class="{{ if eq $m.splitters.hide true}}hide{{ end }}" itemprop="name"><a itemprop="url" href="{{- $m.splitters.URL -}}" hreflang="{{ $lang }}">{{- $m.splitters.name -}}</a></li>
+            <li class="{{ if eq $m.concentrators.hide true}}hide{{ end }}" itemprop="name"><a itemprop="url" href="{{- $m.concentrators.URL -}}" hreflang="{{ $lang }}">{{- $m.concentrators.name -}}</a></li>
         </ul>
     </li>
-    <li class="sub-menu"><a href="{{ $tp_m.URL -}}" hreflang="{{ $lang }}">{{- $tp_m.name -}}</a>
-        <ul class="sub">
-            <li class="{{ if eq $tp_m.meters.hide true }}hide{{ end }}"><a href="{{- $tp_m.meters.URL -}}" hreflang="{{ $lang }}">{{- $tp_m.meters.name -}}</a></li>
-            <li class="{{ if eq $tp_m.sensors.hide true }}hide{{ end }}"><a href="{{- $tp_m.sensors.URL -}}" hreflang="{{ $lang }}">{{- $tp_m.sensors.name -}}</a></li>
-            <li class="{{ if eq $tp_m.gateways.hide true }}hide{{ end }}"><a href="{{- $tp_m.gateways.URL -}}" hreflang="{{ $lang }}">{{- $tp_m.gateways.name -}}</a></li>
-            <li class="{{ if eq $tp_m.convertors.hide true }}hide{{ end }}"><a href="{{- $tp_m.convertors.URL -}}" hreflang="{{ $lang }}">{{- $tp_m.convertors.name -}}</a></li>
-            <li class="{{ if eq $tp_m.splitters.hide true }}hide{{ end }}"><a href="{{- $tp_m.splitters.URL -}}" hreflang="{{ $lang }}">{{- $tp_m.splitters.name -}}</a></li>
-            <li class="{{ if eq $tp_m.concentrators.hide true }}hide{{ end }}"><a href="{{- $tp_m.concentrators.URL -}}" hreflang="{{ $lang }}">{{- $tp_m.concentrators.name -}}</a></li>
+    <li class="sub-menu" itemprop="name"><a itemprop="url" href="{{ $tp_m.URL -}}" hreflang="{{ $lang }}">{{- $tp_m.name -}}</a>
+        <ul class="sub" itemscope itemtype="http://www.schema.org/SiteNavigationElement/">
+            <li class="{{ if eq $tp_m.meters.hide true }}hide{{ end }}" itemprop="name"><a itemprop="url" href="{{- $tp_m.meters.URL -}}" hreflang="{{ $lang }}">{{- $tp_m.meters.name -}}</a></li>
+            <li class="{{ if eq $tp_m.sensors.hide true }}hide{{ end }}" itemprop="name"><a itemprop="url" href="{{- $tp_m.sensors.URL -}}" hreflang="{{ $lang }}">{{- $tp_m.sensors.name -}}</a></li>
+            <li class="{{ if eq $tp_m.gateways.hide true }}hide{{ end }}" itemprop="name"><a itemprop="url" href="{{- $tp_m.gateways.URL -}}" hreflang="{{ $lang }}">{{- $tp_m.gateways.name -}}</a></li>
+            <li class="{{ if eq $tp_m.convertors.hide true }}hide{{ end }}" itemprop="name"><a itemprop="url" href="{{- $tp_m.convertors.URL -}}" hreflang="{{ $lang }}">{{- $tp_m.convertors.name -}}</a></li>
+            <li class="{{ if eq $tp_m.splitters.hide true }}hide{{ end }}" itemprop="name"><a itemprop="url" href="{{- $tp_m.splitters.URL -}}" hreflang="{{ $lang }}">{{- $tp_m.splitters.name -}}</a></li>
+            <li class="{{ if eq $tp_m.concentrators.hide true }}hide{{ end }}" itemprop="name"><a itemprop="url" href="{{- $tp_m.concentrators.URL -}}" hreflang="{{ $lang }}">{{- $tp_m.concentrators.name -}}</a></li>
         </ul>
     </li>
 </ul>
