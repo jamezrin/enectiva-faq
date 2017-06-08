@@ -357,7 +357,7 @@ The website is built with multilingual mode. Provide to a site the ability to be
 {{ $l := index .Site.Data.locales $lang }}
 ```
 - You can add all levels of map-strings that you needs. Only, you adds as many points as needed after of each word, i.e.:
-```html
+```
 {{ $l.<string1>.<string2>.<string3... }}
 ```
 Example of a data file:
@@ -396,4 +396,111 @@ footer:
     author_message: 'Решение по управлению энергией Enectiva было разработано компанией'
 street_address: 'Drtinova 557/10'
 address_locality: 'Прага 5'
+```
+
+### How to work the menu and menu data file
+All the content and site is written in multilingual. This require some additional configurations on some files, I am talking about the menu data files. Must take into account what that files have certains configurations. See examples:
+```yaml
+main_menu:
+    installations_instructions:
+        name: "Instrukce k Instalaci"
+        URL: /cs/oddily/instrukce-k-instalaci/
+        hide: false
+        meters:
+            name: Měřidla
+            URL: /cs/oddily/instrukce-k-instalaci/meridla/
+            hide: false
+        sensors:
+            name: Senzory
+            URL: /cs/oddily/instrukce-k-instalaci/senzory/
+            hide: false
+        gateways:
+            name: Brány
+            URL: /cs/oddily/instrukce-k-instalaci/brany/
+            hide: false
+        convertors:
+            name: Převodníky
+            URL: /cs/oddily/instrukce-k-instalaci/prevodniky/
+            hide: false
+        splitters:
+            name: Rozdělovače
+            URL: /cs/oddily/instrukce-k-instalaci/rozdelovace/
+            hide: false
+        concentrators:
+            name: Koncentrátory
+            URL: /cs/oddily/instrukce-k-instalaci/koncentratory/
+            hide: false
+    manuals:
+        name: Manuály
+        URL: /cs/oddily/manualy/
+        hide: false
+        meters:
+            name: Měřidla
+            URL: /cs/oddily/manualy/meridla/
+            hide: false
+        sensors:
+            name: Senzory
+            URL: /cs/oddily/manualy/senzory/
+            hide: false
+        gateways:
+            name: Brány
+            URL: /cs/oddily/manualy/brany/
+            hide: false
+        convertors:
+            name: Převodníky
+            URL: /cs/oddily/manualy/prevodniky/
+            hide: false
+        splitters:
+            name: Rozdělovače
+            URL: /cs/oddily/manualy/rozdelovace/
+            hide: false
+        concentrators:
+            name: Koncentrátory
+            URL: /cs/oddily/manualy/koncentratory/
+            hide: false
+    tp_manuals:
+        name: "Manuály třetí"
+        URL: /cs/oddily/manualy-treti/
+        hide: false
+        meters:
+            name: Měřidla
+            URL: /cs/oddily/manualy-treti/meridla/
+            hide: false
+        sensors:
+            name: Senzory
+            URL: /cs/oddily/manualy-treti/senzory/
+            hide: false
+        gateways:
+            name: Brány
+            URL: /cs/oddily/manualy-treti/brany/
+            hide: false
+        convertors:
+            name: Převodníky
+            URL: /cs/oddily/manualy-treti/prevodniky/
+            hide: false
+        splitters:
+            name: Rozdělovače
+            URL: /cs/oddily/manualy-treti/rozdelovace/
+            hide: false
+        concentrators:
+            name: Koncentrátory
+            URL: /cs/oddily/manualy-treti/koncentratory/
+            hide: false
+```
+If you wants to implement a new menu entry, needs to follow the above structure. **Remark the use of the hide parameter, you can use it for hide menu**. For last one, and for to implement the menu entry correctly, you must add a new line into main-menu.html layout.
+##### Top-level menu
+Use of the variables:
+- $i_i = installations_instructions
+- $m = manuals
+- $tp_m = tp_manuals
+- If you wants to create one top-level menu, adds variable: $string := $l.main_menu.<reference map string>
+```html
+<li class="sub-menu"><a href="{{- $<top-level>.URL -}}" hreflang="{{ $lang }}">{{- $<top-level>.name -}}</a>
+    <ul class="sub">
+        <li class="{{ if eq $<top-level>.<sub-level>.hide true }}hide{{ end }}"><a href="" hreflang="{{ $lang }}"></a></li>
+            ...
+            ...
+            ...
+    </ul>
+</li>
 ```
