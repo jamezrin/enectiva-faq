@@ -399,7 +399,7 @@ address_locality: 'Прага 5'
 ```
 
 ### How to work the menu and menu data file
-All the content and site is written in multilingual. This require some additional configurations on some files, I am talking about the menu data files. Must take into account what that files have certains configurations. See examples:
+All the content and site is written in multilingual. This require some additional configurations on some files, I am talking about the menu data files. Must take into account that these files have certains settings. See examples:
 ```yaml
 main_menu:
     installations_instructions:
@@ -487,7 +487,7 @@ main_menu:
             URL: /cs/oddily/manualy-treti/koncentratory/
             hide: false
 ```
-If you wants to implement a new menu entry, needs to follow the above structure. **Remark the use of the hide parameter, you can use it for hide menu**. For last one, and for to implement the menu entry correctly, you must add a new line into main-menu.html layout.
+If you wants to implement a new menu entry, needs to follow the above structure. **Remark the use of the hide parameter, you can use it for hide menu**. Last one, and for to implement the menu entry correctly, you must add a new line into main-menu.html layout.
 #### Top-level menu
 Use of the variables:
 - **$i_i** = installations_instructions
