@@ -83,3 +83,21 @@ main_menu:
             name: Концентраторы
             URL: /ru/razdely/rukovodstva-tret-yego/kontsentratory/
             hide: false
+
+footer_menu:
+    partner_program:
+        name: "Партнерская программа"
+        URL: https://www.enectiva.cz/ru/partnerskaya-programma
+        hide: false
+    enectiva_rules:
+        name: "Правила компании Enectiva"
+        URL: https://www.enectiva.cz/ru/pravila-enectivy/
+        hide: false
+    dev_blog:
+        name: "Блог развития"
+        URL: https://developing.enectiva.cz/
+        hide: false
+    contact_us:
+        name: "Контакт"
+        URL: https://www.enectiva.cz/ru/svyazhites-s-nami
+        hide: false

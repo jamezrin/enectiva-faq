@@ -83,3 +83,21 @@ main_menu:
             name: Konzentratoren
             URL: /de/abschnitte/handbucher-dritte/konzentratoren/
             hide: false
+
+footer_menu:
+    partner_program:
+        name: "Partnerprogramm"
+        URL: https://www.enectiva.cz/de/partnerprogramm/
+        hide: false
+    enectiva_rules:
+        name: "Enectiva Regeln"
+        URL: https://www.enectiva.cz/de/enectiva-regeln/
+        hide: false
+    dev_blog:
+        name: "Entwickler Blog"
+        URL: https://developing.enectiva.cz/
+        hide: false
+    contact_us:
+        name: "Kontakt"
+        URL: https://www.enectiva.cz/de/kontaktieren-sie-uns/
+        hide: false

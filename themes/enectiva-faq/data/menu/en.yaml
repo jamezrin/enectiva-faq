@@ -83,3 +83,21 @@ main_menu:
             name: Concentrators
             URL: /en/sections/third-party-manuals/concentrators/
             hide: false
+
+footer_menu:
+    partner_program:
+        name: "Partner Programmer"
+        URL: https://www.enectiva.cz/en/partner-programme/
+        hide: false
+    enectiva_rules:
+        name: "Enectiva Rules"
+        URL: https://www.enectiva.cz/en/enectiva-rules/
+        hide: false
+    dev_blog:
+        name: "Development Blog"
+        URL: https://developing.enectiva.cz/
+        hide: false
+    contact_us:
+        name: "Contact Us"
+        URL: https://www.enectiva.cz/en/contact-us/
+        hide: false

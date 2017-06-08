@@ -83,3 +83,21 @@ main_menu:
             name: Koncentrátory
             URL: /cs/oddily/manualy-treti/koncentratory/
             hide: false
+
+footer_menu:
+    partner_program:
+        name: "Partnerský program"
+        URL: https://www.enectiva.cz/cs/partnersky-program/
+        hide: false
+    enectiva_rules:
+        name: "Pravidla Enectivy"
+        URL: https://www.enectiva.cz/cs/pravidla-enectivy/
+        hide: false
+    dev_blog:
+        name: "Vývojový blog"
+        URL: https://developing.enectiva.cz/
+        hide: false
+    contact_us:
+        name: "Kontakt"
+        URL: https://www.enectiva.cz/cs/kontaktujte-nas/
+        hide: false

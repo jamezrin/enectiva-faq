@@ -89,6 +89,31 @@
             .sub
                 display: block
                 background-color: $color-white
+    &-menu-footer
+        display: inline-block
+        a
+            padding:
+                top: .25rem
+                right: .875rem
+                bottom: .25rem
+                left: .875rem
+            border:
+                color: $color-grey-darkest
+                style: solid
+                width: 1px
+                radius: 2px
+            &:active,
+            &:focus,
+            &:hover
+                border:
+                    color: $color-blue
+                background-color: $color-grey-lighter
+
+.footer-menu
+    display: block
+    margin-top: 1rem
+    padding: 0
+    text-align: center
 
 .hide
     display: none !important

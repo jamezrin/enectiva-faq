@@ -83,3 +83,21 @@ main_menu:
             name: Concentradores
             URL: /es/secciones/manuales-de-terceros/concentradores/
             hide: false
+
+footer_menu:
+    partner_program:
+        name: "Programa de afiliación"
+        URL: https://www.enectiva.cz/es/programa-de-afiliacion/
+        hide: false
+    enectiva_rules:
+        name: "Política de privacidad de Enectiva"
+        URL: https://www.enectiva.cz/es/politica-de-privacidad-de-enectiva/
+        hide: false
+    dev_blog:
+        name: "Blog de desarrollo"
+        URL: https://developing.enectiva.cz/
+        hide: false
+    contact_us:
+        name: "Contacto"
+        URL: https://www.enectiva.cz/es/contacto/
+        hide: false

@@ -1,0 +1,17 @@
+{{ $lang := .Site.Language.Lang }}
+{{ $l := index .Site.Data.menu $lang }}
+{{ $p_p := $l.footer_menu.partner_program }}
+{{ $e_r := $l.footer_menu.enectiva_rules }}
+{{ $d_b := $l.footer_menu.dev_blog }}
+{{ $c_u := $l.footer_menu.contact_us }}
+
+<ul class="footer-menu">
+    <li class="sub-menu-footer"><a href="{{- $p_p.URL -}}" hreflang="{{ $lang }}">{{- $p_p.name -}}</a>
+    </li>
+    <li class="sub-menu-footer"><a href="{{- $e_r.URL -}}" hreflang="{{ $lang }}">{{- $e_r.name -}}</a>
+    </li>
+    <li class="sub-menu-footer"><a href="{{ $d_b.URL -}}" hreflang="{{ $lang }}">{{- $d_b.name -}}</a>
+    </li>
+    <li class="sub-menu-footer"><a href="{{ $c_u.URL -}}" hreflang="{{ $lang }}">{{- $c_u.name -}}</a>
+    </li>
+</ul>
