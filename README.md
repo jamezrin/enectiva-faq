@@ -488,12 +488,12 @@ main_menu:
             hide: false
 ```
 If you wants to implement a new menu entry, needs to follow the above structure. **Remark the use of the hide parameter, you can use it for hide menu**. For last one, and for to implement the menu entry correctly, you must add a new line into main-menu.html layout.
-##### Top-level menu
+#### Top-level menu
 Use of the variables:
-- $i_i = installations_instructions
-- $m = manuals
-- $tp_m = tp_manuals
-- If you wants to create one top-level menu, adds variable: $string := $l.main_menu.<reference map string>
+- **$i_i** = installations_instructions
+- **$m** = manuals
+- **$tp_m** = tp_manuals
+- If you wants to create one top-level menu, **adds variable:** `$string := $l.main_menu.<reference map string>`
 ```html
 <li class="sub-menu"><a href="{{- $<top-level>.URL -}}" hreflang="{{ $lang }}">{{- $<top-level>.name -}}</a>
     <ul class="sub">
