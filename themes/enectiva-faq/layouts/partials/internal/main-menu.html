@@ -2,7 +2,7 @@
 {{ $l := index .Site.Data.menu $lang }}
 
 <ul class="sidebar-menu" itemscope itemtype="http://www.schema.org/SiteNavigationElement/">
-    {{ range $l.main_menu }}
+    {{ range sort ($l.main_menu) "weight" "asc" }}
     <li class="sub-menu" itemprop="name"><a itemprop="url" href="{{ .URL }}" hreflang="{{ $lang }}">{{ .name }}</a>
     <ul class="sub" itemscope itemtype="http://www.schema.org/SiteNavigationElement/">
         <li class="{{ if eq .meters.hide true }}hide{{ end }}" itemprop="name"><a itemprop="url" href="{{- .meters.URL -}}" hreflang="{{ $lang }}">{{- .meters.name -}}</a></li>

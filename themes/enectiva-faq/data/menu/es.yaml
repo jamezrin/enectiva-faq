@@ -3,101 +3,126 @@ main_menu:
         name: "Instrucciones de instalación"
         URL: /es/secciones/instrucciones-de-instalacion/
         hide: false
+        weight: 01
         meters:
             name: Medidores
             URL: /es/secciones/instrucciones-de-instalacion/medidores/
             hide: false
+            weight: 01
         sensors:
             name: Sensores
             URL: /es/secciones/instrucciones-de-instalacion/sensores/
             hide: false
+            weight: 02
         gateways:
             name: Gateways
             URL: /es/secciones/instrucciones-de-instalacion/puertas-de-enlace/
             hide: false
+            weight: 03
         convertors:
             name: Convertidores
             URL: /es/secciones/instrucciones-de-instalacion/convertidores/
             hide: false
+            weight: 04
         splitters:
             name: Splitters
             URL: /es/secciones/instrucciones-de-instalacion/splitters/
             hide: false
+            weight: 05
         concentrators:
             name: Concentradores
             URL: /es/secciones/instrucciones-de-instalacion/concentradores/
             hide: false
+            weight: 06
     manuals:
         name: Manuales
         URL: /es/secciones/manuales/
         hide: false
+        weight: 01
         meters:
             name: Medidores
             URL: /es/secciones/manuales/medidores/
             hide: false
+            weight: 01
         sensors:
             name: Sensores
             URL: /es/secciones/manuales/sensores/
             hide: false
+            weight: 02
         gateways:
             name: Gateways
             URL: /es/secciones/manuales/puertas-de-enlace/
             hide: false
+            weight: 03
         convertors:
             name: Convertidores
             URL: /es/secciones/manuales/convertidores/
             hide: false
+            weight: 04
         splitters:
             name: Splitters
             URL: /es/secciones/manuales/splitters/
             hide: false
+            weight: 05
         concentrators:
             name: Concentradores
             URL: /es/secciones/manuales/concentradores/
             hide: false
+            weight: 06
     tp_manuals:
         name: "Manuales de terceros"
         URL: /es/secciones/manuales-de-terceros/
         hide: false
+        weight: 01
         meters:
             name: Medidores
             URL: /es/secciones/manuales-de-terceros/medidores/
             hide: false
+            weight: 01
         sensors:
             name: Sensores
             URL: /es/secciones/manuales-de-terceros/sensores/
             hide: false
+            weight: 02
         gateways:
             name: Gateways
             URL: /es/secciones/manuales-de-terceros/puertas-de-enlace/
             hide: false
+            weight: 03
         convertors:
             name: Convertidores
             URL: /es/secciones/manuales-de-terceros/convertidores/
             hide: false
+            weight: 04
         splitters:
             name: Splitters
             URL: /es/secciones/manuales-de-terceros/splitters/
             hide: false
+            weight: 05
         concentrators:
             name: Concentradores
             URL: /es/secciones/manuales-de-terceros/concentradores/
             hide: false
+            weight: 06
 
 footer_menu:
     partner_program:
         name: "Programa de afiliación"
         URL: https://www.enectiva.cz/es/programa-de-afiliacion/
         hide: false
+        weight: 01
     enectiva_rules:
         name: "Política de privacidad de Enectiva"
         URL: https://www.enectiva.cz/es/politica-de-privacidad-de-enectiva/
         hide: false
+        weight: 02
     dev_blog:
         name: "Blog de desarrollo"
         URL: https://developing.enectiva.cz/
         hide: false
+        weight: 03
     contact_us:
         name: "Contacto"
         URL: https://www.enectiva.cz/es/contacto/
         hide: false
+        weight: 04
