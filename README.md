@@ -344,13 +344,35 @@ The structure of search index:
 ]...
 ```
 You needs know that the most important in above file is what the javascript calls to each file depending of language and consults the variables:
-```
+```txt
     title,
     tags,
     url,
     content
 ```
 Therefore, you needs define them into of the frontmatter of your content.
+
+#### Remarking the files implicated in the search implementation
+```txt
+.
+├── static
+|   └── json
+|       ├── search.cs.json (index to search)
+|       ├── search.de.json (index to search)
+|       ├── search.en.json (index to search)
+|       ├── search.es.json (index to search)
+|       ├── search.fr.json (index to search)
+|       ├── search.it.json (index to search)
+|       └── search.ru.json (index to search)
+├── themes
+|   └── enectiva-faq
+|       └── layouts
+|           └── partials
+|               ├── base
+|               |   └── metas.html (contains the javascript necessary)
+|               ├── internal
+|               |   └── search.html (contains the search box)
+```
 
 ### How to work the grunt tasks
 The gruntfile has several tasks inside. How each tasks something I must explain them, feel you free of modify them:
