@@ -1,8 +1,5 @@
 {{ $lang := .Site.Language.Lang }}
 {{ $l := index .Site.Data.menu $lang }}
-{{ $i_i := $l.main_menu.installations_instructions }}
-{{ $m := $l.main_menu.manuals }}
-{{ $tp_m := $l.main_menu.tp_manuals }}
 
 <ul class="sidebar-menu" itemscope itemtype="http://www.schema.org/SiteNavigationElement/">
     {{ range $l.main_menu }}
