@@ -49,6 +49,22 @@ When you have your empty file, you must go into the folder where you created the
 - Open **1st-section** and **2nd-section** if you have it.
 - Open your file that you have created with a editor markdown. (recommend [ghostwriter](https://wereturtle.github.io/ghostwriter/)). You never must modify the date of the filename.
 
+#### How to organize the content into content directory
+```txt
+.
+└── content
+    ├── cs
+    |   └── first-section
+    |       └── nested-section
+    ├── de
+    ├── en
+    ├── es
+    ├── fr
+    ├── it
+    ├── ru
+    └── images (the root folder of images)
+```
+
 ### How to use the header of file (archetype)
 When you create a new post, automatically is created a file with a header. This header has the following labels by default, defined in your archetype:
 ##### Version [CS]
@@ -529,6 +545,27 @@ footer_menu:
         URL: https://www.enectiva.cz/ru/svyazhites-s-nami
         hide: false
         weight: 04
+```
+The data files its found into root directory in the data folder, and are separated by each language. You will find the main menu and footer menu inside the files, follow the above structure to put new menu entries:
+```txt
+.
+└── data
+|   └── locales
+|   |   ├── cs.yaml
+|   |   ├── de.yaml
+|   |   ├── en.yaml
+|   |   ├── es.yaml
+|   |   ├── fr.yaml
+|   |   ├── it.yaml
+|   |   └── ru.yaml
+|   └── menu
+|       ├── cs.yaml
+|       ├── de.yaml
+|       ├── en.yaml
+|       ├── es.yaml
+|       ├── fr.yaml
+|       ├── it.yaml
+|       └── ru.yaml
 ```
 If you wants to implement a new menu entry, needs to follow the above structure. **Remark the use of the hide parameter, you can use it for hide menu**. Last one, and for to implement the menu entry correctly, you must add a new line into main-menu.html layout.
 
