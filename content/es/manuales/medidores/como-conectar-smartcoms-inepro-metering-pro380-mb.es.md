@@ -32,6 +32,6 @@ Para poder comenzar a realizar las configuraciones, necesitamos tener los siguie
 <img class="center" src="/images/cable-terminal-connection-with-connector.jpg" style="width:70%"></img>
 3. Conecta el otro extremo del cable al Inepro Metering PRO380-Mb **tal y como se ve en la imagen**, guíate del patrón de colores. Los cables deberán ser conectados a la **salida L1** o terminales 18/19. Es por dónde el contador envía los datos al SmartCom para que puedan ser leídos y registrados en el sistema Enectiva. El valor del pulso enviado es de **R<sub>L</sub>=0,1Wh/imp**.
 <img class="center" src="/images/cable-terminal-connection-between-devices.jpg" style="width:70%"></img>
-4. Por último conecta el SmartCom a una fuente de energía mediante su fuente de alimentación. (como el la siguiente foto)
+4. Por último conecta el SmartCom a una fuente de energía mediante su fuente de alimentación. **(como el la siguiente foto)**
 <img class="center" src="/images/smartcom-to-power-supply.jpg" style="width:70%"></img>
-5. Conecta por la parte inferior del **Inepro Metering PRO380-Mb** a 
+5. Conecta por la parte inferior del **Inepro Metering PRO380-Mb** a
