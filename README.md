@@ -403,89 +403,132 @@ All the content and site is written in multilingual. This require some additiona
 ```yaml
 main_menu:
     installations_instructions:
-        name: "Instrukce k Instalaci"
-        URL: /cs/oddily/instrukce-k-instalaci/
+        name: "Инструкция по установке"
+        URL: /ru/razdely/instruktsiya-po-ustanovke/
         hide: false
+        weight: 01
         meters:
-            name: Měřidla
-            URL: /cs/oddily/instrukce-k-instalaci/meridla/
+            name: Шлюзы
+            URL: /ru/razdely/instruktsiya-po-ustanovke/shlyuzy/
             hide: false
+            weight: 01
         sensors:
-            name: Senzory
-            URL: /cs/oddily/instrukce-k-instalaci/senzory/
+            name: Mанометры
+            URL: /ru/razdely/instruktsiya-po-ustanovke/manometry/
             hide: false
+            weight: 02
         gateways:
-            name: Brány
-            URL: /cs/oddily/instrukce-k-instalaci/brany/
+            name: датчиков
+            URL: /ru/razdely/instruktsiya-po-ustanovke/datchikov/
             hide: false
+            weight: 03
         convertors:
-            name: Převodníky
-            URL: /cs/oddily/instrukce-k-instalaci/prevodniky/
+            name: Преобразователи
+            URL: /ru/razdely/instruktsiya-po-ustanovke/preobrazovateli/
             hide: false
+            weight: 04
         splitters:
-            name: Rozdělovače
-            URL: /cs/oddily/instrukce-k-instalaci/rozdelovace/
+            name: Сплиттеры
+            URL: /ru/razdely/instruktsiya-po-ustanovke/razvetviteli/
             hide: false
+            weight: 05
         concentrators:
-            name: Koncentrátory
-            URL: /cs/oddily/instrukce-k-instalaci/koncentratory/
+            name: Концентраторы
+            URL: /ru/razdely/instruktsiya-po-ustanovke/kontsentratory/
             hide: false
+            weight: 06
     manuals:
-        name: Manuály
-        URL: /cs/oddily/manualy/
+        name: Руководства
+        URL: /ru/razdely/rukovodstva/
         hide: false
+        weight: 02
         meters:
-            name: Měřidla
-            URL: /cs/oddily/manualy/meridla/
+            name: Шлюзы
+            URL: /ru/razdely/rukovodstva/shlyuzy/
             hide: false
+            weight: 01
         sensors:
-            name: Senzory
-            URL: /cs/oddily/manualy/senzory/
+            name: Mанометры
+            URL: /ru/razdely/rukovodstva/manometry/
             hide: false
+            weight: 02
         gateways:
-            name: Brány
-            URL: /cs/oddily/manualy/brany/
+            name: датчиков
+            URL: /ru/razdely/rukovodstva/datchikov/
             hide: false
+            weight: 03
         convertors:
-            name: Převodníky
-            URL: /cs/oddily/manualy/prevodniky/
+            name: Преобразователи
+            URL: /ru/razdely/rukovodstva/preobrazovateli/
             hide: false
+            weight: 04
         splitters:
-            name: Rozdělovače
-            URL: /cs/oddily/manualy/rozdelovace/
+            name: Сплиттеры
+            URL: /ru/razdely/rukovodstva/razvetviteli/
             hide: false
+            weight: 05
         concentrators:
-            name: Koncentrátory
-            URL: /cs/oddily/manualy/koncentratory/
+            name: Концентраторы
+            URL: /ru/razdely/rukovodstva/kontsentratory/
             hide: false
+            weight: 06
     tp_manuals:
-        name: "Manuály třetí"
-        URL: /cs/oddily/manualy-treti/
+        name: "Pуководства третьего"
+        URL: /ru/razdely/rukovodstva-tret-yego/
         hide: false
+        weight: 03
         meters:
-            name: Měřidla
-            URL: /cs/oddily/manualy-treti/meridla/
+            name: Шлюзы
+            URL: /ru/razdely/rukovodstva-tret-yego/shlyuzy/
             hide: false
+            weight: 01
         sensors:
-            name: Senzory
-            URL: /cs/oddily/manualy-treti/senzory/
+            name: Mанометры
+            URL: /ru/razdely/rukovodstva-tret-yego/manometry/
             hide: false
+            weight: 02
         gateways:
-            name: Brány
-            URL: /cs/oddily/manualy-treti/brany/
+            name: датчиков
+            URL: /ru/razdely/rukovodstva-tret-yego/datchikov/
             hide: false
+            weight: 03
         convertors:
-            name: Převodníky
-            URL: /cs/oddily/manualy-treti/prevodniky/
+            name: Преобразователи
+            URL: /ru/razdely/rukovodstva-tret-yego/preobrazovateli/
             hide: false
+            weight: 04
         splitters:
-            name: Rozdělovače
-            URL: /cs/oddily/manualy-treti/rozdelovace/
+            name: Сплиттеры
+            URL: /ru/razdely/rukovodstva-tret-yego/razvetviteli/
             hide: false
+            weight: 05
         concentrators:
-            name: Koncentrátory
-            URL: /cs/oddily/manualy-treti/koncentratory/
+            name: Концентраторы
+            URL: /ru/razdely/rukovodstva-tret-yego/kontsentratory/
             hide: false
+            weight: 06
+
+footer_menu:
+    partner_program:
+        name: "Партнерская программа"
+        URL: https://www.enectiva.cz/ru/partnerskaya-programma
+        hide: false
+        weight: 01
+    enectiva_rules:
+        name: "Правила компании Enectiva"
+        URL: https://www.enectiva.cz/ru/pravila-enectivy/
+        hide: false
+        weight: 02
+    dev_blog:
+        name: "Блог развития"
+        URL: https://developing.enectiva.cz/
+        hide: false
+        weight: 03
+    contact_us:
+        name: "Контакт"
+        URL: https://www.enectiva.cz/ru/svyazhites-s-nami
+        hide: false
+        weight: 04
 ```
 If you wants to implement a new menu entry, needs to follow the above structure. **Remark the use of the hide parameter, you can use it for hide menu**. Last one, and for to implement the menu entry correctly, you must add a new line into main-menu.html layout.
 
