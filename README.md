@@ -488,6 +488,7 @@ main_menu:
             hide: false
 ```
 If you wants to implement a new menu entry, needs to follow the above structure. **Remark the use of the hide parameter, you can use it for hide menu**. Last one, and for to implement the menu entry correctly, you must add a new line into main-menu.html layout.
+
 #### Top-level menu
 Use of the variables:
 - **$i_i** = installations_instructions
@@ -504,3 +505,6 @@ Use of the variables:
     </ul>
 </li>
 ```
+
+#### Control over the sort
+When you wants to sort the menu, have that to use weight parameter. You have one in each section into of the menu data files.
