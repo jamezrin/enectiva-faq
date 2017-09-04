@@ -20,7 +20,7 @@ The **PadPuls** converter is used whenever necessary to convert pulse outputs fr
 - Install **MBCONF** software on your PC / Laptop.
 - Connect M-Bus Micro-Master to a free USB port on the computer, such as COM6 (see image).
 <img class="center" src="/images/padpuls-connection-to-pc.jpg" style="width:50%"></img>
-- Use the **Device Manager** on the computer to configure the appropriate PC port, ie in our case the COM6 (see image below). On which COM port is connected to MikroMaster, you can check it with the ** Device Manager / Device Manager ** on your Windows.
+- Use the **Device Manager** on the computer to configure the appropriate PC port, ie in our case the COM6 (see image below). On which COM port is connected to MikroMaster, you can check it with the **Device Manager / Device Manager** on your Windows.
 <img class="center" src="/images/padpuls-connection-port-to-mikromaster.jpg" style="width:50%"></img>
 - From the **Device Manager** we must open the previous port and in the tab **port configuration** have the following parameters:
 
@@ -44,9 +44,9 @@ The **PadPuls** converter is used whenever necessary to convert pulse outputs fr
 - Make basic settings:
 
    - Set port number the same as on PC **(5)**.
-     - Set the communication speed to `2400 Bd` **(6)**
-     - Setting the speed according to **(7)** is not necessary (it is automatically configured from the parent device).
-     - Set M-Bus address to 254 **(8)**. **254** means multicast. This is the address by which all devices respond, it is used in cases where you do not know the address. You can not use it when there are more devices on the bus.
+   - Set the communication speed to `2400 Bd` **(6)**
+   - Setting the speed according to **(7)** is not necessary (it is automatically configured from the parent device).
+   - Set M-Bus address to 254 **(8)**. **254** means multicast. This is the address by which all devices respond, it is used in cases where you do not know the address. You can not use it when there are more devices on the bus.
     - `Manufact` = **loaded** does not need to be changed. **(9)**
     - `Type` = **loaded** does not need to be changed **(10)**
     - `Generation` = **loaded** does not need to be changed **(11)**
