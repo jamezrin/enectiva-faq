@@ -19,7 +19,7 @@ The following steps will guide you through the installation and configuration of
 
 1. Install the MiniCom3 software on your PC / Laptop.
 2. Connect the M-Bus Micro-Master to a free port on your computer, such as COM6 (see image).
-3. Use the ** Device Manager ** on the computer to configure the appropriate port, ie in our case it is COM6.
+3. Use the **Device Manager** on the computer to configure the appropriate port, ie in our case it is COM6.
 
 ##### Port Settings
 
