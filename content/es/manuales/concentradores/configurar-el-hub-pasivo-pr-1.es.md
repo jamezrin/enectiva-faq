@@ -21,7 +21,7 @@ Entonces, la salida puede ser conectada al M-Bus (ejemplo: PadPuls) o transferid
 ## Pasos a seguir
 
 1. Para configurarlo primero, quita las tapas del Hub y la cubierta superior.
-<img class="center" src="/images/hub-pasivo-pr-1-without-cases.jpg" style="width:50%"></img>
+<img class="center" src="/images/hub-pasivo-pr-1-without-cases.png" style="width:50%"></img>
 2. La conexión es muy simple. Simplemente conecta la salida de pulsos desde el medidor a los terminales izquierdos y tire de la señal de división de los terminales a la derecha para otros cosas.
 3. Después de conectar todas la entradas y salidas, cierra el concentrador, cúbrelo y colóquelo según sea necesario.
 
