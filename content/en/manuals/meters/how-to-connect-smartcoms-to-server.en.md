@@ -22,7 +22,7 @@ I will accompany you in this trip to learn to connect your first SmartCom in a f
 Before starting, you needs comply a number of requirements:
 
 - Your computer must have at least **Windows 7 / 8** or **10** to be able to execute the program.
-- The program that you needs download is [**SmartComs Configuration Software**](https://www.2n.cz/download/3/3/9/5/2n-smartcom-terminal-config-1.0.2.7.zip). With him, we go configure all SmartCom you want, therefore, is a tool what yoy will need very often, save it in a secure site.
+- The program that you need download is [**SmartComs Configuration Software**](https://www.2n.cz/download/3/3/9/5/2n-smartcom-terminal-config-1.0.2.7.zip). With it, we go configure all SmartCom you want, therefore, it is a tool what you will need very often, save it in a secure site.
 - You needs a uncompressor for descompress the folder where it's found the program that you have downloaded. Sure you will meet [**WinRar**](https://www.winrar.es/descargas/winrar) or [**7-Zip**](http://www.7-zip.org/download.html), with one of this two is enough. Althought, you can to use own Windows for extract the files from the same folder.
 - Cable and port **RS232**, many computers don't have said port, althought, you will needs buy a USB adapter that you would find in any informatic store.
 
