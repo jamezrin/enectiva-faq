@@ -21,7 +21,7 @@ The M-Bus splitter can separate a bus with a maximum of 4 M-Bus counters.
 
 ## Método de conexión
 
-1. If you want to divide a bus with more than 1 meter, it is necessary to connect the 24 VAC to the terminals marked in the image above. If you only have one meter on the bus, these terminals are empty. Only the M-Bus 2 input (number 3) output to which one of the ** M-Bus Master ** is connected will be used.
+1. If you want to divide a bus with more than 1 meter, it is necessary to connect the 24 VAC to the terminals marked in the image above. If you only have one meter on the bus, these terminals are empty. Only the M-Bus 2 input (number 3) output to which one of the **M-Bus Master** is connected will be used.
 2. Connect two bus terminals (M-Bus IN) to the bus you want to divide. It can be with one of the four counters.
 3. For the M-Bus OUT2 power terminal, connect the bus you want to power our M-Bus splitter in case the 24 VAC source is not used in terminal 1.
 4. Connect terminal 4 (M-Bus OUT1 - Isolated) to the new bus for example S Enectiva Maestro. (Master is just another name for a communicator, hub or central unit).
@@ -54,4 +54,4 @@ To configure the M-Bus Splitter, only the jumpers (short-circuit bridge) on the 
 3. The voltage to M-Bus OUT 2 should be better than 26 V DC.
 4. All bus-side meters connected to the M-Bus IN must have a single M-Bus primary address.
 
-** If problems persist, contact the Enectiva team. **
+**If problems persist, contact the Enectiva team.**
