@@ -23,13 +23,13 @@ The following steps will guide you through the installation and configuration of
 
 ##### Port Settings
 
-| Option | Countryside |
+| Option | Field |
 | ------- |: ------: |
 | `bit / sec` | 115-200 |
 | `datagram bit` | 8 |
-| parity | none |
+| `parity`  | none |
 | `stop bit` | 1 |
-| flow management | none |
+| `flow management` | none |
 
 4. Connect the HRI-B sensor with the cable (green, brown) to the M-Bus Micro-Master USB terminal (see image).
 5. Open the MiniCom3 program.
@@ -44,7 +44,7 @@ The following steps will guide you through the installation and configuration of
 | Option | Field |
 | -------- | ------- |
 | `Consumption` | Current consumption value |
-| `Backup memory` | Leave the box 'Set up memory` to reset. |
+| `Backup memory` | Leave the box 'Set up memory' to reset. |
 | `Memory buffer` ||
 | `D-Value` | Setting the pulse multiplier `(1 - 1000) l / imp.` |
 | `Mode` | Default is `B4` (can not be changed) |
