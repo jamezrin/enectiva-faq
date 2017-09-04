@@ -41,7 +41,7 @@ The following steps will guide you through the installation and configuration of
 11. You can change the caliber ID under the ** Commands - Change gauge ID ** tab.
 12. Under the ** Commands - Device Configuration ** tab, set:
 
-| Option | Countryside |
+| Option | Field |
 | -------- | ------- |
 | `Consumption` | Current consumption value |
 | `Backup memory` | Leave the box 'Set up memory` to reset. |
@@ -51,7 +51,7 @@ The following steps will guide you through the installation and configuration of
 
 13. Under the ** Measurement Parameters ** tab, adjust:
 
-| Option | Countryside |
+| Option | Field |
 | -------- | ------- |
 | `Speed` | 2400 or 300 Bd |
 
