@@ -24,7 +24,7 @@ The following steps will guide you through the installation and configuration of
 ##### Port Settings
 
 | Option | Field |
-| ------- |: ------: |
+| ------- |:------: |
 | `bit / sec` | 115-200 |
 | `datagram bit` | 8 |
 | `parity`  | none |
