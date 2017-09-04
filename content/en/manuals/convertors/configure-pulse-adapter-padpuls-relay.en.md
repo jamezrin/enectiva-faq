@@ -44,9 +44,9 @@ The **PadPuls** converter is used whenever necessary to convert pulse outputs fr
 - Make basic settings:
 
    - Set port number the same as on PC **(5)**.
-   - Set the communication speed to `2400 Bd` **(6)**
-   - Setting the speed according to **(7)** is not necessary (it is automatically configured from the parent device).
-   - Set M-Bus address to 254 **(8)**. **254** means multicast. This is the address by which all devices respond, it is used in cases where you do not know the address. You can not use it when there are more devices on the bus.
+   - Set the communication speed to `2400 Bd` **(6)**
+   - Setting the speed according to **(7)** is not necessary (it is automatically configured from the parent device).
+   - Set M-Bus address to 254 **(8)**. **254** means multicast. This is the address by which all devices respond, it is used in cases where you do not know the address. You can not use it when there are more devices on the bus.
     - `Manufact` = **loaded** does not need to be changed. **(9)**
     - `Type` = **loaded** does not need to be changed **(10)**
     - `Generation` = **loaded** does not need to be changed **(11)**
