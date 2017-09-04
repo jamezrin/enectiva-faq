@@ -7,7 +7,7 @@ tags = [
     "splitters",
     "M-Bus Splitter"
 ]
-title = "Configure and connect an M-Bus Splitter"
+title = "Configurare e connettere uno Splitter M-Bus"
 url = "/en/manuals/splitters/configure-and-connect-a-mbus-splitter "
 toc = false
 
