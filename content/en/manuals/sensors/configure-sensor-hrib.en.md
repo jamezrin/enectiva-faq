@@ -1,7 +1,7 @@
 +++
 author = "Enectiva"
 date = "2017-06-05T11:21:03+02:00"
-secciones = "manuals/sensors"
+sections = "manuals/sensors"
 tags = [
     "manuals",
     "sensors",
@@ -9,7 +9,7 @@ tags = [
 ]
 title = "Configure the HRI-B sensor"
 toc = false
-url = "/es/manuals/sensores/configure-sensor-hrib"
+url = "/en/manuals/sensores/configure-sensor-hrib"
 
 +++
 
