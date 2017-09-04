@@ -1,14 +1,14 @@
 +++
 author = "Enectiva"
 date = "2017-06-05T13:14:15+02:00"
-secciones = "manuals/splitters"
+sections = "manuals/splitters"
 tags = [
     "manuals",
     "splitters",
     "M-Bus Splitter"
 ]
 title = "Configure and connect an M-Bus Splitter"
-url = "/es/manuals/splitters/configure-and-connect-a-mbus-splitter "
+url = "/en/manuals/splitters/configure-and-connect-a-mbus-splitter "
 toc = false
 
 +++
