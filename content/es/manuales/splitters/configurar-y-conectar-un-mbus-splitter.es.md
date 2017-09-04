@@ -29,11 +29,11 @@ El splitter M-Bus puede separar un bus con un máximo de 4 contadores M-Bus.
 ## Situación típica de uso e implicación
 Tienes una conexión desde la planta de calefacción, ver imagen posterior. El calorímetro y medidor de agua están conectados a sus M-Bus maestros y leen datos desde la red móvil (GSM Modem).
 
-<img class="center" src="/images/calorimeter-watermeter-to-mbusmaster.jpg" style="width:50%"></img>
+<img class="center" src="/images/calorimeter-watermeter-to-mbusmaster_es.jpg" style="width:50%"></img>
 
 Solo necesitas leer el calorímetro en Enectiva, es decir, la sección bus (cable M-Bus 1) con el calorímetro necesita estar separado en dos segmentos separados usando un splitter. Ahí será la situación en la imagen. El cable M-Bus esta separado en M-Bus en el maestro original y M-Bus 2 en el Enectiva maestro. (Maestro = Unidad central = Comunicador = Concentrador)
 
-<img class="center" src="/images/calorimeter-watermeter-to-enectiva.jpg" style="width:50%"></img>
+<img class="center" src="/images/calorimeter-watermeter-to-enectiva_es.jpg" style="width:50%"></img>
 
 Para configurar el Splitter del M-Bus, solo los puentes (puente de cortocircuito) en el borde superior del splitter M-Bus.
 
