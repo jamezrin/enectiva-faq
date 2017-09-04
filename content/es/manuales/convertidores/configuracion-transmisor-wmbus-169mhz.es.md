@@ -21,7 +21,7 @@ El **transmisor WM-Bus de 169Mhz** funciona como un convertidor entre una salida
 ## Todo lo que necesitas
 Para empezar a configurar el transmisor WM-Bus 169Mhz tendrás que tener los siguientes elementos:
 
-<img class="right" src="/images/requirements-configuration-transmisor-wmbus-169mhz.jpg" style="width:30%"></img>
+<img class="right" src="/images/requirements-configuration-transmisor-wmbus-169mhz_es.jpg" style="width:30%"></img>
 
 1. Transmisor WM-169 Bus.
 2. Un pequeño imán.
