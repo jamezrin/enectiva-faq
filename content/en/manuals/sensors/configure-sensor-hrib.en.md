@@ -49,7 +49,7 @@ The following steps will guide you through the installation and configuration of
 | `D-Value` | Setting the pulse multiplier `(1 - 1000) l / imp.` |
 | `Mode` | Default is `B4` (can not be changed) |
 
-13. Under the ** Measurement Parameters ** tab, adjust:
+13. Under the **Measurement Parameters** tab, adjust:
 
 | Option | Field |
 | -------- | ------- |
