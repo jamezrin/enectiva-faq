@@ -32,7 +32,8 @@ To start configuring the 169Mhz WM-Bus transmitter you will need to have the fol
 Now we will prepare everything to be able to configure our transmitter properly, for it follow the steps that you have next:
 
 1. Install software **2N WMBus Configuration Tool**
-2. Insert the USB into a port on the computer. Wait a few seconds until the drivers are installed, and then open the Device Manager **to find the COM port that has been assigned to it.** In our case it is the COM30**.
+2. Insert the USB into a port on the computer. Wait a few seconds until the drivers are installed, and then open the **Device Manager 
+** to find the COM port that has been assigned to it. **In our case it is the COM30**.
 
 <img class="center" src="/images/device-manager-transmisor-wmbus-169mhz.jpg"></img>
 
