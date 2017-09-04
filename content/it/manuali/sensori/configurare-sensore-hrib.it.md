@@ -7,7 +7,7 @@ tags = [
     "sensors",
     "HRI-B"
 ]
-title = "Configure the HRI-B sensor"
+title = "Configurare l'HRI-B sensor"
 toc = false
 url = "/en/manuals/sensores/configure-sensor-hrib"
 
