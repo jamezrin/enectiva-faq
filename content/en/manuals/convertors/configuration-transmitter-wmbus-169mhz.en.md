@@ -42,7 +42,7 @@ Now we will prepare everything to be able to configure our transmitter properly,
 
 <img class="center" src="/images/magnet-transmisor-wmbus-169mhz.jpg"></img>
 
-6. Once you see the transmitter data, you can verify that this is the same address as the Wmbus, which is on the transmitter label. In our case, this is 200. Then, look at the state of the meter in which you are connecting the transmitter. In our case, this is a water meter with current state of 1,491 m <sup>3</sup> and is marked with a constant of 1 pulse = 0.001 m <sup> 3 </ sup> (ie 1L) . In addition, you must adjust the transmitter. In the first field (number 2 in the image) the current state, in the second constant (number 3 in the image), which is equal to a pulse. Then, dial the broadcast activation (number 4) and set the period in which the transmitter will send the data. We recommend 600s where the battery life is over 5 years.
+6. Once you see the transmitter data, you can verify that this is the same address as the Wmbus, which is on the transmitter label. In our case, this is 200. Then, look at the state of the meter in which you are connecting the transmitter. In our case, this is a water meter with current state of 1,491 m <sup>3</sup> and is marked with a constant of 1 pulse = 0.001 m <sup>3</sup> (ie 1L) . In addition, you must adjust the transmitter. In the first field (number 2 in the image) the current state, in the second constant (number 3 in the image), which is equal to a pulse. Then, dial the broadcast activation (number 4) and set the period in which the transmitter will send the data. We recommend 600s where the battery life is over 5 years.
 
 <img class="center" src="/images/configuration-transmisor-wmbus-169mhz.jpg"></img>
 
