@@ -320,8 +320,10 @@ p {
 
 /* This file contains the main menu and language menu block in the header */
 #sidebar {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   border-bottom-color: #E1E1E1;
   border-bottom-style: solid;
   border-bottom-width: 1px;
@@ -460,7 +462,7 @@ p {
 
 .menu-lang {
   display: inline-block;
-  position: absolute;
+  position: relative;
   top: 0;
   right: 0;
   float: right;
@@ -652,6 +654,7 @@ input[type="search"] {
 /* This file contains the style of articles block and post summary */
 .articles {
   display: inline-block;
+  margin-top: 2rem;
   padding-bottom: 3rem;
   margin-left: 3rem;
   margin-right: 3rem; }
@@ -786,9 +789,9 @@ input[type="search"] {
     list-style-type: none;
     background-color: #E5F3FD; }
     .breadcrumbs-list li {
-      display: inline-block; }
-      .breadcrumbs-list li::before {
-        margin-right: 2px; }
+      display: inline-block;
+      margin-right: 0.45rem;
+      margin-left: 0.45rem; }
       .breadcrumbs-list li a {
         color: #2B64AB; }
         .breadcrumbs-list li a:active, .breadcrumbs-list li a:focus, .breadcrumbs-list li a:hover {
@@ -802,34 +805,32 @@ input[type="search"] {
   color: #2B64AB; }
 
 /* This file contains all the styles that affect to post single */
-.post-single {
-  float: left;
-  width: 70%;
-  padding-top: 0;
-  padding-right: 5rem;
-  padding-bottom: 2rem;
-  padding-left: 5rem;
+.post {
   margin-top: 5rem; }
-
-.post-byline {
-  border-top-color: #E1E1E1;
-  border-top-style: solid;
-  border-top-width: 1px; }
-
-.post-tags {
-  display: inline-block;
-  padding-top: .75rem;
-  padding-bottom: .75rem;
-  padding-right: .25rem; }
-
-.post-date-time {
-  display: inline-block; }
-
-.post-content {
-  padding-top: 2rem;
-  text-align: justify;
-  line-height: 1.5rem;
-  font-weight: 300; }
+  .post-single {
+    float: left;
+    width: 70%;
+    padding-top: 0;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    padding-left: 5rem;
+    margin-top: 7rem; }
+  .post-byline {
+    border-top-color: #E1E1E1;
+    border-top-style: solid;
+    border-top-width: 1px; }
+  .post-tags {
+    display: inline-block;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    padding-right: .25rem; }
+  .post-date-time {
+    display: inline-block; }
+  .post-content {
+    padding-top: 2rem;
+    text-align: justify;
+    line-height: 1.5rem;
+    font-weight: 300; }
 
 .fa-tags {
   border-color: #666;

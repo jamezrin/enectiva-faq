@@ -346,35 +346,32 @@ Therefore, you needs define them into of the frontmatter of your content.
 #### Remarking the files implicated in the search implementation
 ```txt
 .
-├── static
-|   └── json
-|       ├── search.cs.json (index to search)
-|       ├── search.de.json (index to search)
-|       ├── search.en.json (index to search)
-|       ├── search.es.json (index to search)
-|       ├── search.fr.json (index to search)
-|       ├── search.it.json (index to search)
-|       └── search.ru.json (index to search)
-├── themes
-|   └── enectiva-faq
-|       └── layouts
-|           └── partials
-|               ├── base
-|               |   └── metas.html (contains the javascript necessary)
-|               ├── internal
-|               |   └── search.html (contains the search box)
+themes
+└── enectiva-faq
+    ├── layouts
+    |   └── partials
+    |       ├── base
+    |       |   └── metas.html (contains the javascript necessary)
+    |       └── internal
+    |           └── search.html (contains the search box)
+    └── static
+        └── out
+            ├── search.cs.json (index to search)
+            ├── search.de.json (index to search)
+            ├── search.en.json (index to search)
+            ├── search.es.json (index to search)
+            ├── search.fr.json (index to search)
+            ├── search.it.json (index to search)
+            └── search.ru.json (index to search)
 ```
 
-### How to work the grunt tasks
-The gruntfile has several tasks inside. How each tasks something I must explain them, feel you free of modify them:
-1. Build index and open dev server.
-2. Build index and build hugo site production.
-3. Build all indexes.
-
+### Grunt tasks
 ```shell
-[sudo] grunt test
-[sudo] grunt build
-[sudo] grunt all-indexes
+- sass (Compiles the SASS files into one css one)
+- lunr-build-indexes (Generates the index files)
+- test (What you should use in development)
+- watch (What you should use in development too if modifying the articles or sass)
+- build (What you should use in production)
 ```
 
 ### How to work the multilingual mode into site.

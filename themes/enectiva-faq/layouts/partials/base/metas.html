@@ -71,7 +71,7 @@
 
         // Let's get started
         initLunr();
-        $( document ).ready(function() {
+        $(document).ready(function() {
             var horseyList = horsey($("#search-by").get(0), {
                 suggestions: function (value, done) {
                     var query = $("#search-by").val();
@@ -82,10 +82,10 @@
                     return true;
                 },
                 set: function (value) {
-                    location.href=value.href;
+                    location.href = value.href;
                 },
                 render: function (li, suggestion) {
-                    var url = suggestion.url.substring(1,suggestion.url.length);
+                    var url = suggestion.url.substring(1, suggestion.url.length);
                     var indexOfIndex = url.lastIndexOf("/index");
                     if (indexOfIndex == -1) {
                         indexOfIndex = url.length;
@@ -96,7 +96,7 @@
 
                     var query = $("#search-by").val();
                     var numWords = 2;
-                    var text = suggestion.content.match("(?:\\s?(?:[\\w]+)\\s?){0,"+numWords+"}"+query+"(?:\\s?(?:[\\w]+)\\s?){0,"+numWords+"}");
+                    var text = suggestion.content.match("(?:\\s?(?:[\\w]+)\\s?){0," + numWords + "}" + query + "(?:\\s?(?:[\\w]+)\\s?){0," + numWords + "}");
                     suggestion.context = text;
                     var image = '<div>' + '» ' + suggestion.title + '</div><div style="font-size:12px">' + (suggestion.context || '') +'</div>';
                     li.innerHTML = image;
