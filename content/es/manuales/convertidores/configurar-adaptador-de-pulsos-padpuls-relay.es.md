@@ -18,7 +18,7 @@ El convertidor **PadPuls** se utiliza siempre que sea necesario convertir salida
 ## Recursos necesarios
 
 - Instalar **software MBCONF** en tu PC/Portátil.
-- Conectar eñ M-Bus Micro-Master a un puerto USB libre del ordenador, como el COM6 (ver imagen).
+- Conectar el M-Bus Micro-Master a un puerto USB libre del ordenador, como el COM6 (ver imagen).
 <img class="center" src="/images/padpuls-connection-to-pc.jpg" style="width:50%"></img>
 - Utilizar el **Administrador de Dispositivos** en el ordenador para configurar el puerto apropiado del PC, es decir, en nuestro caso el COM6 (ver imagen más abajo). En qué puerto COM está conectado a MikroMaster, puedes comprobarlo con el **Administrador de Dispositivos / Device Manager** en tu Windows.
 <img class="center" src="/images/padpuls-connection-port-to-mikromaster.jpg" style="width:50%"></img>
@@ -30,7 +30,7 @@ El convertidor **PadPuls** se utiliza siempre que sea necesario convertir salida
 |--------|:-----:|
 | `bit/sec` | 115200 |
 | `datagram bit` | 8 |
-| `parity` | none |
+| `paridad` | none |
 | `stop bit` | 1 |
 | `flow managment` | none |
 

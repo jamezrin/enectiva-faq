@@ -24,10 +24,11 @@ paginatePath = "page"
     author = "Enectiva"
     search = true
     stylesheets = [
-        "main.min.css",
+        "main.css",
         "fonts.min.css",
         "flags.min.css"
-        ]
+    ]
+    
     javascript = [
         "jquery-3.2.1.js",
         "horsey.min.js",

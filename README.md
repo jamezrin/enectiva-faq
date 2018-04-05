@@ -1,37 +1,34 @@
 # Enectiva FAQ
 Enectiva FAQ is using [Hugo](https://gohugo.io/). In this site, we can view how to use Hugo: [https://gohugo.io/overview/usage/](https://gohugo.io/overview/usage/)
-Actually, we are using Hugo v.0.20.6, [lunrjs v2.0.3](https://github.com/olivernn/lunr.js), [horsey v4.2.2](https://bevacqua.github.io/horsey/) and [jQuery v3.2.1](https://bevacqua.github.io/horsey/)
+This site was initially started with Hugo v.0.20.6, being currently compatible with Hugo v.0.36
 
-## Dependencies - NPM
-- [Nodejs v4.7.2](https://docs.npmjs.com/getting-started/installing-node)
-- [Gruntjs v1.0.1](https://gruntjs.com/getting-started)
-- [string v3.3.3](https://www.npmjs.com/package/string)
-- [toml v2.3.2](https://www.npmjs.com/package/toml)
-- or optional [yamljs v0.2.10](https://www.npmjs.com/package/yamljs)
-
-For to install all dependencies, you must type in command line:
+## Getting started
+Execute the following commands to get the site running in a test environment
 ```shell
-cd <folder-project>
-[sudo] npm install --save-dev grunt toml string nodejs
-```
-
-## How to start the server
-We must open command line in your Linux distribution. If we have our web in the personal folder of hard disk, we must write into the black window
-```shell
-cd ~
-```
-After, if our folder named enectiva-faq
-```shell
+git clone https://github.com/EnerfisTeam/enectiva-faq
 cd enectiva-faq
+npm install
+grunt test
 ```
-To start the server, we must type...
-```shell
-[sudo] hugo server
-```
-To create a new post (we explain it below). If you can create a new post, please, close hugo server first.
-```shell
-[sudo] hugo new <directory>/filename.md
-```
+
+## Dependencies
+- [lunrjs v2.0.3](https://github.com/olivernn/lunr.js)
+- [horsey v4.2.2](https://bevacqua.github.io/horsey/)
+- [jQuery v3.2.1](https://bevacqua.github.io/horsey/)
+
+To update the lunr index files and compile the sass to css, it depends on
+- [NodeJS >= 4.7.2](https://docs.npmjs.com/getting-started/installing-node)
+- [Grunt v1.0.2](https://gruntjs.com/getting-started)
+- [string v3.3.3](https://www.npmjs.com/package/string)
+- [toml v2.3.3](https://www.npmjs.com/package/toml)
+
+As well as some grunt addons
+- grunt-contrib-imagin
+- grunt-contrib-watch
+- grunt-open
+- grunt-sass
+- grunt-shell
+- load-grunt-tasks
 
 ## Creating new blog post
 The command to do this is the next:
@@ -47,7 +44,7 @@ When you have your empty file, you must go into the folder where you created the
 - Open **content/** folder.
 - Open **lang** folder.
 - Open **1st-section** and **2nd-section** if you have it.
-- Open your file that you have created with a editor markdown. (recommend [ghostwriter](https://wereturtle.github.io/ghostwriter/)). You never must modify the date of the filename.
+- Open your file that you have created with a editor markdown. ([ghostwriter](https://wereturtle.github.io/ghostwriter/) is recommended). You should never modify the post date
 
 #### How to organize the content into content directory
 ```txt
@@ -192,14 +189,8 @@ Something to say:
 - You must modify the tag words, if you want have related files.
 
 ## Development environment
-You need know something before of continue. You must create a index file that you will put into static/json/ folder. For that, type in your command line into hugo folder:
-
-**WARNING:** Don't to generate the index file with images into content folder or the grunt task will crash.
-```shell
-[sudo] grunt lunr-index
-[sudo] cp static/json/ themes/enectiva-faq/static/json/
-```
-The gruntfile will get the files into the **content/** folder and will create index file with the URL field. Start the server to see the changes in the search results.
+The application features searching with lunr, and it uses index files generated from the posts. Not only that, we also use SASS for the styling of our application.
+The generation of index files and compilation of the SASS files only happens when starting the application. If you don't want to restart the application whenever you change something, execute the `sass` or the `lunr-build-indexes` respectively. You can automate this by launching another terminal and executing `grunt watch`
 
 ### How to work the searching implementation
 In this case, the searching implementation needs of the followings files:
@@ -207,7 +198,7 @@ In this case, the searching implementation needs of the followings files:
 - The partial is called if within the configuration the parameter search set true. Looks the file **layouts/partials/menu.html**
 - The javascript is within **layouts/base/metas.html**
 ```js
-$.getJSON("/json/search.{{ .Site.Language.Lang }}.json")
+ $.getJSON("/out/search.{{ .Site.Language.Lang }}.json")
 ```
 This part calls to the index file by each language. Hugo detects that language is what are you using and, put the .Site.Language.Lang in the line above. The followings are the language codes:
 ```
@@ -290,10 +281,10 @@ function search(query) {
     // Our result:
     //  {title:"Page1", href:"/section/page1", ...}
     return lunrIndex.search(query).map(function(result) {
-            return pagesIndex.filter(function(page) {
-                return page.href === result.ref;
-            })[0];
-        });
+        return pagesIndex.filter(function(page) {
+            return page.href === result.ref;
+        })[0];
+    });
 }
 
 /**

@@ -8,7 +8,7 @@ tags = [
     "PR-1"
 ]
 title = "Configurare l'Hub pasivo PR-1"
-url = "/en/sections/manuals/gateways/configure-the-hub-passive-pr-1"
+url = "/it/sections/manuali/gateways/configurare-l'hub-passivo-pr-1.it"
 toc = false
 
 +++

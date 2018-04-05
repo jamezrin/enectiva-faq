@@ -5,6 +5,10 @@ var grunt = require('grunt'),
 grunt.loadNpmTasks('grunt-open');
 grunt.loadNpmTasks('grunt-shell');
 grunt.loadNpmTasks('grunt-contrib-imagemin');
+grunt.loadNpmTasks('grunt-contrib-watch');
+require('load-grunt-tasks')(grunt); 
+
+const STATIC_DIR = "themes/enectiva-faq/static/"
 
 var buildIndexes = function(contentPath) {
     var processFile = function(abspath, filename) {
@@ -40,7 +44,7 @@ var buildIndexes = function(contentPath) {
         try {
             frontMatter = toml.parse(content[1].trim());
         } catch (e) {
-            conzole.failed(e.message);
+            console.failed(e.message);
         }
         if (frontMatter.url) {
             var url = frontMatter.url;
@@ -51,7 +55,7 @@ var buildIndexes = function(contentPath) {
             }
         }
 
-            // Build Lunr index for this page
+        // Build Lunr index for this page
         pageIndex = {
             title: frontMatter.title,
             tags: frontMatter.tags,
@@ -74,13 +78,13 @@ var buildIndexes = function(contentPath) {
 module.exports = function(grunt) {
     grunt.registerTask("lunr-build-indexes", () => {
         grunt.log.writeln("Generating lunr indexes...");
-        grunt.file.write("static/json/search.cs.json", buildIndexes("content/cs"));
-        grunt.file.write("static/json/search.de.json", buildIndexes("content/de"));
-        grunt.file.write("static/json/search.en.json", buildIndexes("content/en"));
-        grunt.file.write("static/json/search.es.json", buildIndexes("content/es"));
-        grunt.file.write("static/json/search.fr.json", buildIndexes("content/fr"));
-        grunt.file.write("static/json/search.it.json", buildIndexes("content/it"));
-        grunt.file.write("static/json/search.ru.json", buildIndexes("content/ru"));
+        grunt.file.write(STATIC_DIR + "out/search.cs.json", buildIndexes("content/cs"));
+        grunt.file.write(STATIC_DIR + "out/search.de.json", buildIndexes("content/de"));
+        grunt.file.write(STATIC_DIR + "out/search.en.json", buildIndexes("content/en"));
+        grunt.file.write(STATIC_DIR + "out/search.es.json", buildIndexes("content/es"));
+        grunt.file.write(STATIC_DIR + "out/search.fr.json", buildIndexes("content/fr"));
+        grunt.file.write(STATIC_DIR + "out/search.it.json", buildIndexes("content/it"));
+        grunt.file.write(STATIC_DIR + "out/search.ru.json", buildIndexes("content/ru"));
         grunt.log.ok("Successfully built indexes");
     });
 
@@ -104,9 +108,28 @@ module.exports = function(grunt) {
             live: {
                 path: 'http://faq.enectiva.cz'
             }
+        },
+
+        sass: {
+            dist: {
+                files: {
+                    'themes/enectiva-faq/static/assets/css/main.css': 'themes/enectiva-faq/static/assets/sass/main.sass'
+                }
+            }
+        },
+
+        watch: {
+            sass: {
+                files: ['**/*.sass'],
+                tasks: ['sass']
+            },
+            lunr: {
+                files: ['content/**/*.md'],
+                tasks: ['lunr-build-indexes']
+            }
         }
     });
 
-    grunt.registerTask('test', ['lunr-build-indexes', 'open:devserver', 'shell:server']);
-    grunt.registerTask('build', ['lunr-build-indexes', 'open:live', 'shell:build']);
+    grunt.registerTask('test', ['sass', 'lunr-build-indexes', 'open:devserver', 'shell:server']);
+    grunt.registerTask('build', ['sass', 'lunr-build-indexes', 'open:live', 'shell:build']);
 };

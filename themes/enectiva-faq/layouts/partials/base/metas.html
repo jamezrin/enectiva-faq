@@ -31,7 +31,7 @@
         // Initialize lunrjs using our generated index file
         function initLunr() {
             // First retrieve the index file
-            $.getJSON("/json/search.{{ .Site.Language.Lang }}.json")
+            $.getJSON("/out/search.{{ .Site.Language.Lang }}.json")
                 .done(function(index) {
                     pagesIndex = index;
                     // Set up lunrjs by declaring the fields we use
@@ -63,10 +63,10 @@
         function search(query) {
             // Find the item in our index corresponding to the lunr one to have more info
             return lunrIndex.search(query).map(function(result) {
-                    return pagesIndex.filter(function(page) {
-                        return page.url === result.ref;
-                    })[0];
-                });
+                return pagesIndex.filter(function(page) {
+                    return page.url === result.ref;
+                })[0];
+            });
         }
 
         // Let's get started

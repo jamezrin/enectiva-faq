@@ -8,7 +8,7 @@ tags = [
     "M-Bus Splitter"
 ]
 title = "Configurare e connettere uno Splitter M-Bus"
-url = "/en/manuals/splitters/configure-and-connect-a-mbus-splitter "
+url = "/it/manuali/splitters/configurare-e-connettere-un-mbus-splitter"
 toc = false
 
 +++
@@ -17,7 +17,7 @@ Utilizzerete lo splitter M-Bus se si desidera leggere contemporaneamente i conta
 
 Lo splitter M-Bus può separare un bus con un massimo di 4 contatori M-Bus.
 
-<img class = "center" src = "/ images / m-bus-splitter.jpg" style = "larghezza: 35%"> </ img>
+<img class = "center" src = "/images/m-bus-splitter.jpg" style = "larghezza: 35%"> </ img>
 
 ## Método de conexión
 
@@ -29,15 +29,15 @@ Lo splitter M-Bus può separare un bus con un massimo di 4 contatori M-Bus.
 ## Tipico utilizzo e situazione di partecipazione
 Hai un collegamento dall'impianto di riscaldamento, vedi immagine posteriore. Il calorimetro e il contatore sono collegati al master M-Bus e leggono i dati dalla rete mobile (Modem GSM).
 
-<img class = "center" src = "/ images / calorimetro-watermeter-to-mbusmaster_it.jpg" style = "width: 50%"> </ img>
+<img class = "center" src = "/images/calorimeter-watermeter-to-mbusmaster.jpg" style = "width: 50%"> </img>
 
 È sufficiente leggere il calorimetro in Enectiva, vale a dire la sezione bus (cavo M-Bus 1) con il calorimetro deve essere separata in due segmenti distinti utilizzando un separatore. Ci sarà la situazione nella foto. Il cavo M-Bus è separato in M-Bus nel master originale e M-Bus 2 nella master Enectiva. (Master = Central Unit = Communicator = Concentratore)
 
-<img class = "center" src = "/ images / calorimeter-watermeter-to-enectiva_it.jpg" style = "width: 50%"> </ img>
+<img class = "center" src = "/images/calorimeter-watermeter-to-enectiva_it.jpg" style = "width: 50%"> </img>
 
 Per configurare il M-Bus Splitter, solo i ponticelli (ponte di cortocircuito) sul bordo superiore dello splitter M-Bus.
 
-<img class = "centro" src = "/ images / short-circuit-jumper-mbus.jpg"> </ img>
+<img class = "centro" src = "/images/short-circuit-jumper-mbus.jpg"> </img>
 
 ## Avviare
 
