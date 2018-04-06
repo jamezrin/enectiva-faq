@@ -9,9 +9,6 @@ LanguageCode = "en"
 DefaultContentLanguage = "en"
 DefaultContentLanguageInSubdir = "true"
 
-# Default theme
-theme = "enectiva-faq"
-
 # Metadata format
 # "yaml", "toml", "json"
 metaDataFormat = "toml"

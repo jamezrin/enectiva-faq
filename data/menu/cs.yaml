@@ -3,83 +3,126 @@ main_menu:
         name: "Instrukce k Instalaci"
         URL: /cs/oddily/instrukce-k-instalaci/
         hide: false
+        weight: 01
         meters:
             name: Měřidla
             URL: /cs/oddily/instrukce-k-instalaci/meridla/
             hide: false
+            weight: 01
         sensors:
             name: Senzory
             URL: /cs/oddily/instrukce-k-instalaci/senzory/
             hide: false
+            weight: 02
         gateways:
             name: Brány
             URL: /cs/oddily/instrukce-k-instalaci/brany/
             hide: false
+            weight: 03
         convertors:
             name: Převodníky
             URL: /cs/oddily/instrukce-k-instalaci/prevodniky/
             hide: false
+            weight: 04
         splitters:
             name: Rozdělovače
             URL: /cs/oddily/instrukce-k-instalaci/rozdelovace/
             hide: false
+            weight: 05
         concentrators:
             name: Koncentrátory
             URL: /cs/oddily/instrukce-k-instalaci/koncentratory/
             hide: false
+            weight: 06
     manuals:
         name: Manuály
         URL: /cs/oddily/manualy/
         hide: false
+        weight: 02
         meters:
             name: Měřidla
             URL: /cs/oddily/manualy/meridla/
             hide: false
+            weight: 01
         sensors:
             name: Senzory
             URL: /cs/oddily/manualy/senzory/
             hide: false
+            weight: 02
         gateways:
             name: Brány
             URL: /cs/oddily/manualy/brany/
             hide: false
+            weight: 03
         convertors:
             name: Převodníky
             URL: /cs/oddily/manualy/prevodniky/
             hide: false
+            weight: 04
         splitters:
             name: Rozdělovače
             URL: /cs/oddily/manualy/rozdelovace/
             hide: false
+            weight: 05
         concentrators:
             name: Koncentrátory
             URL: /cs/oddily/manualy/koncentratory/
             hide: false
+            weight: 06
     tp_manuals:
         name: "Manuály třetí"
         URL: /cs/oddily/manualy-treti/
         hide: false
+        weight: 03
         meters:
             name: Měřidla
             URL: /cs/oddily/manualy-treti/meridla/
             hide: false
+            weight: 01
         sensors:
             name: Senzory
             URL: /cs/oddily/manualy-treti/senzory/
             hide: false
+            weight: 02
         gateways:
             name: Brány
             URL: /cs/oddily/manualy-treti/brany/
             hide: false
+            weight: 03
         convertors:
             name: Převodníky
             URL: /cs/oddily/manualy-treti/prevodniky/
             hide: false
+            weight: 04
         splitters:
             name: Rozdělovače
             URL: /cs/oddily/manualy-treti/rozdelovace/
             hide: false
+            weight: 05
         concentrators:
             name: Koncentrátory
             URL: /cs/oddily/manualy-treti/koncentratory/
             hide: false
+            weight: 06
+
+footer_menu:
+    partner_program:
+        name: "Partnerský program"
+        URL: https://www.enectiva.cz/cs/partnersky-program/
+        hide: false
+        weight: 01
+    enectiva_rules:
+        name: "Pravidla Enectivy"
+        URL: https://www.enectiva.cz/cs/pravidla-enectivy/
+        hide: false
+        weight: 02
+    dev_blog:
+        name: "Vývojový blog"
+        URL: https://developing.enectiva.cz/
+        hide: false
+        weight: 03
+    contact_us:
+        name: "Kontakt"
+        URL: https://www.enectiva.cz/cs/kontaktujte-nas/
+        hide: false
+        weight: 04

@@ -9,8 +9,6 @@ grunt.loadNpmTasks('grunt-contrib-watch');
 grunt.loadNpmTasks('grunt-contrib-cssmin');
 require('load-grunt-tasks')(grunt); 
 
-const STATIC_DIR = "themes/enectiva-faq/static/"
-
 var buildIndexes = function(contentPath) {
     var processFile = function(abspath, filename) {
         var pageIndex;
@@ -79,13 +77,13 @@ var buildIndexes = function(contentPath) {
 module.exports = function(grunt) {
     grunt.registerTask("lunr-build-indexes", () => {
         grunt.log.writeln("Generating lunr indexes...");
-        grunt.file.write(STATIC_DIR + "out/search.cs.json", buildIndexes("content/cs"));
-        grunt.file.write(STATIC_DIR + "out/search.de.json", buildIndexes("content/de"));
-        grunt.file.write(STATIC_DIR + "out/search.en.json", buildIndexes("content/en"));
-        grunt.file.write(STATIC_DIR + "out/search.es.json", buildIndexes("content/es"));
-        grunt.file.write(STATIC_DIR + "out/search.fr.json", buildIndexes("content/fr"));
-        grunt.file.write(STATIC_DIR + "out/search.it.json", buildIndexes("content/it"));
-        grunt.file.write(STATIC_DIR + "out/search.ru.json", buildIndexes("content/ru"));
+        grunt.file.write("static/out/search.cs.json", buildIndexes("content/cs"));
+        grunt.file.write("static/out/search.de.json", buildIndexes("content/de"));
+        grunt.file.write("static/out/search.en.json", buildIndexes("content/en"));
+        grunt.file.write("static/out/search.es.json", buildIndexes("content/es"));
+        grunt.file.write("static/out/search.fr.json", buildIndexes("content/fr"));
+        grunt.file.write("static/out/search.it.json", buildIndexes("content/it"));
+        grunt.file.write("static/out/search.ru.json", buildIndexes("content/ru"));
         grunt.log.ok("Successfully built indexes");
     });
 
@@ -95,10 +93,10 @@ module.exports = function(grunt) {
                 stdout: true
             },
             server: {
-                command: 'hugo server --theme=enectiva-faq'
+                command: 'hugo server'
             },
             build: {
-                command: 'hugo -d public/ --theme=enectiva-faq'
+                command: 'hugo -d public/'
             }
         },
 
@@ -114,7 +112,7 @@ module.exports = function(grunt) {
         sass: {
             dist: {
                 files: {
-                    'themes/enectiva-faq/static/assets/css/main.css': 'themes/enectiva-faq/static/assets/sass/main.sass'
+                    'static/assets/css/main.css': 'static/assets/sass/main.sass'
                 }
             }
         },
@@ -122,7 +120,7 @@ module.exports = function(grunt) {
         cssmin: {
             target: {
                 files: {
-                    'themes/enectiva-faq/static/assets/css/main.min.css': 'themes/enectiva-faq/static/assets/css/main.css'
+                    'static/assets/css/main.min.css': 'static/assets/css/main.css'
                 }
             }
         },

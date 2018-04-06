@@ -3,83 +3,126 @@ main_menu:
         name: "Istruzioni di Installazione"
         URL: /it/sezioni/istruzioni-di-installazione/
         hide: false
+        weight: 01
         meters:
             name: Calibri
             URL: /it/sezioni/istruzioni-di-installazione/calibri/
             hide: false
+            weight: 01
         sensors:
             name: Sensori
             URL: /it/sezioni/istruzioni-di-installazione/sensori/
             hide: false
+            weight: 02
         gateways:
             name: Gateways
             URL: /it/sezioni/istruzioni-di-installazione/gateways/
             hide: false
+            weight: 03
         convertors:
             name: Convertitori
             URL: /it/sezioni/istruzioni-di-installazione/convertitori/
             hide: false
+            weight: 04
         splitters:
             name: Splitters
             URL: /it/sezioni/istruzioni-di-installazione/splitters/
             hide: false
+            weight: 05
         concentrators:
             name: Concentratori
             URL: /it/sezioni/istruzioni-di-installazione/concentratori/
             hide: false
+            weight: 06
     manuals:
         name: Manuali
         URL: /it/sezioni/manuali/
         hide: false
+        weight: 02
         meters:
             name: Calibri
             URL: /it/sezioni/manuali/calibri/
             hide: false
+            weight: 01
         sensors:
             name: Sensori
             URL: /it/sezioni/manuali/sensori/
             hide: false
+            weight: 02
         gateways:
             name: Gateways
             URL: /it/sezioni/manuali/gateways/
             hide: false
+            weight: 03
         convertors:
             name: Convertitori
             URL: /it/sezioni/manuali/convertitori/
             hide: false
+            weight: 04
         splitters:
             name: Splitters
             URL: /it/sezioni/manuali/splitters/
             hide: false
+            weight: 05
         concentrators:
             name: Concentratori
             URL: /it/sezioni/manuali/concentratori/
             hide: false
+            weight: 06
     tp_manuals:
         name: "Manuali Terzo"
         URL: /it/sezioni/manuali-terzo/
         hide: false
+        weight: 03
         meters:
             name: Calibri
             URL: /it/sezioni/manuali-terzo/calibri/
             hide: false
+            weight: 01
         sensors:
             name: Sensori
             URL: /it/sezioni/manuali-terzo/sensori/
             hide: false
+            weight: 02
         gateways:
             name: Gateways
             URL: /it/sezioni/manuali-terzo/gateways/
             hide: false
+            weight: 03
         convertors:
             name: Convertitori
             URL: /it/sezioni/manuali-terzo/convertitori/
             hide: false
+            weight: 04
         splitters:
             name: Splitters
             URL: /it/sezioni/manuali-terzo/splitters/
             hide: false
+            weight: 05
         concentrators:
             name: Concentratori
             URL: /it/sezioni/manuali-terzo/concentratori/
             hide: false
+            weight: 06
+
+footer_menu:
+    partner_program:
+        name: "Programma partner"
+        URL: https://www.enectiva.cz/it/programma-partner/
+        hide: false
+        weight: 01
+    enectiva_rules:
+        name: "Regolamento di Enectiva"
+        URL: https://www.enectiva.cz/it/regolamento-di-enectiva/
+        hide: false
+        weight: 02
+    dev_blog:
+        name: "Blog di sviluppo"
+        URL: https://developing.enectiva.cz/
+        hide: false
+        weight: 03
+    contact_us:
+        name: "Contattaci"
+        URL: https://www.enectiva.cz/it/contattaci/
+        hide: false
+        weight: 04
