@@ -15,7 +15,7 @@
         <link itemprop="image" rel="icon" type="image/png" href="{{ "/assets/img/favicon.png" | absURL }}" />
         <link itemprop="image" rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "/assets/img/favicon.png" | absURL }}" />
         {{ .Hugo.Generator }}
-
+        
         <!-- CSS -->
         {{ range .Site.Params.stylesheets }}
             <link rel="stylesheet" href="/assets/css/{{ . }}" />
@@ -92,7 +92,6 @@
                     }
                     var href = url.substring(url.indexOf("/"), indexOfIndex);
                     suggestion.href = baseurl + url;
-
 
                     var query = $("#search-by").val();
                     var numWords = 2;

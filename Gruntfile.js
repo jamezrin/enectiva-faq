@@ -6,6 +6,7 @@ grunt.loadNpmTasks('grunt-open');
 grunt.loadNpmTasks('grunt-shell');
 grunt.loadNpmTasks('grunt-contrib-imagemin');
 grunt.loadNpmTasks('grunt-contrib-watch');
+grunt.loadNpmTasks('grunt-contrib-cssmin');
 require('load-grunt-tasks')(grunt); 
 
 const STATIC_DIR = "themes/enectiva-faq/static/"
@@ -118,10 +119,18 @@ module.exports = function(grunt) {
             }
         },
 
+        cssmin: {
+            target: {
+                files: {
+                    'themes/enectiva-faq/static/assets/css/main.min.css': 'themes/enectiva-faq/static/assets/css/main.css'
+                }
+            }
+        },
+
         watch: {
             sass: {
                 files: ['**/*.sass'],
-                tasks: ['sass']
+                tasks: ['sass', 'cssmin']
             },
             lunr: {
                 files: ['content/**/*.md'],
@@ -129,7 +138,7 @@ module.exports = function(grunt) {
             }
         }
     });
-
-    grunt.registerTask('test', ['sass', 'lunr-build-indexes', 'open:devserver', 'shell:server']);
-    grunt.registerTask('build', ['sass', 'lunr-build-indexes', 'open:live', 'shell:build']);
+    
+    grunt.registerTask('test', ['sass', 'cssmin', 'lunr-build-indexes', 'open:devserver', 'shell:server']);
+    grunt.registerTask('build', ['sass', 'cssmin', 'lunr-build-indexes', 'open:live', 'shell:build']);
 };

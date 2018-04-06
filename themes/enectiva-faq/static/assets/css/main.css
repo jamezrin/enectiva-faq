@@ -328,7 +328,8 @@ p {
   border-bottom-style: solid;
   border-bottom-width: 1px;
   box-shadow: 0px 2px 2px #E1E1E1;
-  background-color: #FFF; }
+  background-color: #FFF;
+  z-index: 1; }
 
 .sidebar-menu {
   display: inline-block;
@@ -462,12 +463,17 @@ p {
 
 .menu-lang {
   display: inline-block;
-  position: relative;
+  position: absolute;
   top: 0;
   right: 0;
   float: right;
   padding-top: 2rem;
   padding-bottom: 2rem; }
+  .menu-lang:active, .menu-lang:focus, .menu-lang:hover {
+    background-color: #2B64AB; }
+    .menu-lang:active label, .menu-lang:focus label, .menu-lang:hover label {
+      color: #FFF;
+      text-shadow: 0 1px 2px #2B64AB; }
 
 #menu-toggle, #menu-toggle-list {
   display: none; }
@@ -484,7 +490,8 @@ p {
   border-bottom-width: 1px;
   box-shadow: 0 3px 5px 0 #E1E1E1;
   background-color: #FFF;
-  list-style-type: none; }
+  list-style-type: none;
+  z-index: 1000; }
   #menu-toggle-list li {
     display: block;
     position: relative; }
@@ -518,12 +525,6 @@ label[for=menu-toggle] {
   border-left-width: 1px;
   font-size: 1.2rem;
   color: #2B64AB; }
-  label[for=menu-toggle]:active, label[for=menu-toggle]:focus, label[for=menu-toggle]:hover {
-    border-left-color: #2B64AB;
-    border-bottom-color: #2B64AB;
-    background-color: #88ABD4;
-    color: #FFF;
-    text-shadow: 0 1px 2px #2B64AB; }
 
 #menu-toggle:checked + #menu-toggle-list {
   display: block; }
@@ -543,11 +544,9 @@ label[for=menu-toggle] {
   display: inline-block;
   position: absolute;
   padding-top: 0;
-  padding-right: 2rem;
   padding-bottom: 0;
   padding-left: 2rem;
-  text-align: center;
-  width: 100%; }
+  text-align: center; }
 
 input[type="search"] {
   display: block;
@@ -639,7 +638,34 @@ input[type="search"] {
     padding-left: 2rem;
     text-align: center;
     text-width: 100%;
-    box-shadow: 0px 2px 2px #E1E1E1; }
+    box-shadow: 0px 2px 2px #E1E1E1;
+    width: 100%; }
+  input[type="search"] {
+    display: block;
+    width: 100%;
+    padding-top: 1.275rem;
+    padding-right: 0;
+    padding-bottom: 1.275rem;
+    padding-left: 0;
+    font-size: 1.2rem; }
+  .sey-list {
+    width: 93%; } }
+
+@media only screen and (max-width: 1500px) {
+  .searchbox {
+    display: inline-block;
+    position: relative;
+    border-top-color: #E1E1E1;
+    border-top-style: solid;
+    border-top-width: 1px;
+    padding-top: 0;
+    padding-right: 2rem;
+    padding-bottom: 0;
+    padding-left: 2rem;
+    text-align: center;
+    text-width: 100%;
+    box-shadow: 0px 2px 2px #E1E1E1;
+    width: 100%; }
   input[type="search"] {
     display: block;
     width: 100%;
@@ -727,11 +753,17 @@ input[type="search"] {
   padding: .35rem;
   color: #666; }
 
+@media only screen and (max-width: 1550px) {
+  .articles {
+    margin-top: 3em; } }
+
 /* For mobiles devices */
 @media only screen and (max-width: 1024px) {
   .post {
     float: left;
-    width: 95%; } }
+    width: 95%; }
+  .articles {
+    margin-top: 11.5rem; } }
 
 /* This file contains the sections menu block */
 .section-menu {
@@ -878,7 +910,7 @@ input[type="search"] {
   .post-single {
     float: none;
     width: 95%;
-    margin: 0 auto;
+    margin-top: 15rem;
     padding-top: 0;
     padding-right: 2.5rem;
     padding-bottom: 1rem;
@@ -887,6 +919,10 @@ input[type="search"] {
     margin-bottom: .5rem; }
   .post-content {
     padding-top: 1rem; } }
+
+@media only screen and (max-width: 1550px) {
+  .post-single {
+    padding-top: 4em; } }
 
 /* This file contains the elements of a table of contents */
 .toc {
@@ -912,8 +948,8 @@ input[type="search"] {
 
 /* This file contains the related articles block in the sidebar right of the post single */
 .rel-posts {
-  position: sticky;
-  top: 8rem;
+  position: fixed;
+  top: 5rem;
   display: inline-block;
   border-left-color: #E1E1E1;
   border-left-style: solid;
@@ -1001,6 +1037,8 @@ input[type="search"] {
     padding-right: 5rem;
     padding-bottom: 0;
     padding-left: 5rem; }
+    .footer-box ul {
+      line-height: 3em; }
   .footer-author, .footer-newsletter {
     margin-top: .875em;
     margin-right: 0;

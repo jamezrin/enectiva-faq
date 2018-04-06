@@ -24,7 +24,7 @@ paginatePath = "page"
     author = "Enectiva"
     search = true
     stylesheets = [
-        "main.css",
+        "main.min.css",
         "fonts.min.css",
         "flags.min.css"
     ]

@@ -1,14 +1,20 @@
-.menu
-    &-lang
-        display: inline-block
-        position: relative
-        top: 0
-        right: 0
-        float: right
-        padding:
-            top: 2rem
-            bottom: 2rem
-
+.menu-lang
+    display: inline-block
+    position: absolute
+    top: 0
+    right: 0
+    float: right
+    padding:
+        top: 2rem
+        bottom: 2rem
+    &:active,
+    &:focus,
+    &:hover
+        background-color: $color-blue
+        label
+            color: $color-white
+            text-shadow: 0 1px 2px $color-blue
+                
 #menu
     &-toggle,
     &-toggle-list
@@ -29,6 +35,7 @@
         box-shadow: 0 3px 5px 0 $color-grey
         background-color: $color-white
         list-style-type: none
+        z-index: 1000
         li
             display: block
             position: relative
@@ -70,17 +77,6 @@ label[for=menu-toggle]
             width: 1px
     font-size: 1.2rem
     color: $color-blue
-    &:active,
-    &:focus,
-    &:hover
-        border:
-            left:
-                color: $color-blue
-            bottom:
-                color: $color-blue
-        background-color: $color-blue-light
-        color: $color-white
-        text-shadow: 0 1px 2px $color-blue
 
 #menu-toggle:checked
     & + #menu-toggle-list
@@ -88,14 +84,12 @@ label[for=menu-toggle]
 
 /* For mobiles devices */
 @media only screen and (max-width: 1024px)
-    .menu
-        &-lang
-            padding:
-                top: .5rem
-                bottom: .5rem
-    #menu
-        &-toggle-list
-            margin-top: .8rem
+    .menu-lang
+        padding:
+            top: .5rem
+            bottom: .5rem
+    #menu-toggle-list
+        margin-top: .8rem
     label[for="menu-toggle"]
         padding: .75rem
         background-color: $color-white

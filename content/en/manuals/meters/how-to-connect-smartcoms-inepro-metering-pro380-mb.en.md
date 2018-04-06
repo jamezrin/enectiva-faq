@@ -34,4 +34,4 @@ In order to begin making the settings, we need to have the following elements:
 <img class="center" src="/images/cable-terminal-connection-between-devices.jpg" style="width:70%"></img>
 4. Finally connect the SmartCom to a power source through its power supply. **(like the next photo)**
 <img class="center" src="/images/smartcom-to-power-supply.jpg" style="width:70%"></img>
-5. Connects to the bottom of the **Inepro Metering PRO380-Mb** to
+5. Connects to the bottom of the **Inepro Metering PRO380-Mb** to ...
