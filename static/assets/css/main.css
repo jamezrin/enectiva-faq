@@ -462,7 +462,7 @@ p {
     margin-top: 0; } }
 
 .menu-lang {
-  display: inline-block;
+  display: block;
   position: absolute;
   top: 0;
   right: 0;
@@ -625,32 +625,6 @@ input[type="search"] {
   color: #2B64AB; }
 
 /* For mobiles devices */
-@media only screen and (max-width: 1024px) {
-  .searchbox {
-    display: inline-block;
-    position: relative;
-    border-top-color: #E1E1E1;
-    border-top-style: solid;
-    border-top-width: 1px;
-    padding-top: 0;
-    padding-right: 2rem;
-    padding-bottom: 0;
-    padding-left: 2rem;
-    text-align: center;
-    text-width: 100%;
-    box-shadow: 0px 2px 2px #E1E1E1;
-    width: 100%; }
-  input[type="search"] {
-    display: block;
-    width: 100%;
-    padding-top: 1.275rem;
-    padding-right: 0;
-    padding-bottom: 1.275rem;
-    padding-left: 0;
-    font-size: 1.2rem; }
-  .sey-list {
-    width: 93%; } }
-
 @media only screen and (max-width: 1500px) {
   .searchbox {
     display: inline-block;
@@ -680,8 +654,7 @@ input[type="search"] {
 /* This file contains the style of articles block and post summary */
 .articles {
   display: inline-block;
-  margin-top: 2rem;
-  padding-bottom: 3rem;
+  margin-top: 1em;
   margin-left: 3rem;
   margin-right: 3rem; }
 
@@ -691,7 +664,8 @@ input[type="search"] {
   margin-right: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  width: 47%; }
+  width: 47%;
+  height: 15em; }
   .post-title {
     display: inline-flex;
     margin-bottom: .25rem;
@@ -755,15 +729,13 @@ input[type="search"] {
 
 @media only screen and (max-width: 1550px) {
   .articles {
-    margin-top: 3em; } }
+    margin-top: 8em; } }
 
 /* For mobiles devices */
 @media only screen and (max-width: 1024px) {
   .post {
     float: left;
-    width: 95%; }
-  .articles {
-    margin-top: 11.5rem; } }
+    width: 95%; } }
 
 /* This file contains the sections menu block */
 .section-menu {
@@ -1062,3 +1034,6 @@ input[type="search"] {
     filter: grayscale(1); }
     .footer-logo:active, .footer-logo:focus, .footer-logo:hover {
       filter: grayscale(0); }
+
+body {
+  padding-top: 40px; }
