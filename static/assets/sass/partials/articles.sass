@@ -2,7 +2,7 @@
 
 .articles
     display: inline-block
-    margin-top: 1em
+    margin-top: 4em
     margin:
         left: 3rem
         right: 3rem
@@ -93,12 +93,16 @@
         padding: .35rem
         color: $color-grey-darker
 
-@media only screen and (max-width: 1550px)
-    .articles
-        margin-top: 8em
-
 /* For mobiles devices */
-@media only screen and (max-width: 1024px)
+@media only screen and (max-width: 1500px)
     .post
         float: left
         width: 95%
+@media only screen and (max-width: 1550px)
+    .articles
+        margin-top: 10em
+@media only screen and (max-width: 590px)
+    .post
+        height: 25em
+    .articles
+        margin-top: 13em

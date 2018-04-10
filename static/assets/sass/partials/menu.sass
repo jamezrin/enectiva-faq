@@ -122,7 +122,7 @@
     display: none !important
 
 /* For mobiles devices */
-@media only screen and (max-width: 1024px)
+@media only screen and (max-width: 1550px)
     #sidebar
         border-bottom:
             color: transparent
@@ -131,44 +131,43 @@
         width: 100%
         box-shadow: none
 
-    .sidebar
-        &-menu
-            border-top:
-                color: $color-grey
-                style: solid
-                width: 1px
-            border-bottom:
-                color: transparent
-                style: none
-                width: 0
-            width: 100%
-            padding: 1rem
-            text-align: center
-            li
-                position: relative
-                display: inline-block
-                a
-                    display: block
-                    padding: 0
-                    border-bottom:
+    .sidebar-menu
+        border-top:
+            color: $color-grey
+            style: solid
+            width: 1px
+        border-bottom:
+            color: transparent
+            style: none
+            width: 0
+        width: 100%
+        padding: 1rem
+        text-align: center
+        li
+            position: relative
+            display: inline-block
+            a
+                display: block
+                padding: 0
+                border-bottom:
+                    color: transparent
+                    style: none
+                    width: 0
+                padding:
+                    top: .5rem
+                    bottom: .5rem
+                    left: .75rem
+                    right: .5rem
+                &:active,
+                &:focus,
+                &:hover
+                    border:
                         color: transparent
                         style: none
                         width: 0
-                    padding:
-                        top: .5rem
-                        bottom: .5rem
-                        left: .75rem
-                        right: .5rem
-                    &:active,
-                    &:focus,
-                    &:hover
-                        border:
-                            color: transparent
-                            style: none
-                            width: 0
-                        background-color: transparent
-                        color: $color-orange
-                        text-shadow: none
+                    background-color: transparent
+                    color: $color-orange
+                    text-shadow: none
     .sub
         margin:
             top: 0

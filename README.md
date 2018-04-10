@@ -198,7 +198,7 @@ In this case, the searching implementation needs of the followings files:
 - The partial is called if within the configuration the parameter search set true. Looks the file **layouts/partials/menu.html**
 - The javascript is within **layouts/base/metas.html**
 ```js
- $.getJSON("/out/search.{{ .Site.Language.Lang }}.json")
+ $.getJSON("/dist/search.{{ .Site.Language.Lang }}.json")
 ```
 This part calls to the index file by each language. Hugo detects that language is what are you using and, put the .Site.Language.Lang in the line above. The followings are the language codes:
 ```
@@ -251,7 +251,7 @@ enectiva-faq
 |       └── internal
 |           └── search.html (contains the search box)
 └── static
-    └── out
+    └── dist
         ├── search.cs.json (index to search)
         ├── search.de.json (index to search)
         ├── search.en.json (index to search)

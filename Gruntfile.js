@@ -77,13 +77,9 @@ var buildIndexes = function(contentPath) {
 module.exports = function(grunt) {
     grunt.registerTask("lunr-build-indexes", () => {
         grunt.log.writeln("Generating lunr indexes...");
-        grunt.file.write("static/out/search.cs.json", buildIndexes("content/cs"));
-        grunt.file.write("static/out/search.de.json", buildIndexes("content/de"));
-        grunt.file.write("static/out/search.en.json", buildIndexes("content/en"));
-        grunt.file.write("static/out/search.es.json", buildIndexes("content/es"));
-        grunt.file.write("static/out/search.fr.json", buildIndexes("content/fr"));
-        grunt.file.write("static/out/search.it.json", buildIndexes("content/it"));
-        grunt.file.write("static/out/search.ru.json", buildIndexes("content/ru"));
+        ["cs", "de", "en", "es", "fr", "it", "ru"].forEach((lang) => {
+            grunt.file.write("static/dist/search." + lang + ".json", buildIndexes("content/" + lang))
+        });
         grunt.log.ok("Successfully built indexes");
     });
 
@@ -112,7 +108,7 @@ module.exports = function(grunt) {
         sass: {
             dist: {
                 files: {
-                    'static/assets/css/main.css': 'static/assets/sass/main.sass'
+                    'static/dist/main.css': 'static/assets/sass/main.sass'
                 }
             }
         },
@@ -120,7 +116,7 @@ module.exports = function(grunt) {
         cssmin: {
             target: {
                 files: {
-                    'static/assets/css/main.min.css': 'static/assets/css/main.css'
+                    'static/dist/main.min.css': 'static/dist/main.css'
                 }
             }
         },

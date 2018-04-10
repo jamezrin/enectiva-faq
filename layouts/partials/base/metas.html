@@ -18,7 +18,7 @@
         
         <!-- CSS -->
         {{ range .Site.Params.stylesheets }}
-            <link rel="stylesheet" href="/assets/css/{{ . }}" />
+            <link rel="stylesheet" href="/{{ . }}" />
         {{ end }}
         <!-- Javascript -->
         {{ range .Site.Params.javascript }}
@@ -31,7 +31,7 @@
         // Initialize lunrjs using our generated index file
         function initLunr() {
             // First retrieve the index file
-            $.getJSON("/out/search.{{ .Site.Language.Lang }}.json")
+            $.getJSON("/dist/search.{{ .Site.Language.Lang }}.json")
                 .done(function(index) {
                     pagesIndex = index;
                     // Set up lunrjs by declaring the fields we use
