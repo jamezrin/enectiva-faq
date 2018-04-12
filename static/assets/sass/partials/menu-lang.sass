@@ -7,13 +7,15 @@
     padding:
         top: 2rem
         bottom: 2rem
-    &:active,
-    &:focus,
-    &:hover
-        background-color: $color-blue
-        label
-            color: $color-white
-            text-shadow: 0 1px 2px $color-blue
+
+    @media only screen and (min-width: 1550px)
+        &:active,
+        &:focus,
+        &:hover
+            background-color: $color-blue
+            label
+                color: $color-white
+                text-shadow: 0 1px 2px $color-blue
                 
 #menu
     &-toggle,

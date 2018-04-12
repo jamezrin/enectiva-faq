@@ -1,16 +1,44 @@
 {{ $lang := .Site.Language.Lang }}
-{{ $l := index .Site.Data.locales $lang }}
+{{ $locale := index .Site.Data.locales $lang }}
 
 <div class="menu-lang">
     <label for="menu-toggle">Lang <i class="fa fa-angle-down" aria-hidden="true"></i></label>
     <input type="checkbox" id="menu-toggle"/>
     <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement/" id="menu-toggle-list">
-        <li itemprop="name"><a itemprop="url" href="{{ "cs/" | absURL }}" title="{{ $l.menu.title.cs }}"><span class="flag-icon flag-icon-cz"></span>{{ $l.menu.toggle.cs }}</a></li>
-        <li itemprop="name"><a itemprop="url" href="{{ "de/" | absURL }}" title="{{ $l.menu.title.de }}"><span class="flag-icon flag-icon-de"></span>{{ $l.menu.toggle.de }}</a></li>
-        <li itemprop="name"><a itemprop="url" href="{{ "en/" | absURL }}" title="{{ $l.menu.title.en }}"><span class="flag-icon flag-icon-gb"></span>{{ $l.menu.toggle.en }}</a></li>
-        <li itemprop="name"><a itemprop="url" href="{{ "es/" | absURL }}" title="{{ $l.menu.title.es }}"><span class="flag-icon flag-icon-es"></span>{{ $l.menu.toggle.es }}</a></li>
-        <li itemprop="name"><a itemprop="url" href="{{ "fr/" | absURL }}" title="{{ $l.menu.title.fr }}"><span class="flag-icon flag-icon-fr"></span>{{ $l.menu.toggle.fr }}</a></li>
-        <li itemprop="name"><a itemprop="url" href="{{ "it/" | absURL }}" title="{{ $l.menu.title.it }}"><span class="flag-icon flag-icon-it"></span>{{ $l.menu.toggle.it }}</a></li>
-        <li itemprop="name"><a itemprop="url" href="{{ "ru/" | absURL }}" title="{{ $l.menu.title.ru }}"><span class="flag-icon flag-icon-ru"></span>{{ $l.menu.toggle.ru }}</a></li>
+        <li itemprop="name">
+            <a itemprop="url" href="{{ "cs/" | absURL }}" title="{{ $locale.menu.title.cs }}">
+            <span class="flag-icon flag-icon-cz"></span>{{ $locale.menu.toggle.cs }}
+            </a>
+        </li>
+        <li itemprop="name">
+            <a itemprop="url" href="{{ "de/" | absURL }}" title="{{ $locale.menu.title.de }}">
+            <span class="flag-icon flag-icon-de"></span>{{ $locale.menu.toggle.de }}
+            </a>
+        </li>
+        <li itemprop="name">
+            <a itemprop="url" href="{{ "en/" | absURL }}" title="{{ $locale.menu.title.en }}">
+            <span class="flag-icon flag-icon-gb"></span>{{ $locale.menu.toggle.en }}
+            </a>
+        </li>
+        <li itemprop="name">
+            <a itemprop="url" href="{{ "es/" | absURL }}" title="{{ $locale.menu.title.es }}">
+            <span class="flag-icon flag-icon-es"></span>{{ $locale.menu.toggle.es }}
+            </a>
+        </li>
+        <li itemprop="name">
+            <a itemprop="url" href="{{ "fr/" | absURL }}" title="{{ $locale.menu.title.fr }}">
+            <span class="flag-icon flag-icon-fr"></span>{{ $locale.menu.toggle.fr }}
+            </a>
+        </li>
+        <li itemprop="name">
+            <a itemprop="url" href="{{ "it/" | absURL }}" title="{{ $locale.menu.title.it }}">
+            <span class="flag-icon flag-icon-it"></span>{{ $locale.menu.toggle.it }}
+            </a>
+        </li>
+        <li itemprop="name">
+            <a itemprop="url" href="{{ "ru/" | absURL }}" title="{{ $locale.menu.title.ru }}">
+            <span class="flag-icon flag-icon-ru"></span>{{ $locale.menu.toggle.ru }}
+            </a>
+        </li>
     </ul>
 </div>

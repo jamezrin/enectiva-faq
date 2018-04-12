@@ -29,7 +29,9 @@ paginatePath = "page"
     javascript = [
         "jquery-3.2.1.js",
         "horsey.min.js",
-        "lunr.min.js"
+        "lunr.min.js",
+        "string.min.js",
+        "main.js"
     ]
     headerlogo = "assets/img/logo.png"
     footerlogo = "assets/img/enerfis-logo.png"
@@ -42,7 +44,6 @@ paginatePath = "page"
     italian = "it"
     russian = "ru"
     spanish = "es"
-
 
 [permalinks]
     es = "/:slug/:filename"
@@ -120,18 +121,18 @@ paginatePath = "page"
     tag = "tags"
 
 [languages.ru.taxonomies]
-        russian = "ru"
-            razdel = "razdely"
-                rukovodstvo = "rukovodstva"
-                tretiy-po-ekspluatatsii = "rukovodstva-tret-yego"
-                instruktsiya-po-montazhu = "instruktsiya-po-ustanovke"
-                    shlyuz = "shlyuzy"
-                    metr = "manometry"
-                    datchik = "datchikov"
-                    konverter = "preobrazovateli"
-                    razvetvitel = "razvetviteli"
-                    kontsentrator = "kontsentratory"
-        tag = "tags"
+    russian = "ru"
+        razdel = "razdely"
+            rukovodstvo = "rukovodstva"
+            tretiy-po-ekspluatatsii = "rukovodstva-tret-yego"
+            instruktsiya-po-montazhu = "instruktsiya-po-ustanovke"
+                shlyuz = "shlyuzy"
+                metr = "manometry"
+                datchik = "datchikov"
+                konverter = "preobrazovateli"
+                razvetvitel = "razvetviteli"
+                kontsentrator = "kontsentratory"
+    tag = "tags"
 [languages.cs.taxonomies]
     czech = "cs"
         cast = "oddily"

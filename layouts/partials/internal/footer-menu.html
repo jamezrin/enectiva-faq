@@ -1,17 +1,12 @@
 {{ $lang := .Site.Language.Lang }}
-{{ $l := index .Site.Data.menu $lang }}
-{{ $p_p := $l.footer_menu.partner_program }}
-{{ $e_r := $l.footer_menu.enectiva_rules }}
-{{ $d_b := $l.footer_menu.dev_blog }}
-{{ $c_u := $l.footer_menu.contact_us }}
+{{ $menus := index .Site.Data.menu $lang }}
 
 <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="footer-menu">
-    <li itemprop="name" class="sub-menu-footer"><a itemprop="url" href="{{- $p_p.URL -}}" hreflang="{{ $lang }}">{{- $p_p.name -}}</a>
+    {{ range sort ($menus.footer_menu) "weight" "asc" }}
+    <li itemprop="name" class="sub-menu-footer">
+        <a itemprop="url" href="{{- .url -}}" hreflang="{{ $lang }}">
+            {{- .text -}}
+        </a>
     </li>
-    <li itemprop="name" class="sub-menu-footer"><a itemprop="url" href="{{- $e_r.URL -}}" hreflang="{{ $lang }}">{{- $e_r.name -}}</a>
-    </li>
-    <li itemprop="name" class="sub-menu-footer"><a itemprop="url" href="{{ $d_b.URL -}}" hreflang="{{ $lang }}">{{- $d_b.name -}}</a>
-    </li>
-    <li itemprop="name" class="sub-menu-footer"><a itemprop="url" href="{{ $c_u.URL -}}" hreflang="{{ $lang }}">{{- $c_u.name -}}</a>
-    </li>
+    {{ end }}
 </ul>

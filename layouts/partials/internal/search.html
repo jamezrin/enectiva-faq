@@ -3,7 +3,9 @@
 
 {{ if eq .Site.Params.search true }}
 <div class="searchbox">
-    <input data-search-input id="search-by" type="search" placeholder="{{ $l.search_placeholder }}">
+    <span style="display: block; overflow: hidden;">
+        <input data-search-input id="search-by" type="search" placeholder="{{ $l.search_placeholder }}">
+    </span>
 </div>
     <script type="text/javascript">
         var baseurl = {{ .Site.BaseURL }};

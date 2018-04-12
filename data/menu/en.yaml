@@ -37,7 +37,7 @@ main_menu:
     manuals:
         name: Manuals
         URL: /en/sections/manuals/
-        hide: false
+        hide: true
         weight: 02
         meters:
             name: Meters
@@ -72,7 +72,7 @@ main_menu:
     tp_manuals:
         name: "Third-party manuals"
         URL: /en/sections/third-party-manuals/
-        hide: false
+        hide: true
         weight: 03
         meters:
             name: Meters

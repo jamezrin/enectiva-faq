@@ -37,7 +37,7 @@ main_menu:
     manuals:
         name: Manuels
         URL: /fr/sections/manuels/
-        hide: false
+        hide: true
         weight: 02
         meters:
             name: Jauges
@@ -72,7 +72,7 @@ main_menu:
     tp_manuals:
         name: "Manuels Troisième"
         URL: /fr/sections/manuels-troisieme/
-        hide: false
+        hide: true
         weight: 03
         meters:
             name: Jauges

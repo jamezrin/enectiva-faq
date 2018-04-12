@@ -37,7 +37,7 @@ main_menu:
     manuals:
         name: Manuály
         URL: /cs/oddily/manualy/
-        hide: false
+        hide: true
         weight: 02
         meters:
             name: Měřidla
@@ -72,7 +72,7 @@ main_menu:
     tp_manuals:
         name: "Manuály třetí"
         URL: /cs/oddily/manualy-treti/
-        hide: false
+        hide: true
         weight: 03
         meters:
             name: Měřidla

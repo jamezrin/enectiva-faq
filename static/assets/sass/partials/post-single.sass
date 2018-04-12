@@ -9,7 +9,7 @@
             right: 5rem
             bottom: 2rem
             left: 5rem
-        margin-top: 7rem
+        margin-top: 6em
     &-byline
         border-top:
             color: $color-grey
@@ -38,8 +38,6 @@
             style: solid
             width: 1px
             radius: 2px 0 0 2px
-            right:
-                width: 0
         padding: .35rem
         color: $color-grey-darker
 .tag
@@ -53,31 +51,10 @@
         style: solid
         width: 1px
         radius: 0 2px 2px 0
-        left:
-            width: 0
     text-transform: capitalize
     font-weight: 300
     color: $color-grey-dark
-    &:nth-child(2)
-        border:
-            radius: 0
-            left:
-                color: $color-grey-darker
-                width: 1px
-            right:
-                color: transparent
-    &:nth-child(3)
-        border:
-            radius: 0
-            left:
-                width: 1px
-        text-transform: capitalize
-    &:last-child
-        border:
-            left:
-                color: transparent
-                width: 1px
-        text-transform: capitalize
+    
     &:active,
     &:focus,
     &:hover
@@ -88,12 +65,15 @@
         color: $color-blue
 
 /* For mobiles devices */
+@media only screen and (max-width: 1600px)
+    .post-single
+        margin-top: 14em
+
 @media only screen and (max-width: 1024px)
     .post
         &-single
             float: none
             width: 95%
-            margin-top: 15rem
             padding:
                 top: 0
                 right: 2.5rem
@@ -105,6 +85,6 @@
         &-content
             padding-top: 1rem
 
-@media only screen and (max-width: 1550px)
+@media only screen and (max-width: 800px)
     .post-single
-        padding-top: 4em
+        margin-top: 0

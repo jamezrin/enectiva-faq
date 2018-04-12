@@ -5,7 +5,6 @@ oddily = ["Instrukce k instalaci"]
 tags = ["slovo1","slovo2"]
 title = "Instrukce k instalaci #1"
 url = "/cs/instrukce-k-instalaci/example-1"
-
 +++
 
 ### Obsah v češtině

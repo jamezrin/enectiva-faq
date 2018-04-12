@@ -37,7 +37,7 @@ main_menu:
     manuals:
         name: Manuales
         URL: /es/secciones/manuales/
-        hide: false
+        hide: true
         weight: 01
         meters:
             name: Medidores
@@ -72,7 +72,7 @@ main_menu:
     tp_manuals:
         name: "Manuales de terceros"
         URL: /es/secciones/manuales-de-terceros/
-        hide: false
+        hide: true
         weight: 01
         meters:
             name: Medidores

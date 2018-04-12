@@ -2,7 +2,7 @@
 <div id="sidebar" class="nav-collapse">
     <div class="header">
         <div itemscope itemtype="http://schema.org/LocalBusiness" class="header-navbar">
-            <a itemprop="url" href="{{ .Site.BaseURL | absURL }}/{{ .Site.Language.Lang }}">
+            <a itemprop="url" href="{{ .Site.BaseURL | absURL }}{{ .Site.Language.Lang }}">
                 <img itemprop="logo" src="{{ .Site.Params.headerlogo | absURL }}" class="header-logo"></img>
             </a>
         </div>

@@ -37,7 +37,7 @@ main_menu:
     manuals:
         name: Manuali
         URL: /it/sezioni/manuali/
-        hide: false
+        hide: true
         weight: 02
         meters:
             name: Calibri
@@ -72,7 +72,7 @@ main_menu:
     tp_manuals:
         name: "Manuali Terzo"
         URL: /it/sezioni/manuali-terzo/
-        hide: false
+        hide: true
         weight: 03
         meters:
             name: Calibri

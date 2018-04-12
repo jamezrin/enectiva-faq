@@ -13,11 +13,12 @@
             </div>
         </div>
         <div class="post-content">
-            {{if ne .Params.toc false}}
+            {{if .Params.toc }}
             <div class="toc">
                 {{ .TableOfContents }}
             </div>
-            {{end}}
+            {{ end }}
+            
             {{ .Content }}
         </div>
     </div>

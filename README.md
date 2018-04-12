@@ -12,23 +12,27 @@ grunt test
 ```
 
 ## Dependencies
+First of all, Hugo. Make sure it is accessible from anywhere (added to your PATH variable).
+This should be able to work with both Windows and Linux-based distros.
+
+Then there are the frontend JS dependencies, included in static/assets/js/
 - [lunrjs v2.0.3](https://github.com/olivernn/lunr.js)
 - [horsey v4.2.2](https://bevacqua.github.io/horsey/)
-- [jQuery v3.2.1](https://bevacqua.github.io/horsey/)
+- [jQuery v3.2.1](https://jquery.com/)
 
 To update the lunr index files and compile the sass to css, it depends on
-- [NodeJS >= 4.7.2](https://docs.npmjs.com/getting-started/installing-node)
+- [NodeJS >= 4.7.2](https://nodejs.org)
 - [Grunt v1.0.2](https://gruntjs.com/getting-started)
 - [string v3.3.3](https://www.npmjs.com/package/string)
 - [toml v2.3.3](https://www.npmjs.com/package/toml)
 
 As well as some grunt addons
-- grunt-contrib-imagin
-- grunt-contrib-watch
-- grunt-open
-- grunt-sass
-- grunt-shell
-- load-grunt-tasks
+- grunt-contrib-imagin **Used for optimizing images**
+- grunt-contrib-watch **Used to automatically run Grunt tasks when modifying files**
+- grunt-open **Used to automatically open your default browser**
+- grunt-sass **Used to compile the SASS to CSS**
+- grunt-shell **Used to run hugo**
+- load-grunt-tasks **`Used for grunt-sass`**
 
 ## Creating new blog post
 The command to do this is the next:

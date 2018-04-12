@@ -3,8 +3,8 @@ author = "Enectiva"
 date = "2017-04-19T09:20:10+02:00"
 secciones = ["Manuales de terceros"]
 tags = ["word1","word2"]
-title = "Manuales de terceros #1"
 url = "/es/manuales-de-terceros/example-1"
+title = "Manuales de terceros #1"
 
 +++
 

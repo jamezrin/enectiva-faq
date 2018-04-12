@@ -11,40 +11,40 @@ require('load-grunt-tasks')(grunt);
 
 var buildIndexes = function(contentPath) {
     var processFile = function(abspath, filename) {
-        var pageIndex;
-
         if (S(filename).endsWith(".html")) {
-            pageIndex = processHTMLFile(abspath, filename);
+            return processHTMLFile(abspath, filename);
         } else {
-            pageIndex = processMDFile(abspath, filename);
+            return processMDFile(abspath, filename);
         }
-
-        return pageIndex;
     };
 
     var processHTMLFile = function(abspath, filename) {
         var content = grunt.file.read(abspath);
         var pageName = S(filename).chompRight(".html").s;
-        var url = S(abspath)
-            .chompLeft(contentPath).s;
+        var url = S(abspath).chompLeft(contentPath).s;
         return {
             title: pageName,
             url: url,
-            content: S(content).trim().stripTags().stripPunctuation().s
+            content: S(content)
+                .trim() //Removes unnecessary spaces
+                .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"") //Removes punctuation, calling stripPunctuation() removes diacritics too
+                .replace("/\r?\n|\r/g", " ") //Removes line breaks
+                .stripTags() //Removes HTML tags
+                .s
         };
     };
 
     var processMDFile = function(abspath, filename) {
         var content = grunt.file.read(abspath);
-        var pageIndex;
-        // First separate the Front Matter from the content and parse it
+        //Remove front matter (+++ for TOML and --- for YAML)
         content = content.split("+++");
         var frontMatter;
         try {
             frontMatter = toml.parse(content[1].trim());
         } catch (e) {
-            console.failed(e.message);
+            console.error("Failed to parse", e.message);
         }
+        
         if (frontMatter.url) {
             var url = frontMatter.url;
         } else {
@@ -53,15 +53,18 @@ var buildIndexes = function(contentPath) {
                 url = S(abspath).chompLeft(contentPath).chompRight(filename).s;
             }
         }
-
-        // Build Lunr index for this page
-        pageIndex = {
+        
+        return {
             title: frontMatter.title,
             tags: frontMatter.tags,
             url: url,
-            content: S(content[2]).trim().stripTags().stripPunctuation().s
+            content: S(content[2])
+                .trim() //Removes unnecessary spaces
+                .replace(/[.,\/#!$%\^&\*;:{}=\-_|`~()]/g, '') //Removes punctuation, calling stripPunctuation() removes diacritics too
+                .replace(/[\n\r]+/g, ' ') //Removes line breaks
+                .stripTags() //Removes HTML tags
+                .s
         };
-        return pageIndex;
     };
 
     var pagesIndex = [];

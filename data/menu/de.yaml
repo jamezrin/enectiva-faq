@@ -37,7 +37,7 @@ main_menu:
     manuals:
         name: Handbücher
         URL: /de/abschnitte/handbucher/
-        hide: false
+        hide: true
         weight: 02
         meters:
             name: Lehren
@@ -72,7 +72,7 @@ main_menu:
     tp_manuals:
         name: "Handbücher Dritte"
         URL: /de/abschnitte/handbucher-dritte/
-        hide: false
+        hide: true
         weight: 03
         meters:
             name: Lehren
