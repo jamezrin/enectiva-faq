@@ -107,7 +107,7 @@ main_menu:
 
 footer_menu:
     partner_program:
-        name: "Partner Programmer"
+        name: "Partner Programme"
         URL: https://www.enectiva.cz/en/partner-programme/
         hide: false
         weight: 01

@@ -1,24 +1,24 @@
 {{ $lang := .Site.Language.Lang }}
 {{ $l := index .Site.Data.locales $lang }}
 
-    <div class="footer">
-        <div class="footer-box">
-            {{ partial "internal/footer-menu.html" . }}
-            <div class="footer-newsletter">
+<div class="footer">
+    <div class="footer-box">
+        {{ partial "internal/footer-menu.html" . }}
+        <div class="footer-newsletter">
+        </div>
+        <div itemscope itemtype="http://schema.org/LocalBusiness" class="footer-author">
+            <img itemprop="logo" src="{{ .Site.Params.footerlogo | absURL }}" class="footer-logo"></img>
+            <p itemprop="description">{{ $l.footer.author_message }} <a href="http://enerfis.cz" >Enerfis s.r.o.</a>
+            </p>
+            <div itemprop="address" itemscope
+                 itemtype="http://schema.org/PostalAddress">
+                <span itemprop="streetAddress">{{ $l.street_address }}</span>
+                <span itemprop="addressLocality">{{ $l.address_locality }}</span>
             </div>
-            <div itemscope itemtype="http://schema.org/LocalBusiness" class="footer-author">
-                <img itemprop="logo" src="{{ .Site.Params.footerlogo | absURL }}" class="footer-logo"></img>
-                <p itemprop="description">{{ $l.footer.author_message }} <a href="http://enerfis.cz" >Enerfis s.r.o.</a>
-                </p>
-                <div itemprop="address" itemscope
-                     itemtype="http://schema.org/PostalAddress">
-                    <span itemprop="streetAddress">{{ $l.street_address }}</span>
-                    <span itemprop="addressLocality">{{ $l.address_locality }}</span>
-                </div>
-                <a itemprop="url" href="http://enerfis.cz">www.enerfis.cz</a>
-            </div>
+            <a itemprop="url" href="http://enerfis.cz">www.enerfis.cz</a>
         </div>
     </div>
+</div>
 </body>
 
 </html>

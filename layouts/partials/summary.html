@@ -1,5 +1,5 @@
 {{ $lang := .Site.Language.Lang }}
-{{ $l := index .Site.Data.locales $lang }}
+{{ $locale := index .Site.Data.locales $lang }}
 
 <div class="summary">
     <div class="post-header">
@@ -11,6 +11,6 @@
 </div>
 {{ if .Truncated }}
 <div class="read-more">
-    <a href="{{ .RelPermalink }}">{{ $l.read_more }}<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+    <a href="{{ .RelPermalink }}">{{ $locale.read_more }}<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 </div>
 {{ end }}

@@ -4,8 +4,8 @@
 <ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="footer-menu">
     {{ range sort ($menus.footer_menu) "weight" "asc" }}
     <li itemprop="name" class="sub-menu-footer">
-        <a itemprop="url" href="{{- .url -}}" hreflang="{{ $lang }}">
-            {{- .text -}}
+        <a itemprop="url" href="{{- .URL -}}" hreflang="{{ $lang }}">
+            {{- .name -}}
         </a>
     </li>
     {{ end }}
