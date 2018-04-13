@@ -1,5 +1,5 @@
 {{ $lang := .Site.Language.Lang }}
-{{ $l := index .Site.Data.locales $lang }}
+{{ $locale := index .Site.Data.locales $lang }}
 
 {{ if .Params.tags }}
 <span class="post-tags"><i class="fa fa-tags" aria-hidden="true"></i>

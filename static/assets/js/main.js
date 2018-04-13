@@ -22,7 +22,7 @@ var normaliseSpelling = function (builder) {
 //I removed it, so it might be needed to add it back again
 //The variable 'LANGUAGE' is coming from a script tag in the HTML
 function initLunr() {
-    $.getJSON("/dist/search." + LANGUAGE + ".json")
+    $.getJSON("/dist/search." + SITE_DATA.language + ".json")
     .done(function (indexFile) {
         pagesIdx = indexFile;
         lunrIdx = lunr(function() {
@@ -82,7 +82,7 @@ $(document).ready(function() {
                 indexOfIndex = url.length;
             }
             var href = url.substring(url.indexOf("/"), indexOfIndex);
-            suggestion.href = baseurl + url;
+            suggestion.href = SITE_DATA.base_url + url;
 
             var query = $("#search-by").val();
             var numWords = 2;

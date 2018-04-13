@@ -1,128 +1,131 @@
 main_menu:
     installations_instructions:
         name: Installationsanleitung
-        URL: /de/abschnitte/installationsanleitung/
+        url: /de/abschnitte/installationsanleitung/
         hide: false
         weight: 01
-        meters:
-            name: Lehren
-            URL: /de/abschnitte/installationsanleitung/lehren/
-            hide: false
-            weight: 01
-        sensors:
-            name: Sensoren
-            URL: /de/abschnitte/installationsanleitung/sensoren/
-            hide: false
-            weight: 02
-        gateways:
-            name: Gateways
-            URL: /de/abschnitte/installationsanleitung/gateways/
-            hide: false
-            weight: 03
-        convertors:
-            name: Wandler
-            URL: /de/abschnitte/installationsanleitung/wandler/
-            hide: false
-            weight: 04
-        splitters:
-            name: Weichen
-            URL: /de/abschnitte/installationsanleitung/weichen/
-            hide: false
-            weight: 05
-        concentrators:
-            name: Konzentratoren
-            URL: /de/abschnitte/installationsanleitung/konzentratoren/
-            hide: false
-            weight: 06
+        items:
+            meters:
+                name: Lehren
+                url: /de/abschnitte/installationsanleitung/lehren/
+                hide: false
+                weight: 01
+            sensors:
+                name: Sensoren
+                url: /de/abschnitte/installationsanleitung/sensoren/
+                hide: false
+                weight: 02
+            gateways:
+                name: Gateways
+                url: /de/abschnitte/installationsanleitung/gateways/
+                hide: false
+                weight: 03
+            convertors:
+                name: Wandler
+                url: /de/abschnitte/installationsanleitung/wandler/
+                hide: false
+                weight: 04
+            splitters:
+                name: Weichen
+                url: /de/abschnitte/installationsanleitung/weichen/
+                hide: false
+                weight: 05
+            others:
+                name: Andere
+                url: /de/abschnitte/installationsanleitung/andere/
+                hide: false
+                weight: 06
     manuals:
         name: Handbücher
-        URL: /de/abschnitte/handbucher/
+        url: /de/abschnitte/handbucher/
         hide: true
         weight: 02
-        meters:
-            name: Lehren
-            URL: /de/abschnitte/handbucher/lehren/
-            hide: false
-            weight: 01
-        sensors:
-            name: Sensoren
-            URL: /de/abschnitte/handbucher/sensoren/
-            hide: false
-            weight: 02
-        gateways:
-            name: Gateways
-            URL: /de/abschnitte/handbucher/gateways/
-            hide: false
-            weight: 03
-        convertors:
-            name: Wandler
-            URL: /de/abschnitte/handbucher/wandler/
-            hide: false
-            weight: 04
-        splitters:
-            name: Weichen
-            URL: /de/abschnitte/handbucher/weichen/
-            hide: false
-            weight: 05
-        concentrators:
-            name: Konzentratoren
-            URL: /de/abschnitte/handbucher/konzentratoren/
-            hide: false
-            weight: 06
+        items:
+            meters:
+                name: Lehren
+                url: /de/abschnitte/handbucher/lehren/
+                hide: false
+                weight: 01
+            sensors:
+                name: Sensoren
+                url: /de/abschnitte/handbucher/sensoren/
+                hide: false
+                weight: 02
+            gateways:
+                name: Gateways
+                url: /de/abschnitte/handbucher/gateways/
+                hide: false
+                weight: 03
+            convertors:
+                name: Wandler
+                url: /de/abschnitte/handbucher/wandler/
+                hide: false
+                weight: 04
+            splitters:
+                name: Weichen
+                url: /de/abschnitte/handbucher/weichen/
+                hide: false
+                weight: 05
+            concentrators:
+                name: Konzentratoren
+                url: /de/abschnitte/handbucher/konzentratoren/
+                hide: false
+                weight: 06
     tp_manuals:
         name: "Handbücher Dritte"
-        URL: /de/abschnitte/handbucher-dritte/
+        url: /de/abschnitte/handbucher-dritte/
         hide: true
         weight: 03
-        meters:
-            name: Lehren
-            URL: /de/abschnitte/handbucher-dritte/lehren/
-            hide: false
-            weight: 01
-        sensors:
-            name: Sensoren
-            URL: /de/abschnitte/handbucher-dritte/sensoren/
-            hide: false
-            weight: 02
-        gateways:
-            name: Gateways
-            URL: /de/abschnitte/handbucher-dritte/gateways/
-            hide: false
-            weight: 03
-        convertors:
-            name: Wandler
-            URL: /de/abschnitte/handbucher-dritte/wandler/
-            hide: false
-            weight: 04
-        splitters:
-            name: Weichen
-            URL: /de/abschnitte/handbucher-dritte/weichen/
-            hide: false
-            weight: 05
-        concentrators:
-            name: Konzentratoren
-            URL: /de/abschnitte/handbucher-dritte/konzentratoren/
-            hide: false
-            weight: 06
+        items:
+            meters:
+                name: Lehren
+                url: /de/abschnitte/handbucher-dritte/lehren/
+                hide: false
+                weight: 01
+            sensors:
+                name: Sensoren
+                url: /de/abschnitte/handbucher-dritte/sensoren/
+                hide: false
+                weight: 02
+            gateways:
+                name: Gateways
+                url: /de/abschnitte/handbucher-dritte/gateways/
+                hide: false
+                weight: 03
+            convertors:
+                name: Wandler
+                url: /de/abschnitte/handbucher-dritte/wandler/
+                hide: false
+                weight: 04
+            splitters:
+                name: Weichen
+                url: /de/abschnitte/handbucher-dritte/weichen/
+                hide: false
+                weight: 05
+            concentrators:
+                name: Konzentratoren
+                url: /de/abschnitte/handbucher-dritte/konzentratoren/
+                hide: false
+                weight: 06
 
 footer_menu:
     partner_program:
         name: "Partnerprogramm"
-        URL: https://www.enectiva.cz/de/partnerprogramm/
+        url: https://www.enectiva.cz/de/partnerprogramm/
         hide: false
         weight: 01
     enectiva_rules:
         name: "Enectiva Regeln"
-        URL: https://www.enectiva.cz/de/enectiva-regeln/
+        url: https://www.enectiva.cz/de/enectiva-regeln/
         hide: false
         weight: 02
     dev_blog:
         name: "Entwickler Blog"
-        URL: https://developing.enectiva.cz/
+        url: https://developing.enectiva.cz/
         hide: false
         weight: 03
     contact_us:
         name: "Kontakt"
-        URL: https://www.enectiva.cz/de/kontaktieren-sie-uns/
+        url: https://www.enectiva.cz/de/kontaktieren-sie-uns/
         hide: false
         weight: 04

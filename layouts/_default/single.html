@@ -2,6 +2,7 @@
 {{ partial "base/header.html" . }}
 {{ partial "menu.html" . }}
 
+<div class="content">
     <div class="post-single">
         <h2 class="post-title">
             {{ .Title }}
@@ -22,5 +23,7 @@
             {{ .Content }}
         </div>
     </div>
-{{ partial "internal/related-posts.html" . }}
+    {{ partial "internal/related-posts.html" . }}
+</div>
+
 {{ partial "base/footer.html" . }}

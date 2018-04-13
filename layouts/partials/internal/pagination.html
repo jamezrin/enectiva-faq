@@ -1,14 +1,20 @@
 {{ $lang := .Site.Language.Lang }}
-{{ $l := index .Site.Data.locales $lang }}
+{{ $locale := index .Site.Data.locales $lang }}
 
 {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
 <nav itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="nav-pages">
     {{if .Paginator.HasPrev }}
-    <a itemprop="url" href="{{ .Paginator.Prev.URL }}" rel="prev" class="prev"><i class="fa fa-angle-double-left" aria-hidden="true"></i>{{ $l.pagination.prev }}</a>
+    <a itemprop="url" href="{{ .Paginator.Prev.URL }}" rel="prev" class="prev">
+        <i class="fa fa-angle-double-left" aria-hidden="true"></i>
+        {{- $locale.pagination.prev -}}
+    </a>
     {{ end }}
 
     {{ if .Paginator.HasNext }}
-    <a itemprop="url" href="{{ .Paginator.Next.URL }}" rel="next" class="next">{{ $l.pagination.next }}<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+    <a itemprop="url" href="{{ .Paginator.Next.URL }}" rel="next" class="next">
+        {{- $locale.pagination.next -}}
+        <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+    </a>
     {{ end }}
 </nav>
 {{ end }}

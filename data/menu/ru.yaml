@@ -1,128 +1,131 @@
 main_menu:
     installations_instructions:
         name: "Инструкция по установке"
-        URL: /ru/razdely/instruktsiya-po-ustanovke/
+        url: /ru/razdely/instruktsiya-po-ustanovke/
         hide: false
         weight: 01
-        meters:
-            name: Шлюзы
-            URL: /ru/razdely/instruktsiya-po-ustanovke/shlyuzy/
-            hide: false
-            weight: 01
-        sensors:
-            name: Mанометры
-            URL: /ru/razdely/instruktsiya-po-ustanovke/manometry/
-            hide: false
-            weight: 02
-        gateways:
-            name: датчиков
-            URL: /ru/razdely/instruktsiya-po-ustanovke/datchikov/
-            hide: false
-            weight: 03
-        convertors:
-            name: Преобразователи
-            URL: /ru/razdely/instruktsiya-po-ustanovke/preobrazovateli/
-            hide: false
-            weight: 04
-        splitters:
-            name: Сплиттеры
-            URL: /ru/razdely/instruktsiya-po-ustanovke/razvetviteli/
-            hide: false
-            weight: 05
-        concentrators:
-            name: Концентраторы
-            URL: /ru/razdely/instruktsiya-po-ustanovke/kontsentratory/
-            hide: false
-            weight: 06
+        items:
+            meters:
+                name: Шлюзы
+                url: /ru/razdely/instruktsiya-po-ustanovke/shlyuzy/
+                hide: false
+                weight: 01
+            sensors:
+                name: Mанометры
+                url: /ru/razdely/instruktsiya-po-ustanovke/manometry/
+                hide: false
+                weight: 02
+            gateways:
+                name: датчиков
+                url: /ru/razdely/instruktsiya-po-ustanovke/datchikov/
+                hide: false
+                weight: 03
+            convertors:
+                name: Преобразователи
+                url: /ru/razdely/instruktsiya-po-ustanovke/preobrazovateli/
+                hide: false
+                weight: 04
+            splitters:
+                name: Сплиттеры
+                url: /ru/razdely/instruktsiya-po-ustanovke/razvetviteli/
+                hide: false
+                weight: 05
+            others:
+                name: другие
+                url: /ru/razdely/instruktsiya-po-ustanovke/drugiye/
+                hide: false
+                weight: 06
     manuals:
         name: Руководства
-        URL: /ru/razdely/rukovodstva/
+        url: /ru/razdely/rukovodstva/
         hide: true
         weight: 02
-        meters:
-            name: Шлюзы
-            URL: /ru/razdely/rukovodstva/shlyuzy/
-            hide: false
-            weight: 01
-        sensors:
-            name: Mанометры
-            URL: /ru/razdely/rukovodstva/manometry/
-            hide: false
-            weight: 02
-        gateways:
-            name: датчиков
-            URL: /ru/razdely/rukovodstva/datchikov/
-            hide: false
-            weight: 03
-        convertors:
-            name: Преобразователи
-            URL: /ru/razdely/rukovodstva/preobrazovateli/
-            hide: false
-            weight: 04
-        splitters:
-            name: Сплиттеры
-            URL: /ru/razdely/rukovodstva/razvetviteli/
-            hide: false
-            weight: 05
-        concentrators:
-            name: Концентраторы
-            URL: /ru/razdely/rukovodstva/kontsentratory/
-            hide: false
-            weight: 06
+        items:
+            meters:
+                name: Шлюзы
+                url: /ru/razdely/rukovodstva/shlyuzy/
+                hide: false
+                weight: 01
+            sensors:
+                name: Mанометры
+                url: /ru/razdely/rukovodstva/manometry/
+                hide: false
+                weight: 02
+            gateways:
+                name: датчиков
+                url: /ru/razdely/rukovodstva/datchikov/
+                hide: false
+                weight: 03
+            convertors:
+                name: Преобразователи
+                url: /ru/razdely/rukovodstva/preobrazovateli/
+                hide: false
+                weight: 04
+            splitters:
+                name: Сплиттеры
+                url: /ru/razdely/rukovodstva/razvetviteli/
+                hide: false
+                weight: 05
+            concentrators:
+                name: Концентраторы
+                url: /ru/razdely/rukovodstva/kontsentratory/
+                hide: false
+                weight: 06
     tp_manuals:
         name: "Pуководства третьего"
-        URL: /ru/razdely/rukovodstva-tret-yego/
+        url: /ru/razdely/rukovodstva-tret-yego/
         hide: true
         weight: 03
-        meters:
-            name: Шлюзы
-            URL: /ru/razdely/rukovodstva-tret-yego/shlyuzy/
-            hide: false
-            weight: 01
-        sensors:
-            name: Mанометры
-            URL: /ru/razdely/rukovodstva-tret-yego/manometry/
-            hide: false
-            weight: 02
-        gateways:
-            name: датчиков
-            URL: /ru/razdely/rukovodstva-tret-yego/datchikov/
-            hide: false
-            weight: 03
-        convertors:
-            name: Преобразователи
-            URL: /ru/razdely/rukovodstva-tret-yego/preobrazovateli/
-            hide: false
-            weight: 04
-        splitters:
-            name: Сплиттеры
-            URL: /ru/razdely/rukovodstva-tret-yego/razvetviteli/
-            hide: false
-            weight: 05
-        concentrators:
-            name: Концентраторы
-            URL: /ru/razdely/rukovodstva-tret-yego/kontsentratory/
-            hide: false
-            weight: 06
+        items:
+            meters:
+                name: Шлюзы
+                url: /ru/razdely/rukovodstva-tret-yego/shlyuzy/
+                hide: false
+                weight: 01
+            sensors:
+                name: Mанометры
+                url: /ru/razdely/rukovodstva-tret-yego/manometry/
+                hide: false
+                weight: 02
+            gateways:
+                name: датчиков
+                url: /ru/razdely/rukovodstva-tret-yego/datchikov/
+                hide: false
+                weight: 03
+            convertors:
+                name: Преобразователи
+                url: /ru/razdely/rukovodstva-tret-yego/preobrazovateli/
+                hide: false
+                weight: 04
+            splitters:
+                name: Сплиттеры
+                url: /ru/razdely/rukovodstva-tret-yego/razvetviteli/
+                hide: false
+                weight: 05
+            concentrators:
+                name: Концентраторы
+                url: /ru/razdely/rukovodstva-tret-yego/kontsentratory/
+                hide: false
+                weight: 06
 
 footer_menu:
     partner_program:
         name: "Партнерская программа"
-        URL: https://www.enectiva.cz/ru/partnerskaya-programma
+        url: https://www.enectiva.cz/ru/partnerskaya-programma
         hide: false
         weight: 01
     enectiva_rules:
         name: "Правила компании Enectiva"
-        URL: https://www.enectiva.cz/ru/pravila-enectivy/
+        url: https://www.enectiva.cz/ru/pravila-enectivy/
         hide: false
         weight: 02
     dev_blog:
         name: "Блог развития"
-        URL: https://developing.enectiva.cz/
+        url: https://developing.enectiva.cz/
         hide: false
         weight: 03
     contact_us:
         name: "Контакт"
-        URL: https://www.enectiva.cz/ru/svyazhites-s-nami
+        url: https://www.enectiva.cz/ru/svyazhites-s-nami
         hide: false
         weight: 04

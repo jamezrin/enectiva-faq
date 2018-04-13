@@ -1,6 +1,7 @@
 {{ if ne .IsHome true}}
 {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
 {{ $.Scratch.Add "path" .Site.BaseURL }}
+
 <div class="breadcrumbs">
     <ol class="breadcrumbs-list">
         <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i>

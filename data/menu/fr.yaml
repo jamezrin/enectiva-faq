@@ -1,128 +1,131 @@
 main_menu:
     installations_instructions:
         name: "Instructions d' Installation"
-        URL: /fr/sections/instructions-d-installation/
+        url: /fr/sections/instructions-d-installation/
         hide: false
         weight: 01
-        meters:
-            name: Jauges
-            URL: /fr/sections/instructions-d-installation/jauges/
-            hide: false
-            weight: 01
-        sensors:
-            name: Capteurs
-            URL: /fr/sections/instructions-d-installation/capteurs/
-            hide: false
-            weight: 02
-        gateways:
-            name: Passerelles
-            URL: /fr/sections/instructions-d-installation/passerelles/
-            hide: false
-            weight: 03
-        convertors:
-            name: Convertisseurs
-            URL: /fr/sections/instructions-d-installation/convertisseurs/
-            hide: false
-            weight: 04
-        splitters:
-            name: Diviseurs
-            URL: /fr/sections/instructions-d-installation/diviseurs/
-            hide: false
-            weight: 05
-        concentrators:
-            name: Concentrateurs
-            URL: /fr/sections/instructions-d-installation/concentrateurs/
-            hide: false
-            weight: 06
+        items:
+            meters:
+                name: Jauges
+                url: /fr/sections/instructions-d-installation/jauges/
+                hide: false
+                weight: 01
+            sensors:
+                name: Capteurs
+                url: /fr/sections/instructions-d-installation/capteurs/
+                hide: false
+                weight: 02
+            gateways:
+                name: Passerelles
+                url: /fr/sections/instructions-d-installation/passerelles/
+                hide: false
+                weight: 03
+            convertors:
+                name: Convertisseurs
+                url: /fr/sections/instructions-d-installation/convertisseurs/
+                hide: false
+                weight: 04
+            splitters:
+                name: Diviseurs
+                url: /fr/sections/instructions-d-installation/diviseurs/
+                hide: false
+                weight: 05
+            others:
+                name: Autre
+                url: /fr/sections/instructions-d-installation/autres/
+                hide: false
+                weight: 06
     manuals:
         name: Manuels
-        URL: /fr/sections/manuels/
+        url: /fr/sections/manuels/
         hide: true
         weight: 02
-        meters:
-            name: Jauges
-            URL: /fr/sections/manuels/jauges/
-            hide: false
-            weight: 01
-        sensors:
-            name: Capteurs
-            URL: /fr/sections/manuels/capteurs/
-            hide: false
-            weight: 02
-        gateways:
-            name: Passerelles
-            URL: /fr/sections/manuels/passerelles/
-            hide: false
-            weight: 03
-        convertors:
-            name: Convertisseurs
-            URL: /fr/sections/manuels/convertisseurs/
-            hide: false
-            weight: 04
-        splitters:
-            name: Diviseurs
-            URL: /fr/sections/manuels/diviseurs/
-            hide: false
-            weight: 05
-        concentrators:
-            name: Concentrateurs
-            URL: /fr/sections/manuels/concentrateurs/
-            hide: false
-            weight: 06
+        items:
+            meters:
+                name: Jauges
+                url: /fr/sections/manuels/jauges/
+                hide: false
+                weight: 01
+            sensors:
+                name: Capteurs
+                url: /fr/sections/manuels/capteurs/
+                hide: false
+                weight: 02
+            gateways:
+                name: Passerelles
+                url: /fr/sections/manuels/passerelles/
+                hide: false
+                weight: 03
+            convertors:
+                name: Convertisseurs
+                url: /fr/sections/manuels/convertisseurs/
+                hide: false
+                weight: 04
+            splitters:
+                name: Diviseurs
+                url: /fr/sections/manuels/diviseurs/
+                hide: false
+                weight: 05
+            concentrators:
+                name: Concentrateurs
+                url: /fr/sections/manuels/concentrateurs/
+                hide: false
+                weight: 06
     tp_manuals:
         name: "Manuels Troisième"
-        URL: /fr/sections/manuels-troisieme/
+        url: /fr/sections/manuels-troisieme/
         hide: true
         weight: 03
-        meters:
-            name: Jauges
-            URL: /fr/sections/manuels-troisieme/jauges/
-            hide: false
-            weight: 01
-        sensors:
-            name: Capteurs
-            URL: /fr/sections/manuels-troisieme/capteurs/
-            hide: false
-            weight: 02
-        gateways:
-            name: Passerelles
-            URL: /fr/sections/manuels-troisieme/passerelles/
-            hide: false
-            weight: 03
-        convertors:
-            name: Convertisseurs
-            URL: /fr/sections/manuels-troisieme/convertisseurs/
-            hide: false
-            weight: 04
-        splitters:
-            name: Diviseurs
-            URL: /fr/sections/manuels-troisieme/diviseurs/
-            hide: false
-            weight: 05
-        concentrators:
-            name: Concentrateurs
-            URL: /fr/sections/manuels-troisieme/concentrateurs/
-            hide: false
-            weight: 06
+        items:
+            meters:
+                name: Jauges
+                url: /fr/sections/manuels-troisieme/jauges/
+                hide: false
+                weight: 01
+            sensors:
+                name: Capteurs
+                url: /fr/sections/manuels-troisieme/capteurs/
+                hide: false
+                weight: 02
+            gateways:
+                name: Passerelles
+                url: /fr/sections/manuels-troisieme/passerelles/
+                hide: false
+                weight: 03
+            convertors:
+                name: Convertisseurs
+                url: /fr/sections/manuels-troisieme/convertisseurs/
+                hide: false
+                weight: 04
+            splitters:
+                name: Diviseurs
+                url: /fr/sections/manuels-troisieme/diviseurs/
+                hide: false
+                weight: 05
+            concentrators:
+                name: Concentrateurs
+                url: /fr/sections/manuels-troisieme/concentrateurs/
+                hide: false
+                weight: 06
 
 footer_menu:
     partner_program:
         name: "Programme de partenariat"
-        URL: https://www.enectiva.cz/fr/programme-de-partenariat/
+        url: https://www.enectiva.cz/fr/programme-de-partenariat/
         hide: false
         weight: 01
     enectiva_rules:
         name: "Règles d'Enectiva"
-        URL: https://www.enectiva.cz/es/politica-de-privacidad-de-enectiva/
+        url: https://www.enectiva.cz/es/politica-de-privacidad-de-enectiva/
         hide: false
         weight: 02
     dev_blog:
         name: "Blog de développement"
-        URL: https://developing.enectiva.cz/
+        url: https://developing.enectiva.cz/
         hide: false
         weight: 03
     contact_us:
         name: "Contactez-nous"
-        URL: https://www.enectiva.cz/fr/contactez-nous/
+        url: https://www.enectiva.cz/fr/contactez-nous/
         hide: false
         weight: 04

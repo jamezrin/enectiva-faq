@@ -1,4 +1,7 @@
 {{ $lang := .Site.Language.Lang }}
 {{ $date := (index .Site.Data.locales $lang).date.formats.default }}
 
-<i class="fa fa-calendar" aria-hidden="true"></i><time class="post-published" itemscope itemtype="http://www.schema.org/DateTime" itemprop="dateCreated" datetime="{{ .Date.Format "January 2, 2006, Monday" }}">{{ .Date.Format "January 2, 2006, Monday" }}</time>
+<i class="fa fa-calendar" aria-hidden="true"></i>
+<time class="post-published" itemscope itemtype="http://www.schema.org/DateTime" itemprop="dateCreated" datetime="{{ .Date.Format "January 2, 2006, Monday" }}">
+    {{- .Date.Format "January 2, 2006, Monday" -}}
+</time>

@@ -1,12 +1,12 @@
 {{ $lang := .Site.Language.Lang }}
-{{ $l := index .Site.Data.locales $lang }}
+{{ $locale := index .Site.Data.locales $lang }}
 
 <div class="rel-posts">
     {{ $tags := .Params.tags }}
     {{ $page_link := .Permalink }}
     {{ if $tags}}
 
-    <h2 class="rel-title">{{ $l.rel_title }}</h2>
+    <h2 class="rel-title">{{ $locale.rel_title }}</h2>
     <ul class="rel-list">
         {{ range $page := .Site.Pages }}
         {{ $common_tags := intersect $tags .Params.tags | len | lt 0 }}

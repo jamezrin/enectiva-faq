@@ -1,34 +1,33 @@
 {{ $lang := .Site.Language.Lang }}
-{{ $l := index .Site.Data.locales $lang }}
+{{ $locale := index .Site.Data.locales $lang }}
 
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ .Site.Language.Lang }}" xml:lang="{{ .Site.Language.Lang }}" />
+<title>{{ .Title }} {{ if ( and ( ne .Params.force_title true ) ( ne .Title .Site.Title ) ) }} - {{ .Site.Title }} {{ end }}</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta itemprop="description" name="description" content="{{ $locale.meta_description }}" />
+<meta itemprop="keywords" name="keywords" content="{{ $locale.meta_keywords }}" />
+<meta itemprop="author" name="author" content="{{ $locale.meta_author }}" />
 
-    <head itemscope itemtype="http://www.schema.org/WebSite">
-        <title>{{ .Title }} {{ if ( and ( ne .Params.force_title true ) ( ne .Title .Site.Title ) ) }} - {{ .Site.Title }} {{ end }}</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta itemprop="description" name="description" content="{{ $l.meta_description }}" />
-        <meta itemprop="keywords" name="keywords" content="{{ $l.meta_keywords }}" />
-        <meta itemprop="author" name="author" content="{{ $l.meta_author }}" />
+<link itemprop="image" rel="icon" type="image/png" href="{{ "/assets/img/favicon.png" | absURL }}" />
+<link itemprop="image" rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "/assets/img/favicon.png" | absURL }}" />
 
-        <link itemprop="image" rel="icon" type="image/png" href="{{ "/assets/img/favicon.png" | absURL }}" />
-        <link itemprop="image" rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "/assets/img/favicon.png" | absURL }}" />
-        
-        {{ .Hugo.Generator }}
-        
-        <!-- CSS -->
-        {{ range .Site.Params.stylesheets }}
-            <link rel="stylesheet" href="/{{ . }}" />
-        {{ end }}
+{{ .Hugo.Generator }}
 
-        <script type="text/javascript">
-            const LANGUAGE = "{{ .Site.Language.Lang }}";
-            console.log("Current language:", LANGUAGE);
-        </script>
-        
-        <!-- Javascript -->
-        {{ range .Site.Params.javascript }}
-            <script type="text/javascript" src="/assets/js/{{ . }}"></script>
-        {{ end }}
-    </head>
+<!-- CSS -->
+{{ range .Site.Params.stylesheets }}
+<link rel="stylesheet" href="/{{ . }}" />
+{{ end }}
+
+<!-- JavaScript -->
+<script type="text/javascript">
+    const SITE_DATA = {
+        base_url: "{{ .Site.BaseURL }}",
+        language: "{{ .Site.Language.Lang }}"
+    };
+
+    console.log("Site data:", SITE_DATA);
+</script>
+
+{{ range .Site.Params.javascript }}
+<script type="text/javascript" src="/assets/js/{{ . }}"></script>
+{{ end }}

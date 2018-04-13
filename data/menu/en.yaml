@@ -1,128 +1,131 @@
 main_menu:
     installations_instructions:
         name: "Installation Instructions"
-        URL: /en/sections/installation-instructions/
+        url: /en/sections/installation-instructions/
         hide: false
         weight: 01
-        meters:
-            name: Meters
-            URL: /en/sections/installation-instructions/meters/
-            hide: false
-            weight: 01
-        sensors:
-            name: Sensors
-            URL: /en/sections/installation-instructions/sensors/
-            hide: false
-            weight: 02
-        gateways:
-            name: Gateways
-            URL: /en/sections/installation-instructions/gateways/
-            hide: false
-            weight: 03
-        convertors:
-            name: Convertors
-            URL: /en/sections/installation-instructions/convertors/
-            hide: false
-            weight: 04
-        splitters:
-            name: Splitters
-            URL: /en/sections/installation-instructions/splitters/
-            hide: false
-            weight: 05
-        concentrators:
-            name: Concentrators
-            URL: /en/sections/installation-instructions/concentrators/
-            hide: false
-            weight: 06
+        items:
+            meters:
+                name: Meters
+                url: /en/sections/installation-instructions/meters/
+                hide: false
+                weight: 01
+            sensors:
+                name: Sensors
+                url: /en/sections/installation-instructions/sensors/
+                hide: false
+                weight: 02
+            gateways:
+                name: Gateways
+                url: /en/sections/installation-instructions/gateways/
+                hide: false
+                weight: 03
+            convertors:
+                name: Convertors
+                url: /en/sections/installation-instructions/convertors/
+                hide: false
+                weight: 04
+            splitters:
+                name: Splitters
+                url: /en/sections/installation-instructions/splitters/
+                hide: false
+                weight: 05
+            others:
+                name: Others
+                url: /en/sections/installation-instructions/others/
+                hide: false
+                weight: 06
     manuals:
         name: Manuals
-        URL: /en/sections/manuals/
+        url: /en/sections/manuals/
         hide: true
         weight: 02
-        meters:
-            name: Meters
-            URL: /en/sections/manuals/meters/
-            hide: false
-            weight: 01
-        sensors:
-            name: Sensors
-            URL: /en/sections/manuals/sensors/
-            hide: false
-            weight: 02
-        gateways:
-            name: Gateways
-            URL: /en/sections/manuals/gateways/
-            hide: false
-            weight: 03
-        convertors:
-            name: Convertors
-            URL: /en/sections/manuals/convertors/
-            hide: false
-            weight: 04
-        splitters:
-            name: Splitters
-            URL: /en/sections/manuals/splitters/
-            hide: false
-            weight: 05
-        concentrators:
-            name: Concentrators
-            URL: /en/sections/manuals/concentrators/
-            hide: false
-            weight: 06
+        items:
+            meters:
+                name: Meters
+                url: /en/sections/manuals/meters/
+                hide: false
+                weight: 01
+            sensors:
+                name: Sensors
+                url: /en/sections/manuals/sensors/
+                hide: false
+                weight: 02
+            gateways:
+                name: Gateways
+                url: /en/sections/manuals/gateways/
+                hide: false
+                weight: 03
+            convertors:
+                name: Convertors
+                url: /en/sections/manuals/convertors/
+                hide: false
+                weight: 04
+            splitters:
+                name: Splitters
+                url: /en/sections/manuals/splitters/
+                hide: false
+                weight: 05
+            concentrators:
+                name: Concentrators
+                url: /en/sections/manuals/concentrators/
+                hide: false
+                weight: 06
     tp_manuals:
         name: "Third-party manuals"
-        URL: /en/sections/third-party-manuals/
+        url: /en/sections/third-party-manuals/
         hide: true
         weight: 03
-        meters:
-            name: Meters
-            URL: /en/sections/third-party-manuals/meters/
-            hide: false
-            weight: 01
-        sensors:
-            name: Sensors
-            URL: /en/sections/third-party-manuals/sensors/
-            hide: false
-            weight: 02
-        gateways:
-            name: Gateways
-            URL: /en/sections/third-party-manuals/gateways/
-            hide: false
-            weight: 03
-        convertors:
-            name: Convertors
-            URL: /en/sections/third-party-manuals/convertors/
-            hide: false
-            weight: 04
-        splitters:
-            name: Splitters
-            URL: /en/sections/third-party-manuals/splitters/
-            hide: false
-            weight: 05
-        concentrators:
-            name: Concentrators
-            URL: /en/sections/third-party-manuals/concentrators/
-            hide: false
-            weight: 06
+        items:
+            meters:
+                name: Meters
+                url: /en/sections/third-party-manuals/meters/
+                hide: false
+                weight: 01
+            sensors:
+                name: Sensors
+                url: /en/sections/third-party-manuals/sensors/
+                hide: false
+                weight: 02
+            gateways:
+                name: Gateways
+                url: /en/sections/third-party-manuals/gateways/
+                hide: false
+                weight: 03
+            convertors:
+                name: Convertors
+                url: /en/sections/third-party-manuals/convertors/
+                hide: false
+                weight: 04
+            splitters:
+                name: Splitters
+                url: /en/sections/third-party-manuals/splitters/
+                hide: false
+                weight: 05
+            concentrators:
+                name: Concentrators
+                url: /en/sections/third-party-manuals/concentrators/
+                hide: false
+                weight: 06
 
 footer_menu:
     partner_program:
         name: "Partner Programme"
-        URL: https://www.enectiva.cz/en/partner-programme/
+        url: https://www.enectiva.cz/en/partner-programme/
         hide: false
         weight: 01
     enectiva_rules:
         name: "Enectiva Rules"
-        URL: https://www.enectiva.cz/en/enectiva-rules/
+        url: https://www.enectiva.cz/en/enectiva-rules/
         hide: false
         weight: 02
     dev_blog:
         name: "Development Blog"
-        URL: https://developing.enectiva.cz/
+        url: https://developing.enectiva.cz/
         hide: false
         weight: 03
     contact_us:
         name: "Contact Us"
-        URL: https://www.enectiva.cz/en/contact-us/
+        url: https://www.enectiva.cz/en/contact-us/
         hide: false
         weight: 04
