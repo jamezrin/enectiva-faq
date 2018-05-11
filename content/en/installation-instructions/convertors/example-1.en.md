@@ -1,8 +1,8 @@
 +++
 author = "Enectiva"
-date = "2017-04-24T16:15:36+02:00"
-sections = "installation-instructions/convertors"
-url = "/en/installation-instructions/convertors/example-1"
+date = "2017-04-25T13:21:45+02:00"
+sections = "manuals/convertors"
+url = "/en/manuals/convertors/example-1"
 tags = ["word1","word2"]
 title = "Convertors #1"
 

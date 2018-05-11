@@ -1,8 +1,8 @@
 +++
 author = "Enectiva"
-date = "2017-04-25T13:47:04+02:00"
-sezioni = "istruzioni-di-installazione/calibri"
-url = "/it/istruzioni-di-installazione/calibri/example-1"
+date = "2017-04-25T13:48:47+02:00"
+sezioni = "manuali/calibri"
+url = "/it/manuali/calibri/example-1"
 tags = ["parola1","parola2"]
 title = "Calibri #1"
 

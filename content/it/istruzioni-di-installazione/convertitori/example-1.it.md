@@ -1,10 +1,10 @@
 +++
 author = "Enectiva"
-date = "2017-04-25T13:48:11+02:00"
-sezioni = "istruzioni-di-installazione/convertitori"
-url = "/it/istruzioni-di-installazione/convertitori/example-1"
+date = "2017-04-25T13:49:08+02:00"
+sezioni = "manuali/convertitori"
+url = "/it/manuali/convertitori/example-1"
 tags = ["parola1","parola2"]
-title = "Convertitori #1"
+title = "Convertitori"
 
 +++
 

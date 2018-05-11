@@ -1,8 +1,8 @@
 +++
 author = "Enectiva"
-date = "2017-04-25T13:47:40+02:00"
-sezioni = "istruzioni-di-installazione/sensori"
-url = "/it/istruzioni-di-installazione/sensori/example-1"
+date = "2017-04-25T13:49:30+02:00"
+sezioni = "manuali/sensori"
+url = "/it/manuali/sensori/example-1"
 tags = ["parola1","parola2"]
 title = "Sensori #1"
 

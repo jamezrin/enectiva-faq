@@ -1,8 +1,8 @@
 +++
 author = "Enectiva"
-date = "2017-04-25T13:47:52+02:00"
-sezioni = "istruzioni-di-installazione/gateways"
-url = "/it/istruzioni-di-installazione/gateways/example-1"
+date = "2017-04-25T13:49:17+02:00"
+sezioni = "manuali/gateways"
+url = "/it/manuali/gateways/example-1"
 tags = ["parola1","parola2"]
 title = "Gateways #1"
 

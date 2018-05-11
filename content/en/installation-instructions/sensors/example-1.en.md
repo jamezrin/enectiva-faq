@@ -1,10 +1,10 @@
 +++
 author = "Enectiva"
-date = "2017-04-25T13:19:55+02:00"
-sections = "installation-instructions/sensors"
-slug = "/en/installation-instructions/sensors/example-1"
+date = "2017-04-24T13:50:25+02:00"
+sections = "manuals/sensors"
+url = "/en/manuals/sensors/example-1"
 tags = ["word1","word2"]
-title = "Sensors #1"
+title = "Sensors"
 
 +++
 

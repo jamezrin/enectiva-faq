@@ -8,4 +8,5 @@ tags = [
 ]
 sezioni = "index-the-content-to-the-menu"
 toc = false
+date = {{ .Date }}
 +++
