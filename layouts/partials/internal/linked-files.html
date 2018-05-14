@@ -1,0 +1,19 @@
+{{ $lang := .Site.Language.Lang }}
+{{ $locale := index .Site.Data.locales $lang }}
+
+<div class="linked-files">
+    {{ $files := .Params.files }}
+    {{ if $files }}
+    <ul class="rel-list">
+        {{ range $files }}
+        <li>
+            <a href="example.com">
+                {{ . }}
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+    {{ else }}
+    There are no downloadable files for this guide
+    {{ end }}
+</div>

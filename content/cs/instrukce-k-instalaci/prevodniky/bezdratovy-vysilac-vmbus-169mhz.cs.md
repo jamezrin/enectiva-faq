@@ -9,7 +9,6 @@ tags = [
 title = "Nastavení W-MBus vysílače 169 MHz"
 url = "/cs/oddily/manualy/prevodniky/bezdratovy-vysilac-vmbus-169mhz"
 toc = false
-
 +++
 
 **WM-bus 169 MHz** vysílač funguje jako převodník mezi pulsním výstupem, či výstupem S0 a bezdrátovou variantou protokolu M-Bus tzv. Wireless Mbus. Tento převodník se použije v případě že potřebujete přenést data z vodoměru nebo plynoměr na větší vzdálenost vzduchem. Dosah vysílače závisí na poloze antény přijímače, ale pohybuje se ve volném terénu do 2km a v zástavbě 200-300m.

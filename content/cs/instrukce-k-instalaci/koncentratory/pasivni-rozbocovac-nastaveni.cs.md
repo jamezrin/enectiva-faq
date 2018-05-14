@@ -9,7 +9,6 @@ tags = [
 title = "Nastavení pasivního rozbočovače PR-1"
 url = "/cs/oddily/manualy/koncentratory/pasivni-rozbocovac-nastaveni"
 toc = false
-
 +++
 
 <img class="right" src="/images/hub-pasivo-pr-1.jpg" style="width:30%"></img>

@@ -9,7 +9,6 @@ tags = [
 title = "Nastavení impulzního adaptéru PadPuls (Relay)"
 url = "/cs/oddily/manualy/prevodniky/nastaveni-impulzniho-adapteru-padpuls"
 toc = false
-
 +++
 
 Převodník PadPuls použijete všude tam, kde je třeba převést pulsní výstupy z vodoměrů, plynoměrů, elektorměrů na Mbus sběrnici. Převodník se dělá ve více variantách podle toho kolik pulsních vstupů do něj můžete připojit. Nastavení je zcela totožné pro všechny varianty. Maximální počet vstupů je 4.
@@ -21,7 +20,7 @@ Převodník PadPuls použijete všude tam, kde je třeba převést pulsní výst
 <img class="center" src="/images/padpuls-connection-to-pc.jpg" style="width:50%"></img>
 - Pomocí **Správce zařízení** na PC (notebooku) nastavit příslušný port PC (notebooku), tj. v našem případě COM6 (viz obr. 2). Na který COM port se MikroMaster připojil si můžete zkontrolovat přes **Správce zařízení/Device manager** ve vašich Windows.
 <img class="center" src="/images/padpuls-connection-port-to-mikromaster.jpg" style="width:50%"></img>
-- Desde el **Administrador de Dispositivos** debemos abrir el puerto anterior y en la pestaña **configuración del puerto** tener los siguientes parámetros:
+Ve **Správci zařízení** otevřeme daný port a na záložce **Port settings** musí být nastaveny následující hodnoty:
 
 <img class="left" src="/images/padpuls-port-configuration.jpg"></img>
 
@@ -72,8 +71,8 @@ Podle varianty převodníku **PadPulse** se objeví rozhranní s jedním až čt
 ### Příklad 1
 Vodoměr má natočeno 45120 litrů a jeden pulse = 10litrů. Máte dvě možnosti jak nastavit převodník
 
-1. Unidad = 10L, Multiplicator = 1 / 1, Counter = 4512 (poslední nulu si všimněte, že jsme neuvedli jelikož máte nastaveno že to bude skákat po 10 litrech).
-2. Unidad = 1L, Multiplicator = 10 / 1, Counter = 45120 (x 1L)
+1. Unit = 10L, Multiplicator = 1 / 1, Counter = 4512 (poslední nulu si všimněte, že jsme neuvedli jelikož máte nastaveno že to bude skákat po 10 litrech).
+2. Unit = 1L, Multiplicator = 10 / 1, Counter = 45120 (x 1L)
 
 ### Příklad 2
 Elektroměr má na display hodnotu 78346 kWh a 64 pulsů = 1kWh

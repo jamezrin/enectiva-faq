@@ -6,7 +6,6 @@ tags = [
     "word2"
 ]
 sections = "manuals/concentrators"
-date = "2018-04-6T12:10:25+01:00"
 url = "/en/sections/manuals/concentrators/test"
 toc = false
 +++
