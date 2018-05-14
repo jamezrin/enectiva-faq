@@ -8,7 +8,7 @@ tags = [
 ]
 oddily = "index-the-content-to-the-menu"
 toc = false
-date = 2018-05-14T14:25:44+02:00
+date = "2018-05-14T14:25:44+02:00"
 downloads = [
     "/sensus-hri/minicom36108.exe",
     "/sensus-hri/CZ - HRI Data Sheet.pdf"

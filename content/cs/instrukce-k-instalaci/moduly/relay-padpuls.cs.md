@@ -8,7 +8,7 @@ tags = [
 ]
 oddily = "index-the-content-to-the-menu"
 toc = false
-date = 2018-05-14T12:59:57+02:00
+date = "2018-05-14T12:59:57+02:00"
 downloads = [
     "/relay-padpuls/MBConf_Setup_01.exe",
 ]

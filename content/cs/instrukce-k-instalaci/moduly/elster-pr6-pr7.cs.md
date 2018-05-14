@@ -8,7 +8,7 @@ tags = [
 ]
 oddily = "index-the-content-to-the-menu"
 toc = false
-date = 2018-05-14T11:23:38+02:00
+date = "2018-05-14T11:23:38+02:00"
 downloads = [
     "/elster-pr6-pr7/pr6-pr7-generator-impulzu-prospekt.pdf"
 ]

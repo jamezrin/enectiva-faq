@@ -8,7 +8,7 @@ tags = [
 ]
 oddily = "index-the-content-to-the-menu"
 toc = false
-date = 2018-05-14T11:27:50+02:00
+date = "2018-05-14T11:27:50+02:00"
 +++
 ### Plynoměr Elster RVG - připojení impulsního výstupu INS-W11
 Pro snímání impulsů z rotačního plynoměru RVG se používá snímač INS-W11 se šestipinovým konektorem. 

@@ -8,7 +8,7 @@ tags = [
 ]
 oddily = "index-the-content-to-the-menu"
 toc = false
-date = 2018-05-14T11:29:11+02:00
+date = "2018-05-14T11:29:11+02:00"
 downloads = [
     "/elvaco-mbus-splitter/m-bussplitter_quick_manual_a4_english.pdf"
 ]

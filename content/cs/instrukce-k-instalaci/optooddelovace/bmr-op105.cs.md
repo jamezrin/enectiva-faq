@@ -8,7 +8,7 @@ tags = [
 ]
 oddily = "index-the-content-to-the-menu"
 toc = false
-date = 2018-05-14T10:44:34+02:00
+date = "2018-05-14T10:44:34+02:00"
 downloads = [
     "/bmr-op105/OP105-manual.pdf"
 ]
