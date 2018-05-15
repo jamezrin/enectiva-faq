@@ -103,7 +103,7 @@ paginatePath = "page"
 	weight = 5
     [languages.ru]
 	contentDir = "content/ru"
-	languageName = "Russian
+	languageName = "Russian"
 	weight = 6
     [language.fr]
         contentDir = "content/fr"

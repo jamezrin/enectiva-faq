@@ -122,3 +122,35 @@ Druhým způsobem uvedení to továrního nastavení je odmontování čela zař
 <img class="right" title="title=”Uvedení do továrního nastavení, zdroj: wiki.2n.cz”" src="/images/2n-smartcom-pro/07.png" style="width:30%"></img>
 
 Jumpery (zkratovací propojky) si lze vypůjčit z okolních hřebínků. Po dokončení operace je nutné je vrátit na původní místo. Pokud by zůstaly na místě pro restart, vracel by se SmartCom do továrního nastavení při každém spuštění.
+
+### Zapojení a ovládání reléových výstupů
+SmartCom PRO je vybaven dvěma reléovými výstupy. Ty lze využít k zapnutí nebo vypnutí různých spotřebičů. V závislosti na výkonu s použitím stykače nebo jako obvody pro ovládání signalizace a podobně. Při jejich využití nezapomeňte dodržet předepsané parametry.
+
+
+Parametry reléových výstupů
+* Max. napětí: 160 V
+* Max. proud: 2 A
+* Max. výkon: 30 W / 62,5 VA
+
+Připojení stykače:
+<img class="right" src="/images/2n-smartcom-pro/smc_stykac.png" style="width:30%"></img>
+
+### Ovládání relé
+**Ovládání pomocí AT příkazů po sériové lince:**
+`at^screl1?` - vypíše v jakém stavu je relé 1
+`at^screl1=0` - rozepne relé 1
+`at^screl1=1` - sepne relé 1
+
+`at^screl1=0,0` - rozepne relé 1 a nastaví stav rozepnuto po každém restartu zařízení
+`at^screl1=0,2` - rozepne relé a nastaví, aby se zařízení přeplo do stavu sepnutí před restartem
+
+obdobné příkazy jsou pro relé 2 ve tvaru at^screl2
+
+**Ovládání přes SMS:**
+`SC REL PWD=heslo R1=0 R2=1 S1=1 S2=2`
+parametry R1 a R2 nastavují aktuální stav relé (0 / 1), S1 a S2 stav po sepnutí (0 / 1 / 2). Pokud některé z parametrů nechcete měnit, lze je vynechat, např “SC REL PWD=heslo R1=0”
+
+
+
+
+
