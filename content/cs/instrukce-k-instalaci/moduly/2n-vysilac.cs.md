@@ -1,5 +1,5 @@
 +++
-title = "Napdis"
+title = "Nastavení W-MBus vysílače 169 MHz"
 author = "Enectiva"
 tags = [
     "slovo1",
@@ -8,8 +8,6 @@ tags = [
 toc = false
 date = "2018-05-14T09:57:29+02:00"
 +++
-
-### Nastavení W-MBus vysílače 169 MHz
 WM-bus 169 MHz vysílač funguje jako převodník mezi pulsním výstupem, či výstupem S0 a bezdrátovou variantou protokolu M-Bus tzv. Wireless Mbus. Tento převodník se použije v případě že potřebujete přenést data z vodoměru nebo plynoměru na větší vzdálenost vzduchem. Dosah vysílače závisí na poloze antény přijímače, ale pohybuje se ve volném terénu do 2km a v zástavbě 200-300m. 
 Vysílač není vhodný pro použití k elektroměrům. Má krytí proti pronikání vlhkosti i prachu, je tedy možné ho použít ve vodoměrných šachtách a ve velmi vlhkém prostředí. Vysílač nemá certifikaci ATEX pro použití ve výbušném prostředí. K plynoměrům se standardně používá, ale až za hranící kde je nutný ATEX, který je vyžadován u vysokotlakých předávacích stanic v případě velkoodběrů.
 

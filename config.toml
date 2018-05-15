@@ -39,13 +39,6 @@ paginatePath = "page"
 
 [taxonomies]
     tag     = "tags"
-    czech   = "cs"
-    english = "en"
-    german  = "de"
-    italian = "it"
-    russian = "ru"
-    spanish = "es"
-    french  = "fr"
 
 [blackfriday]
     angledQuotes = true

@@ -1,5 +1,5 @@
 +++
-title = "Napdis"
+title = "Připojení pulsního výstupu vodoměru Gioanola"
 author = "Enectiva"
 tags = [
     "slovo1",
@@ -8,7 +8,6 @@ tags = [
 toc = false
 date = "2018-05-15T10:27:31+02:00"
 +++
-
 Vodoměry na studenou i teplou vodu od italského výrobce Gioanola používají vlastní systém pulsních výstupů.
 
 Čtecí hlavice s jazýčkovým kontaktem snímá vždy číselník, který je znatelně označený a odlišný od ostatních.

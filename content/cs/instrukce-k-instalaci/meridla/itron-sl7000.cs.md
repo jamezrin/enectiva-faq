@@ -1,5 +1,5 @@
 +++
-title = "Napdis"
+title = "Připojení impulsních výstupů elektroměru Itron SL7000"
 author = "Enectiva"
 tags = [
     "slovo1",
@@ -8,13 +8,10 @@ tags = [
 toc = false
 date = "2018-05-14T12:40:43+02:00"
 +++
-
-### Připojení impulsních výstupů elektroměru Itron SL7000
-
 Níže je popsáno standardní rozložení vstupních a výstupních svorek elektroměru SL7000 pro připojení galvanického oddělovače.
 
 **Popis výstupů**
-<img class="center" src="/images/itron-sl7000/2.jpg" style="width:30%"></img>
+<img class="right" src="/images/itron-sl7000/2.jpg"></img>
 
 | Svorka | Funkce |  Typické zapojení   |
 | ------ | ------ | ------------------- |
@@ -27,7 +24,7 @@ Níže je popsáno standardní rozložení vstupních a výstupních svorek elek
 |   35   |  Společný pól                |
 
 ### Popis vstupů
-<img class="center" src="/images/itron-sl7000/4.jpg" style="width:30%"></img>
+<img class="right" src="/images/itron-sl7000/4.jpg"></img>
 
 | Svorka | Funkce |  Typické zapojení        |
 | ------ | ------ | ------------------------ |

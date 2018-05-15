@@ -98,11 +98,11 @@ Here, the only we will have that consider is we needs the official firmware of E
 
 ##### Own AT Commands options
 <img class="center" src="/images/own-at-commands-terminal-configuration.png"></img>
-Es un terminal donde podemos insertar parámetros concretos que no se pueden configurar mediante las opciones del programa, normalmente son comandos avanzados pero que son necesarios para el correcto funcionamiento de nuestros dispositivos. En nuestro caso solo necesitaremos los siguientes comandos:
+It is a terminal where we can insert certain parameters that are not configurable in the program's options, normally they are advanced commands but that are necessary for the our devices to function correctly. In our case we will only need the following commands:
 
 <center>
 
-| AT Comandos |
+| AT Commands |
 |-----------|
 | `at^scams = "enable",1` |
 | `at^scping = "host","95.170.88.124"` |

@@ -1,8 +1,8 @@
 +++
-title = "Napdis"
+title = "2N SmartCom Pro"
 author = "Enectiva"
 tags = [
-    "slovo1",
+    
     "slovo2"
 ]
 toc = false
@@ -12,9 +12,6 @@ downloads = [
     "/2n-smartcom-pro/Terminal Configuration Program 1.0.2.7 - 2N® SmartCom.zip"
 ]
 +++
-
-# 2N SmartCom Pro 
-
 ### Připojení komunikátoru 2N k počítači
 1. 	Rozbalit Terminal Configuration Program 1.0.2.7 - 2N® SmartCom do notebooku.
 2.	Otevřít rozbalenou složku a spustit aplikaci SmcTerminalConfigProgram.
@@ -37,8 +34,10 @@ Zde nastavit následující hodnoty:
 | `stop bity` | 1 |
 | `řízení toku` | žádné |
 
+
+<img align="center" src="/images/2n-smartcom-pro/04.png" style="width:30%"></img>
+
 Potvrdit kliknutím na "OK".
-<img src="/images/2n-smartcom-pro/04.png" style="width:30%"></img>
 
 6. 	Připojit SmartCom k RS232 (SmartCom musí být připojen k napájení!).
 <img class="center" src="/images/2n-smartcom-pro/05.png" style="width:30%"></img>
@@ -126,6 +125,7 @@ SmartCom PRO je vybaven dvěma reléovými výstupy. Ty lze využít k zapnutí 
 
 
 Parametry reléových výstupů
+
 * Max. napětí: 160 V
 * Max. proud: 2 A
 * Max. výkon: 30 W / 62,5 VA

@@ -1,5 +1,5 @@
 +++
-title = "Napdis"
+title = "Nastavení impulzního adaptéru Relay PadPuls"
 author = "Enectiva"
 tags = [
     "slovo1",

@@ -1,11 +1,11 @@
 +++
+title = "Nastavení pasivního rozbočovače PR-1"
 author = "Enectiva"
 date = "2017-06-07T16:01:04+02:00"
 tags = [
-    "Manualy",
+    
     "Koncentratory"
 ]
-title = "Nastavení pasivního rozbočovače PR-1"
 toc = false
 +++
 

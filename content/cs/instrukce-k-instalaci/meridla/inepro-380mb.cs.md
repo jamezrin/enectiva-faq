@@ -1,5 +1,5 @@
 +++
-title = "Napdis"
+title = "Připojení elektroměru PRO380-MB"
 author = "Enectiva"
 tags = [
     "slovo1",
@@ -27,6 +27,7 @@ Pro komunikaci po M-Bus je možné použít jak primární, tak sekundární adr
 
 **Postup změny primární adresy**
 Postup změny primární adresy
+
 1. Nalistujte v menu položku Meter ID. 
 2. Stiskněte a držte najednou levé a pravé tlačítko po dobu 5 vteřin. 
 3. LCD blikne 2x, pusťte tlačítka. 
