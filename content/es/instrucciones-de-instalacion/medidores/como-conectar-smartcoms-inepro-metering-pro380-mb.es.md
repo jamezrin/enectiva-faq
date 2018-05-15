@@ -1,7 +1,6 @@
 +++
 author = "Enectiva"
 date = "2017-06-09T10:03:55+02:00"
-secciones = "manuales/medidores"
 tags = [
     "Manuales",
     "Medidores",
@@ -10,7 +9,6 @@ tags = [
 ]
 title = "Conectar SmartComs con Inepro Metering PRO380-Mb"
 toc = false
-
 +++
 
 Para poder comenzar a realizar las configuraciones, necesitamos tener los siguientes elementos:

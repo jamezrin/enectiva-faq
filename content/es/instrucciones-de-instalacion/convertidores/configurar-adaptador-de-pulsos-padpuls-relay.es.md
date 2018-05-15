@@ -1,7 +1,6 @@
 +++
 author = "Enectiva"
 date = "2017-06-05T14:40:16+02:00"
-secciones = "manuales/convertidores"
 tags = [
     "manuales",
     "convertidores",
@@ -9,7 +8,6 @@ tags = [
 ]
 title = "Configurar adaptador de pulsos PadPuls (Relay)"
 toc = false
-
 +++
 
 El convertidor **PadPuls** se utiliza siempre que sea necesario convertir salidas de pulsos desde medidores de agua, gas y electrómetros al bus M-Bus. El convertidor se hace en múltiples versiones dependiendo de cuántas entradas de pulsos puede conectar a ella. La configuración es completamente idéntica para todas las variantes. El número máximo de entradas es 4.

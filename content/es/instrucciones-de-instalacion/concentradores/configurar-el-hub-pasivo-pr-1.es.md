@@ -1,7 +1,6 @@
 +++
 author = "Enectiva"
 date = "2017-06-06T10:25:58+02:00"
-secciones = "manuales/concentradores"
 tags = [
     "manuales",
     "concentradores",
@@ -9,7 +8,6 @@ tags = [
 ]
 title = "Configurar el Hub pasivo PR-1"
 toc = false
-
 +++
 
 <img class="right" src="/images/hub-pasivo-pr-1.jpg" style="width:30%"></img>

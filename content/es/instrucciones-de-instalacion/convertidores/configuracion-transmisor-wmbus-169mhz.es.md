@@ -1,14 +1,12 @@
 +++
 author = "Enectiva"
 date = "2017-06-05T09:29:18+02:00"
-secciones = "manuales/convertidores"
 tags = [
     "manuales",
     "convertidores"
 ]
 title = "Configuración de transmisor WM-Bus de 169Mhz"
 toc = false
-
 +++
 
 El **transmisor WM-Bus de 169Mhz** funciona como un convertidor entre una salida de impulsos (o salidas S0) y variantes del protocolo inalámbrico M-Bus. Este convertidor se utiliza cuando existe la necesidad de transferir datos desde el medidor o a una distancia de metros, o mayor, en el aire. El rango de transmisión depende de la posición de la antena del receptor, pero se mueve en terreno abierto hasta 2Km y en zonas de 200 a 300m.

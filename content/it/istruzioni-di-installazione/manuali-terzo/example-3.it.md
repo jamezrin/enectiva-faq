@@ -1,10 +1,8 @@
 +++
 author = "Enectiva"
 date = "2017-04-19T11:29:38+02:00"
-sezioni = ["Manuali terzo"]
 tags = ["Parola1","Parola2"]
 title = "Manuali terzo #3"
-
 +++
 
 ### Contenuti in italiano

@@ -1,7 +1,6 @@
 +++
 author = "Enectiva"
 date = "2017-06-09T10:03:55+02:00"
-sections = "manuals/meters"
 tags = [
     "Manuals",
     "Meters",
@@ -10,7 +9,6 @@ tags = [
 ]
 title = "Connettere SmartComs con calibro Inepro PRO380-Mb"
 toc = false
-
 +++
 
 Per iniziare a eseguire le impostazioni, è necessario disporre dei seguenti elementi:

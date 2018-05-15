@@ -1,7 +1,6 @@
 +++
 author = "Enectiva"
 date = "2017-06-05T14:40:16+02:00"
-sections = "manuals/convertors"
 tags = [
     "manuals",
     "convertors",
@@ -9,7 +8,6 @@ tags = [
 ]
 title = "Configuring PadPuls (Relay) Pulse Adapter"
 toc = false
-
 +++
 
 The **PadPuls** converter is used whenever necessary to convert pulse outputs from water meters, gas and electrometers to the M-Bus bus. The converter is made in multiple versions depending on how many pulse inputs you can connect to it. The configuration is completely identical for all variants. The maximum number of entries is 4.

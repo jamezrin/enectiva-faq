@@ -5,10 +5,8 @@ tags = [
     "slovo1",
     "slovo2"
 ]
-oddily = "index-the-content-to-the-menu"
 toc = false
 date = "2018-05-14T09:57:29+02:00"
-
 +++
 
 ### Nastavení W-MBus vysílače 169 MHz

@@ -1,10 +1,8 @@
 +++
 author = "Enectiva"
 date = "2017-04-19T14:58:52+02:00"
-sections = ["instructions-d-installation"]
 tags = ["mot1","mot2"]
 title = "Instructions d'installation #2"
-
 +++
 
 ### Contenu en français

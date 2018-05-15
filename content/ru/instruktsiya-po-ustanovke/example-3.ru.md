@@ -1,9 +1,8 @@
 +++
 author = "Enectiva"
 date = "2017-04-19T13:13:25+02:00"
-razdely = ["Instruktsiya po ustanovke"]tags = ["слово1","слово2"]
+tags = ["слово1","слово2"]
 title = "Инструкция по установке #3"
-
 +++
 
 ### России содержание

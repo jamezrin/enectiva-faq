@@ -1,7 +1,6 @@
 +++
 author = "Enectiva"
 date = "2017-06-05T14:40:16+02:00"
-sections = "manuals/convertors"
 tags = [
     "manuals",
     "convertors",
@@ -9,7 +8,6 @@ tags = [
 ]
 title = "Configurare il relè Padplus dell'adattatore ad impulsi"
 toc = false
-
 +++
 
 Il convertitore ** PadPuls ** viene utilizzato ogni volta che è necessario per convertire le uscite di impulsi da contatori d'acqua, gas e elettrometri al bus M-Bus. Il convertitore è realizzato in più versioni a seconda di quanti ingressi di impulso si può collegare ad esso. La configurazione è completamente identica per tutte le varianti. Il numero massimo di voci è 4.

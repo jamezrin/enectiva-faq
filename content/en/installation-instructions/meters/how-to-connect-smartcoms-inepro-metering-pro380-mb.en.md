@@ -1,7 +1,6 @@
 +++
 author = "Enectiva"
 date = "2017-06-09T10:03:55+02:00"
-sections = "manuals/meters"
 tags = [
     "Manuals",
     "Meters",
@@ -10,7 +9,6 @@ tags = [
 ]
 title = "Connect SmartComs with Inepro Metering PRO380-Mb"
 toc = false
-
 +++
 
 In order to begin making the settings, we need to have the following elements:

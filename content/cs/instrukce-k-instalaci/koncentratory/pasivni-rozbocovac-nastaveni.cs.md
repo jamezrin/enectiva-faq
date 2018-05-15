@@ -1,7 +1,6 @@
 +++
 author = "Enectiva"
 date = "2017-06-07T16:01:04+02:00"
-oddily = "manualy/koncentratory"
 tags = [
     "Manualy",
     "Koncentratory"

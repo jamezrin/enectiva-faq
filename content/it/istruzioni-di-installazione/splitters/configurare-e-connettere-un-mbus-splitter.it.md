@@ -1,7 +1,6 @@
 +++
 author = "Enectiva"
 date = "2017-06-05T13:14:15+02:00"
-sections = "manuals/splitters"
 tags = [
     "manuals",
     "splitters",
@@ -9,7 +8,6 @@ tags = [
 ]
 title = "Configurare e connettere uno Splitter M-Bus"
 toc = false
-
 +++
 
 Utilizzerete lo splitter M-Bus se si desidera leggere contemporaneamente i contatori da due unità centrali (Master M-Bus). Esempi tipici di utilizzo di contatori di distribuzione di calore (impianti di riscaldamento urbani) dotati di uscita M-Bus per CHP e che vogliono un metro di tali caratteristiche collegate al sistema Enectiva. In questo caso è necessario dividere l'uscita M-Bus dal contatore in due uscite M-Bus.

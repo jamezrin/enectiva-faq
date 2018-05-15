@@ -1,7 +1,6 @@
 +++
 author = "Enectiva"
 date = "2017-06-06T10:25:58+02:00"
-sections = "manuals/gateways"
 tags = [
     "manuals",
     "gateways",
@@ -9,7 +8,6 @@ tags = [
 ]
 title = "Configure the passive hub PR-1"
 toc = false
-
 +++
 
 <img class="right" src="/images/hub-pasivo-pr-1.jpg" style="width:30%"></img>

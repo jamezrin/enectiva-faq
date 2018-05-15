@@ -1,7 +1,6 @@
 +++
 author = "Enectiva"
 date = "2017-06-05T11:21:03+02:00"
-secciones = "manuales/sensores"
 tags = [
     "manuales",
     "sensores",
@@ -9,7 +8,6 @@ tags = [
 ]
 title = "Configurar el sensor HRI-B"
 toc = false
-
 +++
 
 Los siguientes pasos te indican la instalación y configuración de los componentes necesarios para realizar una correcta instalación de tu sensor HRI-B.

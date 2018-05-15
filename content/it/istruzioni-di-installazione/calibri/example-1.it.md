@@ -1,10 +1,8 @@
 +++
 author = "Enectiva"
 date = "2017-04-25T13:48:47+02:00"
-sezioni = "manuali/calibri"
 tags = ["parola1","parola2"]
 title = "Calibri #1"
-
 +++
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus risus a nisi bibendum viverra. Nunc at porta turpis, luctus tempor turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer at libero sed augue hendrerit pharetra. Nulla vulputate, enim vitae sagittis feugiat, dui velit lobortis eros, et semper ante tellus dictum odio. Nulla et venenatis orci. Donec ut euismod justo. Duis non imperdiet neque. Fusce malesuada pharetra tristique. Sed turpis mi, maximus ac libero a, malesuada facilisis nulla. Sed tempus bibendum dignissim. Vestibulum sagittis varius nibh, et fermentum tellus aliquam ac. Vestibulum volutpat erat et nisl tincidunt, nec varius ante condimentum.

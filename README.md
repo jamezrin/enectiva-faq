@@ -81,7 +81,6 @@ tags = [
 ]
 title = "Instrukce k instalaci #1"
 toc = false
-
 +++
 ```
 
@@ -90,7 +89,6 @@ toc = false
 +++
 author = "Enectiva"
 date = "2017-04-19T12:48:07+02:00"
-abschnitte = "Handbucher"
 tags = [
     "Wort1",
     "Wort2"
@@ -98,7 +96,6 @@ tags = [
 title = "Handbücher #1"
 url = "/de/abschnitte/handbucher/example-1"
 toc = false
-
 +++
 ```
 
@@ -115,7 +112,6 @@ tags = [
 ]
 title = "title of file"
 toc = false
-
 +++
 ```
 
@@ -124,7 +120,6 @@ toc = false
 +++
 author = "Enectiva"
 date = "2017-05-31T12:32:37+02:00"
-secciones = "manuales/medidores"
 url = "/es/secciones/manuales/medidores/como-conectar-smartcoms-al-servidor"
 tags = [
     "manuales",
@@ -132,7 +127,6 @@ tags = [
 ]
 title = "Cómo conectar SmartComs al servidor"
 toc = false
-
 +++
 ```
 
@@ -149,7 +143,6 @@ tags = [
 ]
 title = "Instructions d'installation #1"
 toc = false
-
 +++
 ```
 
@@ -158,7 +151,6 @@ toc = false
 +++
 author = "Enectiva"
 date = "2017-04-25T13:47:04+02:00"
-sezioni = "istruzioni-di-installazione/calibri"
 url = "/it/sezioni/istruzioni-di-installazione/calibri/example-1"
 tags = [
     "parola1",
@@ -166,7 +158,6 @@ tags = [
 ]
 title = "Calibri #1"
 toc = false
-
 +++
 ```
 
@@ -175,7 +166,6 @@ toc = false
 +++
 author = "Enectiva"
 date = "2017-04-19T13:13:16+02:00"
-razdely = "Instruktsiya po ustanovke"
 url = "/ru/razdely/instruktsiya-po-ustanovke/example-1"
 tags = [
     "слово1",
@@ -183,7 +173,6 @@ tags = [
 ]
 title = "Инструкция по установке #1"
 toc = false
-
 +++
 ```
 

@@ -1,14 +1,12 @@
 +++
 author = "Enectiva"
 date = "2017-06-05T09:29:18+02:00"
-sections = "manuals/convertors"
 tags = [
     "manuals",
     "convertors"
 ]
 title = "169Mhz WM-Bus Transmitter Configuration"
 toc = false
-
 +++
 
 The 169Mhz **WM-Bus transmitter** functions as a converter between a pulse output (or S0 outputs) and M-Bus wireless protocol variants. This converter is used when there is a need to transfer data from the meter or to a distance of meters, or greater, in the air. The transmission range depends on the position of the receiver's antenna, but it moves on open ground up to 2Km and in areas from 200 to 300m.

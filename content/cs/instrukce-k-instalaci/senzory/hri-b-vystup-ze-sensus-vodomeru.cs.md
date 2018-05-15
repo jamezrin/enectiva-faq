@@ -1,14 +1,12 @@
 +++
 author = "Enectiva"
 date = "2017-06-07T16:39:07+02:00"
-oddily = "manualy/senzory"
 tags = [
     "Manualy",
     "Senzory"
 ]
 title = "Nastavení senzoru HRI-B"
 toc = false
-
 +++
 
 ## Postup nastavení

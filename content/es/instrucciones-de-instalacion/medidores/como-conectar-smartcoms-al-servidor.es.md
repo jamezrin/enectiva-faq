@@ -1,7 +1,6 @@
 +++
 author = "Enectiva"
 date = "2017-05-31T12:32:37+02:00"
-secciones = "manuales/medidores"
 tags = [
     "manuales",
     "medidores",
@@ -9,7 +8,6 @@ tags = [
 ]
 title = "Cómo conectar SmartComs al servidor"
 toc = false
-
 +++
 
 <img class="center" src="/images/2n-smartcoms-pro.png" style="width:35%;border:0;box-shadow:none"></img>

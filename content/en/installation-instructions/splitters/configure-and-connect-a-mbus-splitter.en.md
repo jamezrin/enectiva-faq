@@ -1,7 +1,6 @@
 +++
 author = "Enectiva"
 date = "2017-06-05T13:14:15+02:00"
-sections = "manuals/splitters"
 tags = [
     "manuals",
     "splitters",
@@ -9,7 +8,6 @@ tags = [
 ]
 title = "Configure and connect an M-Bus Splitter"
 toc = false
-
 +++
 
 You will use the M-Bus splitter if you want to read counters simultaneously from two central units (M-Bus Master). Typical examples of using heat distribution meters (city heating plants) that have been equipped with an M-Bus output for CHP and want a meter of such characteristics connected with the Enectiva system. In this case it is necessary to divide the M-Bus output from the meter into two M-Bus outputs.

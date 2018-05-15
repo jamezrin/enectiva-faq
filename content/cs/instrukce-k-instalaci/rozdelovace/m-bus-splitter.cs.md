@@ -1,14 +1,12 @@
 +++
 author = "Enectiva"
 date = "2017-06-07T16:50:18+02:00"
-oddily = "manualy/rozdelovace"
 tags = [
     "Manualy",
     "Rozdelovace"
 ]
 title = "Nastavení a zapojení M-Bus Splitteru"
 toc = false
-
 +++
 
 M-Bus splitter použijete v případě, že chcete vyčítat měřidla současně ze dvou centrálních jednotek (Mbus Masterů). Typickým příkladem použití jsou měřidla distributorů tepla (městské teplárny), které již mají osazen Mbus výstup pro účely teplárny a chcete takové měřidlo napojit do systému Enectiva. V tomto případě je nutné Mbus výstup z měřidla rozdělit (anglicky splitter) na dva M-bus výstupy.

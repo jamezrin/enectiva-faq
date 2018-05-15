@@ -1,7 +1,6 @@
 +++
 author = "Enectiva"
 date = "2017-05-31T11:02:40+02:00"
-sections = "manuals/meters"
 tags = [
     "manuals",
     "meters",

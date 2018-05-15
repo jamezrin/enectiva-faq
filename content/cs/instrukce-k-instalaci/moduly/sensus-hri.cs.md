@@ -5,7 +5,6 @@ tags = [
     "slovo1",
     "slovo2"
 ]
-oddily = "index-the-content-to-the-menu"
 toc = false
 date = "2018-05-14T14:25:44+02:00"
 downloads = [
