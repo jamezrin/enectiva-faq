@@ -2,7 +2,6 @@
 author = "Enectiva"
 date = "2017-04-19T14:58:58+02:00"
 sections = ["instructions-d-installation"]
-url = "/fr/instructions-d-installation/example-3"
 tags = ["mot1","mot2"]
 title = "Instructions d'installation #3"
 

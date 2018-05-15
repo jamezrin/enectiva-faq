@@ -4,7 +4,6 @@ date = "2017-04-19T12:52:50+02:00"
 abschnitte = ["Installationsanleitung"]
 tags = ["Wort1","Wort2"]
 title = "Installationsanleitung #1"
-url = "/de/installationsanleitung/example-1"
 
 +++
 

@@ -6,7 +6,6 @@ tags = [
     "word2"
 ]
 sections = "manuals/concentrators"
-url = "/en/sections/manuals/concentrators/test"
 toc = false
 +++
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod eget lectus quis viverra. Mauris feugiat lorem erat, eu mattis purus porta a. Fusce congue sem id justo aliquet, eu fringilla quam interdum. Nunc ut molestie velit, vitae tincidunt leo. Mauris vel elit eu risus semper porta. Maecenas vehicula arcu diam, at tincidunt justo suscipit a. Vestibulum commodo tellus vel felis lacinia ultrices. Donec placerat, velit eget pharetra convallis, purus dui volutpat metus, id ornare dolor tortor ac leo. In efficitur turpis et varius ultricies. Mauris bibendum venenatis mattis. Vivamus tincidunt at velit id porta. Vestibulum ut commodo odio, in facilisis urna.

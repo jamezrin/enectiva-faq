@@ -7,7 +7,6 @@ tags = [
     "convertors"
 ]
 title = "Configurazione Trasmettitore WM-Bus 169Mhz"
-url = "/it/sections/manuali/convertitory/configurazione-trasmettitore-wmbus-169mhz"
 toc = false
 
 +++

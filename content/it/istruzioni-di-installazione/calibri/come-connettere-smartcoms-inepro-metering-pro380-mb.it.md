@@ -9,7 +9,6 @@ tags = [
     "Inepro metering PRO380-Mb"
 ]
 title = "Connettere SmartComs con calibro Inepro PRO380-Mb"
-url = "/it/sections/manuali/calibri/come-connettere-smartcoms-inepro-metering-pro380-mb"
 toc = false
 
 +++

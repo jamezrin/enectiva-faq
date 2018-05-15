@@ -47,14 +47,6 @@ paginatePath = "page"
     spanish = "es"
     french  = "fr"
 
-[permalinks]
-    es = "/:slug/:filename"
-    cs = "/:slug/:filename"
-    it = "/:slug/:filename"
-    de = "/:slug/:filename"
-    en = "/:slug/:filename"
-    ru = "/:slug/:filename"
-
 [blackfriday]
     angledQuotes = true
     fractions = false
@@ -99,12 +91,12 @@ paginatePath = "page"
         weight = 4
     [languages.de]
         contentDir = "content/de"
-	languageName = "German"
-	weight = 5
+	    languageName = "German"
+	    weight = 5
     [languages.ru]
-	contentDir = "content/ru"
-	languageName = "Russian"
-	weight = 6
+        contentDir = "content/ru"
+        languageName = "Russian"
+        weight = 6
     [language.fr]
         contentDir = "content/fr"
         languageName = "French"

@@ -8,7 +8,6 @@ tags = [
     "PR-1"
 ]
 title = "Configure the passive hub PR-1"
-url = "/en/sections/manuals/gateways/configure-the-hub-passive-pr-1"
 toc = false
 
 +++

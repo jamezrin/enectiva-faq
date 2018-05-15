@@ -2,7 +2,6 @@
 author = "Enectiva"
 date = "2017-04-25T13:53:19+02:00"
 sezioni = "manuali-terzo/convertitori"
-url = "/it/manuali-terzo/convertitori/example-1"
 tags = ["parola1","parola2"]
 title = "Convertitori #1"
 

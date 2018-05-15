@@ -2,7 +2,6 @@
 author = "Enectiva"
 date = "2017-04-25T13:53:43+02:00"
 sezioni = "manuali-terzo/gateways"
-url = "/it/manuali-terzo/gateways/example-1"
 tags = ["parola1","parola2"]
 title = "Gateways #1"
 

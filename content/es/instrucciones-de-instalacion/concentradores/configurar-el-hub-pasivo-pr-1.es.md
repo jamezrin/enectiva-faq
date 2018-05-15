@@ -8,7 +8,6 @@ tags = [
     "PR-1"
 ]
 title = "Configurar el Hub pasivo PR-1"
-url = "/es/secciones/manuales/concentradores/configurar-el-hub-pasivo-pr-1"
 toc = false
 
 +++

@@ -1,9 +1,7 @@
 +++
 author = "Enectiva"
 date = "2017-04-19T13:13:25+02:00"
-razdely = ["Instruktsiya po ustanovke"]
-url = "/it/instruktsiya-po-ustanovke/example-3"
-tags = ["слово1","слово2"]
+razdely = ["Instruktsiya po ustanovke"]tags = ["слово1","слово2"]
 title = "Инструкция по установке #3"
 
 +++

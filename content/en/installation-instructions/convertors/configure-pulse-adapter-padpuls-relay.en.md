@@ -8,7 +8,6 @@ tags = [
     "PadPuls"
 ]
 title = "Configuring PadPuls (Relay) Pulse Adapter"
-url = "/en/sections/manuals/convertors/configure-pulse-adapter-padpuls-relay"
 toc = false
 
 +++

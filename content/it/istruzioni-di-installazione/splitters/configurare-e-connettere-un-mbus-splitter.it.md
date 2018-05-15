@@ -8,7 +8,6 @@ tags = [
     "M-Bus Splitter"
 ]
 title = "Configurare e connettere uno Splitter M-Bus"
-url = "/it/manuali/splitters/configurare-e-connettere-un-mbus-splitter"
 toc = false
 
 +++

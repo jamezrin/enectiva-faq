@@ -7,7 +7,6 @@ tags = [
     "Senzory"
 ]
 title = "Nastavení senzoru HRI-B"
-url = "/cs/oddily/manualy/senzory/hri-b-vystup-ze-sensus-vodomeru"
 toc = false
 
 +++

@@ -7,7 +7,6 @@ tags = [
     "Prevodniky"
 ]
 title = "Nastavení W-MBus vysílače 169 MHz"
-url = "/cs/oddily/manualy/prevodniky/bezdratovy-vysilac-vmbus-169mhz"
 toc = false
 +++
 

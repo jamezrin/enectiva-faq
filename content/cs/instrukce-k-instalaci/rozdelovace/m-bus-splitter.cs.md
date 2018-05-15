@@ -7,7 +7,6 @@ tags = [
     "Rozdelovace"
 ]
 title = "Nastavení a zapojení M-Bus Splitteru"
-url = "cs/oddily/manualy/rozdelovace/m-bus-splitter"
 toc = false
 
 +++

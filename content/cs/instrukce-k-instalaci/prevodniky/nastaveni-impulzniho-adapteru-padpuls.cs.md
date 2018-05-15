@@ -7,7 +7,6 @@ tags = [
     "Prevodniky"
 ]
 title = "Nastavení impulzního adaptéru PadPuls (Relay)"
-url = "/cs/oddily/manualy/prevodniky/nastaveni-impulzniho-adapteru-padpuls"
 toc = false
 +++
 

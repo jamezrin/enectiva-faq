@@ -7,7 +7,6 @@ tags = [
     "Koncentratory"
 ]
 title = "Nastavení pasivního rozbočovače PR-1"
-url = "/cs/oddily/manualy/koncentratory/pasivni-rozbocovac-nastaveni"
 toc = false
 +++
 

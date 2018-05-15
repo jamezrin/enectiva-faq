@@ -4,7 +4,6 @@ date = "2017-04-19T11:29:32+02:00"
 sezioni = ["Manuali terzo"]
 tags = ["Parola1","Parola2"]
 title = "Manuali terzo #1"
-url = "/it/manuali-terzo/example-1"
 
 +++
 

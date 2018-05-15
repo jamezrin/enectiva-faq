@@ -2,7 +2,6 @@
 author = "Enectiva"
 date = "2017-05-31T12:32:37+02:00"
 secciones = "manuales/medidores"
-url = "/es/secciones/manuales/medidores/como-conectar-smartcoms-al-servidor"
 tags = [
     "manuales",
     "medidores",

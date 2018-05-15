@@ -2,7 +2,6 @@
 author = "Enectiva"
 date = "2017-04-25T13:21:45+02:00"
 sections = "manuals/convertors"
-url = "/en/manuals/convertors/example-1"
 tags = ["word1","word2"]
 title = "Convertors #1"
 

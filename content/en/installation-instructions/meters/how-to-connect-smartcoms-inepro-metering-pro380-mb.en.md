@@ -9,7 +9,6 @@ tags = [
     "Inepro metering PRO380-Mb"
 ]
 title = "Connect SmartComs with Inepro Metering PRO380-Mb"
-url = "/en/sections/manuals/meters/how-to-connect-smartcoms-inepro-metering-pro380-mb"
 toc = false
 
 +++

@@ -8,7 +8,6 @@ tags = [
     "PadPuls"
 ]
 title = "Configurare il relè Padplus dell'adattatore ad impulsi"
-url = "/it/sections/manuali/convertitori/configurare-relè-dell'adattatore-ad-impulsi"
 toc = false
 
 +++

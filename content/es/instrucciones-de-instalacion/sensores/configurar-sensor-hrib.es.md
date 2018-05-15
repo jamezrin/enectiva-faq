@@ -9,7 +9,6 @@ tags = [
 ]
 title = "Configurar el sensor HRI-B"
 toc = false
-url = "/es/manuales/sensores/configurar-sensor-hrib"
 
 +++
 

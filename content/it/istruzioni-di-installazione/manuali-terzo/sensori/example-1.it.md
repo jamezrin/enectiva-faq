@@ -2,7 +2,6 @@
 author = "Enectiva"
 date = "2017-04-25T13:54:19+02:00"
 sezioni = "manuali-terzo/sensori"
-url = "/it/manuali-terzo/sensori/example-1"
 tags = ["parola1","parola2"]
 title = "Sensori #1"
 

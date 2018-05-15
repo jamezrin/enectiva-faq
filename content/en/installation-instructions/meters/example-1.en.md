@@ -2,7 +2,6 @@
 author = "Enectiva"
 date = "2017-04-25T13:20:36+02:00"
 sections = "manuals/meters"
-url = "/en/manuals/meters/example-1"
 tags = ["word1","word2"]
 title = "Meters #1"
 
