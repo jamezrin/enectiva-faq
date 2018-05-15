@@ -20,11 +20,11 @@ Připojení modulu PadPuls
 1. 	Nainstalovat Software MBCONF do PC (notebooku).
 2. 	Připojit M-Bus Mikro-Master do volného USB portu PC (notebooku)
 
-<img class="right" src="/images/relay-padpuls/01.png" style="width:30%"></img>
+<img class="center" src="/images/relay-padpuls/01.png" style="width:30%"></img>
 
 3. 	Pomocí „Správce zařízení“ na PC (notebooku) nastavit příslušný port PC (notebooku), tj. v našem případě COM6 (viz násedující obrázek). Na který COM port se MikroMaster připojil si můžete zkontrolovat přes Správce zařízení/Device manager ve vašich Windows.
-<img class="right" src="/images/relay-padpuls/02.png" style="width:30%"></img>
-<img class="right" src="/images/relay-padpuls/03.png" style="width:30%"></img>
+<img class="center" src="/images/relay-padpuls/02.png" style="width:30%"></img>
+<img class="center" src="/images/relay-padpuls/03.png" style="width:30%"></img>
 
 Dvojitým kliknutím na zvolený port se otevře okno s nastavením portu. Zkontrolujeme, že jsou nastaveny následující hodnoty
 Nastavení portu:
@@ -41,11 +41,11 @@ Nastavení portu:
           Master USB (viz obr. 1)
 5.	Aktivovat PadPuls adaptér. Sundat horní kryt adaptéru a propojku u nápisu BAT             nasunout na oba piny (viz obr. 4 – písmena BAT).
 
-<img class="right" src="/images/relay-padpuls/04.png" style="width:30%"></img>
+<img class="center" src="/images/relay-padpuls/04.png" style="width:30%"></img>
 
 Aktivace adaptéru PadPuls. Existují varianty PadPuls M4L nebo tento výše na DINlištu. Pak pouze s jedním nebo dvěma vstupy, s displayem i bez něj. Princip nastavení je však vždy stejný. Níže obrázek připojení měřidel s pulsním výstupem na převodním a připojení Mbus sběrnice.
 
-<img class="right" src="/images/relay-padpuls/05.png" style="width:30%"></img>
+<img class="center" src="/images/relay-padpuls/05.png" style="width:30%"></img>
 
 6. 	Otevřít program MBCONF
 7. 	Provést základní nastavení:
@@ -58,9 +58,9 @@ zařízení)
     f) MDK (Sensus) - používá se pro čtení se zařízením MDK od Sensus (15) 
     g) Po zapojení a nastavení parametrů stiskněte “Connect to meter” pro připojení k měřidlu (16)
 
-<img class="right" src="/images/relay-padpuls/06.png" style="width:30%"></img>
+<img class="center" src="/images/relay-padpuls/06.png" style="width:30%"></img>
 
-<img class="right" src="/images/relay-padpuls/07.png" style="width:30%"></img>
+<img class="center" src="/images/relay-padpuls/07.png" style="width:30%"></img>
 
 Podle varianty převodníku PadPulse se objeví rozhraní s jedním až čtyřmi porty v horní části. Na našem obrázku je nastavení pro Port 1. Pro nastavení je třeba:
 1.	Vyplnit primární adresu. Každé zařízení připojené na M-Bus sběrnici musí mít unikátní a jedinečnou primární adresu v rozsahu hodnot 0-253 (1)

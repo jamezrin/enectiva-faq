@@ -27,9 +27,9 @@ Nastavení portu:
 	parita	žádná
 	stop bity	1
 	řízení toku	žádné 
-<img class="right" src="/images/sensus-hri/hri_01.jpg" style="width:30%"></img>
+<img class="center" src="/images/sensus-hri/hri_01.jpg" style="width:30%"></img>
 4. 	Připojit senzor HRI-B pomocí vodičů (zelená, hnědá) ke svorkovnici M-Bus Mikro-Master USB
-<img class="right" src="/images/sensus-hri/hri_02.png" style="width:30%"></img>
+<img class="center" src="/images/sensus-hri/hri_02.png" style="width:30%"></img>
 5. 	Otevřít program MiniCom3 
 6. 	Otevřít (v našem případě) port COM10 - příslušný port se automaticky nabídne
 7.	Po záložkou „Zobrazit“ zaškrtneme Stavová lišta, Informace o měřidle a Odečty.
@@ -52,7 +52,7 @@ SND_NKE příkaz - použít (příkaz je nutný pro aktivaci některých měřid
 
 POZOR!
 U modulů HRI-Mei je potřeba v nastavení vypnout multitelgram a přepnout do režimu “Encoder telegram”.
-<img class="right" src="/images/sensus-hri/03.png" style="width:30%"></img>
+<img class="center" src="/images/sensus-hri/03.png" style="width:30%"></img>
 
 ### Připojení modulu HRI na M-Bus sběrnici
 Moduly HRI-B se na M-Bus sběrnici připojují pomocí hnědého a zeleného vodiče.

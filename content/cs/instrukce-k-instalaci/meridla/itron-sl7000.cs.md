@@ -16,7 +16,7 @@ date = "2018-05-14T12:40:43+02:00"
 Níže je popsáno standardní rozložení vstupních a výstupních svorek elektroměru SL7000 pro připojení galvanického oddělovače.
 
 **Popis výstupů**
-<img class="right" src="/images/itron-sl7000/2.jpg" style="width:30%"></img>
+<img class="center" src="/images/itron-sl7000/2.jpg" style="width:30%"></img>
 
 | Svorka | Funkce |  Typické zapojení   |
 | ------ | ------ | ------------------- |
@@ -29,7 +29,7 @@ Níže je popsáno standardní rozložení vstupních a výstupních svorek elek
 |   35   |  Společný pól                |
 
 ### Popis vstupů
-<img class="right" src="/images/itron-sl7000/4.jpg" style="width:30%"></img>
+<img class="center" src="/images/itron-sl7000/4.jpg" style="width:30%"></img>
 
 | Svorka | Funkce |  Typické zapojení        |
 | ------ | ------ | ------------------------ |

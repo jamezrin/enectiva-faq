@@ -21,7 +21,7 @@ Zapojení vstupů je podle následujícího schématu, včetně napájení 230V 
 Nejčastěji je připojován pouze výstup činného odběru na svorkách 17 a 19 bez pomocného zdroje 24V.
 
 
-<img class="right" src="/images/bmr-op105/op105-schema.png" style="width:30%"></img>
+<img class="center" src="/images/bmr-op105/op105-schema.png" style="width:30%"></img>
 
 **Označení vstupních svorek**
 1,2	napájení 230V AC

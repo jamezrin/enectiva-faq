@@ -25,11 +25,11 @@ PR7: H4000, H4200, S2000, C4000 Hlavní počítadlo, C3100 Hlavní počítadlo
 Obecně se PR6 používá pro menší průtoky, PR7 pro vyšší.
 
 Ukázka správně nainstalovaného modulu na vodoměr
-<img class="right" src="/images/elster-pr6-pr7/pr6_02.png" style="width:30%"></img>
+<img class="center" src="/images/elster-pr6-pr7/pr6_02.png" style="width:30%"></img>
 
 Modul je nainstalován tak, aby zůstal viditelný ukazatel stavu na vodoměru.
 Zapojení kabelů
-<img class="right" src="/images/elster-pr6-pr7/pr6_01.png" style="width:30%"></img>
+<img class="center" src="/images/elster-pr6-pr7/pr6_01.png" style="width:30%"></img>
 CH1P (žlutý)	Dopředné a zpětné výstupní impulzy (nutné zapojit vždy) 
 CH1D (bílý)	Signalizuje směr proudění (sepnutí=dopředný průtok) 
 CH2P (červený)	Rozdíl dopředného a zpětného průtoku. Tento impulz proudu kompenzuje jakýkoliv protiproud. Během zpětného průtoku nejsou posílány žádné impulzy na výstup snímače. Po obnovení dopředného průtoku, jsou nejprve impulzy uložené do paměti snímače smazány. Tyto pulzy jsou nejprve odečítány z předešlého zpětného průtoku. Teprve po přemazání celé paměti s uloženými zpětnými impulzy se začnou opět vysílat pulzy na výstup snímače. 

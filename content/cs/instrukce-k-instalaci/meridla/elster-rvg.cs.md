@@ -15,7 +15,7 @@ Pro snímání impulsů z rotačního plynoměru RVG se používá snímač INS-
 
 Vyvedení pinů na konektoru je na následujícím obrázku:
 
-<img class="right" src="/images/elster-rvg/rvg01.png" style="width:30%"></img>
+<img class="center" src="/images/elster-rvg/rvg01.png" style="width:30%"></img>
 
 Pulsní výstup je na pinech číslo 1 (+) a 2 (-).
 

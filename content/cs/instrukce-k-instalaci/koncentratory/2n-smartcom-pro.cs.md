@@ -21,12 +21,12 @@ downloads = [
 1. 	Rozbalit Terminal Configuration Program 1.0.2.7 - 2N® SmartCom do notebooku.
 2.	Otevřít rozbalenou složku a spustit aplikaci SmcTerminalConfigProgram.
 3. 	Připojit redukci USB -> RS232 do volného USB portu v notebooku (po připojení se na redukci rozsvítí modrá dioda), k redukci připojit kabel RS232.
-<img class="right" src="/images/2n-smartcom-pro/01.png" style="width:30%"></img>
+<img class="center" src="/images/2n-smartcom-pro/01.png" style="width:30%"></img>
 4. 	Notebook si nainstaluje ovladač potřebný pro fungování redukce.
 5. 	Kliknout na "Start", do pole "Prohledat programy a soubory" napsat "Správce zařízení" a otevřít. 
-<img class="right" src="/images/2n-smartcom-pro/02.png" style="width:30%"></img>
+<img class="center" src="/images/2n-smartcom-pro/02.png" style="width:30%"></img>
 a) Rozbalit záložku "Porty (COM a LPT)" 
-<img class="right" src="/images/2n-smartcom-pro/03.png" style="width:30%"></img>    
+<img class="center" src="/images/2n-smartcom-pro/03.png" style="width:30%"></img>    
 b) Dvakrát poklikat na USB Serial Port", vybrat záložku "Port Settings". 
           
 Zde nastavit následující hodnoty: 
@@ -40,14 +40,14 @@ Zde nastavit následující hodnoty:
 | `řízení toku` | žádné |
 
 Potvrdit kliknutím na "OK".
-<img class="right" src="/images/2n-smartcom-pro/04.png" style="width:30%"></img>
+<img src="/images/2n-smartcom-pro/04.png" style="width:30%"></img>
 
 6. 	Připojit SmartCom k RS232 (SmartCom musí být připojen k napájení!).
-<img class="right" src="/images/2n-smartcom-pro/05.png" style="width:30%"></img>
+<img class="center" src="/images/2n-smartcom-pro/05.png" style="width:30%"></img>
 7. 	Přejít do programu 2N SMartCom configuration. 
 a) Zkontrolovat, že je vybraný stejný port, který je napsaný ve Správci zařízení u USB Serial Port (např. COM13 v tomto návodu). Pokud ne, nastavit správný.
 	b) Kliknout na "Load configuration".		
-<img class="right" src="/images/2n-smartcom-pro/06.png" style="width:30%"></img>		 		
+<img src="/images/2n-smartcom-pro/06.png" style="width:30%"></img>		 		
 8.	Nahraje se současné nastavení komunikátoru.
 
 
@@ -119,7 +119,7 @@ Pokud u SmartComu není heslo nastaveno (je tedy prázdné), musí se psát s uv
 
 V případě vážných okolností, kdy není možné se se SmartComem spojit, je potřeba ho uvést do továrního nastavení. To lze provést pomocí SMS ve tvaru SC FRES PWD=<heslo> 
 Druhým způsobem uvedení to továrního nastavení je odmontování čela zařízení, vysunutí desky a zapnutí s propojenými piny podle následujícího obrázku.
-<img class="right" title="title=”Uvedení do továrního nastavení, zdroj: wiki.2n.cz”" src="/images/2n-smartcom-pro/07.png" style="width:30%"></img>
+<img class="center" title="title=”Uvedení do továrního nastavení, zdroj: wiki.2n.cz”" src="/images/2n-smartcom-pro/07.png" style="width:30%"></img>
 
 Jumpery (zkratovací propojky) si lze vypůjčit z okolních hřebínků. Po dokončení operace je nutné je vrátit na původní místo. Pokud by zůstaly na místě pro restart, vracel by se SmartCom do továrního nastavení při každém spuštění.
 
@@ -133,7 +133,7 @@ Parametry reléových výstupů
 * Max. výkon: 30 W / 62,5 VA
 
 Připojení stykače:
-<img class="right" src="/images/2n-smartcom-pro/smc_stykac.png" style="width:30%"></img>
+<img src="/images/2n-smartcom-pro/smc_stykac.png" style="width:30%"></img>
 
 ### Ovládání relé
 **Ovládání pomocí AT příkazů po sériové lince:**

@@ -21,9 +21,9 @@ PRO380 je moderní třífázový elektroměr vybavený komunikačním standardem
 #### Připojení M-Bus sběrnice
 Připojení elektroměru na komunikační sběrnici M-Bus se realizuje na svorkách 22 a 23, označených jako COM. Na polaritě nezáleží, pro zamezení chyb je však vhodné udržovat jednotnou v celé instalaci.
 
-<img class="right" src="/images/inepro-380mb/pro-380-01.png" style="width:30%"></img>
+<img class="center" src="/images/inepro-380mb/pro-380-01.png" style="width:30%"></img>
 
-<img class="right" src="/images/inepro-380mb/pro-380-02.png".png" style="width:30%"></img>
+<img class="center" src="/images/inepro-380mb/pro-380-02.png".png" style="width:30%"></img>
 
 Pro komunikaci po M-Bus je možné použít jak primární, tak sekundární adresování. Sekundární adresa odpovídá posledním 8 číslicím sériového čísla, typicky 160xxxxx. Primární adresa bývá od výrobce standardně nastavena 1 a je možné jí v menu nastavit tak, aby všechna měřidla na sběrnici měla svou unikátní adresu v rozmezí 0-253.
 

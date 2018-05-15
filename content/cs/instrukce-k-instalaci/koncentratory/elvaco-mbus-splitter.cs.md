@@ -1,7 +1,6 @@
 +++
 title = "Napdis"
 author = "Enectiva"
-url = "the-slug-is-the-section"
 tags = [
     "slovo1",
     "slovo2"
@@ -18,7 +17,7 @@ downloads = [
 M-Bus splitter použijete v případě, že chcete vyčítat měřidla současně ze dvou centrálních jednotek (M-Bus Masterů). Typickým příkladem použití jsou měřidla distributorů tepla (městské teplárny), které již mají osazen M-Bus výstup pro účely teplárny a chcete takové měřidlo napojit do systému Enectiva. V tomto případě je nutné M-Bus výstup z měřidla rozdělit na dva M-Bus výstupy.
 M-Bus splitter může rozdělit sběrnici s maximálním počtem 4ks M-Bus měřidel.
 
-<img class="right" src="/images/elvaco-mbus-splitter/01.png" style="width:30%"></img>
+<img class="center" src="/images/elvaco-mbus-splitter/01.png" style="width:30%"></img>
 **Způsob zapojení:**
 1.	V případě že chcete rozdělit sběrnici s více než jedním měřidlem, je potřeba připojit napájení 24 V AC (na obrázku svorky 1). V případě, že máte na sběrnici, kterou chcete rozdělit pouze jedno měřidlo, tak tyto svorky zůstanou prázdné. K napájení je pak použit pouze vstup M-Bus OUT2 (na obrázku svorky 3) do které se připojí jeden z M-Bus masterů.
 2.	Na svorky M-Bus IN (na obrázku svorky 2) připojte sběrnici kterou chcete rozdělit. Může být s jedním až čtyřmi měřidly. 
@@ -29,14 +28,14 @@ M-Bus splitter může rozdělit sběrnici s maximálním počtem 4ks M-Bus měř
 **Typická situace použití a zapojení:**
 Od teplárny máte na místě zapojení (viz. obrázek níže). Kalorimetr a vodoměr jsou zapojeny do jejich M-Bus Masteru přes který odečítají data.
 
-<img class="right" src="/images/elvaco-mbus-splitter/02.png" style="width:30%"></img>
+<img class="center" src="/images/elvaco-mbus-splitter/02.png" style="width:30%"></img>
 
 Potřebujeme odečítat do Enectivy pouze kalorimetr, tzn. část sběrnice (M-Bus 1 kabelu) s kalorimetrem je potřeba rozdělit na dva nezávislé segmenty pomocí splitteru. Vznikne situace na obrázku. Původní M-bus 1 kabel z kalorimetru je rozdělen na M-bus 1 do původního Masteru a M-bus 2 do Enectiva Masteru.
 
-<img class="right" src="/images/elvaco-mbus-splitter/03.png" style="width:30%"></img>
+<img class="center" src="/images/elvaco-mbus-splitter/03.png" style="width:30%"></img>
 Pro nastavení M-bus splitteru se použijí pouze barevné jumpery (zkratovací propojky) na horní hraně M-Bus splitteru
 
-<img class="right" src="/images/elvaco-mbus-splitter/04.png" style="width:30%"></img>
+<img class="center" src="/images/elvaco-mbus-splitter/04.png" style="width:30%"></img>
 **Uvedení do provozu:**
 1.	Po připojení napájení ať už přes svorky 24 VAC nebo MBUS OUT2 Power svorky se chvíli nic neděje. Až po cca 1-3min se obvody nabijí a začnou blikat diody. 
 2.	Po připojení všech sběrnic jak vstupní tak obou výstupních je potřeba proskenovat sběrnici. **Je potřeba vytáhnout žlutý jumper a zase ho nasadit zpět.** Pak budete asi 10min čekat za konstatního blikání diody u M-Bus IN. Po skončení skenování sběrnice bude tato dioda blikat v intervalu 12 sekund. 1 bliknutí znamená, že je na sběrnici jedno měřidlo, 2 bliknutí znamenají 2 měřidla atd.
