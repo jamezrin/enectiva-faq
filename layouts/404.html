@@ -1,15 +1,13 @@
-<!DOCTYPE html>
-
 {{ $lang := .Site.Language.Lang }}
-{{ $locale := index .Site.Data.locales $lang }}
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ .Site.Language.Lang }}" xml:lang="{{ .Site.Language.Lang }}">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ $lang }}" xml:lang="{{ .Site.Language.Lang }}">
     <head>
-    {{ partial "base/metas.html" . }}
+        {{ partial "base/metas.html" . }}
     </head>
     <body>
-    {{ partial "base/header.html" . }}
-    {{ partial "base/error-404.html" . }}
-    {{ partial "base/footer.html" . }}
+        {{ partial "base/header.html" . }}
+        {{ partial "base/error-404.html" . }}
+        {{ partial "base/footer.html" . }}
     </body>
 </html>

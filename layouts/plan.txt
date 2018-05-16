@@ -1,0 +1,14 @@
+body
+  header
+    logo
+    menus
+    search
+    language
+    breadcrumbs
+  container
+    container
+      content
+      footer
+    sidebar
+      related-articles
+      linked-downloads

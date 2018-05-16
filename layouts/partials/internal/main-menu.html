@@ -8,7 +8,7 @@
         <ul class="sub" itemscope itemtype="http://www.schema.org/SiteNavigationElement/">
             {{ range sort .items "weight" "asc" }}
             <li class="{{ if eq .hide true }}hide{{ end }}" itemprop="name">
-                <a itemprop="url" href="{{- .URL -}}" hreflang="{{ $lang }}">{{- .name -}}</a>
+                <a itemprop="url" href="{{- .url -}}" hreflang="{{ $lang }}">{{- .name -}}</a>
             </li>
             {{ end }}
         </ul>

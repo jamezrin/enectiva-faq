@@ -5,8 +5,8 @@ BaseURL = "/"
 title = "Enectiva FAQ"
 
 # Language
-LanguageCode = "en"
-DefaultContentLanguage = "en"
+LanguageCode = "cs"
+DefaultContentLanguage = "cs"
 DefaultContentLanguageInSubdir = "true"
 disableLanguages = ["fr", "ru", "de", "it"]
 

@@ -1,29 +1,26 @@
-<!DOCTYPE html>
-
 {{ $lang := .Site.Language.Lang }}
-{{ $locale := index .Site.Data.locales $lang }}
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ .Site.Language.Lang }}" xml:lang="{{ .Site.Language.Lang }}">
-    <head itemscope itemtype="http://www.schema.org/WebSite">
-    {{ partial "base/metas.html" . }}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ $lang }}" xml:lang="{{ $lang }}">
+    <head>
+        {{ partial "base/metas.html" . }}
     </head>
-
     <body>
-    {{ partial "base/header.html" . }}
-    {{ partial "menu.html" . }}
+        {{ partial "base/header.html" . }}
+        {{ partial "menu.html" . }}
 
-    <div class="articles">
+        <div class="articles">
         {{ range .Paginator.Pages.ByDate.Reverse }}
-        <div class="post">
+            <div class="post">
             {{ partial "summary.html" . }}
-        </div>
+            </div>
         {{ end }}
-    </div>
+        </div>
 
-    <div class="navigation">
+        <div class="navigation">
         {{ partial "internal/pagination.html" . }}
-    </div>
+        </div>
 
-    {{ partial "base/footer.html" . }}
+        {{ partial "base/footer.html" . }}
     </body>
 </html>

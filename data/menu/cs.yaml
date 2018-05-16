@@ -1,112 +1,35 @@
 main_menu:
     installations_instructions:
         name: "Instrukce k Instalaci"
-        url: /cs/oddily/instrukce-k-instalaci/
+        url: /cs/instrukce-k-instalaci/
         hide: false
         weight: 01
         items:
             meters:
                 name: Měřidla
-                url: /cs/oddily/instrukce-k-instalaci/meridla/
+                url: /cs/instrukce-k-instalaci/meridla/
                 hide: false
                 weight: 01
             sensors:
-                name: Senzory
-                url: /cs/oddily/instrukce-k-instalaci/senzory/
+                name: Moduly
+                url: /cs/instrukce-k-instalaci/moduly/
                 hide: false
                 weight: 02
-            gateways:
-                name: Brány
-                url: /cs/oddily/instrukce-k-instalaci/brany/
+            concentrators:
+                name: Koncentratory
+                url: /cs/instrukce-k-instalaci/koncentratory/
                 hide: false
                 weight: 03
-            convertors:
-                name: Převodníky
-                url: /cs/oddily/instrukce-k-instalaci/prevodniky/
-                hide: false
-                weight: 04
             splitters:
                 name: Rozdělovače
-                url: /cs/oddily/instrukce-k-instalaci/rozdelovace/
+                url: /cs/instrukce-k-instalaci/rozdelovace/
                 hide: false
-                weight: 05
+                weight: 04
             others:
-                name: Ostatní
-                url: /cs/oddily/instrukce-k-instalaci/ostatni/
-                hide: false
-                weight: 06
-    manuals:
-        name: Manuály
-        url: /cs/oddily/manualy/
-        hide: true
-        weight: 02
-        items:
-            meters:
-                name: Měřidla
-                url: /cs/oddily/manualy/meridla/
-                hide: false
-                weight: 01
-            sensors:
-                name: Senzory
-                url: /cs/oddily/manualy/senzory/
-                hide: false
-                weight: 02
-            gateways:
-                name: Brány
-                url: /cs/oddily/manualy/brany/
-                hide: false
-                weight: 03
-            convertors:
-                name: Převodníky
-                url: /cs/oddily/manualy/prevodniky/
-                hide: false
-                weight: 04
-            splitters:
-                name: Rozdělovače
-                url: /cs/oddily/manualy/rozdelovace/
+                name: Optooddelovace
+                url: /cs/instrukce-k-instalaci/optooddelovace/
                 hide: false
                 weight: 05
-            concentrators:
-                name: Koncentrátory
-                url: /cs/oddily/manualy/koncentratory/
-                hide: false
-                weight: 06
-    tp_manuals:
-        name: "Manuály třetí"
-        url: /cs/oddily/manualy-treti/
-        hide: true
-        weight: 03
-        items:
-            meters:
-                name: Měřidla
-                url: /cs/oddily/manualy-treti/meridla/
-                hide: false
-                weight: 01
-            sensors:
-                name: Senzory
-                url: /cs/oddily/manualy-treti/senzory/
-                hide: false
-                weight: 02
-            gateways:
-                name: Brány
-                url: /cs/oddily/manualy-treti/brany/
-                hide: false
-                weight: 03
-            convertors:
-                name: Převodníky
-                url: /cs/oddily/manualy-treti/prevodniky/
-                hide: false
-                weight: 04
-            splitters:
-                name: Rozdělovače
-                url: /cs/oddily/manualy-treti/rozdelovace/
-                hide: false
-                weight: 05
-            concentrators:
-                name: Koncentrátory
-                url: /cs/oddily/manualy-treti/koncentratory/
-                hide: false
-                weight: 06
 
 footer_menu:
     partner_program:
