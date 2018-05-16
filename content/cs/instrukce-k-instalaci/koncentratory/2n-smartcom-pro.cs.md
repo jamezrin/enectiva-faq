@@ -47,6 +47,29 @@ a) Zkontrolovat, že je vybraný stejný port, který je napsaný ve Správci za
 <img src="/images/2n-smartcom-pro/06.png" style="width:30%"></img>		 		
 8.	Nahraje se současné nastavení komunikátoru.
 
+### Konfigurace po prvním spuštění:
+
+1. V záložce General nastavit následgjící hodnoty:
+
+    * Mode: TCP client
+    * APN: internet
+    * Server IP adress: 136.144.144.182
+    * Server port: 41117
+    * Password: 12345
+
+2.	Kliknout vpravo dole na Save and restart
+3.	Záložka Ethernet:
+Nastavit obě volby Primary channel a LED signalization na GSM
+
+    Tato nastavení se dají nastavit vlevo nahoře File - Import a nahráním konfiguračního souboru, který je ke stažení zde:
+    https://drive.google.com/file/d/1H91SN4pv02n72aMOhb3AMoNOPNyZC5CA/view?usp=sharing
+
+4.	Záložka Own AT commands:
+Zkopírovat postupně každý příkaz a kliknout na Send
+`at^scams="enable",1`
+`at^scping="interval",5`
+5.	Vložit SIM, odpojit/připojit napájení a chvíli počkat, jestli modrá dioda u slotu na SIM přestane blikat a začně trvale svítit. 
+Pokud stále jen bliká, někde je chyba. To může být způsobeno buď chybou v předešlé konfiguraci, slabým signálem (občas je nutné namontovat anténu), nebo zařízení není povoleno v systému Enectiva - v tomto případě nás kontaktujte.
 
 ### Nastavení pulsního vstupu
 
@@ -119,6 +142,7 @@ Druhým způsobem uvedení to továrního nastavení je odmontování čela zař
 <img class="center" title="title=”Uvedení do továrního nastavení, zdroj: wiki.2n.cz”" src="/images/2n-smartcom-pro/07.png" style="width:30%"></img>
 
 Jumpery (zkratovací propojky) si lze vypůjčit z okolních hřebínků. Po dokončení operace je nutné je vrátit na původní místo. Pokud by zůstaly na místě pro restart, vracel by se SmartCom do továrního nastavení při každém spuštění.
+Po uvedení do továrního nastavení je nutné zařízení znovu nakonfigurovat, viz výše.
 
 ### Zapojení a ovládání reléových výstupů
 SmartCom PRO je vybaven dvěma reléovými výstupy. Ty lze využít k zapnutí nebo vypnutí různých spotřebičů. V závislosti na výkonu s použitím stykače nebo jako obvody pro ovládání signalizace a podobně. Při jejich využití nezapomeňte dodržet předepsané parametry.

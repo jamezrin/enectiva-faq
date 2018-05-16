@@ -12,7 +12,7 @@ toc = false
 
 <img class="center" src="/images/2n-smartcoms-pro.png" style="width:35%;border:0;box-shadow:none"></img>
 
-> The **SmartComs (SMC)**, as you knows, are devices which can to meter different systems of heating, air cooling, etc... Basically, the **SMC** are responsible of recollect information and send it translated to the server to be able generate reports into Enectiva solutions.
+> The **SmartComs (SMC)**, as you know, are devices which can to meter different systems of heating, air cooling, etc... Basically, the **SMC** are responsible of recollect information and send it translated to the server to be able generate reports into Enectiva solutions.
 I will accompany you in this trip to learn to connect your first SmartCom in a few simple steps:
 
 
@@ -22,7 +22,7 @@ Before starting, you needs comply a number of requirements:
 - Your computer must have at least **Windows 7 / 8** or **10** to be able to execute the program.
 - The program that you need download is [**SmartComs Configuration Software**](https://www.2n.cz/download/3/3/9/5/2n-smartcom-terminal-config-1.0.2.7.zip). With it, we go configure all SmartCom you want, therefore, it is a tool what you will need very often, save it in a secure site.
 - You needs a uncompressor for descompress the folder where it's found the program that you have downloaded. Sure you will meet [**WinRar**](https://www.winrar.es/descargas/winrar) or [**7-Zip**](http://www.7-zip.org/download.html), with one of this two is enough. Althought, you can to use own Windows for extract the files from the same folder.
-- Cable and port **RS232**, many computers don't have said port, althought, you will needs buy a USB adapter that you would find in any informatic store.
+- Cable and port **RS232**, many computers don't have said port, although, you will need to buy a USB adapter that you would find in any informatic store.
 
 
 ## Connect the SmartCom to PC and install the necessary drivers.
