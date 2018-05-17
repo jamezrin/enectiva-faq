@@ -1,14 +1,19 @@
-{{ partial "base/metas.html" . }}
-{{ partial "base/header.html" . }}
-{{ partial "menu.html" . }}
+{{ $lang := .Site.Language.Lang }}
 
-<div class="articles">
-    <!--<h2 class="section-title">
-        {{ .Title | humanize }}
-    </h2>-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ $lang }}" xml:lang="{{ $lang }}">
+    <head>{{ partial "base/metas.html" . }}</head>
+    <body>
+        {{ partial "base/header.html" . }}
+
+        <div class="articles">
         {{ range .Data.Pages }}
-            {{ .Render "li" }}
+            <div class="post">
+                {{ partial "summary.html" . }}
+            </div>
         {{ end }}
-</div>
+        </div>
 
-{{ partial "base/footer.html" . }}
+        {{ partial "base/footer.html" . }}
+    </body>
+</html>

@@ -1,0 +1,20 @@
+{{ if ne .IsHome true}}
+{{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+{{ $.Scratch.Add "path" .Site.BaseURL }}
+
+
+<ol class="breadcrumbs-list">
+    <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+    {{ range $index, $element := split $url "/" }}
+        {{ $.Scratch.Add "path" $element }}
+        {{ if ne $element "" }}
+            {{ if ne $index 0 }}
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+            <li><a href='{{ $.Scratch.Get "path" }}'>{{ . | humanize }}</a></li>
+            {{ end }}
+        {{ $.Scratch.Add "path" "/" }}
+        {{ end }}
+    {{ end }}
+</ol>
+
+{{ end }}

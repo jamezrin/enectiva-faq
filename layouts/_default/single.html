@@ -1,30 +1,39 @@
-{{ partial "base/metas.html" . }}
-{{ partial "base/header.html" . }}
-{{ partial "menu.html" . }}
+{{ $lang := .Site.Language.Lang }}
 
-<div class="content">
-    <div class="post-single">
-        <h2 class="post-title">
-            {{ .Title }}
-        </h2>
-        <div class="post-byline">
-            {{ partial "internal/tags.html" . }}
-            <div class="post-date-time">
-                {{ partial "internal/date.html" . }}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ $lang }}" xml:lang="{{ $lang }}">
+    <head>{{ partial "base/metas.html" . }}</head>
+    <body>
+        {{ partial "base/header.html" . }}
+
+        <div class="content">
+            <div class="post-single">
+                <h2 class="post-title">
+                    {{ .Title }}
+                </h2>
+                <div class="post-byline">
+                    {{ partial "internal/tags.html" . }}
+                    <div class="post-date-time">
+                        {{ partial "internal/date.html" . }}
+                    </div>
+                </div>
+                <div class="post-content">
+                {{ if .Params.toc }}
+                    <div class="toc">
+                        {{ .TableOfContents }}
+                    </div>
+                {{ end }}
+
+                {{ .Content }}
+                </div>
+            </div>
+
+            <div class="sidebar">
+            {{ partial "internal/related-posts.html" . }}
+            {{ partial "internal/linked-files.html" .}}
             </div>
         </div>
-        <div class="post-content">
-            {{if .Params.toc }}
-            <div class="toc">
-                {{ .TableOfContents }}
-            </div>
-            {{ end }}
-            
-            {{ .Content }}
-        </div>
-    </div>
-    {{ partial "internal/related-posts.html" . }}
-    {{ partial "internal/linked-files.html" .}}
-</div>
 
-{{ partial "base/footer.html" . }}
+        {{ partial "base/footer.html" . }}
+    </body>
+</html>

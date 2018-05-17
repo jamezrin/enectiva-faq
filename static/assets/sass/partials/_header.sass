@@ -1,27 +1,55 @@
-/* This file define the block that contains header and logo image. */
-.header
-    position: relative
-    float: left
-    padding: 1.075em
-    border-right:
-        color: $color-grey
-        style: solid
-        width: 1px
-    margin: 0 auto
-    background-color: $color-white
-    &-logo
-        max:
-            height: 3.05rem
-            width: 100%
+@import "header/_search-box.sass"
+@import "header/_lang-switch.sass"
+@import "header/_menus.sass"
+@import "header/_breadcrumbs.sass"
 
-/* For mobiles devices */
+.header
+  display: flex
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  width: 100%
+  align-items: center
+  background: $color-white
+  flex-direction: row
+  flex-wrap: wrap
+  border-bottom:
+    color: $color-grey
+    style: solid
+    width: 1px
+
+.navbar
+  display: flex
+  flex-wrap: nowrap
+  flex-direction: row
+  width: 100%
+
+.logo
+  padding: 1.075em
+  border-right:
+    color: $color-grey
+    style: solid
+    width: 1px
+  background-color: $color-white
+  &-img
+    max-height: 3.05rem
+    max-width: 100%
+
 @media only screen and (max-width: 1024px)
-    .header
-        float: none
-        padding:
-            top: 1rem
-            bottom: 1rem
-        width: 100%
-        &-logo
-            display: block
-            margin: 0 auto
+  .navbar
+    flex-wrap: wrap
+
+  .logo
+    float: none
+    padding:
+      top: 1rem
+      bottom: 1rem
+    width: 100%
+    &-img
+      display: block
+      margin: 0 auto
+
+@media only screen and (max-width: 800px)
+  .header
+    position: static

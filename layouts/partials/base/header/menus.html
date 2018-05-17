@@ -1,0 +1,17 @@
+{{ $lang := .Site.Language.Lang }}
+{{ $locale := index .Site.Data.locales $lang }}
+{{ $menus := index .Site.Data.menu $lang }}
+
+{{ range sort $menus.main_menu "weight" "asc" }}
+{{ if ne .hide true }}
+<li class="sub-menu" itemprop="name"><a itemprop="url" href="{{ .URL }}" hreflang="{{ $lang }}">{{ .name }}</a>
+    <ul class="sub">
+    {{ range sort .items "weight" "asc" }}
+        <li class="{{ if eq .hide true }}hide{{ end }}" itemprop="name">
+            <a itemprop="url" href="{{- .url -}}" hreflang="{{ $lang }}">{{- .name -}}</a>
+        </li>
+    {{ end }}
+    </ul>
+</li>
+{{ end }}
+{{ end }}

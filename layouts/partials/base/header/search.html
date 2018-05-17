@@ -1,0 +1,6 @@
+{{ $lang := .Site.Language.Lang }}
+{{ $locale := index .Site.Data.locales $lang }}
+
+{{ if eq .Site.Params.search true }}
+<input id="search-by" type="search" placeholder="{{ $locale.search_placeholder }}">
+{{ end }}

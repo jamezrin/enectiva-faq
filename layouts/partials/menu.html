@@ -1,8 +1,0 @@
-{{ $lang := .Site.Language.Lang }}
-{{ $locale := index .Site.Data.locales $lang }}
-
-    {{- partial "internal/main-menu.html" . -}}
-    {{- partial "internal/search.html" . -}}
-    {{- partial "internal/lang-menu.html" . -}}
-    {{- partial "internal/breadcrumbs.html" . -}}
-</div>

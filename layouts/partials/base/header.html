@@ -1,8 +1,20 @@
-<div id="sidebar" class="nav-collapse">
-    <div class="header">
-        <div itemscope itemtype="http://schema.org/LocalBusiness" class="header-navbar">
-            <a itemprop="url" href="{{ .Site.BaseURL | absURL }}{{ .Site.Language.Lang }}">
-                <img itemprop="logo" src="{{ .Site.Params.headerlogo | absURL }}" class="header-logo"></img>
-            </a>
+<div class="header">
+    <div class="navbar">
+        <div class="logo">
+        {{ partial "base/header/logo.html" . }}
+        </div>
+        <div class="content-menu">
+        {{ partial "base/header/menus.html" . }}
+        </div>
+        <div class="search-box">
+        {{ partial "base/header/search.html" . }}
+        </div>
+        <div class="lang-switch">
+        {{ partial "base/header/lang-switch.html" . }}
         </div>
     </div>
+
+    <div class="breadcrumbs">
+    {{ partial "base/header/breadcrumbs.html" . }}
+    </div>
+</div>
