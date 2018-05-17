@@ -7,9 +7,9 @@ tags = [
 ]
 toc = false
 date = "2018-05-14T12:59:57+02:00"
-downloads = [
-    "/relay-padpuls/MBConf_Setup_01.exe",
-]
+[[downloads]]
+title = "MBConf Installer"
+url = "/relay-padpuls/MBConf_Setup_01.exe"
 +++
 Nastavení impulzního adaptéru Relay PadPuls
 Převodník PadPuls použijete všude tam, kde je třeba převést pulsní výstupy z vodoměrů, plynoměrů, elektroměrů na M-Bus sběrnici. Převodník se dělá ve více variantách podle toho kolik pulsních vstupů do něj můžete připojit. Nastavení je zcela totožné pro všechny varianty. Maximální počet vstupů je 4.

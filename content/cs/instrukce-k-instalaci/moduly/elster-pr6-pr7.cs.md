@@ -7,9 +7,9 @@ tags = [
 ]
 toc = false
 date = "2018-05-14T11:23:38+02:00"
-downloads = [
-    "/elster-pr6-pr7/pr6-pr7-generator-impulzu-prospekt.pdf"
-]
+[[downloads]]
+title = "Manuál"
+url = "/elster-pr6-pr7/pr6-pr7-generator-impulzu-prospekt.pdf"
 +++
 
 ### Pulsní modul Elster PR6 / PR7

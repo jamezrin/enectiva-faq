@@ -7,10 +7,12 @@ tags = [
 ]
 toc = false
 date = "2018-05-14T14:25:44+02:00"
-downloads = [
-    "/sensus-hri/minicom36108.exe",
-    "/sensus-hri/CZ - HRI Data Sheet.pdf"
-]
+[[downloads]]
+title = "Minicom Installer"
+url = "/sensus-hri/minicom36108.exe"
+[[downloads]]
+title = "HRI Data Sheet"
+url = "/sensus-hri/CZ - HRI Data Sheet.pdf"
 +++
 
 HRI je univerzální systém, který je kompatibilní se širokou řadou vodoměrů. Dodáván je ve dvou řadách - jako pulsní jednotka (HRI-A), nebo jako datová jednotka s rozhraním M-Bus (HRI-B).

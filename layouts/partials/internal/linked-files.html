@@ -3,17 +3,19 @@
 
 <div class="linked-files">
     {{ $files := .Params.downloads }}
+
+    <h2 class="linked-files-title">{{ $locale.downloads.title }}</h2>
     {{ if $files }}
-    <ul class="rel-list">
+    <ul class="linked-files-list">
         {{ range $files }}
         <li>
-            <a href="example.com">
-                {{ . }}
+            <a href="/downloads/{{.url}}">
+                {{.title}}
             </a>
         </li>
         {{ end }}
     </ul>
     {{ else }}
-    There are no downloadable files for this guide
+        <p>{{ $locale.downloads.none }}</p>
     {{ end }}
 </div>

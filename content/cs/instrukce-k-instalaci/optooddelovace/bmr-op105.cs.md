@@ -7,9 +7,9 @@ tags = [
 ]
 toc = false
 date = "2018-05-14T10:44:34+02:00"
-downloads = [
-    "/bmr-op105/OP105-manual.pdf"
-]
+[[downloads]]
+title = "Manuál"
+url = "/bmr-op105/OP105-manual.pdf"
 +++
 Převodník je určen ke galvanickému oddělení impulsních výstupů elektroměru od monitorovacího a regulačního zařízení. Přístroj umožňuje oddělení impulsu činného odběru, impulsu činné dodávky, impulsu jalového odběru, impulsu jalové dodávky a impulsu registrační periody. Činnost jednotlivých kanálů monitorují barevné LED diody jak na vstupní, tak na výstupní straně převodníku.
 

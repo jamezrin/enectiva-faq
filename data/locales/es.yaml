@@ -79,3 +79,6 @@ footer:
 street_address: 'Drtinova 557/10'
 address_locality: 'Praga 5'
 country: 'es'
+downloads:
+  title: 'Descargas'
+  none: 'No hay archivos descargables para esta guía'

@@ -7,10 +7,12 @@ tags = [
 ]
 toc = false
 date = "2018-05-14T09:23:48+02:00"
-downloads = [
-    "/2n-smartcom-pro/2N_SmartCom_Uživatelský_Manuál_CZ_1.13.0.pdf",
-    "/2n-smartcom-pro/Terminal Configuration Program 1.0.2.7 - 2N® SmartCom.zip"
-]
+[[downloads]]
+title = "Manuál"
+url = "/2n-smartcom-pro/2N_SmartCom_Uživatelský_Manuál_CZ_1.13.0.pdf"
+[[downloads]]
+title = "Terminal Program Installer"
+url ="/2n-smartcom-pro/Terminal Configuration Program 1.0.2.7 - 2N® SmartCom.zip"
 +++
 ### Připojení komunikátoru 2N k počítači
 1. 	Rozbalit Terminal Configuration Program 1.0.2.7 - 2N® SmartCom do notebooku.

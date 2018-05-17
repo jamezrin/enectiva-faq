@@ -34,3 +34,6 @@ footer:
 street_address: 'Drtinova 557/10'
 address_locality: 'Прага 5'
 country: 'ru'
+downloads:
+  title: 'Downloads'
+  none: 'There are no downloadable files for this guide'

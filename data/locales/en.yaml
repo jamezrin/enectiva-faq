@@ -43,7 +43,7 @@ date:
         October: October
         November: November
         December: December
-meta_description: 'Enectiva is web info system, for energetic management of administrative buildings, business centers and other property of commercial'
+meta_description: 'Enectiva is web info.yml system, for energetic management of administrative buildings, business centers and other property of commercial'
 meta_keywords: 'Enectiva, energy monitoring, energy savings, energy management, metering, smart metering, energy consumption, saving technology'
 meta_author: 'Enectiva S.r.o.'
 menu:
@@ -79,3 +79,6 @@ footer:
 street_address: 'Drtinova 557/10'
 address_locality: 'Prague 5'
 country: 'gb'
+downloads:
+  title: 'Downloads'
+  none: 'There are no downloadable files for this guide'

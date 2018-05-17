@@ -1,0 +1,41 @@
+@import "_related.sass"
+@import "_linked-files.sass"
+
+.sidebar
+  display: inline-block
+  position: fixed
+  top: 5rem
+  border-left:
+    color: #e1e1e1
+    style: solid
+    width: 1px
+  padding:
+    top: 0
+    right: 2rem
+    bottom: 2rem
+    left: 5rem
+  width: 30%
+  margin-top: 5rem
+  background: white
+  bottom: 0
+
+@media only screen and (max-width: 1024px)
+  .sidebar
+    position: static !important
+    display: block
+    margin: auto
+    border:
+      left:
+        color: transparent
+        style: none
+        width: 0
+      top:
+        color: $color-grey
+        style: solid
+        width: 1px
+    padding:
+      top: 0
+      right: 0
+      bottom: 0
+      left: 0
+    width: 86.66%

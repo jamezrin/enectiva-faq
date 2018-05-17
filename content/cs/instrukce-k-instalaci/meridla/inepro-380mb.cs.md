@@ -7,10 +7,12 @@ tags = [
 ]
 toc = false
 date = "2018-05-14T11:34:08+02:00"
-downloads = [
-    "/inepro-380mb/pro380-zkraceny-navod-10-2016-s-omezenou-platnosti.pdf",
-    "/inepro-380mb/1496303696_pro380_navod_ver2_03.pdf"
-]
+[[downloads]]
+title = "Manuál 1"
+url = "/inepro-380mb/pro380-zkraceny-navod-10-2016-s-omezenou-platnosti.pdf"
+[[downloads]]
+title = "Manuál 2"
+url = "/inepro-380mb/1496303696_pro380_navod_ver2_03.pdf"
 +++
 ### Připojení elektroměru PRO380-MB
 
