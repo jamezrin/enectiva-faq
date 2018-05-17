@@ -1,107 +1,106 @@
 /* This file contains the style of articles block and post summary */
 
 .articles
-    display: inline-block
-    margin-top: 4em
-    margin:
-        left: 1rem
-        right: 1rem
+  display: inline-block
+  margin-top: 4em
+  margin:
+    left: 1rem
+    right: 1rem
 
 .post
-    float: left
+  float: left
+  margin:
+    left: 1rem
+    right: 1rem
+    top: 1rem
+    bottom: 1rem
+  width: 47%
+  height: 15em
+  &-title
+    display: inline-flex
     margin:
-        left: 1rem
-        right: 1rem
-        top: 1rem
-        bottom: 1rem
-    width: 47%
-    height: 15em
-    &-title
-        display: inline-flex
-        margin:
-            bottom: .25rem
-            left: 0 !important
-        color: $color-orange-dark
-        a
-            color: $color-orange-dark
-            &:active,
-            &:focus,
-            &:hover
-                text-decoration: underline
-                color: $color-orange
-    &-published
-        display: inline-block
-        margin:
-            bottom: 0
-        padding:
-            top: .25rem
-            right: .75rem
-            bottom: .25rem
-            left: .75rem
+      bottom: .25rem
+      left: 0 !important
+    color: $color-orange-dark
+    a
+      color: $color-orange-dark
+      &:active,
+      &:focus,
+      &:hover
+        text-decoration: underline
+        color: $color-orange
+  &-published
+    display: inline-block
+    margin:
+      bottom: 0
+    padding:
+      top: .25rem
+      right: .75rem
+      bottom: .25rem
+      left: .75rem
+    border:
+      color: $color-grey
+      style: solid
+      width: 1px
+      radius: 0 2px 2px 0
+    font:
+      size: 1rem
+      weight: 100
+    color: $color-grey-dark
+    &:active,
+    &:focus,
+    &:hover
+      border-color: $color-grey-dark
+      background-color: $color-grey-light
+      color: $color-grey-darker
+  &-summary
+    text-align: justify
+    line-height: 1.5rem
+  &-date-summary
+    margin-bottom: .25rem
+  .read-more
+    margin-top: .5rem
+    text-align: right
+    a
+      border:
+        color: transparent
+        style: solid
+        width: 1px
+      padding: .35rem
+      text-decoration: underline
+      color: $color-orange-dark
+      &:active,
+      &:focus,
+      &:hover
         border:
-            color: $color-grey
-            style: solid
-            width: 1px
-            radius: 0 2px 2px 0
-        font:
-            size: 1rem
-            weight: 100
-        color: $color-grey-dark
-        &:active,
-        &:focus,
-        &:hover
-            border-color: $color-grey-dark
-            background-color: $color-grey-light
-            color: $color-grey-darker
-    &-summary
-        text-align: justify
-        line-height: 1.5rem
-    &-date-summary
-        margin-bottom: .25rem
-    .read-more
-        margin-top: .5rem
-        text-align: right
-        a
-            border:
-                color: transparent
-                style: solid
-                width: 1px
-            padding: .35rem
-            text-decoration: underline
-            color: $color-orange-dark
-            &:active,
-            &:focus,
-            &:hover
-                border:
-                    color: $color-orange-dark
-                    radius: 4px
-                style: solid
-                width: 1px
-                background-color: $color-orange-light
-                text-decoration: none
-                color: $color-orange-dark
+          color: $color-orange-dark
+          radius: 4px
+        style: solid
+        width: 1px
+        background-color: $color-orange-light
+        text-decoration: none
+        color: $color-orange-dark
 
 .fa
-    &-calendar
-        border:
-            color: $color-grey-darker
-            style: solid
-            width: 1px
-            radius: 2px 0 0 2px
-        padding: .35rem
-        color: $color-grey-darker
+  &-calendar
+    border:
+      color: $color-grey-darker
+      style: solid
+      width: 1px
+      radius: 2px 0 0 2px
+    padding: .35rem
+    color: $color-grey-darker
 
-/* For mobiles devices */
-@media only screen and (max-width: 600px)
-    .post
-        height: 35vh
 @media only screen and (max-width: 1400px)
-    .post
-        float: left
-        width: 95%
-@media only screen and (max-width: 1550px)
-    .articles
-        margin-top: 10em
+  .post
+    float: left
+    width: 95%
+    height: auto
+
+@media only screen and (max-width: 1024px)
+  .articles
+    margin-top: 11em
+
 //Because of the static navbar
 @media only screen and (max-width: 800px)
   .articles

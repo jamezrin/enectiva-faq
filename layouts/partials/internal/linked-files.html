@@ -2,7 +2,7 @@
 {{ $locale := index .Site.Data.locales $lang }}
 
 <div class="linked-files">
-    {{ $files := .Params.files }}
+    {{ $files := .Params.downloads }}
     {{ if $files }}
     <ul class="rel-list">
         {{ range $files }}
