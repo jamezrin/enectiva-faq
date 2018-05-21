@@ -10,6 +10,7 @@
     <ul class="rel-list">
         {{ range $page := .Site.Pages }}
         {{ $common_tags := intersect $tags .Params.tags | len | lt 0 }}
+        {{/*TODO Improve this and add a message for when there are no related articles*/}}
         {{ if and $common_tags (ne $page_link $page.Permalink) (lt ($.Scratch.Get "$c") 5)}}
         {{ $.Scratch.Add "$c" 1 }}
         <li><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></li>

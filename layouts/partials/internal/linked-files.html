@@ -9,13 +9,13 @@
     <ul class="linked-files-list">
         {{ range $files }}
         <li>
-            <a href="/downloads/{{.url}}">
-                {{.title}}
+            <a href="/downloads/{{ .url }}">
+                {{ .title }}
             </a>
         </li>
         {{ end }}
     </ul>
     {{ else }}
-        <p>{{ $locale.downloads.none }}</p>
+        <p class="none">{{ $locale.downloads.none }}</p>
     {{ end }}
 </div>

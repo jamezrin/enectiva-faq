@@ -32,7 +32,7 @@ As well as some grunt addons
 - grunt-open **Used to automatically open your default browser**
 - grunt-sass **Used to compile the SASS to CSS**
 - grunt-shell **Used to run hugo**
-- load-grunt-tasks **`Used for grunt-sass`**
+- load-grunt-tasks **Used for grunt-sass**
 
 ## Creating new blog post
 The command to do this is the next:

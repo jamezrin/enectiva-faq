@@ -29,7 +29,7 @@ paginatePath = "page"
     
     javascript = [
         "jquery-3.2.1.js",
-        "horsey.min.js",
+        "horsey.js",
         "lunr.min.js",
         "string.min.js",
         "main.js"
@@ -50,15 +50,8 @@ paginatePath = "page"
     extensionmask = []
 
 [outputs]
-    home = [
-        "HTML"
-    ]
-    taxonomy = [
-        "HTML", "JSON"
-    ]
-    page = [
-        "HTML"
-    ]
+    home = ["HTML", "RSS", "JSON"]
+    page = ["HTML"]
 
 [sitemap]
     changefreq = "monthly"
