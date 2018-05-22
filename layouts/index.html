@@ -1,23 +1,13 @@
-{{ $lang := .Site.Language.Lang }}
-
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ $lang }}" xml:lang="{{ $lang }}">
-    <head>{{ partial "base/metas.html" . }}</head>
-    <body>
-        {{partial "base/header.html" . }}
-
-        <div class="articles">
-        {{ range .Paginator.Pages.ByDate.Reverse }}
-            <div class="post">
-            {{ partial "summary.html" . }}
-            </div>
-        {{ end }}
+{{ define "main" }}
+    <div class="articles">
+    {{ range .Paginator.Pages.ByDate.Reverse }}
+        <div class="post">
+        {{ partial "summary.html" . }}
         </div>
+    {{ end }}
+    </div>
 
-        <div class="navigation">
-        {{ partial "internal/pagination.html" . }}
-        </div>
-
-        {{ partial "base/footer.html" . }}
-    </body>
-</html>
+    <div class="navigation">
+    {{ partial "internal/pagination.html" . }}
+    </div>
+{{ end }}

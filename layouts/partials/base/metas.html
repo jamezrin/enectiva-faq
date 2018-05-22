@@ -13,21 +13,17 @@
 
 {{ .Hugo.Generator }}
 
-<!-- CSS -->
 {{ range .Site.Params.stylesheets }}
-<link rel="stylesheet" href="/{{ . }}" />
+    <link rel="stylesheet" href="{{ . }}" />
 {{ end }}
-
-<!-- JavaScript -->
-<script type="text/javascript">
-    const SITE_DATA = {
-        base_url: "{{ .Site.BaseURL }}",
-        language: "{{ .Site.Language.Lang }}"
-    };
-
-    console.log("Site data:", SITE_DATA);
-</script>
 
 {{ range .Site.Params.javascript }}
-<script type="text/javascript" src="/assets/js/{{ . }}"></script>
+    <script type="text/javascript" src="{{ . }}"></script>
 {{ end }}
+
+<script type="text/javascript">
+    init(
+            "{{ .Site.Language.Lang }}",
+            "{{ .Site.Params.search_server }}"
+    );
+</script>

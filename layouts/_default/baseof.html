@@ -1,0 +1,19 @@
+{{ $lang := .Site.Language.Lang }}
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ $lang }}" xml:lang="{{ $lang }}">
+    <head>
+        {{ partial "base/metas.html" . }}
+
+        {{ block "header" . }}
+        {{ end }}
+    </head>
+    <body>
+        {{ partial "base/header.html" . }}
+
+        {{ block "main" . }}
+        {{ end }}
+
+        {{ partial "base/footer.html" . }}
+    </body>
+</html>

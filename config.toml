@@ -21,18 +21,17 @@ paginatePath = "page"
 [params]
     author = "Enectiva"
     search = true
+    search_server = "http://localhost:3000/"
     stylesheets = [
-        "dist/main.min.css",
-        "assets/css/fonts.min.css",
-        "assets/css/flags.min.css"
+        "/dist/main.min.css",
+        "/assets/css/fonts.min.css",
+        "/assets/css/flags.min.css",
+        "/assets/css/jquery.auto-complete.css"
     ]
-    
     javascript = [
-        "jquery-3.2.1.js",
-        "horsey.js",
-        "lunr.min.js",
-        "string.min.js",
-        "main.js"
+        "/assets/js/jquery-3.3.1.min.js",
+        "/assets/js/jquery.auto-complete.min.js",
+        "/assets/js/main.js"
     ]
     headerlogo = "assets/img/logo.png"
     footerlogo = "assets/img/enerfis-logo.png"
