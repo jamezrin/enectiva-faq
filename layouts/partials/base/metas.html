@@ -13,17 +13,17 @@
 
 {{ .Hugo.Generator }}
 
+<!-- Styles and scripts -->
 {{ range .Site.Params.stylesheets }}
     <link rel="stylesheet" href="{{ . }}" />
 {{ end }}
-
 {{ range .Site.Params.javascript }}
     <script type="text/javascript" src="{{ . }}"></script>
 {{ end }}
 
 <script type="text/javascript">
     init(
-            "{{ .Site.Language.Lang }}",
-            "{{ .Site.Params.search_server }}"
+        "{{ .Site.Language.Lang }}",
+        "{{ .Site.Params.search_server }}"
     );
 </script>

@@ -26,11 +26,11 @@ paginatePath = "page"
         "/dist/main.min.css",
         "/assets/css/fonts.min.css",
         "/assets/css/flags.min.css",
-        "/assets/css/jquery.auto-complete.css"
+        "/assets/css/horsey.css",
     ]
     javascript = [
         "/assets/js/jquery-3.3.1.min.js",
-        "/assets/js/jquery.auto-complete.min.js",
+        "/assets/js/horsey.js",
         "/assets/js/main.js"
     ]
     headerlogo = "assets/img/logo.png"

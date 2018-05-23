@@ -15,15 +15,16 @@ title = "Terminal Program Installer"
 url ="/2n-smartcom-pro/Terminal Configuration Program 1.0.2.7 - 2N® SmartCom.zip"
 +++
 ### Připojení komunikátoru 2N k počítači
+
 1. 	Rozbalit Terminal Configuration Program 1.0.2.7 - 2N® SmartCom do notebooku.
 2.	Otevřít rozbalenou složku a spustit aplikaci SmcTerminalConfigProgram.
 3. 	Připojit redukci USB -> RS232 do volného USB portu v notebooku (po připojení se na redukci rozsvítí modrá dioda), k redukci připojit kabel RS232.
-<img class="center" src="/images/2n-smartcom-pro/01.png" style="width:30%"></img>
+    <img class="center" src="/images/2n-smartcom-pro/01.png" style="width:30%"></img>
 4. 	Notebook si nainstaluje ovladač potřebný pro fungování redukce.
 5. 	Kliknout na "Start", do pole "Prohledat programy a soubory" napsat "Správce zařízení" a otevřít. 
-<img class="center" src="/images/2n-smartcom-pro/02.png" style="width:30%"></img>
+    <img class="center" src="/images/2n-smartcom-pro/02.png" style="width:30%"></img>
 a) Rozbalit záložku "Porty (COM a LPT)" 
-<img class="center" src="/images/2n-smartcom-pro/03.png" style="width:30%"></img>    
+    <img class="center" src="/images/2n-smartcom-pro/03.png" style="width:30%"></img>    
 b) Dvakrát poklikat na USB Serial Port", vybrat záložku "Port Settings". 
           
 Zde nastavit následující hodnoty: 

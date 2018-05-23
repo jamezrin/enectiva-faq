@@ -1,5 +1,5 @@
 +++
-title = "Výsledky hledání"
+title = "Search Results"
 layout = "search"
 [sitemap]
     priority = 0.1

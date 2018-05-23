@@ -11,6 +11,40 @@ function init(language, searcher) {
 }
 
 function ready() {
+    var horseyList = horsey(document.getElementById("search-field"), {
+        highlightCompleteWords: false,
+        highlighter: false,
+        cache: false,
+
+        source: function (data, done) {
+            search(data.input, function(results) {
+                done(null, [{
+                    list: results
+                }])
+            });
+        },
+
+        renderItem: function(li, suggestion) {
+            var title = document.createElement("div");
+            var summary = document.createElement("div");
+            summary.style.fontSize = "12px";
+
+            title.appendChild(document.createTextNode(suggestion.item.title));
+            summary.appendChild(document.createTextNode("This is some future summary"));
+
+            li.appendChild(title);
+            li.appendChild(summary)
+        },
+
+        filter: function (query, suggestion) {
+            return true;
+        },
+
+        set: function(obj) {
+            console.log(typeof obj)
+        }
+    });
+
     $('#search-field')
         //When pressing enter in the search input
         .on('keydown', function (e) {
@@ -21,33 +55,11 @@ function ready() {
 
         //When clicking the 'x' or pressing enter
         .on('search', function () {
-
+            horseyList.clear();
         })
         .on('input', function () {
             if (!this.value) {
-                //Clear search
-            }
-        })
-
-        .autoComplete({
-            source: function(term, response) {
-                search(term, function(data) {
-                    response(data)
-                })
-            },
-            onSelect: function (e, term, item) {
-                console.log(item);
-                if (e.type === 'keydown') {
-                    location.href = "/" + language + "/search?q=" + term;
-                } else {
-                    location.href = $('.autocomplete-suggestion div a').attr('href');
-                }
-            },
-            renderItem: function (item, search) {
-                return '<div class=\"autocomplete-suggestion\">' +
-                    '<div class="title"><a href=\"' + item.url + '\">' + item.title + '</a></div>' +
-                    '<div style="font-size: 12px;">' + item.matches[0].value + '</div>' +
-                    '</div>'
+                horseyList.clear();
             }
         });
 
@@ -82,9 +94,9 @@ function displaySearch(query) {
                 result.className = "search-result";
 
                 var anchor = document.createElement("a");
-                anchor.appendChild(document.createTextNode(value.title));
-                anchor.title = value.title;
-                anchor.href = value.url;
+                anchor.appendChild(document.createTextNode(value.item.title));
+                anchor.title = value.item.title;
+                anchor.href = value.item.url;
                 result.appendChild(anchor);
 
                 var description = document.createElement("p");
