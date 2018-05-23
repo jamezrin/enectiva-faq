@@ -68,8 +68,8 @@ tags: 'Stichworte:'
 pagination:
     next: 'Folgende '
     prev: ' Früher'
-rel_title: 'Verwandte artikel'
 search_placeholder: 'Suche...'
+search_results: 'Suchergebnisse'
 errors:
     not_found_title: '404 Nicht gefunden'
     not_found_message: 'Was du suchst, ist nicht hier, sorry!'
@@ -79,6 +79,9 @@ footer:
 street_address: 'Drtinova 557/10'
 address_locality: 'Prag 5'
 country: 'de'
+related:
+    title: 'Verwandte artikel'
+    empty: 'Es gibt keine verwandten Artikel'
 downloads:
-  title: 'Downloads'
-  none: 'There are no downloadable files for this guide'
+  title: 'Nachladen'
+  none: 'Für dieses Handbuch sind keine Dateien zum Herunterladen verfügbar'

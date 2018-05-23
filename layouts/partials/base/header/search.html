@@ -2,5 +2,5 @@
 {{ $locale := index .Site.Data.locales $lang }}
 
 {{ if eq .Site.Params.search true }}
-<input id="search-by" type="search" maxlength="64" placeholder="{{ $locale.search_placeholder }}">
+<input id="search-field" type="search" maxlength="64" placeholder="{{ $locale.search_placeholder }}">
 {{ end }}

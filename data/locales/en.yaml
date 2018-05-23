@@ -68,8 +68,8 @@ tags: 'Tags:'
 pagination:
     next: 'Next '
     prev: ' Previous'
-rel_title: 'Related articles'
 search_placeholder: 'Search...'
+search_results: 'Search Results'
 errors:
     not_found_title: '404 Not Found'
     not_found_message: "What you're looking for isn't here, sorry!"
@@ -79,6 +79,9 @@ footer:
 street_address: 'Drtinova 557/10'
 address_locality: 'Prague 5'
 country: 'gb'
+related:
+  title: 'Related articles'
+  empty: 'There are no related articles'
 downloads:
   title: 'Downloads'
-  none: 'There are no downloadable files for this guide'
+  empty: 'There are no downloadable files for this guide'

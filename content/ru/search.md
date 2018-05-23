@@ -1,5 +1,5 @@
 ---
-title: "Search Results"
+title: "результаты поиска"
 layout: "search"
 private: false
 ---

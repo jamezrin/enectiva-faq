@@ -11,7 +11,7 @@ function init(language, searcher) {
 }
 
 function ready() {
-    $('#search-by')
+    $('#search-field')
         //When pressing enter in the search input
         .on('keydown', function (e) {
             if (e.which === 13) {
@@ -26,6 +26,28 @@ function ready() {
         .on('input', function () {
             if (!this.value) {
                 //Clear search
+            }
+        })
+
+        .autoComplete({
+            source: function(term, response) {
+                search(term, function(data) {
+                    response(data)
+                })
+            },
+            onSelect: function (e, term, item) {
+                console.log(item);
+                if (e.type === 'keydown') {
+                    location.href = "/" + language + "/search?q=" + term;
+                } else {
+                    location.href = $('.autocomplete-suggestion div a').attr('href');
+                }
+            },
+            renderItem: function (item, search) {
+                return '<div class=\"autocomplete-suggestion\">' +
+                    '<div class="title"><a href=\"' + item.url + '\">' + item.title + '</a></div>' +
+                    '<div style="font-size: 12px;">' + item.matches[0].value + '</div>' +
+                    '</div>'
             }
         });
 

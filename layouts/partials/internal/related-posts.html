@@ -1,22 +1,18 @@
 {{ $lang := .Site.Language.Lang }}
 {{ $locale := index .Site.Data.locales $lang }}
 
-<div class="rel-posts">
-    {{ $tags := .Params.tags }}
-    {{ $page_link := .Permalink }}
-    {{ if $tags}}
+<div class="related-posts">
+    {{ $related := .Site.RegularPages.Related . | first 5 }}
+    <h2 class="related-posts-title">{{ $locale.related.title }}</h2>
 
-    <h2 class="rel-title">{{ $locale.rel_title }}</h2>
-    <ul class="rel-list">
-        {{ range $page := .Site.Pages }}
-        {{ $common_tags := intersect $tags .Params.tags | len | lt 0 }}
-        {{/*TODO Improve this and add a message for when there are no related articles*/}}
-        {{ if and $common_tags (ne $page_link $page.Permalink) (lt ($.Scratch.Get "$c") 5)}}
-        {{ $.Scratch.Add "$c" 1 }}
-        <li><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></li>
-        {{ end }}
+    {{ if $related }}
+    <ul class="related-posts-list">
+        {{ range $related }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
         {{ end }}
     </ul>
+    {{ else }}
+        <p id="related-posts-empty">{{ $locale.related.empty }}</p>
     {{ end }}
 </div>
 

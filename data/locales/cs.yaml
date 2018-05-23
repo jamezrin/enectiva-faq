@@ -69,8 +69,8 @@ tags: 'Tagy:'
 pagination:
     next: 'Následující '
     prev: ' Předchozí'
-rel_title: 'Související články'
 search_placeholder: 'Vyhledávání...'
+search_results: 'Výsledky hledání'
 errors:
     not_found_title: '404 Nenalezeno'
     not_found_message: 'To, co hledáte, není tady, omlouvám se!'
@@ -80,6 +80,9 @@ footer:
 street_address: 'Drtinova 557/10'
 address_locality: 'Praha 5'
 country: 'cz'
+related:
+  title: 'Související články'
+  empty: 'Neexistují žádné související články'
 downloads:
   title: 'Ke stažení'
-  none: 'Pro tento návod nejsou dostupné žádné soubory ke stažení'
+  empty: 'Pro tento návod nejsou dostupné žádné soubory ke stažení'
