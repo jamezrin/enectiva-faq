@@ -1,10 +1,10 @@
 +++
-title = "Title-post"
+title = "Post title"
 author = "Enectiva"
 date = "{{ .Date }}"
 tags = [
-    "word1",
-    "word2"
+    "tag1",
+    "tag2"
 ]
 toc = false
 +++

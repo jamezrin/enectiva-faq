@@ -36,9 +36,6 @@ paginatePath = "page"
     headerlogo = "assets/img/logo.png"
     footerlogo = "assets/img/enerfis-logo.png"
 
-[taxonomies]
-    tag     = "tags"
-
 [blackfriday]
     angledQuotes = true
     fractions = false
