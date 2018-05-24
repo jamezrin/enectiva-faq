@@ -11,57 +11,33 @@ function init(language, searcher) {
 }
 
 function ready() {
-    var horseyList = horsey(document.getElementById("search-field"), {
-        highlightCompleteWords: false,
-        highlighter: false,
-        cache: false,
-
-        source: function (data, done) {
-            search(data.input, function(results) {
-                done(null, [{
-                    list: results
-                }])
-            });
+    $('#search-field').autocomplete({  }, [{
+        source: function(query, callback) { //Could replace with just `search`
+            search(query, function(data) {
+                callback(data)
+            })
         },
+        templates: {
+            suggestion: function(suggestion) {
+                return "<div>" + suggestion.item.title + "</div>" +
+                    "<div style='font-size: 12px;'>" + suggestion.summary + "</div>"
+            }
+        }
+    }]).on('autocomplete:selected', function(event, suggestion, dataset) {
+        /*
+        console.log("Event:", {
+            event: event,
+            suggestion: suggestion,
+            dataset: dataset
+        });
+        */
 
-        renderItem: function(li, suggestion) {
-            var title = document.createElement("div");
-            var summary = document.createElement("div");
-            summary.style.fontSize = "12px";
-
-            title.appendChild(document.createTextNode(suggestion.item.title));
-            summary.appendChild(document.createTextNode("This is some future summary"));
-
-            li.appendChild(title);
-            li.appendChild(summary)
-        },
-
-        filter: function (query, suggestion) {
-            return true;
-        },
-
-        set: function(obj) {
-            console.log(typeof obj)
+        location.href = suggestion.item.url;
+    }).on('keydown', function(event) {
+        if (event.which === 13) {
+            location.href = "/" + language + "/search?q=" + this.value;
         }
     });
-
-    $('#search-field')
-        //When pressing enter in the search input
-        .on('keydown', function (e) {
-            if (e.which === 13) {
-                location.href = "/" + language + "/search?q=" + this.value;
-            }
-        })
-
-        //When clicking the 'x' or pressing enter
-        .on('search', function () {
-            horseyList.clear();
-        })
-        .on('input', function () {
-            if (!this.value) {
-                horseyList.clear();
-            }
-        });
 
     //For the search page
     var query = getParam('q');
@@ -100,7 +76,7 @@ function displaySearch(query) {
                 result.appendChild(anchor);
 
                 var description = document.createElement("p");
-                description.appendChild(document.createTextNode(value.matches[0].value));
+                description.appendChild(document.createTextNode(value.summary));
                 result.appendChild(description);
 
                 document.getElementById('search-results').appendChild(result);

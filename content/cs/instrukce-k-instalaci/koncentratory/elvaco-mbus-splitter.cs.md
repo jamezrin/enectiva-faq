@@ -11,6 +11,7 @@ date = "2018-05-14T11:29:11+02:00"
 title = "Manuál"
 url = "/elvaco-mbus-splitter/m-bussplitter_quick_manual_a4_english.pdf"
 +++
+
 M-Bus splitter použijete v případě, že chcete vyčítat měřidla současně ze dvou centrálních jednotek (M-Bus Masterů). Typickým příkladem použití jsou měřidla distributorů tepla (městské teplárny), které již mají osazen M-Bus výstup pro účely teplárny a chcete takové měřidlo napojit do systému Enectiva. V tomto případě je nutné M-Bus výstup z měřidla rozdělit na dva M-Bus výstupy.
 M-Bus splitter může rozdělit sběrnici s maximálním počtem 4ks M-Bus měřidel.
 
