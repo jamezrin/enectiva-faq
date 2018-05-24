@@ -25,11 +25,16 @@ main_menu:
                 url: /cs/instrukce-k-instalaci/rozdelovace/
                 hide: false
                 weight: 04
-            others:
+            optooddelovace:
                 name: Optooddelovace
                 url: /cs/instrukce-k-instalaci/optooddelovace/
                 hide: false
                 weight: 05
+            ostatni:
+                name: Ostatní
+                url: /cs/instrukce-k-instalaci/ostatni
+                hide: false
+                weight: 06
 
 footer_menu:
     partner_program:

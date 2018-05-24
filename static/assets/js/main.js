@@ -21,6 +21,9 @@ function ready() {
             suggestion: function(suggestion) {
                 return "<div>" + suggestion.item.title + "</div>" +
                     "<div style='font-size: 12px;'>" + suggestion.summary + "</div>"
+            },
+            empty: function() {
+                return "No results"
             }
         }
     }]).on('autocomplete:selected', function(event, suggestion, dataset) {
@@ -62,10 +65,8 @@ function getParam(param) {
 
 function displaySearch(query) {
     search(query, function(data) {
-        console.log(data);
-
-        data.forEach(function (value) {
-            if (value.matches.length > 0) {
+        if (data.length > 0) {
+            data.forEach(function (value) {
                 var result = document.createElement("div");
                 result.className = "search-result";
 
@@ -80,8 +81,13 @@ function displaySearch(query) {
                 result.appendChild(description);
 
                 document.getElementById('search-results').appendChild(result);
-            }
-        });
+            });
+        } else {
+            var result = document.createElement("h3");
+            result.appendChild(document.createTextNode("No search results found"))
+
+            document.getElementById('search-results').appendChild(result)
+        }
     });
 }
 
