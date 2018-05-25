@@ -27,7 +27,8 @@ function ready() {
             empty: function() {
                 return "No results"
             }
-        }
+        },
+        debounce: 200
     }]).on('autocomplete:selected', function(event, suggestion, dataset) {
         location.href = suggestion.item.url;
     }).on('autocomplete:cursorremoved', function(event) {

@@ -1,113 +1,40 @@
 main_menu:
     installations_instructions:
         name: "Инструкция по установке"
-        url: /ru/razdely/instruktsiya-po-ustanovke/
+        url: /ru/instruktsiya-po-ustanovke/
         hide: false
         weight: 01
         items:
             meters:
                 name: Шлюзы
-                url: /ru/razdely/instruktsiya-po-ustanovke/shlyuzy/
+                url: /ru/instruktsiya-po-ustanovke/shlyuzy/
                 hide: false
                 weight: 01
             sensors:
                 name: Mанометры
-                url: /ru/razdely/instruktsiya-po-ustanovke/manometry/
+                url: /ru/instruktsiya-po-ustanovke/manometry/
                 hide: false
                 weight: 02
             gateways:
                 name: датчиков
-                url: /ru/razdely/instruktsiya-po-ustanovke/datchikov/
+                url: /ru/instruktsiya-po-ustanovke/datchikov/
                 hide: false
                 weight: 03
             convertors:
                 name: Преобразователи
-                url: /ru/razdely/instruktsiya-po-ustanovke/preobrazovateli/
+                url: /ru/instruktsiya-po-ustanovke/preobrazovateli/
                 hide: false
                 weight: 04
             splitters:
                 name: Сплиттеры
-                url: /ru/razdely/instruktsiya-po-ustanovke/razvetviteli/
+                url: /ru/instruktsiya-po-ustanovke/razvetviteli/
                 hide: false
                 weight: 05
             others:
                 name: другие
-                url: /ru/razdely/instruktsiya-po-ustanovke/drugiye/
+                url: /ru/instruktsiya-po-ustanovke/drugiye/
                 hide: false
                 weight: 06
-    manuals:
-        name: Руководства
-        url: /ru/razdely/rukovodstva/
-        hide: true
-        weight: 02
-        items:
-            meters:
-                name: Шлюзы
-                url: /ru/razdely/rukovodstva/shlyuzy/
-                hide: false
-                weight: 01
-            sensors:
-                name: Mанометры
-                url: /ru/razdely/rukovodstva/manometry/
-                hide: false
-                weight: 02
-            gateways:
-                name: датчиков
-                url: /ru/razdely/rukovodstva/datchikov/
-                hide: false
-                weight: 03
-            convertors:
-                name: Преобразователи
-                url: /ru/razdely/rukovodstva/preobrazovateli/
-                hide: false
-                weight: 04
-            splitters:
-                name: Сплиттеры
-                url: /ru/razdely/rukovodstva/razvetviteli/
-                hide: false
-                weight: 05
-            concentrators:
-                name: Концентраторы
-                url: /ru/razdely/rukovodstva/kontsentratory/
-                hide: false
-                weight: 06
-    tp_manuals:
-        name: "Pуководства третьего"
-        url: /ru/razdely/rukovodstva-tret-yego/
-        hide: true
-        weight: 03
-        items:
-            meters:
-                name: Шлюзы
-                url: /ru/razdely/rukovodstva-tret-yego/shlyuzy/
-                hide: false
-                weight: 01
-            sensors:
-                name: Mанометры
-                url: /ru/razdely/rukovodstva-tret-yego/manometry/
-                hide: false
-                weight: 02
-            gateways:
-                name: датчиков
-                url: /ru/razdely/rukovodstva-tret-yego/datchikov/
-                hide: false
-                weight: 03
-            convertors:
-                name: Преобразователи
-                url: /ru/razdely/rukovodstva-tret-yego/preobrazovateli/
-                hide: false
-                weight: 04
-            splitters:
-                name: Сплиттеры
-                url: /ru/razdely/rukovodstva-tret-yego/razvetviteli/
-                hide: false
-                weight: 05
-            concentrators:
-                name: Концентраторы
-                url: /ru/razdely/rukovodstva-tret-yego/kontsentratory/
-                hide: false
-                weight: 06
-
 footer_menu:
     partner_program:
         name: "Партнерская программа"

@@ -1,113 +1,40 @@
 main_menu:
     installations_instructions:
         name: "Instrucciones de instalación"
-        url: /es/secciones/instrucciones-de-instalacion/
+        url: /es/instrucciones-de-instalacion/
         hide: false
         weight: 01
         items:
             meters:
                 name: Medidores
-                url: /es/secciones/instrucciones-de-instalacion/medidores/
+                url: /es/instrucciones-de-instalacion/medidores/
                 hide: false
                 weight: 01
             sensors:
                 name: Sensores
-                url: /es/secciones/instrucciones-de-instalacion/sensores/
+                url: /es/instrucciones-de-instalacion/sensores/
                 hide: false
                 weight: 02
             gateways:
                 name: Gateways
-                url: /es/secciones/instrucciones-de-instalacion/puertas-de-enlace/
+                url: /es/instrucciones-de-instalacion/puertas-de-enlace/
                 hide: false
                 weight: 03
             convertors:
                 name: Convertidores
-                url: /es/secciones/instrucciones-de-instalacion/convertidores/
+                url: /es/instrucciones-de-instalacion/convertidores/
                 hide: false
                 weight: 04
             splitters:
                 name: Splitters
-                url: /es/secciones/instrucciones-de-instalacion/splitters/
+                url: /es/instrucciones-de-instalacion/splitters/
                 hide: false
                 weight: 05
             others:
                 name: Otros
-                url: /es/secciones/instrucciones-de-instalacion/otros/
+                url: /es/instrucciones-de-instalacion/otros/
                 hide: false
                 weight: 06
-    manuals:
-        name: Manuales
-        url: /es/secciones/manuales/
-        hide: true
-        weight: 01
-        items:
-            meters:
-                name: Medidores
-                url: /es/secciones/manuales/medidores/
-                hide: false
-                weight: 01
-            sensors:
-                name: Sensores
-                url: /es/secciones/manuales/sensores/
-                hide: false
-                weight: 02
-            gateways:
-                name: Gateways
-                url: /es/secciones/manuales/puertas-de-enlace/
-                hide: false
-                weight: 03
-            convertors:
-                name: Convertidores
-                url: /es/secciones/manuales/convertidores/
-                hide: false
-                weight: 04
-            splitters:
-                name: Splitters
-                url: /es/secciones/manuales/splitters/
-                hide: false
-                weight: 05
-            concentrators:
-                name: Concentradores
-                url: /es/secciones/manuales/concentradores/
-                hide: false
-                weight: 06
-    tp_manuals:
-        name: "Manuales de terceros"
-        url: /es/secciones/manuales-de-terceros/
-        hide: true
-        weight: 01
-        items:
-            meters:
-                name: Medidores
-                url: /es/secciones/manuales-de-terceros/medidores/
-                hide: false
-                weight: 01
-            sensors:
-                name: Sensores
-                url: /es/secciones/manuales-de-terceros/sensores/
-                hide: false
-                weight: 02
-            gateways:
-                name: Gateways
-                url: /es/secciones/manuales-de-terceros/puertas-de-enlace/
-                hide: false
-                weight: 03
-            convertors:
-                name: Convertidores
-                url: /es/secciones/manuales-de-terceros/convertidores/
-                hide: false
-                weight: 04
-            splitters:
-                name: Splitters
-                url: /es/secciones/manuales-de-terceros/splitters/
-                hide: false
-                weight: 05
-            concentrators:
-                name: Concentradores
-                url: /es/secciones/manuales-de-terceros/concentradores/
-                hide: false
-                weight: 06
-
 footer_menu:
     partner_program:
         name: "Programa de afiliación"

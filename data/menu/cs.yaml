@@ -35,7 +35,6 @@ main_menu:
                 url: /cs/instrukce-k-instalaci/ostatni
                 hide: false
                 weight: 06
-
 footer_menu:
     partner_program:
         name: "Partnerský program"

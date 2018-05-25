@@ -1,20 +1,11 @@
 .lang-switch
-  display: block
+  display: inline-block
   position: relative
   top: 0
   right: 0
   padding:
     top: 2rem
     bottom: 2rem
-
-  @media only screen and (min-width: 1550px)
-    &:active,
-    &:focus,
-    &:hover
-      background-color: $color-blue
-      label
-        color: $color-white
-        text-shadow: 0 1px 2px $color-blue
 
 #menu
   &-toggle,
@@ -82,7 +73,16 @@ label[for=menu-toggle]
   & + #menu-toggle-list
     display: block
 
-/* For mobiles devices */
+.lang-switch
+  @media only screen and (min-width: 1550px)
+    &:active,
+    &:focus,
+    &:hover
+      background-color: $color-blue
+      label
+        color: $color-white
+        text-shadow: 0 1px 2px $color-blue
+
 @media only screen and (max-width: 1024px)
   .lang-switch
     padding:

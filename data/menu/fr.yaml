@@ -1,113 +1,40 @@
 main_menu:
     installations_instructions:
         name: "Instructions d' Installation"
-        url: /fr/sections/instructions-d-installation/
+        url: /fr/instructions-d-installation/
         hide: false
         weight: 01
         items:
             meters:
                 name: Jauges
-                url: /fr/sections/instructions-d-installation/jauges/
+                url: /fr/instructions-d-installation/jauges/
                 hide: false
                 weight: 01
             sensors:
                 name: Capteurs
-                url: /fr/sections/instructions-d-installation/capteurs/
+                url: /fr/instructions-d-installation/capteurs/
                 hide: false
                 weight: 02
             gateways:
                 name: Passerelles
-                url: /fr/sections/instructions-d-installation/passerelles/
+                url: /fr/instructions-d-installation/passerelles/
                 hide: false
                 weight: 03
             convertors:
                 name: Convertisseurs
-                url: /fr/sections/instructions-d-installation/convertisseurs/
+                url: /fr/instructions-d-installation/convertisseurs/
                 hide: false
                 weight: 04
             splitters:
                 name: Diviseurs
-                url: /fr/sections/instructions-d-installation/diviseurs/
+                url: /fr/instructions-d-installation/diviseurs/
                 hide: false
                 weight: 05
             others:
                 name: Autre
-                url: /fr/sections/instructions-d-installation/autres/
+                url: /fr/instructions-d-installation/autres/
                 hide: false
                 weight: 06
-    manuals:
-        name: Manuels
-        url: /fr/sections/manuels/
-        hide: true
-        weight: 02
-        items:
-            meters:
-                name: Jauges
-                url: /fr/sections/manuels/jauges/
-                hide: false
-                weight: 01
-            sensors:
-                name: Capteurs
-                url: /fr/sections/manuels/capteurs/
-                hide: false
-                weight: 02
-            gateways:
-                name: Passerelles
-                url: /fr/sections/manuels/passerelles/
-                hide: false
-                weight: 03
-            convertors:
-                name: Convertisseurs
-                url: /fr/sections/manuels/convertisseurs/
-                hide: false
-                weight: 04
-            splitters:
-                name: Diviseurs
-                url: /fr/sections/manuels/diviseurs/
-                hide: false
-                weight: 05
-            concentrators:
-                name: Concentrateurs
-                url: /fr/sections/manuels/concentrateurs/
-                hide: false
-                weight: 06
-    tp_manuals:
-        name: "Manuels Troisième"
-        url: /fr/sections/manuels-troisieme/
-        hide: true
-        weight: 03
-        items:
-            meters:
-                name: Jauges
-                url: /fr/sections/manuels-troisieme/jauges/
-                hide: false
-                weight: 01
-            sensors:
-                name: Capteurs
-                url: /fr/sections/manuels-troisieme/capteurs/
-                hide: false
-                weight: 02
-            gateways:
-                name: Passerelles
-                url: /fr/sections/manuels-troisieme/passerelles/
-                hide: false
-                weight: 03
-            convertors:
-                name: Convertisseurs
-                url: /fr/sections/manuels-troisieme/convertisseurs/
-                hide: false
-                weight: 04
-            splitters:
-                name: Diviseurs
-                url: /fr/sections/manuels-troisieme/diviseurs/
-                hide: false
-                weight: 05
-            concentrators:
-                name: Concentrateurs
-                url: /fr/sections/manuels-troisieme/concentrateurs/
-                hide: false
-                weight: 06
-
 footer_menu:
     partner_program:
         name: "Programme de partenariat"

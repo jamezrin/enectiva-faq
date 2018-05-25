@@ -1,113 +1,40 @@
 main_menu:
     installations_instructions:
         name: Installationsanleitung
-        url: /de/abschnitte/installationsanleitung/
+        url: /de/installationsanleitung/
         hide: false
         weight: 01
         items:
             meters:
                 name: Lehren
-                url: /de/abschnitte/installationsanleitung/lehren/
+                url: /de/installationsanleitung/lehren/
                 hide: false
                 weight: 01
             sensors:
                 name: Sensoren
-                url: /de/abschnitte/installationsanleitung/sensoren/
+                url: /de/installationsanleitung/sensoren/
                 hide: false
                 weight: 02
             gateways:
                 name: Gateways
-                url: /de/abschnitte/installationsanleitung/gateways/
+                url: /de/installationsanleitung/gateways/
                 hide: false
                 weight: 03
             convertors:
                 name: Wandler
-                url: /de/abschnitte/installationsanleitung/wandler/
+                url: /de/installationsanleitung/wandler/
                 hide: false
                 weight: 04
             splitters:
                 name: Weichen
-                url: /de/abschnitte/installationsanleitung/weichen/
+                url: /de/installationsanleitung/weichen/
                 hide: false
                 weight: 05
             others:
                 name: Andere
-                url: /de/abschnitte/installationsanleitung/andere/
+                url: /de/installationsanleitung/andere/
                 hide: false
                 weight: 06
-    manuals:
-        name: Handbücher
-        url: /de/abschnitte/handbucher/
-        hide: true
-        weight: 02
-        items:
-            meters:
-                name: Lehren
-                url: /de/abschnitte/handbucher/lehren/
-                hide: false
-                weight: 01
-            sensors:
-                name: Sensoren
-                url: /de/abschnitte/handbucher/sensoren/
-                hide: false
-                weight: 02
-            gateways:
-                name: Gateways
-                url: /de/abschnitte/handbucher/gateways/
-                hide: false
-                weight: 03
-            convertors:
-                name: Wandler
-                url: /de/abschnitte/handbucher/wandler/
-                hide: false
-                weight: 04
-            splitters:
-                name: Weichen
-                url: /de/abschnitte/handbucher/weichen/
-                hide: false
-                weight: 05
-            concentrators:
-                name: Konzentratoren
-                url: /de/abschnitte/handbucher/konzentratoren/
-                hide: false
-                weight: 06
-    tp_manuals:
-        name: "Handbücher Dritte"
-        url: /de/abschnitte/handbucher-dritte/
-        hide: true
-        weight: 03
-        items:
-            meters:
-                name: Lehren
-                url: /de/abschnitte/handbucher-dritte/lehren/
-                hide: false
-                weight: 01
-            sensors:
-                name: Sensoren
-                url: /de/abschnitte/handbucher-dritte/sensoren/
-                hide: false
-                weight: 02
-            gateways:
-                name: Gateways
-                url: /de/abschnitte/handbucher-dritte/gateways/
-                hide: false
-                weight: 03
-            convertors:
-                name: Wandler
-                url: /de/abschnitte/handbucher-dritte/wandler/
-                hide: false
-                weight: 04
-            splitters:
-                name: Weichen
-                url: /de/abschnitte/handbucher-dritte/weichen/
-                hide: false
-                weight: 05
-            concentrators:
-                name: Konzentratoren
-                url: /de/abschnitte/handbucher-dritte/konzentratoren/
-                hide: false
-                weight: 06
-
 footer_menu:
     partner_program:
         name: "Partnerprogramm"

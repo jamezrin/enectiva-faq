@@ -1,113 +1,40 @@
 main_menu:
     installations_instructions:
         name: "Istruzioni di Installazione"
-        url: /it/sezioni/istruzioni-di-installazione/
+        url: /it/istruzioni-di-installazione/
         hide: false
         weight: 01
         items:
             meters:
                 name: Calibri
-                url: /it/sezioni/istruzioni-di-installazione/calibri/
+                url: /it/istruzioni-di-installazione/calibri/
                 hide: false
                 weight: 01
             sensors:
                 name: Sensori
-                url: /it/sezioni/istruzioni-di-installazione/sensori/
+                url: /it/istruzioni-di-installazione/sensori/
                 hide: false
                 weight: 02
             gateways:
                 name: Gateways
-                url: /it/sezioni/istruzioni-di-installazione/gateways/
+                url: /it/istruzioni-di-installazione/gateways/
                 hide: false
                 weight: 03
             convertors:
                 name: Convertitori
-                url: /it/sezioni/istruzioni-di-installazione/convertitori/
+                url: /it/istruzioni-di-installazione/convertitori/
                 hide: false
                 weight: 04
             splitters:
                 name: Splitters
-                url: /it/sezioni/istruzioni-di-installazione/splitters/
+                url: /it/istruzioni-di-installazione/splitters/
                 hide: false
                 weight: 05
             others:
                 name: Altri
-                url: /it/sezioni/istruzioni-di-installazione/altri/
+                url: /it/istruzioni-di-installazione/altri/
                 hide: false
                 weight: 06
-    manuals:
-        name: Manuali
-        url: /it/sezioni/manuali/
-        hide: true
-        weight: 02
-        items:
-            meters:
-                name: Calibri
-                url: /it/sezioni/manuali/calibri/
-                hide: false
-                weight: 01
-            sensors:
-                name: Sensori
-                url: /it/sezioni/manuali/sensori/
-                hide: false
-                weight: 02
-            gateways:
-                name: Gateways
-                url: /it/sezioni/manuali/gateways/
-                hide: false
-                weight: 03
-            convertors:
-                name: Convertitori
-                url: /it/sezioni/manuali/convertitori/
-                hide: false
-                weight: 04
-            splitters:
-                name: Splitters
-                url: /it/sezioni/manuali/splitters/
-                hide: false
-                weight: 05
-            concentrators:
-                name: Concentratori
-                url: /it/sezioni/manuali/concentratori/
-                hide: false
-                weight: 06
-    tp_manuals:
-        name: "Manuali Terzo"
-        url: /it/sezioni/manuali-terzo/
-        hide: true
-        weight: 03
-        items:
-            meters:
-                name: Calibri
-                url: /it/sezioni/manuali-terzo/calibri/
-                hide: false
-                weight: 01
-            sensors:
-                name: Sensori
-                url: /it/sezioni/manuali-terzo/sensori/
-                hide: false
-                weight: 02
-            gateways:
-                name: Gateways
-                url: /it/sezioni/manuali-terzo/gateways/
-                hide: false
-                weight: 03
-            convertors:
-                name: Convertitori
-                url: /it/sezioni/manuali-terzo/convertitori/
-                hide: false
-                weight: 04
-            splitters:
-                name: Splitters
-                url: /it/sezioni/manuali-terzo/splitters/
-                hide: false
-                weight: 05
-            concentrators:
-                name: Concentratori
-                url: /it/sezioni/manuali-terzo/concentratori/
-                hide: false
-                weight: 06
-
 footer_menu:
     partner_program:
         name: "Programma partner"

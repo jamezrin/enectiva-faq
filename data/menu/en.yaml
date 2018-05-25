@@ -1,113 +1,40 @@
 main_menu:
     installations_instructions:
         name: "Installation Instructions"
-        url: /en/sections/installation-instructions/
+        url: /en/installation-instructions/
         hide: false
         weight: 01
         items:
             meters:
                 name: Meters
-                url: /en/sections/installation-instructions/meters/
+                url: /en/installation-instructions/meters/
                 hide: false
                 weight: 01
             sensors:
                 name: Sensors
-                url: /en/sections/installation-instructions/sensors/
+                url: /en/installation-instructions/sensors/
                 hide: false
                 weight: 02
             gateways:
                 name: Gateways
-                url: /en/sections/installation-instructions/gateways/
+                url: /en/installation-instructions/gateways/
                 hide: false
                 weight: 03
             convertors:
                 name: Convertors
-                url: /en/sections/installation-instructions/convertors/
+                url: /en/installation-instructions/convertors/
                 hide: false
                 weight: 04
             splitters:
                 name: Splitters
-                url: /en/sections/installation-instructions/splitters/
+                url: /en/installation-instructions/splitters/
                 hide: false
                 weight: 05
             others:
                 name: Others
-                url: /en/sections/installation-instructions/others/
+                url: /en/installation-instructions/others/
                 hide: false
                 weight: 06
-    manuals:
-        name: Manuals
-        url: /en/sections/manuals/
-        hide: true
-        weight: 02
-        items:
-            meters:
-                name: Meters
-                url: /en/sections/manuals/meters/
-                hide: false
-                weight: 01
-            sensors:
-                name: Sensors
-                url: /en/sections/manuals/sensors/
-                hide: false
-                weight: 02
-            gateways:
-                name: Gateways
-                url: /en/sections/manuals/gateways/
-                hide: false
-                weight: 03
-            convertors:
-                name: Convertors
-                url: /en/sections/manuals/convertors/
-                hide: false
-                weight: 04
-            splitters:
-                name: Splitters
-                url: /en/sections/manuals/splitters/
-                hide: false
-                weight: 05
-            concentrators:
-                name: Concentrators
-                url: /en/sections/manuals/concentrators/
-                hide: false
-                weight: 06
-    tp_manuals:
-        name: "Third-party manuals"
-        url: /en/sections/third-party-manuals/
-        hide: true
-        weight: 03
-        items:
-            meters:
-                name: Meters
-                url: /en/sections/third-party-manuals/meters/
-                hide: false
-                weight: 01
-            sensors:
-                name: Sensors
-                url: /en/sections/third-party-manuals/sensors/
-                hide: false
-                weight: 02
-            gateways:
-                name: Gateways
-                url: /en/sections/third-party-manuals/gateways/
-                hide: false
-                weight: 03
-            convertors:
-                name: Convertors
-                url: /en/sections/third-party-manuals/convertors/
-                hide: false
-                weight: 04
-            splitters:
-                name: Splitters
-                url: /en/sections/third-party-manuals/splitters/
-                hide: false
-                weight: 05
-            concentrators:
-                name: Concentrators
-                url: /en/sections/third-party-manuals/concentrators/
-                hide: false
-                weight: 06
-
 footer_menu:
     partner_program:
         name: "Partner Programme"
