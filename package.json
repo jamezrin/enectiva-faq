@@ -1,6 +1,6 @@
 {
   "name": "faq.enectiva.cz",
-  "description": "Enectiva FAQ is using [Hugo](https://gohugo.io/). In this site, we can view how to use Hugo: [https://gohugo.io/overview/usage/](https://gohugo.io/overview/usage/) Actually, we are using Hugo v.0.20.6, [lunrjs v2.0.3](https://github.com/olivernn/lunr.js), [horsey v4.2.2](https://bevacqua.github.io/horsey/) and [jQuery v3.2.1](https://bevacqua.github.io/horsey/)",
+  "description": "FAQ of Enectiva.cz",
   "version": "1.0.0",
   "dependencies": {
     "grunt": "^1.0.2",
@@ -10,16 +10,10 @@
     "grunt-open": "^0.2.3",
     "grunt-sass": "^2.1.0",
     "grunt-shell": "^2.1.0",
-    "load-grunt-tasks": "^3.5.2",
-    "string": "^3.3.3",
-    "toml": "^2.3.3"
+    "load-grunt-tasks": "^3.5.2"
   },
   "scripts": {
-    "test": "grunt test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/josecobo1/enectiva-faq.git"
+    "test": "grunt dev"
   },
   "keywords": [
     "website",
@@ -27,13 +21,8 @@
     "framework",
     "sass",
     "js",
-    "json",
-    "lunr"
+    "json"
   ],
-  "author": "josecobo1",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/josecobo1/enectiva-faq/issues"
-  },
-  "homepage": "https://github.com/josecobo1/enectiva-faq#readme"
+  "author": "Enerfis",
+  "license": "ISC"
 }
