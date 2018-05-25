@@ -11,6 +11,8 @@ function init(language, searcher) {
 }
 
 function ready() {
+    var cursorRemoved = true;
+
     $('#search-field').autocomplete({  }, [{
         source: function(query, callback) { //Could replace with just `search`
             search(query, function(data) {
@@ -27,17 +29,13 @@ function ready() {
             }
         }
     }]).on('autocomplete:selected', function(event, suggestion, dataset) {
-        /*
-        console.log("Event:", {
-            event: event,
-            suggestion: suggestion,
-            dataset: dataset
-        });
-        */
-
         location.href = suggestion.item.url;
+    }).on('autocomplete:cursorremoved', function(event) {
+        cursorRemoved = true;
+    }).on('autocomplete:cursorchanged', function(event, suggestion, dataset) {
+        cursorRemoved = false;
     }).on('keydown', function(event) {
-        if (event.which === 13) {
+        if (cursorRemoved && event.which === 13) {
             location.href = "/" + language + "/search?q=" + this.value;
         }
     });

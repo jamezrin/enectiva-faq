@@ -69,8 +69,9 @@ tags: 'Tagy:'
 pagination:
     next: 'Následující '
     prev: ' Předchozí'
-search_placeholder: 'Vyhledávání...'
-search_results: 'Výsledky hledání'
+search:
+    placeholder: 'Vyhledávání...'
+    results: 'Výsledky hledání'
 errors:
     not_found_title: '404 Nenalezeno'
     not_found_message: 'To, co hledáte, není tady, omlouvám se!'

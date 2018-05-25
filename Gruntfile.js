@@ -53,6 +53,6 @@ module.exports = function(grunt) {
         }
     });
     
-    grunt.registerTask('test', ['sass', 'cssmin', 'open:devserver', 'shell:server']);
-    grunt.registerTask('build', ['sass', 'cssmin', 'open:live', 'shell:build']);
+    grunt.registerTask('dev', ['sass', 'cssmin', 'watch']);
+    grunt.registerTask('build', ['sass', 'cssmin']);
 };

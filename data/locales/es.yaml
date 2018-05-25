@@ -68,8 +68,9 @@ tags: 'Etiquetas:'
 pagination:
     next: 'Siguientes '
     prev: ' Anteriores'
-search_placeholder: 'Buscar...'
-search_results: 'Resultados de busqueda'
+search:
+    placeholder: 'Buscar...'
+    results: 'Resultados de busqueda'
 errors:
     not_found_title: '404 Página no encontrada'
     not_found_message: 'Lo que buscas no está aquí, lo siento!'

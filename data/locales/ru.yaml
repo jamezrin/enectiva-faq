@@ -23,8 +23,9 @@ tags: 'Теги:'
 pagination:
     next: 'Cледующий '
     prev: ' Предыдущая'
-search_placeholder: 'Поиск...'
-search_results: 'результаты поиска'
+search:
+    placeholder: 'Поиск...'
+    results: 'результаты поиска'
 errors:
     not_found_title: '404 Не Найдено'
     not_found_message: "Что вы ищете не здесь, извините!"

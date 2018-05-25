@@ -68,8 +68,9 @@ tags: 'Tags:'
 pagination:
     next: 'Seguente '
     prev: ' Precedente'
-search_placeholder: 'Ricerca...'
-search_results: 'Risultati di ricerca'
+search:
+    placeholder: 'Ricerca...'
+    results: 'Risultati di ricerca'
 errors:
     not_found_title: '404 Non trovato'
     not_found_message: "Quello che stai cercando non è qui, mi dispiace!"

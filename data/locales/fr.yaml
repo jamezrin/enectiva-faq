@@ -68,8 +68,9 @@ tags: 'Mots clés:'
 pagination:
     next: 'Suivant '
     prev: ' Précédent'
-search_placeholder: 'Recherche...'
-search_results: 'Résultats de la recherche'
+search:
+    placeholder: 'Recherche...'
+    results: 'Résultats de la recherche'
 errors:
     not_found_title: '404 Introuvable'
     not_found_message: "Ce que vous cherchez n'est pas ici, désolé!"
