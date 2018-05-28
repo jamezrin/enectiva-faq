@@ -60,3 +60,21 @@ toc = false
 
 It is crucial to get the frontmatter right, and make sure it is in the right format.
 The first and last lines of the frontmatter indicate the format of the frontmatter, it can be TOML, YAML or JSON
+
+## Search system
+This application depends on other application (right now available at [GitHub](https://github.com/jamezrin/hugo-fusejs-server))
+We communicate with that application with GET requests, that application replies with the results that Fuse.js spits out of our content.
+It finds out all the links to the posts by requesting the sitemap, it requests every link, parses it and finally it creates the search index.
+That happens for every language, which is configured in the application as a site. Every site has an id which is passed in every search with the `id` argument.
+
+There are other parameters you can use, for example:
+* `q`: The query string, make sure to escape it.
+* `limit`: The limit of the results. Default is 10.
+* `full`:  Whether to return entire result item, including the entire document's content and other possible fields.
+
+Make sure both applications point at each other, for this application you configure it in the `config.toml` file.
+You will have to change these values whenever you change address or port of either of the applications.
+This includes deploying the application or running it dev mode. Make sure you do it, otherwise it won't work as expected.
+For the search server, you can configure it in the `index.js` file, though it will probably change in a near future.
+You might also want to customize the fuse settings that we use to initialize it, that is how you tune the search results.
+

@@ -41,8 +41,8 @@ Pulsní výstup pro odběr je vyveden na svorkách 18 a 19 (označení S0 FORWAR
 ### Verze pro nepřímé měření
 Pro nepřímé měření proudu používáme výhradně proudové transformátory s převodem na 5A. **Proudové transformátory nesmí být zapojeny naprázdno**, proto se při instalaci připojují přes zkratovací propojky.
 
-U verze pro nepřímé měření je nutné při prvním připojení nastavit převod měřících transformátorů.
-Šipkami vyberte převod připojených měřících MTP tak, aby byl Vámi požadovaný převod zobrazen na displeji. Následně vyčkejte 5 vteřin pro automatické zapsání převodu MTP do paměti elektroměru. Uložený převod si lze kdykoliv zobrazit v menu elektroměru pomocí tlačítek na přední straně elektroměru.
+U verze pro nepřímé měření je nutné při prvním připojení nastavit převod měřících transformátorů - na displeji bude svítit CT, dokud se nedotknete tlačítek.
+Poté šipkami vyberte převod připojených měřících MTP tak, aby byl Vámi požadovaný převod zobrazen na displeji. Následně vyčkejte 5 vteřin pro automatické zapsání převodu MTP do paměti elektroměru. Uložený převod si lze kdykoliv zobrazit v menu elektroměru pomocí tlačítek na přední straně elektroměru.
 PŘÍKLAD: pokud budete nastavovat hodnotu pro MTP 250/5A, na displeji si v seznamu předvolených převodů vyhledejte a zobrazte 250.
 
 **POZOR! Převod MTP může být nastaven pouze jednou! Jakmile stisknete tlačítko pro výběr převodu MTP a během 5 vteřin neprovedete výběr převodu MTP, převod MTP bude uložen a nemůže být znovu nastaven!**
