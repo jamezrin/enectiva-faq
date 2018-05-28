@@ -1,9 +1,9 @@
 {{ $lang := .Site.Language.Lang }}
 {{ $menus := index .Site.Data.menu $lang }}
 
-<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="footer-menu">
+<ul itemscope itemtype="http://www.schema.org/SiteNavigationElement" class="footer-menu-list">
     {{ range sort ($menus.footer_menu) "weight" "asc" }}
-    <li itemprop="name" class="sub-menu-footer">
+    <li itemprop="name">
         <a itemprop="url" href="{{- .url -}}" hreflang="{{ $lang }}">
             {{- .name -}}
         </a>

@@ -17,7 +17,9 @@ Pulsní moduly PR6 a PR7 se používají pro vyčítání vodoměrů Elster.
 
 
 Použitelné jsou pro následující typy vodoměrů:
+
 * PR6: V200, V210, V220F, C4000
+
 * PR7: H4000, H4200, S2000, C4000 Hlavní počítadlo, C3100 Hlavní počítadlo od roku 2008
 
 Obecně se PR6 používá pro menší průtoky, PR7 pro vyšší.

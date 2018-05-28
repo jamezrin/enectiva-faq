@@ -1,53 +1,51 @@
 .footer
-    clear: both
-    background-color: $color-grey
+  clear: both
+  z-index: 1000
+  position: relative
+  background-color: #eee
+  margin: 0 auto
+  overflow: hidden
+  border-top:
+    color: $color-grey-darkest
+    style: solid
+    width: 1px
+  padding:
+    top: .875rem
+    bottom: 2.625em
+  font-size: .9rem
+  &-box
     margin: 0 auto
-    border-top:
-        color: $color-grey-darkest
-        style: solid
-        width: 1px
     padding:
-        top: .875rem
-        bottom: 2.625em
-    font-size: .9rem
-    &-box
-        margin: 0 auto
-        padding:
-            top: 0
-            right: 5rem
-            bottom: 0
-            left: 5rem
-        ul
-            line-height: 3em
-    &-author,
-    &-newsletter
-        margin:
-            top: .875em
-            right: 0
-            bottom: .875em
-            left: 0
-        max-width: 50%
-        width: 298px
+      top: 0
+      right: 5rem
+      bottom: 0
+      left: 5rem
+    ul
+      line-height: 2em
+  &-author
+    color: $color-grey-darker
+    &-text
+      margin: 0 auto
+      text-align: center
+      max-width: 35%
+  &-logo
+    filter: grayscale(1)
+    &:active,
+    &:focus,
+    &:hover
+      filter: grayscale(0)
 
-    &-author
-        border:
-            color: $color-grey-darkest
-            style: solid
-            width: 1px
-            radius: 2px
-        padding: 1.5rem
-        color: $color-grey-darker
-        &:active,
-        &:focus,
-        &:hover
-            border-color: $color-grey-darker
-            background-color: $color-grey-lighter
-    &-logo
-        max:
-            height: 3.05rem
-            width: 100%
-        filter: grayscale(1)
-        &:active,
-        &:focus,
-        &:hover
-            filter: grayscale(0)
+.footer-menu-list li
+  display: inline-block
+  a
+    padding:
+      top: .25rem
+      right: .875rem
+      bottom: .25rem
+      left: .875rem
+    text-decoration: none
+
+.footer-menu
+  display: block
+  padding: 0
+  text-align: center
