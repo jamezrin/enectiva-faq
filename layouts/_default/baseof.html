@@ -9,11 +9,19 @@
         {{ end }}
     </head>
     <body>
-        {{ partial "base/header.html" . }}
+        <div class="app">
+            <div class="header">
+                {{ partial "base/header.html" . }}
+            </div>
 
-        {{ block "main" . }}
-        {{ end }}
+            <div class="main-container">
+                {{ block "main" . }}
+                {{ end }}
+            </div>
 
-        {{ partial "base/footer.html" . }}
+            <div class="footer">
+                {{ partial "base/footer.html" . }}
+            </div>
+        </div>
     </body>
 </html>

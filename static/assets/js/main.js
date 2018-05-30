@@ -21,7 +21,7 @@ function ready() {
         },
         templates: {
             suggestion: function(suggestion) {
-                return "<div>" + suggestion.item.title + "</div>" +
+                return "<div>" + suggestion.title + "</div>" +
                     "<div style='font-size: 12px;'>" + suggestion.summary + "</div>"
             },
             empty: function() {
@@ -30,7 +30,7 @@ function ready() {
         },
         debounce: 200
     }]).on('autocomplete:selected', function(event, suggestion, dataset) {
-        location.href = suggestion.item.url;
+        location.href = suggestion.url;
     }).on('autocomplete:cursorremoved', function(event) {
         cursorRemoved = true;
     }).on('autocomplete:cursorchanged', function(event, suggestion, dataset) {
@@ -70,9 +70,9 @@ function displaySearch(query) {
                 result.className = "search-result";
 
                 var anchor = document.createElement("a");
-                anchor.appendChild(document.createTextNode(value.item.title));
-                anchor.title = value.item.title;
-                anchor.href = value.item.url;
+                anchor.appendChild(document.createTextNode(value.title));
+                anchor.title = value.title;
+                anchor.href = value.url;
                 result.appendChild(anchor);
 
                 var description = document.createElement("p");
@@ -83,7 +83,7 @@ function displaySearch(query) {
             });
         } else {
             var result = document.createElement("h3");
-            result.appendChild(document.createTextNode("No search results found"))
+            result.appendChild(document.createTextNode("No search results found"));
 
             document.getElementById('search-results').appendChild(result)
         }
@@ -100,8 +100,7 @@ function search(query, callback) {
         contentType: 'text/plain',
         data: {
             q: query,
-            id: "lang-" + this.language,
-            limit: 10
+            id: "lang-" + this.language
         }, success: function (data) {
             callback(data)
         }, error: function (err) {
