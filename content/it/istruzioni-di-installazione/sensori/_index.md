@@ -1,3 +1,4 @@
 +++
 title = "Sensori"
+private = true
 +++

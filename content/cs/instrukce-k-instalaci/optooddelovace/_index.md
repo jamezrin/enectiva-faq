@@ -1,3 +1,4 @@
 +++
 title = "Optooddelovace"
+private = true
 +++

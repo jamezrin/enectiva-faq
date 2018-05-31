@@ -1,3 +1,4 @@
 +++
 title = "Installationsanleitung"
+private = true
 +++

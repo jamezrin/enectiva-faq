@@ -1,3 +1,4 @@
 +++
 title = "Rozdelovace"
+private = true
 +++

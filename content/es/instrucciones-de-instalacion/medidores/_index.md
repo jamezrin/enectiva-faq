@@ -1,3 +1,4 @@
 +++
 title = "Medidores"
+private = true
 +++

@@ -1,7 +1,7 @@
 +++
 title = "Resultados de busqueda"
 layout = "search"
-private = false
+private = true
 +++
 
 This file does not need to have content, check docs

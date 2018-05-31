@@ -1,3 +1,4 @@
 +++
 title = "Koncentratory"
+private = true
 +++

@@ -1,3 +1,4 @@
 +++
 title = "Ostatní"
+private = true
 +++
