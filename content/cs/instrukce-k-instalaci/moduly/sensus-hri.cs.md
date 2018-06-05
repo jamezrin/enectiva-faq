@@ -1,5 +1,5 @@
 +++
-title = "SENSUS HRI-B M-Bus modul"
+title = "SENSUS HRI-B modul"
 author = "Enectiva"
 tags = [
     "slovo1",
@@ -16,7 +16,7 @@ url = "/sensus-hri/CZ - HRI Data Sheet.pdf"
 +++
 
 HRI je univerzální systém, který je kompatibilní se širokou řadou vodoměrů. Dodáván je ve dvou řadách - jako pulsní jednotka (HRI-A), nebo jako datová jednotka s rozhraním M-Bus (HRI-B).
-### Nastavení senzoru HRI-B
+### Nastavení senzoru HRI-B / HRI-Mei pro M-Bus
 
 1. 	Nainstalovat SW MiniCom3 do počítače
 2. 	Připojit M-Bus Mikro-Master do volného USB portu počítače
@@ -69,3 +69,15 @@ Vodiče jsou označeny následujícími barvami:
 * Hnědý - společná zem
 * Zelený - data (M-Bus)
 * Bílý, žlutý - konfigurovatelné pulsní výstupy
+
+## Pulsní modul HRI-A / HRI-Mei
+
+Pokud je vyžadován pulsní výstup, například do vysílače 169 MHz, připojují se moduly HRI přes bílý (+) a hnědý (-) vodič.
+Váha pulsu je zobrazena na modulu. U HRI-A se liší podle průměru vodoměru, na ciferníku je však vždy uveden jen průtok Q3. Níže je tabulka DN a odpovídajících Q3 pro vodoměry Sensus.
+
+    | DN15  | Q3_2,5         |
+    |-------|----------------|
+    | DN20  | Q3_2,5 / Q3_4  |
+    | DN25  | Q3_6,3 / Q3_10 |
+    | DN32  | Q3_10          |
+    | DN40  | Q3_16          |

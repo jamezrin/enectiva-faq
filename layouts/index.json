@@ -1,5 +1,5 @@
 {{- $.Scratch.Add "index" slice -}}
 {{- range where .Site.RegularPages "Params.private" "!=" true -}}
-{{- $.Scratch.Add "index" (dict "id" .UniqueID "url" .Permalink "title" .Title "tags" .Params.tags "description" .Description "content" .Plain) -}}
+{{- $.Scratch.Add "index" (dict "id" .UniqueID "url" .Permalink "title" .Title "tags" .Params.tags "description" .Description "content" (.Plain | plainify | htmlEscape )) -}}
 {{- end -}}
 {{- $.Scratch.Get "index" | jsonify -}}

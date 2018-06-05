@@ -44,7 +44,8 @@ K nastavení pulsního vysílače budete potřebovat:
 8.	K vysílači je dodávána objímka na zeď do které ho lze uchytit na jeden šroub. Vždy je nutné zajistit vysílač proti poškození či odtržení kabelu od měřidla.
 
 #### POZOR
-Velmi často se stává, že technik odjede z instalace a má nastavenou špatnou hodnotu na vysílači. Je nutné hlavně dbát na konstantu kolik impulsů je jaká jednotka. Vždy proto doporučujeme nastavit vysílač poprvé s krátkou periodou vysílání např. 60 sekund. Poté kliknout na tlačítko „Monitoring“, „Start“ a počkat do doby, než se vám na obrazovce objeví váš vysílač se správnou hodnotou odečtu. Poté zastavit monitoring „stop“ přejít zpět na záložku „Configuration“, nastavit delší periodu např. 600 sekund a tu finálně zapsat do vysílače.
+Velmi často se stává, že technik odjede z instalace a má nastavenou špatnou hodnotu na vysílači. Je nutné hlavně dbát na konstantu kolik impulsů je jaká jednotka. Vždy proto doporučujeme nastavit vysílač poprvé s krátkou periodou vysílání např. 60 sekund. Poté kliknout na tlačítko „Monitoring“, „Start“ a počkat do doby, než se vám na obrazovce objeví váš vysílač se správnou hodnotou odečtu. 
+Poté zastavit monitoring „stop“ přejít zpět na záložku „Configuration“, nastavit delší periodu např. 600 sekund a tu finálně zapsat do vysílače.
 
 
 <img class="center" src="/images/2n-vysilac/05.png" style="width:30%"></img>
@@ -56,10 +57,10 @@ Pokud máte pocit, že vysílač nenačítá nové hodnoty je možné na chvíli
 Poslední číslice zadaného stavu musí odpovídat váze jednoho pulsu. Příchozí puls tak vždy zvýší stav o jednotku na poslední pozici.
 **Příklad 1**
 Vodoměr má aktuální stav  4,567 m3, kostantu 1 puls = 0,001 m3 = 1 litr
-Nastavení: hodnota 4,567; koeficient 1 puls = 0,001m3
+Nastavení: hodnota 4567(*0.001m3); koeficient 1 puls = 0,001m3
 **Příklad 2**
 Vodoměr má aktuální stav  1,23 m3, kostantu 1 puls = 0,001 m3 = 1 litr
-Nastavení: hodnota 1,230; koeficient 1 puls = 0,001m3
+Nastavení: hodnota 1230(*0.001m3); koeficient 1 puls = 0,001m3
 **Příklad 3**
 Vodoměr má aktuální stav  3,456 m3, kostantu 1 puls = 0,01 m3 = 10 litrů
-Nastavení: hodnota 3,45; koeficient 1 puls = 0,01m3
+Nastavení: hodnota 345(*0.01m3); koeficient 1 puls = 0,01m3
