@@ -103,7 +103,7 @@ function search(query, callback) {
             url: window.location.hostname,
             id: "lang-" + this.language
         }, success: function (data) {
-            callback(data)
+            callback(data.data)
         }, error: function (err) {
             console.log(err)
         }

@@ -21,7 +21,7 @@ paginatePath = "page"
 [params]
     author = "Enectiva"
     search = true
-    search_server = "http://192.168.1.150:3000/"
+    search_server = "http://localhost:3000/"
     stylesheets = [
         "/dist/main.min.css",
         "/assets/css/fonts.min.css",
