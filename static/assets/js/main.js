@@ -100,8 +100,7 @@ function search(query, callback) {
         contentType: 'text/plain',
         data: {
             q: query,
-            url: window.location.hostname,
-            id: "lang-" + this.language
+            url: window.location.href
         }, success: function (data) {
             callback(data.data)
         }, error: function (err) {
