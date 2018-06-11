@@ -44,14 +44,24 @@ paginatePath = "page"
     extensions = []
     extensionmask = []
 
-[outputFormats.JSON]
+[outputFormats.JSON-index]
     baseName = "index"
     isPlainText = true
     mediaType = "application/json"
     notAlternative = true
 
+[outputFormats.JSON-lastmod]
+    baseName = "index"
+    isPlainText = true
+    mediaType = "application/lastmod"
+    notAlternative = true
+
+[mediaTypes]
+    [mediaTypes."application/lastmod"]
+        suffix = "lastmod"
+
 [outputs]
-    home = ["HTML", "RSS", "JSON"]
+    home = ["HTML", "RSS", "JSON-index", "JSON-lastmod"]
     section = ["HTML"]
     page = ["HTML"]
 
