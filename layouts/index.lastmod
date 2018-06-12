@@ -1,1 +1,1 @@
-{{ .Site.LastChange.Unix }}
+{{ now.Unix }}
