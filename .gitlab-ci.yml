@@ -1,0 +1,32 @@
+image: enectiva/hugo:v0.40
+
+variables:
+  COMPILE_DIR: public
+
+stages:
+  - build
+
+test:build:
+  stage: build
+  script:
+    - hugo version
+    - hugo -d $COMPILE_DIR
+    - npm install
+    - grunt build
+  dependencies: []
+  except:
+    - master
+
+build:hugo:
+  stage: build
+  script:
+    - hugo version
+    - hugo -d $COMPILE_DIR
+    - npm install
+    - grunt build
+  artifacts:
+    expire_in: 1 month
+    paths:
+      - public/
+  only:
+    - master
